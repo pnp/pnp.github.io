@@ -4122,6 +4122,52 @@ a {
   background-position: 100% 50%;
 }
 
+.lnd_card_template.cc_01 {
+  background-image: url("../images/card-image-cc01.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template.cc_02 {
+  background-image: url("../images/card-image-cc02.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template.cc_03 {
+  background-image: url("../images/card-image-cc03.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template.cc_04 {
+  background-image: url("../images/card-image-cc04.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template.cc_05 {
+  background-image: url("../images/card-image-cc05.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template.cc_06 {
+  background-image: url("../images/card-image-cc06.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template.cc_07 {
+  background-image: url("../images/card-image-cc07.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template.cc_08 {
+  background-image: url("../images/card-image-cc08.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template.cc_09 {
+  background-image: url("../images/card-image-cc09.png");
+  background-position: 100% 50%;
+}
+
+
 .lnd_component_button {
   display: -webkit-box;
   display: -webkit-flex;
