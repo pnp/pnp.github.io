@@ -125,7 +125,7 @@
       <h3 data-w-id="7d8f4307-e357-f448-1545-43f6c85beda3" style="-webkit-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 15PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="lnd_h3-2 center">Stay up-to-date with the latest in<br>Microsoft 365 dev ecosystem</h3>
     </div> -->
     <div class="section-5">
-      <div class="w-layout-grid grid-thirds gapless-columns gapless-rows">
+      <div class="w-layout-grid grid-thirds gapless-columns gapless-rows" id="adaptivecardscommunitycall">
         <div class="padded-grid-item-2 border-bottom-white-thick">
           <div class="centered-grid-item-2">
             <h4 class="h4_event">Adaptive Cards</h4>
@@ -136,7 +136,7 @@
             </div>
           </div>
         </div>
-        <div class="padded-grid-item-2 border-bottom-white-thick border-sides-white-thick">
+        <div class="padded-grid-item-2 border-bottom-white-thick border-sides-white-thick" id="spdev-sig-call">
           <div class="centered-grid-item-2">
             <h4 class="h4_event">Generic Microsoft 365 Dev Special Interests Group (SIG)</h4>
             <p class="lnd_paragraph_event">Bi-weekly on Thursdays<br>7:00 AM PT / 2:00 PM GMT</p>
@@ -146,7 +146,7 @@
             </div>
           </div>
         </div>
-        <div class="padded-grid-item-2 border-bottom-white-thick">
+        <div class="padded-grid-item-2 border-bottom-white-thick" id="microsoftgraphcall">
           <div class="centered-grid-item-2">
             <h4 class="h4_event">Microsoft Graph</h4>
             <p class="lnd_paragraph_event">First Tuesday of every month<br>8:00 AM PT / 3:00 PM GMT</p>
@@ -156,7 +156,7 @@
             </div>
           </div>
         </div>
-        <div class="padded-grid-item-2 border-bottom-white-thick">
+        <div class="padded-grid-item-2 border-bottom-white-thick" id="IDDevCommunity">
           <div class="centered-grid-item-2">
             <h4 class="h4_event">Microsoft Identity Platform</h4>
             <p class="lnd_paragraph_event">Third Thursday of every month<br>9:00 AM PT / 4:00 PM GMT</p>
@@ -166,7 +166,7 @@
             </div>
           </div>
         </div>
-        <div class="padded-grid-item-2 border-bottom-white-thick border-sides-white-thick">
+        <div class="padded-grid-item-2 border-bottom-white-thick border-sides-white-thick" id="microsoftteamscommunitycall">
           <div class="centered-grid-item-2">
             <h4 class="h4_event">Microsoft Teams</h4>
             <p class="lnd_paragraph_event">Third Tuesday of every month<br>8:00 AM PT / 3:00 PM GMT</p>
@@ -176,7 +176,7 @@
             </div>
           </div>
         </div>
-        <div class="padded-grid-item-2 border-bottom-white-thick">
+        <div class="padded-grid-item-2 border-bottom-white-thick" id="officeaddinscommunitycall">
           <div class="centered-grid-item-2">
             <h4 class="h4_event">Office Add-ins</h4>
             <p class="lnd_paragraph_event">Second Wednesday of every month<br>8:00 AM PT / 3:00 PM GMT</p>
@@ -186,7 +186,7 @@
             </div>
           </div>
         </div>
-        <div class="padded-grid-item-2">
+        <div class="padded-grid-item-2" id="PowerAppsMonthlyCall">
           <div class="centered-grid-item-2">
             <h4 class="h4_event">PowerApps</h4>
             <p class="lnd_paragraph_event">Second Thursday of every month<br>9:00 AM PT / 4:00 PM GMT</p>
@@ -196,7 +196,7 @@
             </div>
           </div>
         </div>
-        <div class="padded-grid-item-2 border-sides-white-thick">
+        <div class="padded-grid-item-2 border-sides-white-thick" id="spdev-spfx-call">
           <div class="centered-grid-item-2">
             <h4 class="h4_event">SharePoint framework</h4>
             <p class="lnd_paragraph_event">Bi-weekly on Thursdays<br>7:00 AM PT / 2:00 PM GMT</p>
@@ -206,7 +206,7 @@
             </div>
           </div>
         </div>
-        <div class="padded-grid-item-2">
+        <div class="padded-grid-item-2" id="spdev-call">
           <div class="centered-grid-item-2">
             <h4 class="h4_event">SharePoint monthly community call</h4>
             <p class="lnd_paragraph_event">Second Tuesday of each month<br>8:00 AM PT / 3:00 PM GMT</p>
@@ -1288,7 +1288,7 @@
     <div class="wrapper w-container">
       <div data-animation="slide" data-duration="450" data-infinite="1" class="testimonials-slider w-slider">
         <div class="w-slider-mask">
-          <div data-ix="fade-up-1" class="review-slide w-slide"><img src="images/testimonials/PointAlliance_logo.png"
+          <div data-ix="fade-up-1" class="review-slide w-slide" style="transform: translateX(0px); opacity: 1; transition: transform 450ms ease 0s;"><img src="images/testimonials/PointAlliance_logo.png"
               height="60" alt="Point Alliance" class="review-logo">
             <p class="paragraph-big">“The Look Book's Microsoft 365 Learning Pathways solution is the perfect compliment
               to our training and support services. A great way to introduce clients to Microsoft 365 services and to
@@ -1296,14 +1296,15 @@
             <div class="review-line"></div>
             <div class="review-slide-author">John Zarei, Chief Executive Officer, Point Alliance</div>
           </div>
-          <!--<div class="review-slide w-slide"><img src="images/Microsoft-logo_rgb_wht.png" height="60"
+          <div class="review-slide w-slide" style="transform: translateX(0px); opacity: 1; transition: transform 450ms ease 0s;">
+            <!--<img src="images/Microsoft-logo_rgb_wht.png" height="60"
               srcset="images/Microsoft-logo_rgb_wht-p-500.png 500w, images/Microsoft-logo_rgb_wht-p-800.png 800w, images/Microsoft-logo_rgb_wht-p-1080.png 1080w, images/Microsoft-logo_rgb_wht.png 2008w"
-              sizes="133.859375px" alt="" class="review-logo">
-            <p class="paragraph-big">“This is a quote to tell how amazing the PnP PowerShell is.”</p>
+              sizes="133.859375px" alt="" class="review-logo">-->
+            <p class="paragraph-big">“PnP has been instrumental for our use case. It allowed us to create a seamless user experience and coherent design. While Microsoft’s standard roadmap is very good, PNP will always be on the edge allowing us to fit the gap when it arises.”</p>
             <div class="review-line"></div>
-            <div class="review-slide-author">Rodney Hayden, SharePoint Administrator, IIROC</div>
+            <div class="review-slide-author">Harris Medovic, O365/SharePoint design lead</div>
           </div>
-          <div class="review-slide w-slide"><img src="images/placeholder-logo.svg" width="189" alt=""
+          <!--<div class="review-slide w-slide" style="transform: translateX(0px); opacity: 1; transition: transform 450ms ease 0s;"><img src="images/placeholder-logo.svg" width="189" alt=""
               class="review-logo">
             <p class="paragraph-big">“PnP PowerShell is out of this world... therefore: Aliens”</p>
             <div class="review-line"></div>

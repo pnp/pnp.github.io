@@ -9923,10 +9923,3 @@ a {
   font-weight: 400;
   font-style: normal;
 }
-
-/* TODO: Remove */
-.lnd_service_wrap+.nominheight {
-  min-height: 270px;
-  margin-top: 35px;
-}
-/* END TODO: Remove */
