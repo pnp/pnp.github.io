@@ -4122,6 +4122,16 @@ a {
   background-position: 100% 50%;
 }
 
+.lnd_card_template._25 {
+  background-image: url("../images/card-image-25.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._26 {
+  background-image: url("../images/card-image-26.png");
+  background-position: 100% 50%;
+}
+
 .lnd_card_template.cc_01 {
   background-image: url("../images/card-image-cc01.png");
   background-position: 100% 50%;
