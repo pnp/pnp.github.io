@@ -1089,13 +1089,26 @@
   H1.sz-day__title {
     margin-top: 15px;
     margin-bottom: 15px;
-    color: #000;
-    font-size: 24px;
+    /* color: #000;
+    font-size: 24px; 
     line-height: 32px;
-    font-weight: 600;
-    text-transform: none;
+    font-weight: 600;*/
+    text-transform: uppercase;
     font-family: Segoeui, sans-serif;
+    color: #0078d4;
+    font-size: 14px!important;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 1px;
   }
+
+  #sessionize .sz-day__title {
+    padding: 12px 4px;
+    padding-top: 0px!important;
+    font-size: 32px;
+    text-align: left!important;
+}
 
   #sessionize .sz-cssgrid .sz-session--service .sz-session__card {
     border-top-color: #0078d4!important;
@@ -1104,9 +1117,9 @@
 
 #sessionize .sz-cssgrid .sz-session__card {
   padding: 12px;
-  border-top-color: #0078d4!important;
+  border-top-color: #3898ec!important;
   color: #EEE;
-  background: #0078d4!important;
+  background: #3898ec!important;
   border-radius: 2px;
   box-shadow: 0 0 0 2px #fff;
   overflow: hidden;
