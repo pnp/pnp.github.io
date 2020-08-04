@@ -9932,6 +9932,7 @@ a {
     grid-column-end: span 4;
   }
 }
+
 @font-face {
   font-family: "Segoeui";
   src: url("../fonts/segoeui-regular.woff") format("woff");
