@@ -580,6 +580,8 @@
     justify-content: flex-end;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    background-image: url(../assets/514253-PI8Q21-576.jpg);
+    background-size: cover;
   }
   .circle {
     width: 360px;
