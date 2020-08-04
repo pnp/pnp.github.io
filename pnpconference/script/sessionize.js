@@ -1,8 +1,8 @@
-if (typeof sessionize === 'undefined') {
-    var sessionize = {};
+if (typeof spSessionize === 'undefined') {
+    var spSessionize = {};
 }
 
-sessionize.loader = function() {
+spSessionize.loader = function() {
     var xhttp;
     var file = "https://sessionize.com/api/v2/q5k10ol1/view/Speakers";
     if (file) {
@@ -10,7 +10,7 @@ sessionize.loader = function() {
         xhttp.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
             var t = JSON.parse(this.responseText);
-            sessionize.showSpeakers(t);
+            spSessionize.showSpeakers(t);
         }
     }
     xhttp.open("GET", file, true);
@@ -20,14 +20,14 @@ sessionize.loader = function() {
 
 };
 
-if (typeof sessionize.loaderLoaded === 'undefined') {
-    sessionize.loaderLoaded = true;
-    document.addEventListener("DOMContentLoaded", function (event) { sessionize.loader(); });
+if (typeof spSessionize.loaderLoaded === 'undefined') {
+    spSessionize.loaderLoaded = true;
+    document.addEventListener("DOMContentLoaded", function (event) { spSessionize.loader(); });
 }
 
 "use strict";
-typeof sessionize == "undefined" && (sessionize = {});
-sessionize.showModal = function(n, t, i) {
+typeof spSessionize == "undefined" && (spSessionize = {});
+spSessionize.showModal = function(n, t, i) {
     var r = document.getElementById("sz-modal-container"),
         u = new XMLHttpRequest;
     return r.innerHTML = '<div class="sz-modal-overlay"><div class="sz-spinner"><\/div><\/div>', r.classList.remove("is-hidden"), u.onreadystatechange = function() {
@@ -36,45 +36,45 @@ sessionize.showModal = function(n, t, i) {
             for (r.innerHTML = this.responseText, r.classList.remove("is-hidden"), t = document.getElementsByClassName("sz-modal__close-on-click"), n = 0; n < t.length; n++) t[n].onclick = function() {
                 document.getElementById("sz-modal-container").classList.add("is-hidden")
             };
-            sessionize.getLocalTimes()
+            spSessionize.getLocalTimes()
         } else(this.status === 404 || this.status === 500) && r.classList.add("is-hidden")
     }, u.open("POST", "https://sessionize.com/api/v2/" + n + "/" + t + "?id=" + i, !0), u.send(), !1
 };
-sessionize.timeMode = "local";
-sessionize.getLocalTimes = function() {
+spSessionize.timeMode = "local";
+spSessionize.getLocalTimes = function() {
     var u, f, n, t, i, r;
     try {
         u = Intl.DateTimeFormat().resolvedOptions().timeZone;
-        sessionize.localCityName = u.split("/")[1].replace(new RegExp("_", "g"), " ")
+        spSessionize.localCityName = u.split("/")[1].replace(new RegExp("_", "g"), " ")
     } catch (e) {
         console.error(e);
-        sessionize.showLocalTimezone = !1
-    }(f = document.getElementsByClassName("sz-timezone"), f.length > 1 && (console.error("Invalid number of .sz-timezone elements"), sessionize.showLocalTimezone = !1), sessionize.showLocalTimezone) && (n = document.querySelectorAll("[data-sztz]"), t = [], n.forEach(function(n) {
+        spSessionize.showLocalTimezone = !1
+    }(f = document.getElementsByClassName("sz-timezone"), f.length > 1 && (console.error("Invalid number of .sz-timezone elements"), spSessionize.showLocalTimezone = !1), spSessionize.showLocalTimezone) && (n = document.querySelectorAll("[data-sztz]"), t = [], n.forEach(function(n) {
         t.includes(n.dataset.sztz) || t.push(n.dataset.sztz);
         n.style.opacity = 0
     }), i = new XMLHttpRequest, r = new FormData, r.append("timezone", u), r.append("values", t), i.onreadystatechange = function() {
         if (this.readyState === 4 && this.status === 200) {
             var t = JSON.parse(this.responseText);
-            sessionize.localTimezone = t.localTimezone;
-            sessionize.hasDifferentTimes = !1;
+            spSessionize.localTimezone = t.localTimezone;
+            spSessionize.hasDifferentTimes = !1;
             n.forEach(function(n) {
                 n.dataset.sztzE = n.innerText;
                 n.dataset.sztzL = t.values[n.dataset.sztz];
                 n.style.opacity = 1;
                 n.removeAttribute("data-sztz");
-                n.dataset.sztzE !== n.dataset.sztzL && (sessionize.hasDifferentTimes = !0)
+                n.dataset.sztzE !== n.dataset.sztzL && (spSessionize.hasDifferentTimes = !0)
             });
-            sessionize.hasDifferentTimes && (sessionize.showTimes(sessionize.timeMode), sessionize.eventCityName && sessionize.localCityName && document.querySelector(".sz-timezone") && (document.querySelector(".sz-timezone .sz-timezone__radio--local .sz-timezone__name").innerText = sessionize.localCityName, document.querySelector(".sz-timezone .sz-timezone__radio--local .sz-timezone__tooltip").innerText = sessionize.localTimezone, document.querySelector('.sz-timezone .sz-timezone__radio--local input[type="radio"]').onchange = function() {
-                sessionize.showTimes("local")
-            }, document.querySelector(".sz-timezone .sz-timezone__radio--event .sz-timezone__name").innerText = sessionize.eventCityName, document.querySelector(".sz-timezone .sz-timezone__radio--event .sz-timezone__tooltip").innerText = sessionize.eventTimezone, document.querySelector('.sz-timezone .sz-timezone__radio--event input[type="radio"]').onchange = function() {
-                sessionize.showTimes("event")
+            spSessionize.hasDifferentTimes && (spSessionize.showTimes(spSessionize.timeMode), spSessionize.eventCityName && spSessionize.localCityName && document.querySelector(".sz-timezone") && (document.querySelector(".sz-timezone .sz-timezone__radio--local .sz-timezone__name").innerText = spSessionize.localCityName, document.querySelector(".sz-timezone .sz-timezone__radio--local .sz-timezone__tooltip").innerText = spSessionize.localTimezone, document.querySelector('.sz-timezone .sz-timezone__radio--local input[type="radio"]').onchange = function() {
+                spSessionize.showTimes("local")
+            }, document.querySelector(".sz-timezone .sz-timezone__radio--event .sz-timezone__name").innerText = spSessionize.eventCityName, document.querySelector(".sz-timezone .sz-timezone__radio--event .sz-timezone__tooltip").innerText = spSessionize.eventTimezone, document.querySelector('.sz-timezone .sz-timezone__radio--event input[type="radio"]').onchange = function() {
+                spSessionize.showTimes("event")
             }, document.querySelector(".sz-timezone").style.display = ""))
         } else(this.status === 404 || this.status === 500) && n.forEach(function(n) {
             n.style.opacity = 1
         })
     }, i.open("POST", "https://sessionize.com/api/v2/sztz", !0), i.send(r))
 };
-sessionize.showSpeakers = function(speakers) {
+spSessionize.showSpeakers = function(speakers) {
     console.log("Speakers", speakers);
 
     var c = document.getElementById("speakerinner");
@@ -152,22 +152,22 @@ sessionize.showSpeakers = function(speakers) {
         c.appendChild(x);
     });    
 }
-sessionize.showTimes = function(n) {
+spSessionize.showTimes = function(n) {
     var t;
-    sessionize.timeMode = n;
+    spSessionize.timeMode = n;
     n === "event" ? (t = document.querySelectorAll("[data-sztz-e]"), t.forEach(function(n) {
         return n.innerText = n.dataset.sztzE
     })) : n === "local" && (t = document.querySelectorAll("[data-sztz-l]"), t.forEach(function(n) {
         return n.innerText = n.dataset.sztzL
     }))
 };
-sessionize.onLoad = function() {
+spSessionize.onLoad = function() {
     var n;
-    sessionize.getLocalTimes();
+    spSessionize.getLocalTimes();
 };
-typeof Event == "function" && (sessionize.event = new Event("sessionize.onload"));
-typeof sessionize.loader == "undefined" && (window.onload = sessionize.onLoad);
+typeof Event == "function" && (spSessionize.event = new Event("spSessionize.onload"));
+typeof spSessionize.loader == "undefined" && (window.onload = spSessionize.onLoad);
 
-sessionize.eventTimezone = 'UTC +1';
-sessionize.eventCityName = '';
-sessionize.showLocalTimezone = false;
+spSessionize.eventTimezone = 'UTC +1';
+spSessionize.eventCityName = '';
+spSessionize.showLocalTimezone = false;
