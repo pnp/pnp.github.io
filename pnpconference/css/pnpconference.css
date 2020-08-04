@@ -1079,3 +1079,8 @@
     background-color: #EFF6FC;
   }
   
+  ._0-0 {
+      background-image: url(../assets/earth-935468_1920.jpg);
+      background-repeat:no-repeat;
+      background-size: cover;
+  }
