@@ -1,6 +1,6 @@
 .box-content-light {
   z-index: 2;
-  padding: 100px 5%;
+  padding: 50px 5%;
   background-color: #fff;
   background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, #fff));
   background-image: linear-gradient(180deg, transparent, #fff 80%);
@@ -74,6 +74,10 @@
   .category-card-light {
     width: 100%;
     padding: 15vw;
+  }
+
+  .box-content-light {
+    padding: 4vw 4vw;
   }
 }
 
@@ -527,7 +531,7 @@
 .principles-grid {
   margin-top: 0px;
   padding-top: 0px;
-  padding-bottom: 200px;
+  /* padding-bottom: 200px; */
   -webkit-align-content: start;
   -ms-flex-line-pack: start;
   align-content: start;
@@ -1070,6 +1074,21 @@
   text-align: center;
 }
 
+/*TODO*/
+@media screen and (max-width: 991px) {
+  .principles-grid {
+    -ms-grid-column: 50% 50% !important;
+    grid-template-columns: 50% 50% !important;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .principles-grid {
+    -ms-grid-column: 50% 50% !important;
+    grid-template-columns: 50% 50% !important;
+  }
+}
+
 .image-12 {
   position: static;
   left: -8px;
@@ -1296,6 +1315,6 @@ H1.sz-day__title {
 }
 
 span.sz-cssgrid__track-label {
-  text-align: center!important;
-  display:inline-block!important;
+  text-align: center !important;
+  display: inline-block !important;
 }
