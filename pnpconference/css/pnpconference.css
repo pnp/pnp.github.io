@@ -1083,7 +1083,7 @@
 }
 
 /*TODO*/
-@media screen and (max-width: 991px) {
+/* @media screen and (max-width: 991px) {
   .principles-grid {
     -ms-grid-column: 50% 50% !important;
     grid-template-columns: 50% 50% !important;
@@ -1095,7 +1095,7 @@
     -ms-grid-column: 50% 50% !important;
     grid-template-columns: 50% 50% !important;
   }
-}
+} */
 
 .image-12 {
   position: static;
