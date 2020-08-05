@@ -1082,18 +1082,124 @@
   text-align: center;
 }
 
-/*TODO*/
+._0-0 {
+  background-image: url(../assets/earth-935468_1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media screen and (max-width: 991px) {
   .principles-grid {
-    -ms-grid-column: 50% 50% !important;
-    grid-template-columns: 50% 50% !important;
+    /* -ms-grid-column: 50% 50% !important; */
+    grid-template-columns: 100% 100%;
+  }
+
+  ._1-designprinciples {
+    /* background-position: 50% 50%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(180deg, #000, transparent), url(../assets/514253-PI8Q21-576.jpg);
+  }
+
+  ._0-0 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.65) 50%,
+        rgba(0, 0, 0, 0.65) 70%,
+        rgba(0, 0, 0, 0.02) 99%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url(../assets/earth-935468_1920.jpg);
+  }
+
+  ._4-dynamic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(239, 246, 252, 0.65) 51%,
+        rgba(239, 246, 252, 0.65) 70%,
+        rgba(239, 246, 252, 0.02) 99%,
+        rgba(239, 246, 252, 0) 100%
+      ),
+      url(../assets/bg1.png);
+  }
+
+  .speaker .text-transparent {
+    font-size: 12px;
+  }
+
+  .speaker .speakertagline {
+    font-size: 12px;
+  }
+
+  .speaker h3.h3-heading {
+    font-size: 20px;
+  }
+
+  .speaker .button-text {
+    font-size: 10px;
   }
 }
 
 @media screen and (max-width: 479px) {
   .principles-grid {
-    -ms-grid-column: 50% 50% !important;
-    grid-template-columns: 50% 50% !important;
+    /* -ms-grid-column: 50% 50% !important; */
+    grid-template-columns: 100% 100%;
+  }
+
+  ._1-designprinciples {
+    /* background-position: 50% 50%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(180deg, #000, transparent), url(../assets/514253-PI8Q21-576.jpg);
+  }
+
+  ._0-0 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.65) 50%,
+        rgba(0, 0, 0, 0.65) 70%,
+        rgba(0, 0, 0, 0.02) 99%,
+        rgba(0, 0, 0, 0) 100%
+      ),
+      url(../assets/earth-935468_1920.jpg);
+  }
+
+  ._4-dynamic {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(239, 246, 252, 0.65) 51%,
+        rgba(239, 246, 252, 0.65) 70%,
+        rgba(239, 246, 252, 0.02) 99%,
+        rgba(239, 246, 252, 0) 100%
+      ),
+      url(../assets/bg1.png);
+  }
+
+  
+  .speaker .text-transparent {
+    font-size: 12px;
+  }
+
+  .speaker .speakertagline {
+    font-size: 12px;
+  }
+
+  .speaker h3.h3-heading {
+    font-size: 20px;
+  }
+
+  .speaker .button-text {
+    font-size: 10px;
   }
 }
 
@@ -1157,12 +1263,6 @@
   -ms-flex-align: center;
   align-items: center;
   background-color: #eff6fc;
-}
-
-._0-0 {
-  background-image: url(../assets/earth-935468_1920.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 H1.sz-day__title {
@@ -1325,4 +1425,12 @@ H1.sz-day__title {
 span.sz-cssgrid__track-label {
   text-align: center !important;
   display: inline-block !important;
+}
+
+.nav05 {
+  z-index: 999;
+}
+
+.lessmargin {
+  margin-top: 8px;
 }

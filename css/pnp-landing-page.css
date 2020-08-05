@@ -5800,9 +5800,9 @@ a {
   padding: 10px 24px;
   border-style: solid;
   border-width: 2px;
-  border-color: #068466;
+  border-color: #0078D4;
   border-radius: 5px;
-  background-color: #068466;
+  background-color: #0078D4;
   box-shadow: inset 0 0 100px 100px transparent;
   -webkit-transition: box-shadow 200ms ease;
   transition: box-shadow 200ms ease;
@@ -9931,6 +9931,38 @@ a {
     -ms-grid-column-span: 4;
     grid-column-end: span 4;
   }
+}
+
+
+.notification-dismiss-wrapper {
+  margin-top: 12px;
+}
+
+.dismiss-notification-cross {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  opacity: 0.5;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  cursor: pointer;
+}
+
+.dismiss-notification-cross:hover {
+  opacity: 1;
+}
+
+.notification-wrapper {
+  position: fixed;
+  left: 0px;
+  top: auto;
+  right: auto;
+  bottom: 0px;
+  z-index: 999;
+  max-width: 610px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
 }
 
 @font-face {
