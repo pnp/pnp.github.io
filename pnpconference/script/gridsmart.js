@@ -250,4 +250,4 @@ typeof sessionize.loader == "undefined" && (window.onload = sessionize.onLoad);
 
 sessionize.eventTimezone = 'UTC +1';
 sessionize.eventCityName = '';
-sessionize.showLocalTimezone = false;
+sessionize.showLocalTimezone = true;

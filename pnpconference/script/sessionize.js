@@ -75,20 +75,20 @@ spSessionize.getLocalTimes = function() {
     }, i.open("POST", "https://sessionize.com/api/v2/sztz", !0), i.send(r))
 };
 spSessionize.showSpeakers = function(speakers) {
-    console.log("Speakers", speakers);
+    // console.log("Speakers", speakers);
 
     var c = document.getElementById("speakerinner");
 
     speakers.forEach(function(speaker) {
-       console.log("Speaker", speaker);
-       console.log("SpeakerID", speaker.id);
-       console.log("Full Name", speaker.fullName);
-       console.log("Bio", speaker.bio);
-       console.log("Profile Picture", speaker.profilePicture);
-       console.log("Tag Line", speaker.tagLine);
-       speaker.sessions.forEach(function(session) {
-        console.log("Session", session.id, session.name);
-       });
+    //    console.log("Speaker", speaker);
+    //    console.log("SpeakerID", speaker.id);
+    //    console.log("Full Name", speaker.fullName);
+    //    console.log("Bio", speaker.bio);
+    //    console.log("Profile Picture", speaker.profilePicture);
+    //    console.log("Tag Line", speaker.tagLine);
+    //    speaker.sessions.forEach(function(session) {
+    //     console.log("Session", session.id, session.name);
+    //    });
 
     //    var e = document.createElement(`<div class="people-card w-inline-block">
     //    <div class="card no-border">
@@ -122,7 +122,7 @@ spSessionize.showSpeakers = function(speakers) {
          twitterLink = link.url;   
         }
     });
-    console.log("Twitter link", twitterLink);
+    // console.log("Twitter link", twitterLink);
 
     var x = document.createElement("div");
     x.className = "layout-content-card-light w-inline-block";
@@ -174,4 +174,4 @@ typeof spSessionize.loader == "undefined" && (window.onload = spSessionize.onLoa
 
 spSessionize.eventTimezone = 'UTC +1';
 spSessionize.eventCityName = '';
-spSessionize.showLocalTimezone = false;
+spSessionize.showLocalTimezone = true;
