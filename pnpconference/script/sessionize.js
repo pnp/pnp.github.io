@@ -127,7 +127,7 @@ spSessionize.showSpeakers = function(speakers) {
     var x = document.createElement("div");
     x.className = "layout-content-card-light w-inline-block";
     //x.href = "#";
-    x.innerHTML = `<div class="text_wrap">
+    x.innerHTML = `<div class="text_wrap speaker">
         <div class="top-icon">
         <img src="`+ speaker.profilePicture +`" alt="`+ speaker.fullName +`" class="avatar avatar-small">
         </div>
