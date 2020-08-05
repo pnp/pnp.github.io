@@ -260,6 +260,14 @@
   color: #000;
 }
 
+.speaker .h3-heading {
+  margin-bottom: 0px;
+}
+
+.speaker .social-link {
+  margin-bottom: 28px;
+}
+
 .text-transparent {
   color: #fff;
   font-size: 14px;
