@@ -1294,3 +1294,8 @@ H1.sz-day__title {
   font-size: 14px !important;
   line-height: 1.5;
 }
+
+span.sz-cssgrid__track-label {
+  text-align: center!important;
+  display:inline-block!important;
+}
