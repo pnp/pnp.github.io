@@ -124,9 +124,9 @@ spSessionize.showSpeakers = function(speakers) {
     });
     console.log("Twitter link", twitterLink);
 
-    var x = document.createElement("a");
+    var x = document.createElement("div");
     x.className = "layout-content-card-light w-inline-block";
-    x.href = "";
+    //x.href = "#";
     x.innerHTML = `<div class="text_wrap">
         <div class="top-icon">
         <img src="`+ speaker.profilePicture +`" alt="`+ speaker.fullName +`" class="avatar avatar-small">
@@ -140,7 +140,11 @@ spSessionize.showSpeakers = function(speakers) {
     </div>`;
     
     speaker.sessions.forEach(function(session){
-        var d = document.createElement("div");
+        var d = document.createElement("a");
+        d.href = "#";
+        d.onclick = function(){
+            return sessionize.showModal('e3qsj4zg', 'session', this.id);
+        };
         d.id = session.id;
         d.className = "button-wrapper";
         d.innerHTML = `<div class="fdml button-arrow-2"></div>
