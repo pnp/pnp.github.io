@@ -9965,6 +9965,10 @@ a {
   padding-left: 24px;
 }
 
+.people-card .card-text {
+  min-height: 44px;
+}
+
 @font-face {
   font-family: "Segoeui";
   src: url("../fonts/segoeui-regular.woff") format("woff");
