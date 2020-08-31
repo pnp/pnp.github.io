@@ -1434,3 +1434,8 @@ span.sz-cssgrid__track-label {
 .lessmargin {
   margin-top: 8px;
 }
+
+.sessionOnAirLink:hover {
+  border-bottom: none!important;
+  box-shadow: none!important;
+}
