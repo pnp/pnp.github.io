@@ -6708,6 +6708,10 @@ a {
   font-weight: 500;
 }
 
+.h06_text a {
+  color: #f5f7fd;
+}
+
 .h06_icon_base {
   display: -webkit-box;
   display: -webkit-flex;
