@@ -6740,6 +6740,11 @@ a {
   text-align: left;
 }
 
+.h06_svg svg {
+  height: 125px;
+  margin-bottom: -25px;
+}
+
 .h06 {
   position: relative;
   display: -webkit-box;
