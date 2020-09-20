@@ -939,6 +939,11 @@ textarea.w-select {
     width: 100%;
   }
 }
+@media screen and (max-width: 320px) {
+  .h06_h1 {
+    font-size:24px;
+  }
+}
 .w-widget {
   position: relative;
 }
