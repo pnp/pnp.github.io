@@ -4065,6 +4065,16 @@ a {
   background-position: 100% 50%;
 }
 
+.lnd_card_template._pnpcoresdk_large {
+  background-image: url("../images/projects/coresdk/card-image-coresdk-large-logo.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._pnpcoresdk_small {
+  background-image: url("../images/projects/coresdk/card-image-coresdk-small-logo.png");
+  background-position: 100% 50%;
+}
+
 .lnd_card_template._pnpparker_original_large {
   background-image: url("../images/projects/parker/card-image-parkeroriginal-large-logo.png");
   background-position: 100% 50%;
@@ -4095,8 +4105,13 @@ a {
   background-position: 100% 50%;
 }
 
-.lnd_card_template._cdc_pyod_evolution_code {
-  background-image: url("../images/projects/communitydesigns/card-image-cdc-pyod-evolution-code-logo.png");
+.lnd_card_template._cdc_officedna_small {
+  background-image: url("../images/projects/communitydesigns/card-image-officedna-small-logo.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._cdc_officedna_large {
+  background-image: url("../images/projects/communitydesigns/card-image-officedna-large-logo.png");
   background-position: 100% 50%;
 }
 
