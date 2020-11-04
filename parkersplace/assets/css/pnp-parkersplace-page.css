@@ -4085,6 +4085,11 @@ a {
   background-position: 100% 50%;
 }
 
+.lnd_card_template._pnp-parker-commdocs_large {
+  background-image: url("../images/projects/parker/card-image-parker-commdocs-large-logo.png");
+  background-position: 100% 50%;
+}
+
 .lnd_card_template._pnp-parker-hockey_celebrate_large {
   background-image: url("../images/projects/parker/card-image-parker-hockey-celebrate-large-logo.png");
   background-position: 100% 50%;
