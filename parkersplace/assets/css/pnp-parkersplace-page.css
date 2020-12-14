@@ -4095,6 +4095,11 @@ a {
   background-position: 100% 50%;
 }
 
+.lnd_card_template._pnp-parker-home_alone_large {
+  background-image: url("../images/projects/parker/card-image-parkerhomealone-large-logo.png");
+  background-position: 100% 50%;
+}
+
 .lnd_card_template._cdc_womenstem_large {
   background-image: url("../images/projects/communitydesigns/card-image-womenstem-large-logo.png");
   background-position: 100% 50%;
