@@ -4160,6 +4160,11 @@ a {
   background-position: 100% 50%;
 }
 
+.lnd_card_template._32 {
+  background-image: url("../images/card-image-32.png");
+  background-position: 100% 50%;
+}
+
 .lnd_card_template.cc_01 {
   background-image: url("../images/card-image-cc01.png");
   background-position: 100% 50%;
