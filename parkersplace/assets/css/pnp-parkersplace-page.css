@@ -4080,6 +4080,16 @@ a {
   background-position: 100% 50%;
 }
 
+.lnd_card_template._pnpparker_sharingiscaring_small {
+  background-image: url("../images/projects/parker/card-image-parker-sharingiscaring-small-logo.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._pnpparker_sharingiscaring_large {
+  background-image: url("../images/projects/parker/card-image-parker-sharingiscaring-large-logo.png");
+  background-position: 100% 50%;
+}
+
 .lnd_card_template._pnp-parker-yoteams_large {
   background-image: url("../images/projects/parker/card-image-parker-yoteams-large-logo.png");
   background-position: 100% 50%;

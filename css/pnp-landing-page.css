@@ -9946,6 +9946,9 @@ a {
     -ms-grid-column-span: 4;
     grid-column-end: span 4;
   }
+  .lnd_card_text_wrap {
+    padding-bottom:0px;
+  }
 }
 
 
