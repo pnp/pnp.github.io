@@ -4175,6 +4175,26 @@ a {
   background-position: 100% 50%;
 }
 
+.lnd_card_template._fms01 {
+  background-image: url("../images/card-image-fms01.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._fms02 {
+  background-image: url("../images/card-image-fms02.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._fms03 {
+  background-image: url("../images/card-image-fms03.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._fms04 {
+  background-image: url("../images/card-image-fms04.png");
+  background-position: 100% 50%;
+}
+
 .lnd_card_template.cc_01 {
   background-image: url("../images/card-image-cc01.png");
   background-position: 100% 50%;
