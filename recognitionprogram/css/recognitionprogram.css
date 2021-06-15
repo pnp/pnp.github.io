@@ -26,6 +26,11 @@ background-image: url("../images/card-image-recognition-program-maintainer-2021.
 background-position: 100% 50%;
 }
 
+.lnd_card_template._badgetba {
+  background-image: url("../images/card-image-recognition-program-tba.png");
+  background-position: 100% 50%;
+}
+
 #w-node-4f9c5f6177f7-2b0d0585 {
     -ms-grid-row: 1;
     grid-row-start: 1;
