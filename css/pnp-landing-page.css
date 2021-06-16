@@ -4240,6 +4240,20 @@ a {
   background-position: 100% 50%;
 }
 
+.lnd_card_template._pnpweekly {
+  background-image: url(../images/card-image-pnpweekly.png);
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._m365devpodcast {
+  background-image: url(../images/card-image-m365devpodcast.png);
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._scriptsamples {
+  background-image: url(../images/card-image-scriptsamples.png);
+  background-position: 100% 50%;
+}
 
 .lnd_component_button {
   display: -webkit-box;
