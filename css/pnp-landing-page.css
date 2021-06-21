@@ -4007,6 +4007,8 @@ a {
   box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.05);
 }
 
+
+
 .lnd_card_template._01 {
   background-image: url("../images/5ea7408fe8ecfa4d3ff68308_card-image-01.png");
   background-position: 100% 50%;
@@ -4254,6 +4256,28 @@ a {
   background-image: url(../images/card-image-scriptsamples.png);
   background-position: 100% 50%;
 }
+
+.lnd_card_template._recognitionprogram {
+  background-image: url(../images/card-image-recognitionprogram.png);
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._sharingiscaring {
+  background-image: url(../images/card-image-sharingiscaring.png);
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._spotlight {
+  background-image: url(../images/card-image-spotlight-techcommunity.png);
+  background-position: 20% 50%;
+  min-height: 300px;
+}
+
+.lnd_card_template._spotlight .lnd_card_text_wrap {
+  max-width: 300px;
+}
+
+
 
 .lnd_component_button {
   display: -webkit-box;
@@ -9638,6 +9662,18 @@ a {
   grid-column-end: 13;
 }
 
+#w-node-8f00df358dbf-2b0d0585 {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+  -ms-grid-column: 5;
+  grid-column-start: 1;
+  -ms-grid-column-span: 8;
+  grid-column-end: 13;
+  grid-template-columns: 1fr;
+}
+
 @media screen and (max-width: 991px) {
   #w-node-dda75d76c9cb-2b0d0585 {
     -ms-grid-row: span 1;
@@ -9762,6 +9798,16 @@ a {
     justify-self: start;
   }
   #w-node-a6ba6e7f7ddd-f20fe573 {
+    -ms-grid-column: span 8;
+    grid-column-start: span 8;
+    -ms-grid-column-span: 8;
+    grid-column-end: span 8;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+  #w-node-8f00df358dbf-2b0d0585 {
     -ms-grid-column: span 8;
     grid-column-start: span 8;
     -ms-grid-column-span: 8;
@@ -9910,6 +9956,12 @@ a {
     -ms-grid-column-span: 1;
     grid-column-end: span 1;
   }
+  #w-node-8f00df358dbf-2b0d0585 {
+    -ms-grid-column: span 6;
+    grid-column-start: span 6;
+    -ms-grid-column-span: 6;
+    grid-column-end: span 6;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -9987,6 +10039,12 @@ a {
   }
   .lnd_card_text_wrap {
     padding-bottom:0px;
+  }
+  #w-node-8f00df358dbf-2b0d0585 {
+    -ms-grid-column: span 4;
+    grid-column-start: span 4;
+    -ms-grid-column-span: 4;
+    grid-column-end: span 4;
   }
 }
 
