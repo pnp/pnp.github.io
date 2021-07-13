@@ -7411,6 +7411,12 @@ a {
   border-left: 2px solid #ecf0f1;
 }
 
+.padded-grid-item-2.border-side-right-white-thick {
+  width: 100%;
+  border-right: 2px solid #ecf0f1;
+  margin-right:-4px;
+}
+
 .padded-grid-item-2.border-bottom-white-thick {
   width: 100%;
   border-bottom: 2px solid #ecf0f1;
@@ -8820,6 +8826,10 @@ a {
   .padded-grid-item-2.border-sides-white-thick {
     border-right-style: none;
     border-left-style: none;
+  }
+  .padded-grid-item-2.border-side-right-white-thick {
+    border-right: none;
+    margin-right:auto;
   }
   .padded-grid-item-2.border-bottom-white-thick {
     border-bottom-style: none;
