@@ -26,6 +26,32 @@ background-image: url("../images/card-image-recognition-program-maintainer-2022.
 background-position: 100% 50%;
 }
 
+.lnd_card_template._badge03 {
+  background-image: url("../images/card-image-recognition-independent-publisher-2022.png");
+  background-position: 100% 50%;
+  }
+
+.lnd_card_template._badge04 {
+  background-image: url("../images/card-image-recognition-project-coordinator-2022.png");
+  background-position: 100% 50%;
+  }
+
+.lnd_card_template._badge05 {
+  background-image: url("../images/card-image-recognition-sharing-is-caring-2022.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._badge06 {
+  background-image: url("../images/card-image-recognition-script-samples-2022.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._badge07 {
+  background-image: url("../images/card-image-recognition-blog-author-2022.png");
+  background-position: 100% 50%;
+}
+  
+
 .lnd_card_template._badgetba {
   background-image: url("../images/card-image-recognition-program-tba.png");
   background-position: 100% 50%;
