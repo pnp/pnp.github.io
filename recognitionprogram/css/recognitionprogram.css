@@ -50,6 +50,11 @@ background-position: 100% 50%;
   background-image: url("../images/card-image-recognition-blog-author-2022.png");
   background-position: 100% 50%;
 }
+
+.lnd_card_template._badge10 {
+  background-image: url("../images/card-image-recognition-power-platform-samples-2022.png");
+  background-position: 100% 50%;
+}
   
 
 .lnd_card_template._badgetba {
