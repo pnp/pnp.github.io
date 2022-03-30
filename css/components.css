@@ -1,16 +1,12 @@
 @font-face {
   font-family: 'webflow-icons';
-  src:  url('fonts/icomoon.eot?27cg53');
-  src:  url('fonts/icomoon.eot?27cg53#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.woff2?27cg53') format('woff2'),
-    url('fonts/icomoon.ttf?27cg53') format('truetype'),
-    url('fonts/icomoon.woff?27cg53') format('woff'),
-    url('fonts/icomoon.svg?27cg53#icomoon') format('svg');
+  src:  url('../fonts/webflow.eot?27cg53');
+  src:  url('../fonts/webflow.eot?27cg53#iefix') format('embedded-opentype'),
+    url('../fonts/webflow.woff2?27cg53') format('woff2'),
+    url('../fonts/webflow.svg?27cg53#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
-  font-weight: normal;
-  font-style: normal;
 }
 [class^="w-icon-"],
 [class*=" w-icon-"] {
