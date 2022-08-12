@@ -17,14 +17,55 @@
   }
 
 .lnd_card_template._badge01 {
-    background-image: url("../images/card-image-recognition-program-community-contributor-2021.png");
+    background-image: url("../images/card-image-recognition-program-community-contributor-2022.png");
     background-position: 100% 50%;
   }
 
 .lnd_card_template._badge02 {
-background-image: url("../images/card-image-recognition-program-maintainer-2021.png");
+background-image: url("../images/card-image-recognition-program-maintainer-2022.png");
 background-position: 100% 50%;
 }
+
+.lnd_card_template._badge03 {
+  background-image: url("../images/card-image-recognition-independent-publisher-2022.png");
+  background-position: 100% 50%;
+  }
+
+.lnd_card_template._badge04 {
+  background-image: url("../images/card-image-recognition-project-coordinator-2022.png");
+  background-position: 100% 50%;
+  }
+
+.lnd_card_template._badge05 {
+  background-image: url("../images/card-image-recognition-sharing-is-caring-2022.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._badge06 {
+  background-image: url("../images/card-image-recognition-script-samples-2022.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._badge07 {
+  background-image: url("../images/card-image-recognition-blog-author-2022.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._badge10 {
+  background-image: url("../images/card-image-recognition-power-platform-samples-2022.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._badge11 {
+  background-image: url("../images/card-image-recognition-community-call-presenter-2022.png");
+  background-position: 100% 50%;
+}
+
+.lnd_card_template._badge12 {
+  background-image: url("../images/card-image-recognition-community-content-author-2022.png");
+  background-position: 100% 50%;
+}
+  
 
 .lnd_card_template._badgetba {
   background-image: url("../images/card-image-recognition-program-tba.png");
