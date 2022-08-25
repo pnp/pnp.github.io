@@ -6689,6 +6689,15 @@ a {
   font-weight: 500;
 }
 
+.h06_text_bold {
+  max-width: 560px;
+  margin-bottom: 20px;
+  color: #f5f7fd;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
 .h06_icon_base {
   display: -webkit-box;
   display: -webkit-flex;
