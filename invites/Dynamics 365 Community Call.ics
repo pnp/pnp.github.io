@@ -20,7 +20,7 @@ END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
 CLASS:PUBLIC
-CREATED:20230515T222243Z
+CREATED:20230607T183436Z
 DESCRIPTION:The Dynamics 365 community call happens on the 1st Wednesday of
 	 each month. The Dynamics 365 Community Call is where Dynamics 365 users\,
 	 developers\, and administrators come together to learn\, collaborate\, an
@@ -30,10 +30,10 @@ DESCRIPTION:The Dynamics 365 community call happens on the 1st Wednesday of
 	s and resources to enhance productivity and build successful solutions wit
 	h Dynamics 365.\nJoin the call here – https://aka.ms/D365CommunityCall-J
 	oin\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n
-DTEND;TZID="Pacific Standard Time":20230705T090000
-DTSTAMP:20230515T222243Z
-DTSTART;TZID="Pacific Standard Time":20230705T080000
-LAST-MODIFIED:20230515T222243Z
+DTEND;TZID="Pacific Standard Time":20230802T090000
+DTSTAMP:20230607T183436Z
+DTSTART;TZID="Pacific Standard Time":20230802T080000
+LAST-MODIFIED:20230607T183436Z
 LOCATION:https://aka.ms/D365CommunityCall-Join
 PRIORITY:5
 RRULE:FREQ=MONTHLY;BYDAY=WE;BYSETPOS=1
