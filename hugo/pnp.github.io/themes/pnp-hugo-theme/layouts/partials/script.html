@@ -1,0 +1,4 @@
+{{ $script := resources.Get "js/main.js" | resources.ExecuteAsTemplate "js/main.js" . }}
+<script>
+    {{ $script.Content | safeJS }}
+</script>

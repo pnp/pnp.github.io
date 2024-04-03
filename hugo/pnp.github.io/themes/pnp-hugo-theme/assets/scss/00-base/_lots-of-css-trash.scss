@@ -1,0 +1,184 @@
+ 
+  body {
+
+  }
+  
+  // .nav {
+  //   position: fixed;
+  //   z-index: 1;
+  //   top: 0;
+  //   right: 0;
+  //   left: 0;
+
+  //   backdrop-filter: blur(20px) saturate(400%) brightness(400%);
+  //   backdrop-filter: blur(3px) saturate(220%);
+  //   background-image: var(--frosted-glass);
+  //   background-size: var(--frosted-glass-size);
+  //   filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.5)) saturate(400%);
+
+  //   background: rgba(255, 255, 255, 0.5);
+  // }
+  
+  // .menu {
+  //   display: flex;
+  //   height: 4rem;
+  //   margin: 0;
+
+  //   gap: 2rem;
+  //   flex-direction: row;
+  //   align-items: center;
+
+  //   font-size: 1rem;
+  //   font-weight: 900;
+  //   text-transform: uppercase;
+
+  //   color: black;
+  //   list-style-type: none;
+
+  //   paddding: 0;
+  //   li {
+  //     position: relative;
+
+  //     box-sizing: border-box;
+  //     padding: 0.25rem;
+
+  //     text-align: center;
+  //     text-transform: inherit;
+
+  //     color: black;
+  //     &:before {
+  //       position: absolute;
+  //       bottom: 0;
+
+  //       display: block;
+  //       width: calc(100% - 6px);
+  //       height: 3px;
+  //       border-radius: 6px;
+
+  //       background-color: orange;
+
+  //       content: " ";
+  //     }
+  //   }
+  // }
+  
+  // .wrapper {
+  //   max-width: 1920px;
+  //   margin: auto;
+  // }
+  
+  .stage {
+    overflow: clip;
+    height: 90svh;
+    padding-block: 300px;
+
+    background: rgba(9, 31, 44, 1);
+    //background: rgba(0,120,212,1);
+    aspect-ration: 16 / 9;
+    &:nth-child(even) {
+      background: rgba(217, 217, 214, 1);
+    }
+  }
+  .stage-welcome{  
+    position: relative;
+
+    height: 50svh;
+    &.alt{
+      background-color: whitesmoke;
+    }
+  }
+  .stage-1 {
+    position: relative;
+
+    box-sizing: border-box;
+
+    //  background-image: url("https://images.unsplash.com/photo-1567455979486-c1402a353c01?q=80&w=3946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");background-image
+    //  background-image: url("https://assets.codepen.io/83107/250584_M365_CoreAsset_TeamsBkgd_A2.png");background-image
+    //  background-size: 200% 100%;background-size
+    //  background-position: top right fixed;background-position
+    //  background-repeat: no-repeat;
+  }
+  
+  .stage-2 {
+    background-image: url(frosted-glass);
+  }
+  
+  .bg-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    width: auto;
+
+    clip: auto;
+  }
+  .card-grid{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    gap: 2vw;
+
+    transition: all 0.25s linear;
+  }
+  
+  
+  .typo-grid{
+    display: grid;
+    height: auto;
+    padding: 2vw 5vw;
+
+    grid-template-columns: 2fr 1fr;
+    gap: 2svw;
+
+    background-color: rgba(9,31,41,1);
+    &.alt{
+      background-color: whitesmoke;
+      color: rgba(9,31,41,1);
+      .lead{
+        color: inherit;
+      }
+    }
+    
+  }
+  .headline{
+    display: block;
+    height: auto;
+    padding: 2svw;
+    padding-top: 0;
+    margin-top: 0;
+
+    font-family: "Segoe Sans", sans-serif;
+    font-size: clamp(3rem, 6.5vw, 7rem);
+    font-weight: 900;
+    line-height: 0.8;
+    text-transform: uppercase;
+    text-wrap: pretty;
+
+    background-clip: text;
+    background-image: url("https://assets.codepen.io/83107/250584_M365_CoreAsset_TeamsBkgd_A2.png?width=1920&height=1080&format=auto&fit=cover");
+  background-repeat: no-repeat;
+  background-size: cover;
+    color: transparent;
+
+  background-position: top left;
+    grid-columns: 1 / span 2;
+  }
+  .lead{
+    font-size: clamp(1rem, 2vw, 3rem);
+    font-weight: 400;
+    line-height: 1.15;
+    text-wrap: balanced;
+
+    background-clip: text;
+     background-image: url("https://assets.codepen.io/83107/250584_M365_CoreAsset_TeamsBkgd_A2.png?width=1920&height=1080&format=auto&fit=cover");
+  background-repeat: no-repeat;
+  background-size: cover;
+    color: white;
+
+  background-position: top right;
+    p{
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+  }

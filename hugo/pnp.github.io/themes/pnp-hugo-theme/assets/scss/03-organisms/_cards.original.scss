@@ -1,0 +1,146 @@
+@use '../00-base/designtoken.vars' as dt;
+
+
+.card {
+  display: grid;
+
+  grid-template-columns: 4.5rem auto;
+  
+  // filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.95));
+  
+  // mix-blend-mode: hard-light;
+  margin: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 1rem;
+  color: black;
+  // border: 1px black solid;
+
+  background-color: rgba(255,255,255,0.75);
+
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(20px) saturate(190%) brightness(110%);
+  filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, .35));
+
+  // position: relative;
+  overflow: clip;
+
+  filter: drop-shadow(-10px -10px 0.5em rgba(#99B5D8, 0.1));
+  
+  &::before{
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: " ";
+    height: inherit;
+    width: inherit;
+
+    overflow: clip;
+    border-radius: 1rem;
+    mix-blend-mode: multiply;
+
+    border: 1px white solid;
+
+  }
+  &::after{
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: " ";
+    background: linear-gradient(-215deg, rgba(255,255,255,0) 50%, rgba(255,255,255,0.3));
+    border-radius: 1rem;
+    z-index: 2;
+
+  }  
+
+}
+.card-header{
+  h1{
+    margin-top: 0;
+    height: 3lh;
+    line-height: 0.9em;
+  }
+}
+
+.card-side {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px) saturate(120%) brightness(120%);
+  overflow: clip;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  position: relative;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  mix-blend-mode: overlay;
+  z-index: 10;
+  &:before {
+    isolation: isolate;
+    position: absolute;
+    left: 8px;
+    top: 25%;
+    bottom: 20px;
+    content: " ";
+    display: block;
+    width: 4px;
+    height: 50%;
+    background-color: dt.$blue;
+    border-radius: 2px;
+  }
+}
+
+.card-main {
+  padding: 2rem;
+  overflow: clip;
+  text-shadow: 0.125em 0.125em 0.125em rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  align-content: stretch;
+  gap: 1rem;
+  background-color: rgba(255,255,255,0.8);
+}
+.card-iconbar {
+  position: absolute;
+  z-index: 100;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+  margin-block: 0;
+  margin-inline: 1.5em 1.25em;
+  list-style-type: none;
+  padding: 0;
+
+  isolation: isolate;
+  .icon {
+    width: 2em;
+    transition: all ease-in;
+  }
+
+  .icon-svg {
+    fill: currentColor;
+    pointer-events: none;
+  }
+  .icon-calendar-ltr-filled{
+    fill: dt.$dark-blue;
+  }
+  .icon-video-clip-filled{
+    fill: dt.$red;
+  }
+
+}
+
+.card-iconbar-item{
+  transform-origin: center;
+  &:hover{
+    filter: drop-shadow(4px 4px rgba(0,0,0,0.25));
+    transform: scale(1.1);
+    transition: all ease-out;
+  }
+}

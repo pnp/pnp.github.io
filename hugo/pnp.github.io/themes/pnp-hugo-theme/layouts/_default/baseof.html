@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+{{- partial "head.html" . -}}
+
+<body class="pnp-backdrop">
+    <div class="wrapper">
+        {{- partial "header.html" . -}}
+    </div>
+    
+    <div id="content">
+        {{- block "main" . }}{{- end }}
+    </div>
+    {{- partial "footer.html" . -}}
+    {{- partial "script.html" . -}}
+</body>
+
+</html>

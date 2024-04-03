@@ -1,0 +1,11 @@
+.icon{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.icon-svg{
+    height: 2rem;
+    width: 2rem;
+    aspect-ratio: 1 / 1;
+}

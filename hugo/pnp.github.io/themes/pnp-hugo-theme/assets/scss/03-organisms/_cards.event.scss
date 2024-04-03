@@ -1,0 +1,15 @@
+@use '../00-base/designtoken.vars' as dt;
+
+.card{
+    &.event{
+        .card-header{
+            color: dt.$dark-purple;
+            @media screen and (max-width: 720px) {
+                h1{
+                    font-size: clamp(1.25rem, 2vw, 3rem);
+                    margin-bottom: 0;;
+                }
+            }
+        }
+    }
+}

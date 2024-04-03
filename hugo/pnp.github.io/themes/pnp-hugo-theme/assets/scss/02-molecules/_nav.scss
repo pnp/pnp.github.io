@@ -1,0 +1,133 @@
+@use '../00-base/designtoken.vars' as dt;
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 0.5em;
+    display: inline-flex;
+    align-items: center;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    padding-block: 0.35em 0.5em;
+    padding-inline: 1vw 1vw;
+    background: rgba(255, 252, 248, 0.85);
+    filter: drop-shadow(3px 3px 30px rgba(#666, 0.75));
+    backdrop-filter: blur(20px) saturate(1.8);
+    border-top: none;
+    border-bottom-left-radius: .5em;
+
+    @media screen and (max-width: 1024px) {
+        visibility: hidden;
+
+        position: absolute;
+        top: 60px;
+        height: 0;
+        oveflow: hidden;
+        overflow: clip;
+
+        align-items: flex-start;
+        font-size: clamp(1rem, 4vh, 2rem);
+        gap: 0;
+        background: rgba(255, 255, 255, 1);
+        margin: 0;
+        .nav-link{
+            white-space: wrap;
+        }
+    }
+
+        
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-block: 0.5em;
+    margin-inline: 0.5em;
+    color: dt.$blue;
+    transition: color 0.125s ease-in;
+    // mix-blend-mode: var(--mode2);
+    white-space: nowrap;
+    // isolation: isolate;
+
+    &:visited {
+        color: dt.$blue;
+    }
+
+    &:hover {
+        color: dt.$dark-blue;
+        transition: color 0.125s ease-out;
+    }
+
+    &:active {
+        color: dt.$blue;
+    }
+
+}
+
+.hamburger {
+    border: none;
+    background-color: transparent;
+    height: inherit;
+    height: clamp(2rem, 3vw, 3rem);
+    width: auto;
+    aspect-ratio: 1 / 1;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 0.5em;
+    padding-block: 2em;
+    color: dt.$blue;
+    display: none;
+
+    @media screen and (max-width: 1024px) {
+        display: flex;
+    }
+
+    // display: none;
+    svg {
+        pointer-events: none;
+        &>* {
+            pointer-events: none;
+        }
+
+        height: inherit;
+        width: inherit;
+        aspect-ratio: 1 / 1;
+        fill: currentColor;
+
+    }
+    
+    .active {
+        display: none;
+    }
+
+    .inactive {
+        display: block;
+    }
+
+    &.show{
+        .active {
+            display: block;
+        }
+    
+        .inactive {
+            display: none;
+        }
+        &~.nav-menu{
+            display: flex;
+            flex-direction: column;
+            visibility: visible;
+            height: 100svh;
+        }
+        .nav-link{
+            width: 100%;
+        }
+        .nav-item{
+            width:100%
+        }
+    }
+
+
+}

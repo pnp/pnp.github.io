@@ -1,0 +1,54 @@
+{{/*<div id="nav-border" class="container">
+	<nav id="nav" class="nav justify-content-center">
+		{{ range .Site.Menus.main }}
+		<a class="nav-link" href="{{ .URL }}">
+			{{ if .Pre }}
+			{{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+			{{ $icon }}
+			{{ end }}
+			{{ $text := print .Name | safeHTML }}
+			{{ $text }}
+		</a>
+		{{ end }}
+	</nav>
+</div>*/}}
+<header class="page-header">
+	<a href="?" class="site-logo-link">
+		<div class="site-logo">
+			<span class="u-nowrap">{{ .Site.Title }}</span>
+		</div>
+	</a>
+
+	<nav class="nav">
+		<button class="hamburger" tabindex="-1">
+			<svg class="active">
+				<title id="ham-title-active">Click to close - Hamburger in form of arrows</title>
+				<use xlink:href="/images/base-assets.svg#hamburger"></use>
+			</svg>
+			<svg class="inactive">
+				<title id="ham-title-inactive">Click to open - Hamburger in form of three stripes</title>
+				<use xlink:href="/images/base-assets.svg#hamburger-inactive"></use>
+			</svg>
+		</button>
+		<menu class="nav-menu primary" aria-label="Primary navigation" aria-expanded="true">
+			<li class="nav-item">
+				<a href="" class="nav-link">Blog</a>
+			</li>
+			<li class="nav-item">
+				<a href="" class="nav-link">Community Calls</a>
+			</li>
+			<li class="nav-item">
+				<a href="" class="nav-link">Guidance</a>
+			</li>
+			<li class="nav-item">
+				<a href="" class="nav-link">Samples &amp; Solutions</a>
+			</li>
+			<li class="nav-item">
+				<a href="" class="nav-link">SDKS</a>
+			</li>
+			<li class="nav-item">
+				<a href="" class="nav-link">Tools</a>
+			</li>
+		</menu>
+	</nav>
+</header>
