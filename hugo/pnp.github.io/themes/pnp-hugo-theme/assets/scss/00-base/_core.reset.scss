@@ -1,18 +1,19 @@
-body{
+body {
     margin: 0;
 
     font-family: Parker, "Segoe UI", "Segoe Sans", sans-serif;
-    text-rendering: geometricPrecision;
+    // text-rendering: geometricPrecision;
+    scroll-behavior: smooth;
 
 }
 
 button,
 input,
-textarea{
+textarea {
     font-family: inherit;
 }
 
-.pnp-backdrop{
+.pnp-backdrop {
     background: url(/images/keyart-bg.webp);
     background-size: contain;
     background-size: cover;
@@ -20,3 +21,5 @@ textarea{
     background-position: bottom left;
     background-attachment: fixed;
 }
+
+
