@@ -138,6 +138,10 @@
         <path fill="#fdfdfe" style="fill: var(--color3, #fdfdfe)"
             d="M4.373 7.162c0-1.512 1.247-2.744 2.762-2.742 1.494 0.005 2.727 1.245 2.727 2.744 0 1.512-1.245 2.747-2.759 2.742-1.492-0.005-2.732-1.252-2.729-2.744z"></path>
     </symbol>
+    <symbol id="icon-twitter" viewBox="0 0 32 32">
+        <path
+            d="M12.003 6.125h-6.815l8.079 10.673-7.562 8.952h3.494l5.72-6.771 5.079 6.708h6.815l-8.3-10.963 7.159-8.475h-3.494l-5.316 6.294-4.859-6.418zM8.948 7.994h2.121l11.981 15.825h-2.121l-11.981-15.825z"></path>
+    </symbol>
 
     <view id="frosted-glass-view" viewBox="0 0 300 300" /><!-- This ID used here is what you'll use
     in your CSS! -->

@@ -1,5 +1,4 @@
 "use strict"
-console.log("Hello from PnP Hugo Theme");
 const hamburgerMenu = document.querySelector('.hamburger');
 const menuPrimary = document.querySelector('.nav-menu.primary');
 

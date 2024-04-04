@@ -1,0 +1,53 @@
+@use 'cards.original' as card;
+@use 'cards.blog' as blog;
+
+
+.card.sample {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3rem;
+    aspect-ratio: 1 / 0.80;
+
+    .card-hor {
+        position: relative;
+        grid-row: -1;
+        z-index: 10;
+        mix-blend-mode: normal;
+    }
+
+    .sample-media {
+        position: relative;
+        grid-row: 1 / span 2;
+        overflow: hidden;
+        z-index: -1;
+    }
+    transition: all 0.25s ease-in-out;
+    &:hover {
+
+        transform: translate(10px, 10px) scale(1.1);
+
+        .sample-media-img {
+            opacity: 1;
+        }
+    }
+}
+
+.sample-media {
+    @extend .blog-media;
+}
+
+
+.sample-media-img {
+    @extend .blog-media-img;
+}
+
+.sample-headline {
+    @extend .blog-headline;
+    margin: 0;
+    height: 1lh;
+}
+
+.sample-desc {
+    font-size: clamp(0.8rem, .9vw, 1.2rem);
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}

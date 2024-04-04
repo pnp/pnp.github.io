@@ -31,24 +31,12 @@
 			</svg>
 		</button>
 		<menu class="nav-menu primary" aria-label="Primary navigation" aria-expanded="true">
+			{{ range .Site.Menus.main }}
 			<li class="nav-item">
-				<a href="" class="nav-link">Blog</a>
+				<a href="{{ .URL }}" class="nav-link">{{ $text := print .Name | safeHTML }}
+				{{ $text }}</a>
 			</li>
-			<li class="nav-item">
-				<a href="" class="nav-link">Community Calls</a>
-			</li>
-			<li class="nav-item">
-				<a href="" class="nav-link">Guidance</a>
-			</li>
-			<li class="nav-item">
-				<a href="" class="nav-link">Samples &amp; Solutions</a>
-			</li>
-			<li class="nav-item">
-				<a href="" class="nav-link">SDKS</a>
-			</li>
-			<li class="nav-item">
-				<a href="" class="nav-link">Tools</a>
-			</li>
+			{{ end }}
 		</menu>
 	</nav>
 </header>

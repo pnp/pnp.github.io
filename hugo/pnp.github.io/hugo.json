@@ -1,0 +1,53 @@
+{
+    "baseURL": "https://pnp.github.io/",
+    "languageCode": "en-us",
+    "params": {
+        "contact": {
+            "email": "info@example.org",
+            "phone": "+1 202-555-1212"
+        },
+        "subtitle": "The Best Widgets on Earth"
+    },
+    "title": "Microsoft 365 & Power Platform Community",
+    "theme": "pnp-hugo-theme",
+    "menus": {
+        "main": [
+            {
+                "identifier": "blog",
+                "name": "Blog",
+                "url": "https://pnp.github.io/blog",
+                "weight": 10
+            },
+            {
+                "identifier": "community",
+                "name": "Community Calls",
+                "url": "#community",
+                "weight": 20
+            },
+            {
+                "identifier": "guidance",
+                "name": "Guidance",
+                "url": "#guidance",
+                "weight": 30
+            },
+            {
+                "identifier": "samples",
+                "name": "Samples & Solutions",
+                "url": "#samples",
+                "weight": 40
+            },
+            {
+                "identifier": "sdks",
+                "name": "SDKS",
+                "url": "#sdks",
+                "weight": 50
+            },
+            {
+                "identifier": "tools",
+                "name": "Tools",
+                "url": "#tools",
+                "weight": 60
+            }
+        ]
+    }
+}

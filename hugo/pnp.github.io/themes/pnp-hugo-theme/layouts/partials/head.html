@@ -5,9 +5,13 @@
     <link rel="stylesheet" href="{{ $css.Permalink }}">
     {{ $patternCss := resources.Get "css/pattern-scaffolding.css" | resources.Minify | resources.Fingerprint }}
     <link rel="stylesheet" href="{{ $patternCss.Permalink }}">
-    {{ $baseAssets := resources.Get "images/base-assets.svg" }}
-    <link rel="prefetch" href="{{ $baseAssets.Permalink }}" as="image" type="image/svg+xml" media="all">
+    <link rel="prefetch" href="/images/base-assets.svg" as="image" type="image/svg+xml" media="all">
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
+    <!-- SEO -->
+    {{ partial "seo/opengraph" .}}
+
+    <!-- Twitter Card -->
+    {{ partial "seo/twitter" .}}
 </head>

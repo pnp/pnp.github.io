@@ -1,24 +1,23 @@
 @use '../00-base/designtoken.vars' as dt;
 
-.card {
-    &.blog {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-        grid-auto-rows: max-content;
-        transition: all 0.125s ease-in-out;
 
-        // grid-auto-rows: minmax(min-content, max-content);
-        &:hover {
-            transform: translate(10px, 10px) scale(1.1);
+.card.blog {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-auto-rows: max-content;
+    transition: all 0.125s ease-in-out;
+    aspect-ratio: unset;
+    // grid-auto-rows: minmax(min-content, max-content);
+    &:hover {
+        transform: translate(10px, 10px) scale(1.1);
 
-            .blog-media-img {
-                opacity: 1;
-            }
+        .blog-media-img {
+            opacity: 1;
         }
+    }
 
-        &:active {
-            filter: none;
-        }
+    &:active {
+        filter: none;
     }
 }
 
@@ -63,6 +62,7 @@
         font-weight: 600;
         flex-grow: 0;
         font-size: 0.875em;
+        white-space: nowrap;
     }
 }
 

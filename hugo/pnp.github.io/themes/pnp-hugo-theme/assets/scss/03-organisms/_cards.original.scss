@@ -5,29 +5,25 @@
   display: grid;
 
   grid-template-columns: 4.5rem auto;
-  
-  // filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.95));
-  
-  // mix-blend-mode: hard-light;
+
   margin: auto;
   aspect-ratio: 16 / 9;
   border-radius: 1rem;
   color: black;
-  // border: 1px black solid;
 
-  background-color: rgba(255,255,255,0.75);
+  background-color: rgba(255, 255, 255, 0.75);
 
   background: rgba(255, 255, 255, 0);
   backdrop-filter: blur(20px) saturate(190%) brightness(110%);
   filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, .35));
 
-  // position: relative;
+  // position: relative;positionpositionpositionpositionpositionpositionpositionposition
   overflow: clip;
 
   filter: drop-shadow(-10px -10px 0.5em rgba(#99B5D8, 0.1));
-  
-  &::before{
-  
+
+  &::before {
+
     position: absolute;
     top: 0;
     left: 0;
@@ -44,23 +40,25 @@
     border: 1px white solid;
 
   }
-  &::after{
-  
+
+  &::after {
+
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     content: " ";
-    background: linear-gradient(-215deg, rgba(255,255,255,0) 50%, rgba(255,255,255,0.3));
+    background: linear-gradient(-215deg, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3));
     border-radius: 1rem;
     z-index: 2;
 
-  }  
+  }
 
 }
-.card-header{
-  h1{
+
+.card-header {
+  h1 {
     margin-top: 0;
     height: 3lh;
     line-height: 0.9em;
@@ -79,6 +77,7 @@
   padding-bottom: 1.5em;
   mix-blend-mode: overlay;
   z-index: 10;
+
   &:before {
     isolation: isolate;
     position: absolute;
@@ -94,6 +93,20 @@
   }
 }
 
+.card-hor {
+    @extend .card-side;
+    width: 100%;
+    border-radius: 0 0 1em 1em;
+    padding: 1em;
+    box-sizing: border-box;
+    &:before {
+        top: calc(100% - 16px);
+        width: 50%;
+        height: 4px;
+        left: 25%;
+    }
+}
+
 .card-main {
   padding: 2rem;
   overflow: clip;
@@ -103,8 +116,9 @@
   align-items: left;
   align-content: stretch;
   gap: 1rem;
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255,255,255,0.85);
 }
+
 .card-iconbar {
   position: absolute;
   z-index: 100;
@@ -118,6 +132,7 @@
   padding: 0;
 
   isolation: isolate;
+
   .icon {
     width: 2em;
     transition: all ease-in;
@@ -127,19 +142,22 @@
     fill: currentColor;
     pointer-events: none;
   }
-  .icon-calendar-ltr-filled{
+
+  .icon-calendar-ltr-filled {
     fill: dt.$dark-blue;
   }
-  .icon-video-clip-filled{
+
+  .icon-video-clip-filled {
     fill: dt.$red;
   }
 
 }
 
-.card-iconbar-item{
+.card-iconbar-item {
   transform-origin: center;
-  &:hover{
-    filter: drop-shadow(4px 4px rgba(0,0,0,0.25));
+
+  &:hover {
+    filter: drop-shadow(4px 4px rgba(0, 0, 0, 0.25));
     transform: scale(1.1);
     transition: all ease-out;
   }
