@@ -1,10 +1,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/pattern-scaffolding.css">
-    <link rel="stylesheet" href="/css/tweaks.css">
-    <link rel="prefetch" href="/images/base-assets.svg" as="image" type="image/svg+xml" media="all">
+    <link rel="stylesheet" href='{{ "css/styles.css" | relURL }}'>
+    <link rel="stylesheet" href='{{ "/css/pattern-scaffolding.css" | relURL }}'>
+    <link rel="stylesheet" href='{{ "/css/tweaks.css" | relURL }}'>
+    <link rel="prefetch" href='{{ "/images/base-assets.svg" | relURL }}' as="image" type="image/svg+xml" media="all">
     {{ $title := print .Site.Title " | " .Title }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
@@ -15,4 +15,5 @@
     {{ partial "opengraph/twitter" .}}
 
     {{ partial "favicon" . }}
+
 </head>

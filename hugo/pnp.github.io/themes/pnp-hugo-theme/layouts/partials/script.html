@@ -1,4 +1,3 @@
-{{ $script := resources.Get "js/main.js" | resources.ExecuteAsTemplate "js/main.js" . }}
-<script>
-    {{ $script.Content | safeJS }}
-</script>
+{{ $js := resources.Get "js/main.js" }}
+{{ $js = $js | resources.Minify | resources.Fingerprint }}
+<script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
