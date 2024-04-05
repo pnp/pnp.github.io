@@ -2,7 +2,6 @@
 name: Deploy static content to Pages
 
 on:
-  workflow_dispatch:
   # Runs on pushes targeting the default branch
   push:
     branches: ["feature-hugo"]
@@ -38,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: './hugo/pnp.github.io/public'
+          path: '/hugo/pnp.github.io/public'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
