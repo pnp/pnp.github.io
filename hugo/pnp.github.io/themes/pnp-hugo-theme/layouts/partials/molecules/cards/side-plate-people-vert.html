@@ -1,0 +1,25 @@
+<div class="card-side">
+    <menu class="card-iconbar">
+        {{ with .github }}
+        <li class="card-iconbar-item">
+            <a href="{{ . }}" class="card-iconbar-link">
+                <span class="icon">
+                    {{ partial "atoms/icons/icon" (dict "iconName" "icon-github" "ariaHidden" "true" "title" "Follow me on Github") }}
+                </span>
+            </a>
+        </li>
+        {{ end }}
+        {{ with .linkedin }}
+        <li class="card-iconbar-item"><a href="{{ . }}" class="card-iconbar-link"><span class="icon">
+                    {{ partial "atoms/icons/icon" (dict "iconName" "icon-linkedin" "ariaHidden" "true" "title" "Connect on LinkedIn") }}
+                </span>
+            </a></li>
+        {{ end }}
+        {{ with .twitter }}
+        <li class="card-iconbar-item"><a href="{{ . }}" class="card-iconbar-link"><span class="icon">
+                    {{ partial "atoms/icons/icon" (dict "iconName" "icon-twitter" "ariaHidden" "true" "title" "Follow me on Twitter") }}
+                </span>
+            </a></li>
+        {{ end }}
+    </menu>
+</div>

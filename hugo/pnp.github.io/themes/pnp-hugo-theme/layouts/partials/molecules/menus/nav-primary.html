@@ -1,0 +1,8 @@
+<menu class="nav-menu primary" aria-label="Primary navigation" aria-expanded="true">
+    {{ range .Site.Menus.main }}
+    <li class="nav-item">
+        <a href="{{ .URL }}" class="nav-link">{{ $text := print .Name | safeHTML }}
+            {{ $text }}</a>
+    </li>
+    {{ end }}
+</menu>

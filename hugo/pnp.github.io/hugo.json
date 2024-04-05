@@ -45,5 +45,8 @@
                 "weight": 60
             }
         ]
-    }
+    },
+    "disableKinds": [
+        "section"
+    ]
 }
