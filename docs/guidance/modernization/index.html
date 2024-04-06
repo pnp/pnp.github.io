@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/pattern-scaffolding.css">
+    <link rel="stylesheet" href="/css/tweaks.css">
+    <link rel="prefetch" href="/images/base-assets.svg" as="image" type="image/svg+xml" media="all">
+    
+    
+    <title>Microsoft 365 &amp; Power Platform Community | SharePoint Modernization</title>
+    
+    <meta property="og:site_name" content="Microsoft 365 &amp; Power Platform Community" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="SharePoint Modernization" />
+<meta property="og:url" content="http://localhost:1313/guidance/modernization/" />
+
+<meta property="og:image" content="http://localhost:1313/images/sample-background.webp" />
+
+<meta property="og:description" content="Transformation of &#34;classic&#34; SharePoint into &#34;modern&#34;" />
+
+    
+    
+
+
+
+<meta name="twitter:title" content="SharePoint Modernization" />
+<meta name="twitter:description"
+    content="Transformation of &#34;classic&#34; SharePoint into &#34;modern&#34;" />
+
+
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0078d4">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff">
+</head><body class="pnp-backdrop">
+    <div class="wrapper"><header class="page-header">
+    <a class="site-logo-link" href="http://localhost:1313/">
+
+        <div class="site-logo">
+            <span class="u-nowrap">Microsoft 365 &amp;</span> Power Platform Community
+        </div>
+    </a>
+
+    <nav class="nav">
+        <button class="hamburger" tabindex="-1">
+            <svg class="active">
+                <title id="ham-title-active">Click to close - Hamburger in form of arrows</title>
+                <use xlink:href="/images/base-assets.svg#hamburger"></use>
+            </svg>
+            <svg class="inactive">
+                <title id="ham-title-inactive">Click to open - Hamburger in form of three stripes</title>
+                <use xlink:href="/images/base-assets.svg#hamburger-inactive"></use>
+            </svg>
+        </button>
+        <menu class="nav-menu primary" aria-label="Primary navigation" aria-expanded="true">
+            
+            <li class="nav-item">
+                <a href="https://pnp.github.io/blog" class="nav-link">
+                    Blog</a>
+            </li>
+            
+            <li class="nav-item">
+                <a href="#community" class="nav-link">
+                    Community Calls</a>
+            </li>
+            
+            <li class="nav-item">
+                <a href="#guidance" class="nav-link">
+                    Guidance</a>
+            </li>
+            
+            <li class="nav-item">
+                <a href="#samples" class="nav-link">
+                    Samples & Solutions</a>
+            </li>
+            
+            <li class="nav-item">
+                <a href="#sdks" class="nav-link">
+                    SDKS</a>
+            </li>
+            
+            <li class="nav-item">
+                <a href="#tools" class="nav-link">
+                    Tools</a>
+            </li>
+            
+        </menu>
+    </nav>
+</header></div>
+    
+    <div id="content">
+<h1>SharePoint Modernization</h1>
+
+
+<i data-feather="calendar"></i>
+<time datetime="0001-01-01">Jan 1, 0001</time>
+
+<br><br>
+
+
+    </div></main>
+	
+<footer>
+	
+</footer>
+
+</body>
+</html>
+
+<script>
+    "use strict"
+const hamburgerMenu = document.querySelector('.hamburger');
+const menuPrimary = document.querySelector('.nav-menu.primary');
+
+const showMenu = evt => {
+
+    hamburgerMenu.classList.toggle('show');
+
+    if (hamburgerMenu.classList.contains('show')) {
+        hamburgerMenu.ariaLabeledBy = "Hurra";
+        menuPrimary.ariaExpanded = true;
+        menuPrimary.focus()
+    } else {
+        hamburgerMenu.ariaLabeledBy = "murks";
+        menuPrimary.ariaExpanded = false;
+        hamburgerMenu.focus();
+    }
+
+}
+
+if (hamburgerMenu && menuPrimary) {
+
+    hamburgerMenu.addEventListener('click', showMenu);
+
+}
+</script></body>
+
+</html>
