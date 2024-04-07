@@ -1,0 +1,120 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Pacific Standard Time
+BEGIN:STANDARD
+DTSTART:16011104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20210624T120404Z
+DESCRIPTION:Welcome to the Microsoft 365 platform community call! Microsoft
+	 365 platform call is a weekly recurrent call with 2 to 3 different topics
+	 around the Microsoft 365 extensibility. Call is intended for the Microsof
+	t to update the community on the latest news and updates - with live demos
+	. \n\nWe'll also include latest news and updates for building engaging sol
+	utions and experiences in the Microsoft 365 platform.\n\n*	Link to join th
+	e Microsoft 365 Platform call from - https://aka.ms/m365-dev-call-join\n\n
+	(notice. This is an aka.ms link as we might change the actual invite URL. 
+	This way any changes are transparent for you if you access the call from a
+	bove link)\n\n\nCommunity call recordings will be published at the Microso
+	ft 365 Community YouTube channel at https://aka.ms/m365pnp/videos <https:/
+	/aka.ms/m365pnp/videos>   - Subscribe to get notified the new daily videos
+	!\n\nResources\n- Follow us on Twitter with @Microsoft365dev or @m365pnp -
+	 we publish the call agenda in the social media always few days before the
+	 call\n- Subscriber also to the Microsoft 365 Dev YouTube channel for othe
+	r Microsoft 365 developer videos at https://m365dev/videos <https://m365de
+	v/videos>  \n- Community call summaries will be published at https://aka.m
+	s/m365pnp/community/blog <https://aka.ms/m365pnp/community/blog>  \n- Late
+	st news on Microsoft 365 platform from Microsoft 365 developer blog at htt
+	ps://developer.microsoft.com/en-us/microsoft-365/blogs/ <https://developer
+	.microsoft.com/en-us/microsoft-365/blogs/>  \n\nEasiest way to find offici
+	al docs\, SDKs and community assets - https://aka.ms/m365pnp <https://aka.
+	ms/m365pnp>   \n\n\n\n\n\n
+DTEND;TZID="Pacific Standard Time":20210831T090000
+DTSTAMP:20210624T120404Z
+DTSTART;TZID="Pacific Standard Time":20210831T080000
+LAST-MODIFIED:20210624T120404Z
+PRIORITY:5
+RRULE:FREQ=WEEKLY;BYDAY=TU
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Microsoft 365 Platform - Weekly series
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000071753F20EF68D701000000000000000
+	01000000099E68C36E73A5D4A918EA321CB59DA5A
+X-ALT-DESC;FMTTYPE=text/html:<html>\n<head>\n\n</head>\n<body>\n<div class=
+	"cal_564"></div>\n<div class="cal_564">\n<div>\n<div class="x_cal_2edf"></
+	div>\n<div class="x_cal_2edf">\n<div>\n<div style="font-family: &quot\;Seg
+	oe UI&quot\;\, &quot\;Helvetica Neue&quot\;\, sans-serif\; font-size: 10pt
+	\; color: rgb(0\, 0\, 0)\; background-color: rgb(255\, 255\, 255)\;">\nWel
+	come to the Microsoft 365 platform community call! Microsoft 365 platform 
+	call is a weekly recurrent call with 2 to 3 different topics around the Mi
+	crosoft 365 extensibility. Call is intended for the Microsoft to update th
+	e community on the latest news and\n updates - with live demos.\n<div><br>
+	\n</div>\n<div>We'll also include latest news and updates for building eng
+	aging solutions and experiences in the Microsoft 365 platform.</div>\n<div
+	>\n<p class="x_x_x_MsoPlainText" style="margin: 0cm\; color: rgb(0\, 0\, 0
+	)\; background-color: rgb(255\, 255\, 255)\; font-size: 11pt\; font-family
+	: Calibri\, sans-serif\;">\n</p>\n<ul>\n<li><span><span lang="EN-US" style
+	="margin:0px">Link to join the Microsoft 365 Platform call from -&nbsp\;<a
+	 href="https://aka.ms/m365-dev-call-join">https://aka.ms/m365-dev-call-joi
+	n</a></span></span></li></ul>\n<p></p>\n<p class="x_x_x_MsoPlainText" styl
+	e="margin: 0cm\; color: rgb(0\, 0\, 0)\; background-color: rgb(255\, 255\,
+	 255)\; font-size: 11pt\; font-family: Calibri\, sans-serif\;">\n(notice. 
+	This is an aka.ms link as we might change the actual invite URL. This way 
+	any changes are transparent for you if you access the call from above link
+	)</p>\n</div>\n<div><br>\n</div>\n<div>Community call recordings will be p
+	ublished at the Microsoft 365 Community YouTube channel at\n<a href="https
+	://aka.ms/m365pnp/videos" target="_blank" rel="noopener noreferrer" data-a
+	uth="NotApplicable">\nhttps://aka.ms/m365pnp/videos</a>&nbsp\; - Subscribe
+	 to get notified the new daily videos!</div>\n<div><br>\n</div>\n<div><b>R
+	esources</b></div>\n<div>-&nbsp\;Follow us on Twitter with @Microsoft365de
+	v or @m365pnp - we publish the call agenda in the social media always few 
+	days before the call</div>\n<div>-&nbsp\;Subscriber also to the Microsoft 
+	365 Dev YouTube channel for other Microsoft 365 developer videos at\n<a hr
+	ef="https://m365dev/videos" target="_blank" rel="noopener noreferrer" data
+	-auth="NotApplicable">\nhttps://m365dev/videos</a>&nbsp\;</div>\n<div>-&nb
+	sp\;Community call summaries will be published at <a href="https://aka.ms/
+	m365pnp/community/blog" target="_blank" rel="noopener noreferrer" data-aut
+	h="NotApplicable">\nhttps://aka.ms/m365pnp/community/blog</a>&nbsp\;</div>
+	\n<div>-&nbsp\;Latest news on Microsoft 365 platform from Microsoft 365 de
+	veloper blog at\n<a href="https://developer.microsoft.com/en-us/microsoft-
+	365/blogs/" target="_blank" rel="noopener noreferrer" data-auth="NotApplic
+	able">\nhttps://developer.microsoft.com/en-us/microsoft-365/blogs/</a>&nbs
+	p\;</div>\n<div><br>\n</div>\nEasiest way to find official docs\, SDKs and
+	 community assets - <a href="https://aka.ms/m365pnp" target="_blank" rel="
+	noopener noreferrer" data-auth="NotApplicable">\nhttps://aka.ms/m365pnp</a
+	>&nbsp\;&nbsp\;<br>\n</div>\n<div style="font-family: &quot\;Segoe UI&quot
+	\;\, &quot\;Helvetica Neue&quot\;\, sans-serif\; font-size: 10pt\; color: 
+	rgb(0\, 0\, 0)\; background-color: rgb(255\, 255\, 255)\;">\n<br>\n</div>\
+	n<div style="font-family: &quot\;Segoe UI&quot\;\, &quot\;Helvetica Neue&q
+	uot\;\, sans-serif\; font-size: 10pt\; color: rgb(0\, 0\, 0)\; background-
+	color: rgb(255\, 255\, 255)\;">\n<br>\n</div>\n<div style="font-family: &q
+	uot\;Segoe UI&quot\;\, &quot\;Helvetica Neue&quot\;\, sans-serif\; font-si
+	ze: 10pt\; color: rgb(0\, 0\, 0)\; background-color: rgb(255\, 255\, 255)\
+	;">\n<p class="x_x_x_MsoPlainText" style="margin: 0cm\; color: rgb(0\, 0\,
+	 0)\; background-color: rgb(255\, 255\, 255)\; font-size: 11pt\; font-fami
+	ly: Calibri\, sans-serif\;">\n</p>\n<br>\n</div>\n</div>\n</div>\n</div>\n
+	</div>\n</body>\n</html>\n
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
