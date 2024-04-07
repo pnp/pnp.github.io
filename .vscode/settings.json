@@ -2,5 +2,64 @@
     "cSpell.words": [
         "demosite",
         "licenselink"
-    ]
+    ],
+    "frontMatter.framework.id": "hugo",
+    "frontMatter.content.publicFolder": "static",
+    "frontMatter.preview.host": "http://localhost:1313",
+    "frontMatter.content.draftField": {
+
+        "name": "draft",
+        "type": "boolean"
+    },
+    "frontMatter.data.files": [
+
+        {
+            "id": "team",
+            "title": "PnP Team",
+            "file": "[[workspace]]/data/team.json",
+            "fileType": "json",
+            "labelField": "name",
+            "singleEntry": false,
+            "schema": {
+                "title": "Team Member",
+                "type": "object",
+                "required": [
+                    "name",
+                    "img",
+                    "company"
+                ],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "title": "Name"
+                    },
+                    "img": {
+                        "type": "string",
+                        "title": "Image"
+                    },
+                    "company": {
+                        "type": "string",
+                        "title": "Company"
+                    },
+                    "title": {
+                        "type": "string",
+                        "title": "Title"
+                    },
+                    "github": {
+                        "type": "string",
+                        "title": "GitHub URL"
+                    },
+                    "twitter": {
+                        "type": "string",
+                        "title": "Twitter URL"
+                    },
+                    "linkedin": {
+                        "type": "string",
+                        "title": "LinkedIn URL"
+                    }
+                }
+            }
+        }
+    ],
+    "frontMatter.experimental": true
 }
