@@ -1,3 +1,67 @@
 {
-    "liveServer.settings.port": 5501
+    "cSpell.words": [
+        "demosite",
+        "licenselink"
+    ],
+    "frontMatter.framework.id": "hugo",
+    "frontMatter.content.publicFolder": "static",
+    "frontMatter.preview.host": "http://localhost:1313",
+    "frontMatter.content.draftField": {
+        "name": "draft",
+        "type": "boolean"
+    },
+    "frontMatter.data.files": [
+        {
+            "id": "team",
+            "title": "PnP Team",
+            "file": "[[workspace]]/data/team.json",
+            "fileType": "json",
+            "labelField": "name",
+            "singleEntry": false,
+            "schema": {
+                "title": "Team Member",
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "company": {
+                            "type": "string"
+                        },
+                        "img": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "github": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "twitter": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "linkedin": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "title": {
+                            "type": "string",
+                            "default": ""
+                        }
+                    },
+                    "required": [
+                        "name",
+                        "company",
+                        "img",
+                        "github",
+                        "twitter",
+                        "linkedin"
+                    ]
+                }
+            }
+        }
+    ],
+    "frontMatter.experimental": true
 }
