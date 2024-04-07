@@ -159,12 +159,12 @@
     "yargs-parser": "^21.1.1"
   },
   "devDependencies": {
-    "node-sass": "^9.0.0",
+    "sass": "^1.74.1",
     "typescript": "^5.4.4"
   },
   "scripts": {
     "build": "tsc",
-    "scss": "node-sass --output-style compressed -o themes/pnp-hugo-theme/static/css themes/pnp-hugo-theme/assets/scss"
+    "scss": "sass themes/pnp-hugo-theme/assets/scss/:themes/pnp-hugo-theme/static/css/  --no-source-map --style=compressed "
   },
   "keywords": [],
   "author": "",

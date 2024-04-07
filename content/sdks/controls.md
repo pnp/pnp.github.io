@@ -1,6 +1,6 @@
 ---
-title: "Reusable Controls"
-description: "Provides developers with a set of reusable React controls that can be used in SharePoint Framework (SPFx) solutions. The project provides controls for building web parts and extensions."
+title: "React Reusable Controls"
+description: "Build professional-looking web parts and extensions with a set of reusable React controls that can be used in SharePoint Framework (SPFx) solutions."
 image: "images/sdks-background-reusable-controls.webp"
 externalUrl: "https://pnp.github.io/sp-dev-fx-controls-react/"
 ---

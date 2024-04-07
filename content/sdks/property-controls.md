@@ -1,6 +1,6 @@
 ---
 title: "Reusable Property Controls"
-description: "Provides developers with a set of reusable property pane controls that can be used in their SharePoint Framework (SPFx) solutions."
+description: "Add professional property panes to your web parts with a set of reusable property pane controls that can be used in SharePoint Framework (SPFx) solutions."
 image: "images/sdks-background-property-controls.webp"
 externalUrl: "https://pnp.github.io/sp-dev-fx-property-controls/"
 ---

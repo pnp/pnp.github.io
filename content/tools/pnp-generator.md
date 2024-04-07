@@ -1,6 +1,6 @@
 ---
 title: "PnP SPFx Yeoman generator"
-description: "PThis Yeoman generator provides improved governance for SharePoint Framework projects. It extends the out of the box Yeoman generator from Microsoft (@microsoft/generator-sharepoint) with recommended patterns and additional capabilities."
+description: "Start your new SharePoint Framework projects with recommended patterns, improved governance, and additional capabilities. This Yeoman generator extends the out of the box Yeoman generator from Microsoft to accelerate building professional solutions quickly."
 image: "images/tool-background-pnp-generator.webp"
 externalUrl: "https://pnp.github.io/generator-spfx/"
 ---
