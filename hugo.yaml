@@ -1,0 +1,72 @@
+baseURL: "https://pnp.github.io/"
+languageCode: "en-us"
+title: "Microsoft 365 & Power Platform Community"
+theme: "pnp-hugo-theme"
+
+menus:
+  # The top navigation menu
+  main:
+    - identifier: "blog"
+      name: "Blog"
+      url: "https://pnp.github.io/blog"
+      weight: 10
+    - identifier: "community"
+      name: "Community Calls"
+      url: "#community"
+      weight: 20
+    - identifier: "guidance"
+      name: "Guidance"
+      url: "#guidance"
+      weight: 30
+    - identifier: "samples"
+      name: "Samples & Solutions"
+      url: "#samples"
+      weight: 40
+    - identifier: "sdks"
+      name: "SDKS"
+      url: "#sdks"
+      weight: 50
+    - identifier: "tools"
+      name: "Tools"
+      url: "#tools"
+      weight: 60
+
+params:
+  # You can override all the default behaviors by copying the template files from the theme and modifying them.
+  # But this allows you to override the default behavior of the theme without having to mess with the templates.
+  # You do you!
+
+  # The call to action at the bottom of the hero section
+  callToAction: "Changing the world one contribution at a time!"
+
+  # The tagline is used in the hero section, on the right of the big logo
+  tagline: "<p>Learn from others how to build apps on Microsoft 365 & Power Platform.</p><p>Don't reinvent the wheel. Focus on what truly matters for your organization.</p>"
+  
+  # Needed for the blog feed section -- if used
+  rssFeedUrl: "https://pnp.github.io/blog/index.xml"
+  homePageSections:
+    - "hero"
+    # - "blog"
+    - "blog-feed"
+    - "community"
+    - "guidance"
+    - "samples"
+    - "sdks"
+    - "tools"
+    - "extensions"
+    - "forums"
+    - "team"
+  
+  # The big logo is used in the hero section
+  # You should split the title into multiple lines if it's too long
+  bigLogo:
+    - line: "Microsoft 365 &"
+    - line: "Power Platform"
+      class: "fa-pp"
+    - line: "Community"
+      class: "fa-com"
+  
+  # If small logo isn't defined, the site will use the title. This is only needed if you want to split the title into multiple lines.
+  smallLogo:
+    - "Microsoft 365 & Power"
+    - "Platform Community"

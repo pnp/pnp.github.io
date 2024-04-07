@@ -1,5 +1,6 @@
 ---
 title: "List formatting"
 description: "Get more out of SharePoint Lists by customizing how they look and function"
-image: "/images/sample-background.webp"
+image: "/images/samples-background-list-formatting.webp"
+externalUrl: "https://pnp.github.io/List-Formatting/"
 ---
