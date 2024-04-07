@@ -7,12 +7,10 @@
     "frontMatter.content.publicFolder": "static",
     "frontMatter.preview.host": "http://localhost:1313",
     "frontMatter.content.draftField": {
-
         "name": "draft",
         "type": "boolean"
     },
     "frontMatter.data.files": [
-
         {
             "id": "team",
             "title": "PnP Team",
@@ -22,41 +20,45 @@
             "singleEntry": false,
             "schema": {
                 "title": "Team Member",
-                "type": "object",
-                "required": [
-                    "name",
-                    "img",
-                    "company"
-                ],
-                "properties": {
-                    "name": {
-                        "type": "string",
-                        "title": "Name"
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "company": {
+                            "type": "string"
+                        },
+                        "img": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "github": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "twitter": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "linkedin": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "title": {
+                            "type": "string",
+                            "default": ""
+                        }
                     },
-                    "img": {
-                        "type": "string",
-                        "title": "Image"
-                    },
-                    "company": {
-                        "type": "string",
-                        "title": "Company"
-                    },
-                    "title": {
-                        "type": "string",
-                        "title": "Title"
-                    },
-                    "github": {
-                        "type": "string",
-                        "title": "GitHub URL"
-                    },
-                    "twitter": {
-                        "type": "string",
-                        "title": "Twitter URL"
-                    },
-                    "linkedin": {
-                        "type": "string",
-                        "title": "LinkedIn URL"
-                    }
+                    "required": [
+                        "name",
+                        "company",
+                        "img",
+                        "github",
+                        "twitter",
+                        "linkedin"
+                    ]
                 }
             }
         }
