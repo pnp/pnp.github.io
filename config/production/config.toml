@@ -1,0 +1,4 @@
+baseURL = "https://pnp.github.io/"
+
+[params]
+disablePnPTelemetry = false

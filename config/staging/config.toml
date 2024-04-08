@@ -1,0 +1,4 @@
+baseURL = "https://hugoabernier.github.io/pnp.github.io/"
+
+[params]
+disablePnPTelemetry = true
