@@ -14,9 +14,9 @@ foreach ($file in $mdFiles) {
     $yaml = ConvertFrom-Yaml $frontMatter
 
 
-    # Check if the file has a YAML front matter with an externalUrl property
-    if ($yaml.externalUrl) {
-        $url = $yaml.externalUrl
+    # Check if the file has a YAML front matter with an externalLink property
+    if ($yaml.externalLink) {
+        $url = $yaml.externalLink
 
         try {
             # Test the URL with HEAD method

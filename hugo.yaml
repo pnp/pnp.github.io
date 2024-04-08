@@ -36,6 +36,10 @@ params:
   # But this allows you to override the default behavior of the theme without having to mess with the templates.
   # You do you!
 
+  description: "Learn from others how to build apps on Microsoft 365 & Power Platform."
+  social:
+    twitter: m365pnp
+
   # The call to action at the bottom of the hero section
   callToAction: "Changing the world one contribution at a time!"
 
@@ -70,3 +74,7 @@ params:
   smallLogo:
     - "Microsoft 365 & Power"
     - "Platform Community"
+
+  clarity:
+    # The Clarity Analytics tracking code
+    trackingCode: "a7ttm14uzv"

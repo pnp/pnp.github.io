@@ -9,7 +9,7 @@ youtubeUrl: "https://www.youtube.com/playlist?list=PLR9nK3mnD-OURfm5Ypu-wK52cxBv
 description: >
     Welcome to Microsoft 365 Patterns and Practices Bi-weekly Special Interest Group call around Microsoft 365 General developer topics. Topics covered in this call are solution designs, provisioning, Microsoft Teams, SharePoint, Online, Power Platform etc. across the platform with updates from Microsoft and 2-3 live demos.
 organizer: "Microsoft 365 & Power Platform Community"
-image: "/images/sample-event.webp"
+image: "images/sample-event.webp"
 weight: 30
 
 ---

@@ -2,7 +2,7 @@
     {
         "name": "April Dunnam",
         "company": "Microsoft",
-        "img": "/images/team/aprildunnam.webp",
+        "img": "images/team/aprildunnam.webp",
         "github": "https://github.com/aprildunnam",
         "twitter": "https://twitter.com/aprildunnam",
         "linkedin": "https://www.linkedin.com/in/aprildunnam/"
@@ -10,7 +10,7 @@
     {
         "name": "Chandani Prajapati",
         "company": "Rapid Circle",
-        "img": "/images/team/chandaniprajapati.webp",
+        "img": "images/team/chandaniprajapati.webp",
         "github": "https://github.com/chandaniprajapati",
         "title": "MVP",
         "twitter": "https://twitter.com/Chandani_SPD",
@@ -19,7 +19,7 @@
     {
         "name": "Emily Mancini",
         "company": "Sympraxis Consulting",
-        "img": "/images/team/emilymancini.webp",
+        "img": "images/team/emilymancini.webp",
         "github": "https://github.com/EEMancini",
         "title": "MVP",
         "twitter": "https://twitter.com/EEMancini",
@@ -28,7 +28,7 @@
     {
         "name": "Julie Turner",
         "company": "Sympraxis Consulting",
-        "img": "/images/team/julieturner.webp",
+        "img": "images/team/julieturner.webp",
         "github": "https://github.com/juliemturner",
         "title": "MVP",
         "twitter": "https://twitter.com/jfj1997",
@@ -37,7 +37,7 @@
     {
         "name": "Laura Kokkarinen",
         "company": "Sulava",
-        "img": "/images/team/laurakokkarinen.webp",
+        "img": "images/team/laurakokkarinen.webp",
         "github": "https://github.com/LauraKokkarinen",
         "title": "MVP",
         "twitter": "https://twitter.com/LauraKokkarinen",
@@ -46,7 +46,7 @@
     {
         "name": "Luise Freese",
         "company": "M365 Princess",
-        "img": "/images/team/luisefreese.webp",
+        "img": "images/team/luisefreese.webp",
         "github": "https://github.com/LuiseFreese",
         "title": "MVP",
         "twitter": "https://twitter.com/LuiseFreese",
@@ -55,7 +55,7 @@
     {
         "name": "Veronique Lengelle",
         "company": "CPS",
-        "img": "/images/team/veroniquelengelle.webp",
+        "img": "images/team/veroniquelengelle.webp",
         "github": "https://github.com/veronicageek",
         "title": "MVP",
         "twitter": "https://twitter.com/veronicageek",
@@ -64,7 +64,7 @@
     {
         "name": "Adam W\u00f3jcik",
         "company": "Hitachi Energy",
-        "img": "/images/team/adamwojcik.webp",
+        "img": "images/team/adamwojcik.webp",
         "github": "https://github.com/Adam-it",
         "title": "MVP",
         "linkedin": "https://www.linkedin.com/in/adam-w%C3%B3jcik-9b7777a6/",
@@ -73,7 +73,7 @@
     {
         "name": "Albert-Jan Schot",
         "company": "BLIS.digital",
-        "img": "/images/team/albertjanschot.webp",
+        "img": "images/team/albertjanschot.webp",
         "github": "https://github.com/appieschot",
         "title": "MVP",
         "twitter": "https://twitter.com/appieschot",
@@ -82,7 +82,7 @@
     {
         "name": "Alex Terentiev",
         "company": "Microsoft",
-        "img": "/images/team/alexterentiev.webp",
+        "img": "images/team/alexterentiev.webp",
         "github": "https://github.com/AJIXuMuK",
         "twitter": "https://twitter.com/alexaterentiev",
         "linkedin": "https://www.linkedin.com/in/alekseiterentiev/"
@@ -90,7 +90,7 @@
     {
         "name": "Andrew Connell",
         "company": "Voitanos",
-        "img": "/images/team/andrewconnell.webp",
+        "img": "images/team/andrewconnell.webp",
         "github": "https://github.com/andrewconnell",
         "title": "MVP",
         "twitter": "https://twitter.com/andrewconnell",
@@ -99,7 +99,7 @@
     {
         "name": "Andrew Koltyakov",
         "company": "Arvo Systems",
-        "img": "/images/team/andrewkoltyakov.webp",
+        "img": "images/team/andrewkoltyakov.webp",
         "github": "https://github.com/koltyakov",
         "title": "MVP",
         "twitter": "https://twitter.com/AndrewKoltyakov",
@@ -108,7 +108,7 @@
     {
         "name": "Anoop Tatti",
         "company": "Content+Cloud",
-        "img": "/images/team/anooptatti.webp",
+        "img": "images/team/anooptatti.webp",
         "github": "https://github.com/anoopt",
         "title": "MVP",
         "twitter": "https://twitter.com/anooptells",
@@ -117,7 +117,7 @@
     {
         "name": "Arjun Menon",
         "company": "TCS",
-        "img": "/images/team/arjunumenon.webp",
+        "img": "images/team/arjunumenon.webp",
         "github": "https://github.com/arjunumenon",
         "title": "MVP",
         "twitter": "https://twitter.com/arjunumenon",
@@ -126,7 +126,7 @@
     {
         "name": "Beau Cameron",
         "company": "DMI",
-        "img": "/images/team/beaucameron.webp",
+        "img": "images/team/beaucameron.webp",
         "github": "https://github.com/bcameron1231",
         "title": "MVP",
         "twitter": "https://twitter.com/Beau__Cameron",
@@ -135,7 +135,7 @@
     {
         "name": "Bert Jansen",
         "company": "Microsoft",
-        "img": "/images/team/bertjansen.webp",
+        "img": "images/team/bertjansen.webp",
         "github": "https://github.com/jansenbe",
         "twitter": "https://twitter.com/O365Bert",
         "linkedin": "https://www.linkedin.com/in/bertjansen/"
@@ -143,7 +143,7 @@
     {
         "name": "Bob German",
         "company": "Microsoft",
-        "img": "/images/team/bobgerman.webp",
+        "img": "images/team/bobgerman.webp",
         "github": "https://github.com/BobGerman",
         "twitter": "https://twitter.com/bob1german",
         "linkedin": "https://www.linkedin.com/in/bgerman/"
@@ -151,7 +151,7 @@
     {
         "name": "Chris Kent",
         "company": "Takeda",
-        "img": "/images/team/thechriskent.webp",
+        "img": "images/team/thechriskent.webp",
         "github": "https://github.com/thechriskent",
         "title": "MVP",
         "twitter": "https://twitter.com/theChrisKent",
@@ -160,7 +160,7 @@
     {
         "name": "Daniel Laskewitz",
         "company": "Microsoft",
-        "img": "/images/team/daniellaskewitz.webp",
+        "img": "images/team/daniellaskewitz.webp",
         "github": "https://github.com/Laskewitz",
         "twitter": "https://twitter.com/laskewitz",
         "linkedin": "https://www.linkedin.com/in/laskewitz/"
@@ -168,7 +168,7 @@
     {
         "name": "David Warner",
         "company": "Microsoft",
-        "img": "/images/team/davidwarner.webp",
+        "img": "images/team/davidwarner.webp",
         "github": "https://github.com/PopWarner",
         "twitter": "https://twitter.com/DavidWarnerII",
         "linkedin": "https://www.linkedin.com/in/davidwarnerii/"
@@ -176,7 +176,7 @@
     {
         "name": "Derek Cash-Peterson",
         "company": "Sympraxis Consulting",
-        "img": "/images/team/derekcashpeterson.webp",
+        "img": "images/team/derekcashpeterson.webp",
         "github": "https://github.com/dcashpeterson/",
         "title": "MVP",
         "twitter": "https://twitter.com/spdcp",
@@ -185,7 +185,7 @@
     {
         "name": "Elio Struyf",
         "company": "Struyf Consulting",
-        "img": "/images/team/eliostruyf.webp",
+        "img": "images/team/eliostruyf.webp",
         "github": "https://github.com/estruyf",
         "title": "MVP",
         "twitter": "https://twitter.com/eliostruyf",
@@ -194,7 +194,7 @@
     {
         "name": "Fabio Franzini",
         "company": "Apvee Solutions",
-        "img": "/images/team/fabiofranzini.webp",
+        "img": "images/team/fabiofranzini.webp",
         "github": "https://github.com/fabiofranzini",
         "title": "MVP",
         "twitter": "https://twitter.com/franzinifabio",
@@ -203,7 +203,7 @@
     {
         "name": "Erwin van Hunen",
         "company": "Valo Intranet",
-        "img": "/images/team/erwinvanhunen.webp",
+        "img": "images/team/erwinvanhunen.webp",
         "github": "https://github.com/erwinvanhunen",
         "title": "MVP",
         "twitter": "https://twitter.com/erwinvanhunen",
@@ -212,7 +212,7 @@
     {
         "name": "Eric Overfield",
         "company": "PixelMill",
-        "img": "/images/team/ericoverfield.webp",
+        "img": "images/team/ericoverfield.webp",
         "github": "https://github.com/eoverfield",
         "title": "MVP",
         "twitter": "https://twitter.com/EricOverfield",
@@ -221,7 +221,7 @@
     {
         "name": "Garry Trinder",
         "company": "Microsoft",
-        "img": "/images/team/garrytrinder.webp",
+        "img": "images/team/garrytrinder.webp",
         "github": "https://github.com/garrytrinder",
         "twitter": "https://twitter.com/garrytrinder",
         "linkedin": "https://www.linkedin.com/in/garry-trinder/"
@@ -229,7 +229,7 @@
     {
         "name": "Gautam Sheth",
         "company": "Valo Intranet",
-        "img": "/images/team/gautamsheth.webp",
+        "img": "images/team/gautamsheth.webp",
         "github": "https://github.com/gautamdsheth",
         "twitter": "https://twitter.com/gautamdsheth",
         "linkedin": "https://www.linkedin.com/in/gautamdsheth/",
@@ -238,7 +238,7 @@
     {
         "name": "Hugo Bernier",
         "company": "Takeda",
-        "img": "/images/team/hugobernier.webp",
+        "img": "images/team/hugobernier.webp",
         "github": "https://github.com/hugoabernier",
         "title": "MVP",
         "linkedin": "https://www.linkedin.com/in/hugobernier/",
@@ -247,7 +247,7 @@
     {
         "name": "Jasey Waegebaert",
         "company": "Xylos",
-        "img": "/images/team/jaseywaegebaert.webp",
+        "img": "images/team/jaseywaegebaert.webp",
         "github": "https://github.com/Jwaegebaert",
         "title": "MVP",
         "twitter": "https://twitter.com/jwaegebaert",
@@ -256,7 +256,7 @@
     {
         "name": "Jo\u00e3o J. Mendes",
         "company": "Valo",
-        "img": "/images/team/joaomendes.webp",
+        "img": "images/team/joaomendes.webp",
         "github": "https://github.com/joaojmendes/",
         "title": "MVP",
         "twitter": "https://twitter.com/joaojmendes",
@@ -265,7 +265,7 @@
     {
         "name": "Joel Rodrigues",
         "company": "Strom Technology",
-        "img": "/images/team/joelrodrigues.webp",
+        "img": "images/team/joelrodrigues.webp",
         "github": "https://github.com/joelfmrodrigues/",
         "title": "MVP",
         "twitter": "https://twitter.com/JoelFMRodrigues",
@@ -274,7 +274,7 @@
     {
         "name": "Koen Zomers",
         "company": "Microsoft",
-        "img": "/images/team/koenzomers.webp",
+        "img": "images/team/koenzomers.webp",
         "github": "https://github.com/koenzomers",
         "twitter": "https://twitter.com/koenzomers",
         "linkedin": "https://www.linkedin.com/in/koenzomers/"
@@ -282,7 +282,7 @@
     {
         "name": "Marc D. Anderson",
         "company": "Sympraxis Consulting",
-        "img": "/images/team/marcanderson.webp",
+        "img": "images/team/marcanderson.webp",
         "github": "https://github.com/sympmarc",
         "title": "MVP",
         "twitter": "https://twitter.com/sympmarc",
@@ -291,7 +291,7 @@
     {
         "name": "Markus M\u00f6ller",
         "company": "Avanade",
-        "img": "/images/team/markusmoller.webp",
+        "img": "images/team/markusmoller.webp",
         "github": "https://github.com/mmsharepoint",
         "title": "MVP",
         "twitter": "https://twitter.com/Moeller2_0",
@@ -300,7 +300,7 @@
     {
         "name": "Martin Lingstuyl",
         "company": "I4-YOU",
-        "img": "/images/team/martinlingstuyl.webp",
+        "img": "images/team/martinlingstuyl.webp",
         "github": "https://github.com/martinlingstuyl",
         "title": "MVP",
         "twitter": "https://twitter.com/martinlingstuyl",
@@ -309,7 +309,7 @@
     {
         "name": "Mikael Svenson",
         "company": "Microsoft",
-        "img": "/images/team/mikaelsvenson.webp",
+        "img": "images/team/mikaelsvenson.webp",
         "github": "https://github.com/wobba",
         "twitter": "https://twitter.com/mikaelsvenson",
         "linkedin": "https://www.linkedin.com/in/mikaels/"
@@ -317,7 +317,7 @@
     {
         "name": "Milan Holemans",
         "company": "Xylos",
-        "img": "/images/team/milanholemans.webp",
+        "img": "images/team/milanholemans.webp",
         "github": "https://github.com/milanholemans",
         "title": "MVP",
         "linkedin": "https://www.linkedin.com/in/milanholemans/"
@@ -325,7 +325,7 @@
     {
         "name": "Paolo Pialorsi",
         "company": "PiaSys.com",
-        "img": "/images/team/paolopialorsi.webp",
+        "img": "images/team/paolopialorsi.webp",
         "github": "https://github.com/PaoloPia",
         "title": "MVP",
         "twitter": "https://twitter.com/PaoloPia",
@@ -334,7 +334,7 @@
     {
         "name": "Patrick Rodgers",
         "company": "Microsoft",
-        "img": "/images/team/patrickrodgers.webp",
+        "img": "images/team/patrickrodgers.webp",
         "github": "https://github.com/patrick-rodgers",
         "twitter": "https://twitter.com/mediocrebowler",
         "linkedin": "https://www.linkedin.com/in/patrick-rodgers-b6a05610/"
@@ -342,7 +342,7 @@
     {
         "name": "Paul Bullock",
         "company": "Avanade",
-        "img": "/images/team/paulbullock.webp",
+        "img": "images/team/paulbullock.webp",
         "github": "https://github.com/pkbullock",
         "title": "MVP",
         "twitter": "https://twitter.com/pkbullock",
@@ -351,7 +351,7 @@
     {
         "name": "Rick Van Rousselt",
         "company": "Advantive",
-        "img": "/images/team/rickvanrousselt.webp",
+        "img": "images/team/rickvanrousselt.webp",
         "github": "https://github.com/RickVanRousselt/",
         "title": "MVP",
         "twitter": "https://twitter.com/RickVanRousselt",
@@ -360,7 +360,7 @@
     {
         "name": "S\u00e9bastien Levert",
         "company": "Microsoft",
-        "img": "/images/team/sebastienlevert.webp",
+        "img": "images/team/sebastienlevert.webp",
         "github": "https://github.com/sebastienlevert",
         "twitter": "https://twitter.com/sebastienlevert",
         "linkedin": "https://www.linkedin.com/in/sebastienlevert/"
@@ -368,7 +368,7 @@
     {
         "name": "Sergei Sergeev",
         "company": "",
-        "img": "/images/team/sergeisergeev.webp",
+        "img": "images/team/sergeisergeev.webp",
         "github": "https://github.com/s-KaiNet",
         "title": "MVP",
         "twitter": "https://twitter.com/sergeev_srg",
@@ -377,7 +377,7 @@
     {
         "name": "Stefan Bauer",
         "company": "N8D",
-        "img": "/images/team/stefanbauer.webp",
+        "img": "images/team/stefanbauer.webp",
         "github": "https://github.com/stfbauer",
         "title": "MVP",
         "twitter": "https://twitter.com/StfBauer",
@@ -386,7 +386,7 @@
     {
         "name": "Stephan Bisser",
         "company": "Solvion",
-        "img": "/images/team/stephanbisser.webp",
+        "img": "images/team/stephanbisser.webp",
         "github": "https://github.com/stephanbisser/",
         "title": "MVP",
         "twitter": "https://twitter.com/stephanbisser",
@@ -395,7 +395,7 @@
     {
         "name": "Tetsuya Kawahara",
         "company": "",
-        "img": "/images/team/tetsuyakawahara.webp",
+        "img": "images/team/tetsuyakawahara.webp",
         "github": "https://github.com/tecchan1107/",
         "title": "MVP",
         "twitter": "https://twitter.com/techan_k/",
@@ -404,7 +404,7 @@
     {
         "name": "Thomas G\u00f6lles",
         "company": "Solvion",
-        "img": "/images/team/thomasgolles.webp",
+        "img": "images/team/thomasgolles.webp",
         "github": "https://github.com/thomyg/",
         "title": "MVP",
         "linkedin": "https://www.linkedin.com/in/thomas-goelles/",
@@ -413,7 +413,7 @@
     {
         "name": "Vesa Juvonen",
         "company": "Microsoft",
-        "img": "/images/team/vesajuvonen.webp",
+        "img": "images/team/vesajuvonen.webp",
         "github": "https://github.com/VesaJuvonen",
         "twitter": "https://twitter.com/vesajuvonen",
         "linkedin": "https://www.linkedin.com/in/vesajuvonen/"
@@ -421,7 +421,7 @@
     {
         "name": "Waldek Mastykarz",
         "company": "Microsoft",
-        "img": "/images/team/waldekmastykarz.webp",
+        "img": "images/team/waldekmastykarz.webp",
         "github": "https://github.com/waldekmastykarz",
         "twitter": "https://twitter.com/waldekm",
         "linkedin": "https://www.linkedin.com/in/waldekmastykarz/"
@@ -429,7 +429,7 @@
     {
         "name": "Wictor Wil\u00e9n",
         "company": "Microsoft",
-        "img": "/images/team/wictorwilen.webp",
+        "img": "images/team/wictorwilen.webp",
         "github": "https://github.com/wictorwilen",
         "twitter": "https://twitter.com/wictor",
         "linkedin": "https://www.linkedin.com/in/wictorwilen/"
