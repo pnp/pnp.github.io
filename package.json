@@ -164,7 +164,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "scss": "sass themes/pnp-hugo-theme/assets/scss/:themes/pnp-hugo-theme/static/css/  --no-source-map --style=compressed "
+    "scss": "sass themes/pnp-hugo-theme/assets/scss/:themes/pnp-hugo-theme/assets/css/  --no-source-map --style=compressed "
   },
   "keywords": [],
   "author": "",

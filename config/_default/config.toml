@@ -1,2 +1,67 @@
+baseURL = "https://hugoabernier.github.io/pnp.github.io/"
+languageCode = "en-us"
+title = "Microsoft 365 & Power Platform Community"
+theme = "pnp-hugo-theme"
+
+[menus]
+[[menus.main]]
+identifier = "blog"
+name = "Blog"
+url = "https://pnp.github.io/blog"
+weight = 10
+
+[[menus.main]]
+identifier = "community"
+name = "Community Calls"
+url = "#community"
+weight = 20
+
+[[menus.main]]
+identifier = "guidance"
+name = "Guidance"
+url = "#guidance"
+weight = 30
+
+[[menus.main]]
+identifier = "samples"
+name = "Samples & Solutions"
+url = "#samples"
+weight = 40
+
+[[menus.main]]
+identifier = "sdks"
+name = "SDKS"
+url = "#sdks"
+weight = 50
+
+[[menus.main]]
+identifier = "tools"
+name = "Tools"
+url = "#tools"
+weight = 60
+
 [params]
+description = "Learn from others how to build apps on Microsoft 365 & Power Platform."
+callToAction = "Changing the world one contribution at a time!"
+tagline = "<p>Learn from others how to build apps on Microsoft 365 & Power Platform.</p><p>Don't reinvent the wheel. Focus on what truly matters for your organization.</p>"
+rssFeedUrl = "https://pnp.github.io/blog/index.xml"
+homePageSections = [ "hero", "blog-feed", "community", "guidance", "samples", "sdks", "tools", "extensions", "forums", "team"]
+smallLogo = [ "Microsoft 365 & Power", "Platform Community"]
 disablePnPTelemetry = true
+[[params.bigLogo]]
+line = "Microsoft 365 &"
+
+[[params.bigLogo]]
+line = "Power Platform"
+class = "fa-pp"
+
+[[params.bigLogo]]
+line = "Community"
+class = "fa-com"
+
+[params.social]
+twitter = "m365pnp"
+
+[params.clarity]
+trackingCode = "a7ttm14uzv"
+
