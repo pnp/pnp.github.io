@@ -1,6 +1,6 @@
 ---
 title: "Teams Yeoman Generator‍"
-description: "Provides developers with a set of reusable React controls that can be used in SharePoint Framework (SPFx) solutions. The project provides controls for building web parts and extensions."
+description: "Reusable React controls to use in your SharePoint Framework (SPFx) web part and extension solutions."
 image: "images/tools-background-yo-teams.webp"
 externalLink: "https://github.com/pnp/generator-teams"
 ---

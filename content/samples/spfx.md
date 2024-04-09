@@ -1,6 +1,6 @@
 ---
 title: "Web parts and extensions"
-description: "Discover a world of possibilities with the SharePoint client-side web parts and extensions samples! This rich repository, crafted by Microsoft and the global community, is a treasure trove of inspiration for your SPFx projects."
+description: "Hundreds of web part and extensions crafted by Microsoft and the global community. It is a treasure trove of inspiration for your SPFx projects."
 image: "images/samples-background-spfx.webp"
 externalLink: "https://aka.ms/spfx-webparts"
 ---
