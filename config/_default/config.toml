@@ -48,6 +48,9 @@ rssFeedUrl = "https://pnp.github.io/blog/index.xml"
 homePageSections = [ "hero", "blog-feed", "community", "guidance", "samples", "sdks", "tools", "extensions", "forums", "team"]
 smallLogo = [ "Microsoft 365 & Power", "Platform Community"]
 disablePnPTelemetry = true
+logo = "pnp.svg"
+alternateName = "PnP"
+
 [[params.bigLogo]]
 line = "Microsoft 365 &"
 
@@ -64,4 +67,3 @@ twitter = "m365pnp"
 
 [params.clarity]
 trackingCode = "a7ttm14uzv"
-
