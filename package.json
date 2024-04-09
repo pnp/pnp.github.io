@@ -7,7 +7,6 @@
     "ansi-regex": "^5.0.1",
     "ansi-styles": "^4.3.0",
     "anymatch": "^3.1.3",
-    "autoprefixer": "^10.4.19",
     "binary-extensions": "^2.3.0",
     "boolbase": "^1.0.0",
     "braces": "^3.0.2",
@@ -74,11 +73,9 @@
     "picocolors": "^1.0.0",
     "picomatch": "^2.3.1",
     "pify": "^2.3.0",
-    "postcss": "^8.4.38",
     "postcss-attribute-case-insensitive": "^6.0.3",
     "postcss-calc": "^9.0.1",
     "postcss-clamp": "^4.1.0",
-    "postcss-cli": "^11.0.0",
     "postcss-color-functional-notation": "^6.0.8",
     "postcss-color-hex-alpha": "^9.0.4",
     "postcss-color-rebeccapurple": "^9.0.3",
@@ -159,14 +156,25 @@
     "yargs-parser": "^21.1.1"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "postcss-scss": "^4.0.9",
     "sass": "^1.74.1",
     "typescript": "^5.4.4"
   },
   "scripts": {
-    "build": "tsc",
-    "scss": "sass themes/pnp-hugo-theme/assets/scss/:themes/pnp-hugo-theme/assets/css/  --no-source-map --style=compressed "
+    "build:tsc": "tsc",
+    "build:scss": "sass themes/pnp-hugo-theme/assets/scss/:themes/pnp-hugo-theme/assets/css/  --no-source-map",
+    "build:css": "postcss themes/pnp-hugo-theme/assets/css/ --dir themes/pnp-hugo-theme/assets/css/ --ext .css --parser postcss-scss",
+    "build": "npm run build:tsc && npm run build:scss && npm run build:css"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "browserslist": [
+    ">0.5%",
+    "last 2 years",
+    "not dead"
+  ]
 }
