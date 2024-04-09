@@ -1,8 +1,10 @@
 {
     "cSpell.words": [
+        "datafile",
         "demosite",
         "licenselink",
-        "pnptelemetry"
+        "pnptelemetry",
+        "sectionname"
     ],
     "frontMatter.framework.id": "hugo",
     "frontMatter.content.publicFolder": "static",

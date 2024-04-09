@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES6",
     "module": "commonjs",
     "outDir": "themes/pnp-hugo-theme/assets/js",
     "strict": true,
+    "esModuleInterop": true,
     "lib": [
       "dom",
       "es2015.promise",

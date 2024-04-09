@@ -13,7 +13,7 @@ weight = 10
 [[menus.main]]
 identifier = "community"
 name = "Community Calls"
-url = "#community"
+url = "#events"
 weight = 20
 
 [[menus.main]]
@@ -45,7 +45,6 @@ description = "Learn from others how to build apps on Microsoft 365 & Power Plat
 callToAction = "Changing the world one contribution at a time!"
 tagline = "<p>Learn from others how to build apps on Microsoft 365 & Power Platform.</p><p>Don't reinvent the wheel. Focus on what truly matters for your organization.</p>"
 rssFeedUrl = "https://pnp.github.io/blog/index.xml"
-homePageSections = [ "hero", "blog-feed", "community", "guidance", "samples", "sdks", "tools", "extensions", "forums", "team"]
 smallLogo = [ "Microsoft 365 & Power", "Platform Community"]
 disablePnPTelemetry = true
 logo = "pnp.svg"

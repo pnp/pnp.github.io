@@ -51,6 +51,7 @@
     "glob-parent": "^5.1.2",
     "globby": "^14.0.1",
     "graceful-fs": "^4.2.11",
+    "icalts": "^0.0.2",
     "ignore": "^5.3.1",
     "is-binary-path": "^2.1.0",
     "is-extglob": "^2.1.1",
