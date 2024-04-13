@@ -39,12 +39,14 @@ async function main() {
         console.log('ICS file has been downloaded and saved.');
 
         const jsonData = convertToJSON(icsData);
+        console.log('Converted JSON Data:', JSON.stringify(jsonData, null, 2));  // Log the JSON data
         if (jsonData) {
             fs.writeFileSync(JSON_OUTPUT_FILE, JSON.stringify(jsonData, null, 2));
             console.log('ICS data has been converted to JSON and saved.');
         } else {
             console.log('Failed to convert ICS to JSON.');
         }
+        
     } catch (error) {
         console.error('Error processing ICS file:', error);
     }
