@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-04-13T17:34:56.444Z",
+  "lastRetrieved": "2024-04-13T19:23:23.708Z",
   "events": [
     {
       "summary": "Microsoft 365 Platform - Weekly series",
@@ -59,14 +59,14 @@
       "nextEventDate": null
     },
     {
-      "summary": "PLEASE DELETE - Test Meeting",
+      "summary": "PLEASE DELETE - Test Meeting (Rescheduled)",
       "location": "Microsoft Teams Meeting",
       "description": "This one is an hour later\n",
       "startTime": "2024-04-27T13:00:00",
       "endTime": "2024-04-27T13:30:00",
       "rrule": null,
       "exdate": [],
-      "recurrenceId": "2024-04-27T12:00:00",
+      "recurrenceId": "20240427T120000",
       "nextEventDate": "2024-04-27T17:00:00.000Z"
     }
   ]

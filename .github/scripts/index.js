@@ -38,9 +38,11 @@ function parseAndConvertICALToJSON(icsData) {
         const vevent = new ical.Event(event);
         const rruleProp = vevent.component.getFirstProperty('rrule');
         const rrule = rruleProp ? rruleProp.getFirstValue() : null;
-        const recurrenceId = vevent.recurrenceId; 
+        // Try to fetch RECURRENCE-ID directly
+        const recurrenceIdProp = vevent.component.getFirstProperty('recurrence-id');
+        const recurrenceId = recurrenceIdProp ? recurrenceIdProp.getFirstValue().toICALString() : null;
 
-        console.log(`Debug - Event: ${vevent.summary} RRULE:`, rrule); // Debugging statement
+        console.log(`Event: ${vevent.summary}`); // Debugging statement
 
         let nextOccurrence = getNextOccurrence(vevent, new Date());
 
@@ -72,7 +74,6 @@ function getNextOccurrence(vevent, fromDate) {
         const rruleProp = vevent.component.getFirstProperty('rrule');
         if (rruleProp) {
             const rruleData = rruleProp.getFirstValue();
-            console.log("RRULE Data:", rruleData); // Debugging: Log the full RRULE data
 
             if (!rruleData.freq) {
                 console.error("Frequency (freq) is missing in RRULE:", rruleData);
