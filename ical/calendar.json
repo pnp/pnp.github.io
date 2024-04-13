@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-04-13T19:23:23.708Z",
+  "lastRetrieved": "2024-04-13T20:03:49.804Z",
   "events": [
     {
       "summary": "Microsoft 365 Platform - Weekly series",
@@ -10,7 +10,20 @@
       "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20240924T150000Z;WKST=SU",
       "exdate": [],
       "recurrenceId": null,
-      "nextEventDate": "2024-04-16T15:00:00.000Z"
+      "nextOccurrences": [
+        {
+          "date": "2024-04-16T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-04-23T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-04-30T15:00:00.000Z",
+          "status": "scheduled"
+        }
+      ]
     },
     {
       "summary": "Viva Connections and SharePoint Framework bi-weekly community call",
@@ -21,7 +34,20 @@
       "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20240919T150000Z;WKST=SU",
       "exdate": [],
       "recurrenceId": null,
-      "nextEventDate": "2024-04-18T15:00:00.000Z"
+      "nextOccurrences": [
+        {
+          "date": "2024-04-18T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-05-02T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-05-16T15:00:00.000Z",
+          "status": "scheduled"
+        }
+      ]
     },
     {
       "summary": "Microsoft 365 General Dev - Special Interest Group",
@@ -32,7 +58,20 @@
       "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20240926T150000Z;WKST=SU",
       "exdate": [],
       "recurrenceId": null,
-      "nextEventDate": "2024-04-25T15:00:00.000Z"
+      "nextOccurrences": [
+        {
+          "date": "2024-04-25T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-05-09T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-05-23T15:00:00.000Z",
+          "status": "scheduled"
+        }
+      ]
     },
     {
       "summary": "PLEASE DELETE - Test Meeting",
@@ -42,10 +81,23 @@
       "endTime": "2024-04-13T12:30:00",
       "rrule": "FREQ=DAILY;INTERVAL=2;UNTIL=20240712T160000Z",
       "exdate": [
-        "2024-04-29T16:00:00.000Z"
+        "2024-04-15T16:00:00.000Z"
       ],
       "recurrenceId": null,
-      "nextEventDate": "2024-04-15T16:00:00.000Z"
+      "nextOccurrences": [
+        {
+          "date": "2024-04-15T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-04-15T16:00:00.000Z",
+          "status": "cancelled"
+        },
+        {
+          "date": "2024-04-17T16:00:00.000Z",
+          "status": "scheduled"
+        }
+      ]
     },
     {
       "summary": "Power Platform Community Call ",
@@ -56,7 +108,7 @@
       "rrule": "FREQ=MONTHLY;BYDAY=3WE;UNTIL=20250319T150000Z",
       "exdate": [],
       "recurrenceId": null,
-      "nextEventDate": null
+      "nextOccurrences": []
     },
     {
       "summary": "PLEASE DELETE - Test Meeting (Rescheduled)",
@@ -67,7 +119,7 @@
       "rrule": null,
       "exdate": [],
       "recurrenceId": "20240427T120000",
-      "nextEventDate": "2024-04-27T17:00:00.000Z"
+      "nextOccurrences": []
     }
   ]
 }

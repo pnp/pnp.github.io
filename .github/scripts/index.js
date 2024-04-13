@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 const ical = require('ical.js');
 const fs = require('fs');
 const path = require('path');
-const { RRule } = require('rrule');
+const { RRule, RRuleSet } = require('rrule');
 
 const ICS_URL = process.env.ICS_URL || "https://outlook.office365.com/owa/calendar/c80c26982a604d3e89b403a318e7a477@officedevpnp.onmicrosoft.com/299d3353259f4abf919f4abbeffea3863901301114936881794/calendar.ics"; // Use the environment variable
 const DIR_PATH = path.join(__dirname, '../../ical');
@@ -44,7 +44,7 @@ function parseAndConvertICALToJSON(icsData) {
 
         console.log(`Event: ${vevent.summary}`); // Debugging statement
 
-        let nextOccurrence = getNextOccurrence(vevent, new Date());
+        let nextOccurrences = getNextOccurrences(vevent, new Date());
 
         return {
             summary: vevent.summary,
@@ -55,75 +55,87 @@ function parseAndConvertICALToJSON(icsData) {
             rrule: rrule ? rrule.toString() : null,
             exdate: parseExdates(vevent),
             recurrenceId:recurrenceId ? recurrenceId.toString() : null,
-            nextEventDate: nextOccurrence
+            nextOccurrences: nextOccurrences 
         };
     });
 }
 
-
 function parseExdates(vevent) {
     const exdates = vevent.component.getAllProperties('exdate');
     return exdates.map(exdate => {
-        // Convert the EXDATE value to a JavaScript Date object directly
+        // Assuming exdate is in UTC and converting accordingly
         return new Date(exdate.getFirstValue().toJSDate());
     });
 }
 
-function getNextOccurrence(vevent, fromDate) {
+function getNextOccurrences(vevent, fromDate) {
     try {
+        const exdates = parseExdates(vevent).map(date => date.toISOString());
         const rruleProp = vevent.component.getFirstProperty('rrule');
+        let occurrences = [];
+
         if (rruleProp) {
             const rruleData = rruleProp.getFirstValue();
-
             if (!rruleData.freq) {
                 console.error("Frequency (freq) is missing in RRULE:", rruleData);
-                return null; // Cannot proceed without a valid frequency
+                return []; // Cannot proceed without a valid frequency
             }
 
+            const ruleSet = new RRuleSet();
             const rruleOptions = {
-                freq: RRule[rruleData.freq.toUpperCase()], // Ensure freq is properly accessed and capitalized
+                freq: RRule[rruleData.freq.toUpperCase()],
                 dtstart: vevent.startDate.toJSDate(),
                 interval: rruleData.interval || 1,
-                until: rruleData.until ? new Date(rruleData.until) : undefined,
+                until: rruleData.until ? new Date(rruleData.until.toJSDate()) : undefined,
                 count: rruleData.count || undefined,
                 byweekday: rruleData.parts.BYDAY ? parseByDay(rruleData.parts.BYDAY) : undefined
             };
 
-            const rule = new RRule(rruleOptions);
-            const next = rule.after(fromDate);
-            return next ? next.toISOString() : null;
+            // Create the primary rule
+            ruleSet.rrule(new RRule(rruleOptions));
+
+            // Get the next three occurrences
+            for (let i = 0; i < 3; i++) {
+                let next = ruleSet.after(fromDate, false);
+                if (!next) break;  // If no more dates are available, exit loop
+
+                occurrences.push({
+                    date: next.toISOString(),
+                    status: "scheduled"
+                });
+
+                fromDate = new Date(next.getTime() + 1000);  // Move past the last found date
+            }
+
+            // Add the next exception dates
+            exdates.forEach(exdate => {
+                occurrences.push({
+                    date: exdate,
+                    status: "cancelled"
+                });
+            });
+
+            // Sort all occurrences by date
+            occurrences.sort((a, b) => new Date(a.date) - new Date(b.date));
         }
-        return vevent.startDate.toJSDate().toISOString();
+        return occurrences.slice(0, 3);  // Ensure only the next 3 occurrences are returned
     } catch (error) {
-        console.error("Error in getNextOccurrence:", error);
-        return null;
+        console.error("Error in getNextOccurrences:", error);
+        return [];
     }
 }
 
+
 function parseByDay(byday) {
     if (Array.isArray(byday)) {
-        return byday.map(day => RRule[day]);
+        return byday.map(day => RRule[day.toUpperCase()]);
     } else if (typeof byday === 'string') {
-        return byday.split(',').map(day => RRule[day]);
+        return byday.split(',').map(day => RRule[day.toUpperCase()]);
     } else {
         console.error("Unexpected BYDAY format:", byday);
         return undefined;
     }
 }
-
-
-
-function parseByDay(byday) {
-    if (Array.isArray(byday)) {
-        return byday.map(day => RRule[day]);
-    } else if (typeof byday === 'string') {
-        return byday.split(',').map(day => RRule[day]);
-    } else {
-        console.error("Unexpected BYDAY format:", byday);
-        return undefined;
-    }
-}
-
 
 async function main() {
     ensureDirectoryExists(ICS_OUTPUT_FILE);
