@@ -1,15 +1,19 @@
-name: Download and Store ICS File
+name: Update Calendar Files
 
 on:
-  workflow_dispatch:  # Allows manual trigger
+  workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'  # Adjust the schedule as necessary
 
 jobs:
-  download-and-save-ics:
+  update-and-push:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout gh-pages branch
         uses: actions/checkout@v2
+        with:
+          ref: gh-pages  # Specify to checkout the gh-pages branch
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
@@ -20,19 +24,16 @@ jobs:
         run: npm install
         working-directory: .github/scripts
 
-      - name: Run script to download ICS
-        env:
-          ICS_URL: ${{ secrets.ICS_URL }}  # Set the environment variable using the secret
+      - name: Run script to update calendar files
         run: npm start
         working-directory: .github/scripts
-
-      - name: Check git status
-        run: git status
+        env:
+          ICS_URL: ${{ secrets.ICS_URL }}
 
       - name: Commit and push if there are changes
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          git add ./ical/* --verbose
-          git commit -m "Update ICS and JSON files" -a --verbose || echo "No changes to commit"
-          git push --verbose
+          git add ical/calendar.ics ical/calendar.json
+          git commit -m "Update calendar files" -a || echo "No changes to commit"
+          git push origin gh-pages
