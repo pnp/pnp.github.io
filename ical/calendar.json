@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-04-13T20:03:49.804Z",
+  "lastRetrieved": "2024-04-13T20:12:21.912Z",
   "events": [
     {
       "summary": "Microsoft 365 Platform - Weekly series",
@@ -21,6 +21,22 @@
         },
         {
           "date": "2024-04-30T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-05-07T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-05-14T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-05-21T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-05-28T15:00:00.000Z",
           "status": "scheduled"
         }
       ]
@@ -46,6 +62,22 @@
         {
           "date": "2024-05-16T15:00:00.000Z",
           "status": "scheduled"
+        },
+        {
+          "date": "2024-05-30T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-06-13T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-06-27T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-07-11T15:00:00.000Z",
+          "status": "scheduled"
         }
       ]
     },
@@ -70,6 +102,22 @@
         {
           "date": "2024-05-23T15:00:00.000Z",
           "status": "scheduled"
+        },
+        {
+          "date": "2024-06-06T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-06-20T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-07-04T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-07-18T15:00:00.000Z",
+          "status": "scheduled"
         }
       ]
     },
@@ -87,14 +135,30 @@
       "nextOccurrences": [
         {
           "date": "2024-04-15T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2024-04-15T16:00:00.000Z",
           "status": "cancelled"
         },
         {
           "date": "2024-04-17T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-04-19T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-04-21T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-04-23T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-04-25T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-04-27T16:00:00.000Z",
           "status": "scheduled"
         }
       ]

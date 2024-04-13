@@ -95,7 +95,7 @@ function getNextOccurrences(vevent, fromDate) {
             ruleSet.rrule(new RRule(rruleOptions));
 
             // Get the next three occurrences
-            for (let i = 0; i < 3; i++) {
+            for (let i = 0; i < 7; i++) {
                 let next = ruleSet.after(fromDate, false);
                 if (!next) break;  // If no more dates are available, exit loop
 
@@ -107,24 +107,28 @@ function getNextOccurrences(vevent, fromDate) {
                 fromDate = new Date(next.getTime() + 1000);  // Move past the last found date
             }
 
-            // Add the next exception dates
+            // Check each exception date and update or add to occurrences
             exdates.forEach(exdate => {
-                occurrences.push({
-                    date: exdate,
-                    status: "cancelled"
-                });
+                let index = occurrences.findIndex(occ => occ.date === exdate);
+                if (index !== -1) {
+                    occurrences[index].status = "cancelled"; // Change status to cancelled
+                } else {
+                    occurrences.push({
+                        date: exdate,
+                        status: "cancelled"
+                    });
+                }
             });
 
             // Sort all occurrences by date
             occurrences.sort((a, b) => new Date(a.date) - new Date(b.date));
         }
-        return occurrences.slice(0, 3);  // Ensure only the next 3 occurrences are returned
+        return occurrences;
     } catch (error) {
         console.error("Error in getNextOccurrences:", error);
         return [];
     }
 }
-
 
 function parseByDay(byday) {
     if (Array.isArray(byday)) {
