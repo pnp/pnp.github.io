@@ -1,0 +1,26 @@
+name: Download ICS File
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Optional: Runs every hour
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  download-and-save-ics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Download ICS file
+        run: |
+          mkdir -p ./ical  # Ensure the ical directory exists
+          curl -o ./ical/calendar.ics ${{ secrets.ICS_URL }}
+
+      - name: Commit and push if there are changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add ./ical/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update ICS file" && git push)
