@@ -1,5 +1,5 @@
 const fetch = require('node-fetch');
-const ical2json = require('ical2json');
+const { ICAL } = require('ical.js');
 const fs = require('fs');
 const path = require('path');
 
@@ -21,13 +21,34 @@ async function fetchICS() {
     return data;
 }
 
-function convertToJSON(icsData) {
+function parseAndConvertICALToJSON(icsData) {
     try {
-        return ical2json.convert(icsData); // Ensure this function returns data immediately
+        const jcal = ICAL.parse(icsData);
+        const comp = new ICAL.Component(jcal);
+        const events = comp.getAllSubcomponents('vevent');
+        const jsonData = events.map(event => {
+            const vevent = new ICAL.Event(event);
+            return {
+                summary: vevent.summary,
+                location: vevent.location,
+                description: vevent.description,
+                startTime: vevent.startDate.toString(),
+                endTime: vevent.endDate.toString(),
+                rrule: vevent.component.getFirstPropertyValue('rrule') ? vevent.component.getFirstPropertyValue('rrule').toString() : null,
+                exdate: parseExdates(vevent),
+                recurrenceId: vevent.component.getFirstPropertyValue('recurrence-id') ? vevent.component.getFirstPropertyValue('recurrence-id').toString() : null
+            };
+        });
+        return jsonData;
     } catch (error) {
-        console.error('Error converting ICS to JSON:', error);
+        console.error('Error converting ICAL to JSON:', error);
         return null; // Return null to indicate failure
     }
+}
+
+function parseExdates(vevent) {
+    const exdates = vevent.component.getAllProperties('exdate');
+    return exdates.map(exdate => exdate.getFirstValue().toString());
 }
 
 async function main() {
@@ -38,12 +59,12 @@ async function main() {
         fs.writeFileSync(ICS_OUTPUT_FILE, icsData);
         console.log('ICS file has been downloaded and saved.');
 
-        const jsonData = convertToJSON(icsData);
+        const jsonData = parseAndConvertICALToJSON(icsData);
         if (jsonData) {
             fs.writeFileSync(JSON_OUTPUT_FILE, JSON.stringify(jsonData, null, 2));
             console.log('ICS data has been converted to JSON and saved.');
         } else {
-            console.log('Failed to convert ICS to JSON.');
+            console.log('Failed to convert ICAL to JSON.');
         }
     } catch (error) {
         console.error('Error processing ICS file:', error);

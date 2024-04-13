@@ -8,6 +8,6 @@
   },
   "dependencies": {
     "node-fetch": "^2.6.1",
-    "ical2json": "^1.1.0"
+    "ical.js": "^0.8.0"
   }
 }
