@@ -31,5 +31,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add ./ical/
-          git commit -m "Update ICS file" -a || echo "No changes to commit"
+          git commit -m "Update ICS file and JSON" -a || echo "No changes to commit"
           git push
