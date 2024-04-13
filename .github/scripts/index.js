@@ -59,8 +59,11 @@ async function main() {
         fs.writeFileSync(ICS_OUTPUT_FILE, icsData);
         console.log('ICS file has been downloaded and saved.');
 
-        const jsonData = parseAndConvertICALToJSON(icsData);
-        if (jsonData) {
+        const jsonData = {
+            lastRetrieved: new Date().toISOString(),
+            events: parseAndConvertICALToJSON(icsData)
+        };
+        if (jsonData.events) {
             fs.writeFileSync(JSON_OUTPUT_FILE, JSON.stringify(jsonData, null, 2));
             console.log('ICS data has been converted to JSON and saved.');
         } else {
