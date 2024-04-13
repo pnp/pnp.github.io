@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const ICS_URL = process.env.ICS_URL; // Use the environment variable
-const DIR_PATH = './ical';
+const DIR_PATH = '../../ical'; // Adjusted to point to the 'ical' directory at the root
 const ICS_OUTPUT_FILE = path.join(DIR_PATH, 'calendar.ics');
 const JSON_OUTPUT_FILE = path.join(DIR_PATH, 'calendar.json');
 
@@ -39,14 +39,12 @@ async function main() {
         console.log('ICS file has been downloaded and saved.');
 
         const jsonData = convertToJSON(icsData);
-        console.log('Converted JSON Data:', JSON.stringify(jsonData, null, 2));  // Log the JSON data
         if (jsonData) {
             fs.writeFileSync(JSON_OUTPUT_FILE, JSON.stringify(jsonData, null, 2));
             console.log('ICS data has been converted to JSON and saved.');
         } else {
             console.log('Failed to convert ICS to JSON.');
         }
-        
     } catch (error) {
         console.error('Error processing ICS file:', error);
     }

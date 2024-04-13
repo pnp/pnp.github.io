@@ -26,10 +26,13 @@ jobs:
         run: npm start
         working-directory: .github/scripts
 
+      - name: Check git status
+        run: git status
+
       - name: Commit and push if there are changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add ./ical/
-          git commit -m "Update ICS file and JSON" -a || echo "No changes to commit"
-          git push
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add ./ical/* --verbose
+          git commit -m "Update ICS and JSON files" -a --verbose || echo "No changes to commit"
+          git push --verbose
