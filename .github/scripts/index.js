@@ -23,7 +23,7 @@ async function fetchICS() {
 
 function convertToJSON(icsData) {
     try {
-        return ical2json.convert(icsData);
+        return ical2json.convert(icsData); // Ensure this function returns data immediately
     } catch (error) {
         console.error('Error converting ICS to JSON:', error);
         return null; // Return null to indicate failure
@@ -37,9 +37,6 @@ async function main() {
         const icsData = await fetchICS();
         fs.writeFileSync(ICS_OUTPUT_FILE, icsData);
         console.log('ICS file has been downloaded and saved.');
-
-        console.log('ICS Data:', icsData);
-        console.log('JSON Data:', jsonData);
 
         const jsonData = convertToJSON(icsData);
         if (jsonData) {
