@@ -35,6 +35,15 @@
         "linkedin": "https://www.linkedin.com/in/juliemturner/"
     },
     {
+        "name": "Katerina Chernevskaya",
+        "company": "Awara IT",
+        "img": "images/team/katerinachernevskaya.webp",
+        "github": "https://github.com/Katerina-Chernevskaya/",
+        "title": "MVP",
+        "twitter": "https://twitter.com/KaterinaCh79869",
+        "linkedin": "https://www.linkedin.com/in/katerinachernevskaya/"
+    },
+    {
         "name": "Laura Kokkarinen",
         "company": "Sulava",
         "img": "images/team/laurakokkarinen.webp",
@@ -51,6 +60,14 @@
         "title": "MVP",
         "twitter": "https://twitter.com/LuiseFreese",
         "linkedin": "https://www.linkedin.com/in/luisefreese/"
+    },    {
+        "name": "Reshmee Auckloo",
+        "company": "Pension Protection Fund",
+        "img": "images/team/reshmeeauckloo.webp",
+        "github": "https://github.com/reshmee011",
+        "title": "MVP",
+        "twitter": "https://twitter.com/ReshmeeAuckloo",
+        "linkedin": "https://www.linkedin.com/in/reshmee-auckloo-98a23619/"
     },
     {
         "name": "Veronique Lengelle",
@@ -156,6 +173,15 @@
         "title": "MVP",
         "twitter": "https://twitter.com/theChrisKent",
         "linkedin": "https://www.linkedin.com/in/thechriskent/"
+    },
+    {
+        "name": "Dan Toft",
+        "company": "Evobis ApS",
+        "img": "images/team/dantoft.webp",
+        "github": "https://github.com/Tanddant",
+        "twitter": "https://twitter.com/tanddant",
+        "linkedin": "https://www.linkedin.com/in/dan-toft/",
+        "title": "MVP"
     },
     {
         "name": "Daniel Laskewitz",
@@ -270,6 +296,15 @@
         "title": "MVP",
         "twitter": "https://twitter.com/JoelFMRodrigues",
         "linkedin": "https://www.linkedin.com/in/joelfmrodrigues/"
+    },
+    {
+        "name": "Kasper Larsen",
+        "company": "Fellowmind",
+        "img": "images/team/kasperlarsen.webp",
+        "github": "https://github.com/kasperbolarsen",
+        "title": "MVP",
+        "twitter": "https://twitter.com/kasperbolarsen",
+        "linkedin": "https://www.linkedin.com/in/kasperbolarsen/"
     },
     {
         "name": "Koen Zomers",

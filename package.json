@@ -51,7 +51,6 @@
     "glob-parent": "^5.1.2",
     "globby": "^14.0.1",
     "graceful-fs": "^4.2.11",
-    "icalts": "^0.0.2",
     "ignore": "^5.3.1",
     "is-binary-path": "^2.1.0",
     "is-extglob": "^2.1.1",
@@ -158,6 +157,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
     "postcss-scss": "^4.0.9",
@@ -168,7 +168,9 @@
     "build:tsc": "tsc",
     "build:scss": "sass themes/pnp-hugo-theme/assets/scss/:themes/pnp-hugo-theme/assets/css/  --no-source-map",
     "build:css": "postcss themes/pnp-hugo-theme/assets/css/ --dir themes/pnp-hugo-theme/assets/css/ --ext .css --parser postcss-scss",
-    "build": "npm run build:tsc && npm run build:scss && npm run build:css"
+    "build": "npm run build:tsc && npm run build:scss && npm run build:css",
+    "deploy": "gh-pages -d public",
+    "update-theme": "powershell -File ./admin/update-theme.ps1"
   },
   "keywords": [],
   "author": "",
