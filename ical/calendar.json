@@ -1,67 +1,73 @@
 {
-  "lastRetrieved": "2024-04-13T16:33:14.983Z",
+  "lastRetrieved": "2024-04-13T17:34:56.444Z",
   "events": [
     {
       "summary": "Microsoft 365 Platform - Weekly series",
-      "location": "",
+      "location": "Microsoft Teams Meeting",
       "description": "Welcome to the Microsoft 365 platform community call! Microsoft 365 platform call is a weekly recurrent call with 2 to 3 different topics around the Microsoft 365 extensibility. Call is intended for the Microsoft to update the community on the latest news and updates - with live demos.\n\nWe'll also include the latest news and updates for building engaging solutions and experiences in the Microsoft 365 platform.\n\n\n________________________________________________________________________________\n\nMicrosoft Teams meeting\n\nJoin on your computer, mobile app or room device\n\nClick here to join the meeting<https://aka.ms/m365-dev-call-join>\n\n________________________________________________________________________________\n\n(notice. This is an aka.ms link as we might change the actual invite URL. This way any changes are transparent for you if you access the call from above link)\n\nCommunity call recordings will be published at the Microsoft 365 Community YouTube channel at https://aka.ms/m365pnp/videos  - Subscribe to get notified of the new daily videos!\n\nResources\n- Follow us on Twitter with @Microsoft365dev or @m365pnp - we publish the call agenda in the social media always few days before the call\n- Subscriber also to the Microsoft 365 Dev YouTube channel for other Microsoft 365 developer videos at https://m365dev/videos\n- Community call summaries will be published at https://aka.ms/m365pnp/community/blog\n- Latest news on Microsoft 365 platform from Microsoft 365 developer blog at https://developer.microsoft.com/en-us/microsoft-365/blogs/\n\nEasiest way to find official docs, SDKs and community assets - https://aka.ms/m365pnp\n\n",
       "startTime": "2024-04-02T08:00:00",
       "endTime": "2024-04-02T09:00:00",
       "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20240924T150000Z;WKST=SU",
       "exdate": [],
-      "recurrenceId": null
+      "recurrenceId": null,
+      "nextEventDate": "2024-04-16T15:00:00.000Z"
     },
     {
       "summary": "Viva Connections and SharePoint Framework bi-weekly community call",
-      "location": "",
+      "location": "Microsoft Teams Meeting",
       "description": "Welcome to SharePoint PnP Bi-weekly Special Interest Group call around Client-side development. Topics covered in this call are SharePoint Framework latest updates, PnPjs, Office365Cli, Reusable Controls, and community demos.\n\n\n________________________________________________________________________________\n\nMicrosoft Teams meeting\n\nJoin on your computer, mobile app or room device\n\nClick here to join the meeting<https://aka.ms/spdev-spfx-call-join><https://teams.microsoft.com/l/meetup-join/19%3a75ad5c9892944ea49178515a4059409f%40thread.tacv2/1673371767060?context=%7b%22Tid%22%3a%2257fdf63b-7e22-45a3-83dc-d37003163aae%22%2c%22Oid%22%3a%2288fafcc7-8fac-4e29-a248-9ae50bcce2a9%22%7d>\n\n________________________________________________________________________________\n\n\n(notice. This is an aka.ms link as we might change the actual invite URL. This way any changes are transparent for you if you access the call from above link)\n\nCommunity call recordings will be published at the Microsoft 365 Community YouTube channel at https://aka.ms/m365pnp/videos - Subscribe to get notified of the new daily videos!\n\nResources\n\n- Follow us on Twitter with @Microsoft365dev or @m365pnp - we publish the call agenda in the social media always few days before the call\n\n- Subscriber also to the Microsoft 365 Dev YouTube channel for other Microsoft 365 developer videos at https://m365dev/videos\n\n- Community call summaries will be published at https://aka.ms/m365pnp/community/blog\n\n- Latest news on Microsoft 365 platform from Microsoft 365 developer blog at https://developer.microsoft.com/microsoft-365/blogs/\n\n\nEasiest way to find official docs, SDKs and community assets - https://aka.ms/m365pnp\n",
       "startTime": "2024-04-04T11:00:00",
       "endTime": "2024-04-04T12:00:00",
       "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20240919T150000Z;WKST=SU",
       "exdate": [],
-      "recurrenceId": null
+      "recurrenceId": null,
+      "nextEventDate": "2024-04-18T15:00:00.000Z"
     },
     {
       "summary": "Microsoft 365 General Dev - Special Interest Group",
-      "location": "",
+      "location": "Microsoft Teams Meeting",
       "description": "Welcome to Microsoft 365 Patterns and Practices Bi-weekly Special Interest Group call around Microsoft 365 General developer topics. Topics covered in this call are solution designs, provisioning, Microsoft Teams, SharePoint, Online, PowerApps, Microsoft Flow etc. across the platform with updates from Microsoft and 2-3 live demos.\n\n\n________________________________________________________________________________\n\nMicrosoft Teams meeting\n\nJoin on your computer, mobile app or room device\n\nClick here to join the meeting<https://aka.ms/m365-dev-sig-join><https://teams.microsoft.com/l/meetup-join/19%3a75ad5c9892944ea49178515a4059409f%40thread.tacv2/1673371767060?context=%7b%22Tid%22%3a%2257fdf63b-7e22-45a3-83dc-d37003163aae%22%2c%22Oid%22%3a%2288fafcc7-8fac-4e29-a248-9ae50bcce2a9%22%7d>\n\n________________________________________________________________________________\n\n(notice. This is an aka.ms link as we might change the actual invite URL. This way any changes are transparent for you as long as you access the call from above link)\n\nMicrosoft 365 Patterns and Practices community – https://aka.ms/m365pnp\n\nMicrosoft 365 Developer YouTube channel – https://aka.ms/M365DevYouTube\n\nMicrosoft 365 and SharePoint Community YouTube channel – https://m365pnp-videos\n\nMicrosoft 365 Open-Source – https://github.com/pnp , https://github.com/officedev , https://github.com/sharepoint , https://github.com/microsoftgraph\n\nSample galleries – take advantage of existing samples – https://aka.ms/teams-samples , https://aka.ms/spfx-webparts , https://aka.ms/list-formatting , https://aka.ms/spfx-extensions\n",
       "startTime": "2024-04-11T11:00:00",
       "endTime": "2024-04-11T12:00:00",
       "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20240926T150000Z;WKST=SU",
       "exdate": [],
-      "recurrenceId": null
+      "recurrenceId": null,
+      "nextEventDate": "2024-04-25T15:00:00.000Z"
     },
     {
       "summary": "PLEASE DELETE - Test Meeting",
-      "location": "",
+      "location": "Microsoft Teams Meeting",
       "description": "The description goes here\n",
       "startTime": "2024-04-13T12:00:00",
       "endTime": "2024-04-13T12:30:00",
       "rrule": "FREQ=DAILY;INTERVAL=2;UNTIL=20240712T160000Z",
       "exdate": [
-        "2024-04-29T12:00:00"
+        "2024-04-29T16:00:00.000Z"
       ],
-      "recurrenceId": null
+      "recurrenceId": null,
+      "nextEventDate": "2024-04-15T16:00:00.000Z"
     },
     {
       "summary": "Power Platform Community Call ",
-      "location": "",
+      "location": "Microsoft Teams Meeting",
       "description": "The Power Platform community call happens on the 3rd Wednesday of each month. On the call, we demonstrate tips and tools to help you build awesome Power Apps, Power Automate, Power Apps Portals, Power Virtual Agents, Power BI (and more) and discuss the latest Power Platform news. You will meet the Power Platform product team and community experts to get your questions answered.\n\n\n________________________________________________________________________________\n\nMicrosoft Teams meeting\n\nJoin on your computer, mobile app or room device\n\nClick here to join the meeting<https://aka.ms/PowerPlatformMonthlyCall><https://teams.microsoft.com/l/meetup-join/19%3a75ad5c9892944ea49178515a4059409f%40thread.tacv2/1673371767060?context=%7b%22Tid%22%3a%2257fdf63b-7e22-45a3-83dc-d37003163aae%22%2c%22Oid%22%3a%2288fafcc7-8fac-4e29-a248-9ae50bcce2a9%22%7d>\n\n________________________________________________________________________________\n\nResources\n\nFollow us on Twitter @Microsoft365Dev<https://www.twitter.com/Microsoft365Dev> for the latest announcements\n\nSubscribe to our Microsoft 365 Dev YouTube channel<https://www.youtube.com/channel/UCV_6HOhwxYLXAGd-JOqKPoQ> for developer videos (includes previous call recordings)\n\nPower Platform<http://powerplatform.microsoft.com/>\n\nJoin the Microsoft 365 Developer Program<https://developer.microsoft.com/en-us/microsoft-365/dev-program>\n",
       "startTime": "2024-04-17T08:00:00",
       "endTime": "2024-04-17T09:00:00",
       "rrule": "FREQ=MONTHLY;BYDAY=3WE;UNTIL=20250319T150000Z",
       "exdate": [],
-      "recurrenceId": null
+      "recurrenceId": null,
+      "nextEventDate": null
     },
     {
       "summary": "PLEASE DELETE - Test Meeting",
-      "location": "",
+      "location": "Microsoft Teams Meeting",
       "description": "This one is an hour later\n",
       "startTime": "2024-04-27T13:00:00",
       "endTime": "2024-04-27T13:30:00",
       "rrule": null,
       "exdate": [],
-      "recurrenceId": null
+      "recurrenceId": "2024-04-27T12:00:00",
+      "nextEventDate": "2024-04-27T17:00:00.000Z"
     }
   ]
 }
