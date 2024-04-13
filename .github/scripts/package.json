@@ -1,0 +1,14 @@
+{
+    "name": "github-actions-scripts",
+    "version": "1.0.0",
+    "description": "Download and convert ICS to JSON",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "node-fetch": "^2.6.1",
+      "ical2json": "^1.1.0"
+    }
+  }
+  
