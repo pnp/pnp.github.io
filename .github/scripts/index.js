@@ -1,10 +1,21 @@
 const fetch = require('node-fetch');
 const ical2json = require('ical2json');
 const fs = require('fs');
+const path = require('path');
 
 const ICS_URL = process.env.ICS_URL; // Environment variable for the ICS URL
-const ICS_OUTPUT_FILE = './ical/calendar.ics';
-const JSON_OUTPUT_FILE = './ical/calendar.json';
+const DIR_PATH = './ical';
+const ICS_OUTPUT_FILE = path.join(DIR_PATH, 'calendar.ics');
+const JSON_OUTPUT_FILE = path.join(DIR_PATH, 'calendar.json');
+
+function ensureDirectoryExists(filePath) {
+    const dirname = path.dirname(filePath);
+    if (fs.existsSync(dirname)) {
+        return true;
+    }
+    ensureDirectoryExists(dirname);  // Make sure the directory exists
+    fs.mkdirSync(dirname);
+}
 
 async function fetchICS() {
     const response = await fetch(ICS_URL);
@@ -12,12 +23,14 @@ async function fetchICS() {
     return data;
 }
 
-async function convertToJSON(icsData) {
+function convertToJSON(icsData) {
     return ical2json.convert(icsData);
 }
 
 async function main() {
     try {
+        ensureDirectoryExists(ICS_OUTPUT_FILE);  // Ensure directory exists before writing
+
         // Fetch the ICS file
         const icsData = await fetchICS();
         // Save the ICS file
