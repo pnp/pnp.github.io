@@ -82,23 +82,6 @@ function getNextOccurrences(vevent, fromDate) {
 
             const ruleSet = rule;
             ruleSet.options.dtstart = vevent.startDate.toJSDate();
-            // if (!rruleData.freq) {
-            //     console.error("Frequency (freq) is missing in RRULE:", rruleData);
-            //     return []; // Cannot proceed without a valid frequency
-            // }
-
-            // const ruleSet = new RRuleSet();
-            // const rruleOptions = {
-            //     freq: RRule[rruleData.freq.toUpperCase()],
-            //     dtstart: vevent.startDate.toJSDate(),
-            //     interval: rruleData.interval || 1,
-            //     until: rruleData.until ? new Date(rruleData.until.toJSDate()) : undefined,
-            //     count: rruleData.count || undefined,
-            //     byweekday: rruleData.parts.BYDAY ? parseByDay(rruleData.parts.BYDAY) : undefined
-            // };
-
-            // // Create the primary rule
-            // ruleSet.rrule(new RRule(rruleOptions));
 
             // Get the next three occurrences
             for (let i = 0; i < 7; i++) {
