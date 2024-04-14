@@ -66,8 +66,11 @@ function parseAndConvertICALToJSON(icsData) {
     const jcal = ical.parse(icsData);
     const comp = new ical.Component(jcal);
     const events = comp.getAllSubcomponents('vevent');
-    return events.map(event => {
+    const mappedEvents = events.map(event => {
         const vevent = new ical.Event(event);
+        if (!vevent.location ) {
+            vevent.location = "Microsoft Teams Meeting";
+        }
         const rruleProp = vevent.component.getFirstProperty('rrule');
         const rrule = rruleProp ? rruleProp.getFirstValue() : null;
         // Try to fetch RECURRENCE-ID directly
@@ -78,7 +81,52 @@ function parseAndConvertICALToJSON(icsData) {
 
         const todayAtMidnight = new Date();
         todayAtMidnight.setHours(0, 0, 0, 0);
-        let nextOccurrences = getNextOccurrences(vevent, todayAtMidnight);
+        let nextOccurrences = []; //getNextOccurrences(vevent, todayAtMidnight);
+
+
+        let expand = new ical.RecurExpansion({
+            component: event,
+            dtstart: event.getFirstPropertyValue('dtstart')
+        });
+
+        // next is always an ICAL.Time or null
+        let next;
+
+        let i = 0;
+        while (i < 7 && (next = expand.next())) {
+
+            const jsDate = next.toJSDate();
+            const isoDate = jsDate.toISOString();
+
+            const today = new Date();
+            today.setHours(0, 0, 0, 0); // Set the time to midnight
+
+            if (jsDate > today) {
+                nextOccurrences.push({
+                    date: isoDate,
+                    status: "scheduled"
+                });
+                i++;
+            } 
+        
+        }
+
+        // Go through the exception dates and mark them as cancelled
+        const exdates = parseExdates(vevent);
+        exdates.forEach(exdate => {
+            let index = nextOccurrences.findIndex(occ => occ.date === exdate);
+            if (index !== -1) {
+                nextOccurrences[index].status = "cancelled"; // Change status to cancelled
+            } else {
+                nextOccurrences.push({
+                    date: exdate,
+                    status: "cancelled"
+                });
+            }
+        });
+
+        // sort the next occurrences by date
+        nextOccurrences.sort((a, b) => new Date(a.date) - new Date(b.date));
 
         return {
             uid: vevent.uid,
@@ -88,18 +136,41 @@ function parseAndConvertICALToJSON(icsData) {
             startTime: vevent.startDate.toString(),
             endTime: vevent.endDate.toString(),
             rrule: rrule ? rrule.toString() : null,
-            exdate: parseExdates(vevent),
-            recurrenceId:recurrenceId ? recurrenceId.toString() : null,
-            nextOccurrences: nextOccurrences 
+            exdate: exdates,
+            recurrenceId: recurrenceId ? recurrenceId.toString() : null,
+            nextOccurrences: nextOccurrences
         };
     });
+
+    // After the events array has been created...
+    mappedEvents.forEach(eventWithRecurrenceId => {
+        if (eventWithRecurrenceId.recurrenceId) {
+            // Find the event with a matching UID
+            const matchingEvent = mappedEvents.find(event => event.uid === eventWithRecurrenceId.uid);
+
+            if (matchingEvent) {
+                // Add the recurrence date to the matching event's nextOccurrences array
+                matchingEvent.nextOccurrences.push({
+                    date: eventWithRecurrenceId.startTime.toString(),
+                    status: "moved"
+                });
+            }
+        }
+    });
+
+    console.log('jcal:', comp.toString()); // Debugging statement
+
+    return mappedEvents;
 }
 
 function parseExdates(vevent) {
     const exdates = vevent.component.getAllProperties('exdate');
     return exdates.map(exdate => {
         // Assuming exdate is in UTC and converting accordingly
-        return new Date(exdate.getFirstValue().toJSDate());
+        const jsDate = exdate.getFirstValue().toJSDate();
+        const isoDate = jsDate.toISOString();
+
+        return isoDate;
     });
 }
 
@@ -115,14 +186,14 @@ function getNextOccurrences(vevent, dateAfter) {
             const ruleSetString = `RRULE:${fixedRruleString}`;
 
             const rule = RRule.fromString(ruleSetString);
-        
+
             var ruleSet = new RRuleSet();
             ruleSet.rrule(rule);
             ruleSet.startDate = vevent.startDate;
 
             const dateBefore = new Date(dateAfter); // Current date
             dateBefore.setFullYear(dateAfter.getFullYear() + 1); // 1 year from now
-      
+
 
             const nextDates = rule.between(dateAfter, dateBefore, true, (date, i) => {
                 return i < 7
