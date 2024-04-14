@@ -2,8 +2,8 @@ const fetch = require('node-fetch');
 const ical = require('ical.js');
 const fs = require('fs');
 const path = require('path');
-const { RRule, RRuleSet, rrulestr } = require('rrule');
-const { DateTime, IANAZone } = require('luxon');
+const { RRule, RRuleSet } = require('rrule');
+const { DateTime } = require('luxon');
 
 const ICS_URL = process.env.ICS_URL || "https://outlook.office365.com/owa/calendar/c80c26982a604d3e89b403a318e7a477@officedevpnp.onmicrosoft.com/299d3353259f4abf919f4abbeffea3863901301114936881794/calendar.ics"; // Use the environment variable
 const DIR_PATH = path.join(__dirname, '../../ical');
@@ -76,9 +76,12 @@ function parseAndConvertICALToJSON(icsData) {
 
         console.log(`Event: ${vevent.summary}`); // Debugging statement
 
-        let nextOccurrences = getNextOccurrences(vevent, new Date());
+        const todayAtMidnight = new Date();
+        todayAtMidnight.setHours(0, 0, 0, 0);
+        let nextOccurrences = getNextOccurrences(vevent, todayAtMidnight);
 
         return {
+            uid: vevent.uid,
             summary: vevent.summary,
             location: vevent.location ? vevent.location.toString() : "Microsoft Teams Meeting",
             description: vevent.description,
@@ -117,19 +120,23 @@ function getNextOccurrences(vevent, dateAfter) {
             ruleSet.rrule(rule);
             ruleSet.startDate = vevent.startDate;
 
-            //ruleSet.options.dtstart = vevent.startDate.toJSDate();
-   
-            for (let i = 0; i < 7; i++) {
-                let next = ruleSet.after(dateAfter, false);
-                if (!next) break;  // If no more dates are available, exit loop
+            const dateBefore = new Date(dateAfter); // Current date
+            dateBefore.setFullYear(dateAfter.getFullYear() + 1); // 1 year from now
+      
+
+            const nextDates = rule.between(dateAfter, dateBefore, true, (date, i) => {
+                return i < 7
+            });
+
+            nextDates.forEach(next => {
+                // fix the date to match the start date
+                next.setHours(vevent.startDate.hour, vevent.startDate.minute, vevent.startDate.second);
 
                 occurrences.push({
                     date: next.toISOString(),
                     status: "scheduled"
                 });
-
-                dateAfter = new Date(next.getTime() + 1000);  // Move past the last found date
-            }
+            });
 
             exdates.forEach(exdate => {
                 let index = occurrences.findIndex(occ => occ.date === exdate);
