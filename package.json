@@ -61,6 +61,7 @@
     "lilconfig": "^3.1.1",
     "lodash.memoize": "^4.1.2",
     "lodash.uniq": "^4.5.0",
+    "luxon": "^3.4.4",
     "mdn-data": "^2.0.30",
     "merge2": "^1.4.1",
     "micromatch": "^4.0.5",

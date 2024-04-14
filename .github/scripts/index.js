@@ -2,7 +2,8 @@ const fetch = require('node-fetch');
 const ical = require('ical.js');
 const fs = require('fs');
 const path = require('path');
-const { RRule, RRuleSet } = require('rrule');
+const { RRule, RRuleSet, rrulestr } = require('rrule');
+const { DateTime, IANAZone } = require('luxon');
 
 const ICS_URL = process.env.ICS_URL || "https://outlook.office365.com/owa/calendar/c80c26982a604d3e89b403a318e7a477@officedevpnp.onmicrosoft.com/299d3353259f4abf919f4abbeffea3863901301114936881794/calendar.ics"; // Use the environment variable
 const DIR_PATH = path.join(__dirname, '../../ical');
@@ -28,6 +29,37 @@ async function fetchICS() {
         console.error('Fetch ICS Error:', error);
         return null;
     }
+}
+
+function convertToUTC(dateString) {
+    // Split the date string into the time zone and the date parts
+    const [tzid, datePart] = dateString.split(':');
+
+    // Get the time zone name
+    const timeZone = tzid.split('=')[1];
+
+    // Map the time zone name to an IANA time zone
+    const timeZoneMap = {
+        'Eastern Standard Time': 'America/New_York',
+        // Add more mappings as needed
+    };
+    const ianaTimeZone = timeZoneMap[timeZone];
+
+    // Parse the date and time parts from the date string
+    const year = parseInt(datePart.slice(0, 4), 10);
+    const month = parseInt(datePart.slice(4, 6), 10);
+    const day = parseInt(datePart.slice(6, 8), 10);
+    const hour = parseInt(datePart.slice(8, 10), 10);
+    const minute = parseInt(datePart.slice(10, 12), 10);
+    const second = parseInt(datePart.slice(12, 14), 10);
+
+    // Create a new DateTime object in the specified time zone
+    const dateTime = DateTime.fromObject({ year, month, day, hour, minute, second, zone: ianaTimeZone });
+
+    // Convert the DateTime object to UTC
+    const utcDateTime = dateTime.toUTC();
+
+    return utcDateTime.toISO();
 }
 
 function parseAndConvertICALToJSON(icsData) {
@@ -68,24 +100,27 @@ function parseExdates(vevent) {
     });
 }
 
-function getNextOccurrences(vevent, fromDate) {
+function getNextOccurrences(vevent, dateAfter) {
     try {
         const exdates = parseExdates(vevent).map(date => date.toISOString());
         const rruleProp = vevent.component.getFirstProperty('rrule');
         let occurrences = [];
         const ruleString = rruleProp ? rruleProp.getFirstValue().toString() : null;
         if (rruleProp) {
-            const rruleData = rruleProp.getFirstValue();
-
             const fixedRruleString = fixRecurrenceRule(ruleString);
-            const rule = RRule.fromString(fixedRruleString);
+            //const rule = RRule.fromString(`DTSTART:${vevent.startDate.toJSDate()};\nRRULE:${fixedRruleString}`);
+            const ruleSetString = `RRULE:${fixedRruleString}`;
 
-            const ruleSet = rule;
-            ruleSet.options.dtstart = vevent.startDate.toJSDate();
+            const rule = RRule.fromString(ruleSetString);
+        
+            var ruleSet = new RRuleSet();
+            ruleSet.rrule(rule);
+            ruleSet.startDate = vevent.startDate;
 
-            // Get the next three occurrences
+            //ruleSet.options.dtstart = vevent.startDate.toJSDate();
+   
             for (let i = 0; i < 7; i++) {
-                let next = ruleSet.after(fromDate, false);
+                let next = ruleSet.after(dateAfter, false);
                 if (!next) break;  // If no more dates are available, exit loop
 
                 occurrences.push({
@@ -93,10 +128,9 @@ function getNextOccurrences(vevent, fromDate) {
                     status: "scheduled"
                 });
 
-                fromDate = new Date(next.getTime() + 1000);  // Move past the last found date
+                dateAfter = new Date(next.getTime() + 1000);  // Move past the last found date
             }
 
-            // Check each exception date and update or add to occurrences
             exdates.forEach(exdate => {
                 let index = occurrences.findIndex(occ => occ.date === exdate);
                 if (index !== -1) {
@@ -109,7 +143,6 @@ function getNextOccurrences(vevent, fromDate) {
                 }
             });
 
-            // Sort all occurrences by date
             occurrences.sort((a, b) => new Date(a.date) - new Date(b.date));
         }
         return occurrences;
@@ -119,19 +152,9 @@ function getNextOccurrences(vevent, fromDate) {
     }
 }
 
+
 function fixRecurrenceRule(rruleString) {
     return rruleString.replace(/BYDAY=(\d)([A-Z]+)/g, 'BYDAY=+$1$2');
-}
-
-function parseByDay(byday) {
-    if (Array.isArray(byday)) {
-        return byday.map(day => RRule[day.toUpperCase()]);
-    } else if (typeof byday === 'string') {
-        return byday.split(',').map(day => RRule[day.toUpperCase()]);
-    } else {
-        console.error("Unexpected BYDAY format:", byday);
-        return undefined;
-    }
 }
 
 async function main() {
