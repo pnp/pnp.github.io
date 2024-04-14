@@ -3,7 +3,6 @@ const ical = require('ical.js');
 const fs = require('fs');
 const path = require('path');
 const { RRule, RRuleSet } = require('rrule');
-const { DateTime } = require('luxon');
 
 const ICS_URL = process.env.ICS_URL || "https://outlook.office365.com/owa/calendar/c80c26982a604d3e89b403a318e7a477@officedevpnp.onmicrosoft.com/299d3353259f4abf919f4abbeffea3863901301114936881794/calendar.ics"; // Use the environment variable
 const DIR_PATH = path.join(__dirname, '../../ical');
