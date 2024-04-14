@@ -38,7 +38,11 @@ function parseAndConvertICALToJSON(icsData) {
     const mappedEvents = events.map(event => {
         const vevent = new ical.Event(event);
         const meetingUrl = extractMeetingUrlFromDescription(vevent.description);
-        console.log(`Meeting URL: ${meetingUrl}`); // Outputs the meeting URL or "null" if not found
+        
+        // Add the meeting URL as a custom property
+        if (meetingUrl) {
+            event.addPropertyWithValue('x-microsoft-skypeteamsmeetingurl', meetingUrl);
+        }
 
         const rruleProp = vevent.component.getFirstProperty('rrule');
         const rrule = rruleProp ? rruleProp.getFirstValue() : null;
@@ -141,9 +145,10 @@ function parseAndConvertICALToJSON(icsData) {
         }
     });
 
-    console.log('jcal:', comp.toString()); // Debugging statement
+    // After all events have been processed, convert the Component back to an ICS string
+    const updatedIcsData = comp.toString();
 
-    return mappedEvents;
+    return { mappedEvents, updatedIcsData };
 }
 
 function parseExdates(vevent) {
@@ -189,9 +194,15 @@ async function main() {
     fs.writeFileSync(ICS_OUTPUT_FILE, icsData);
     console.log('ICS file has been downloaded and saved.');
 
+    const { mappedEvents, updatedIcsData } = parseAndConvertICALToJSON(icsData);
+
+    // Save the updated ICS data to a file
+    fs.writeFileSync(ICS_OUTPUT_FILE, updatedIcsData);
+    console.log('Updated ICS file has been saved.');
+
     const jsonData = {
         lastRetrieved: new Date().toISOString(),
-        events: parseAndConvertICALToJSON(icsData)
+        events: mappedEvents
     };
 
     if (jsonData.events) {
