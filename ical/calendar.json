@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-04-15T01:11:07.723Z",
+  "lastRetrieved": "2024-04-15T03:01:13.627Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -269,7 +269,7 @@
     },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000C81EAE66288ADA01000000000000000010000000F6C360139C27FF4B8FF87F06B421CDB8",
-      "summary": "Power Platform Community Call ",
+      "summary": "Power Platform Monthly Call ",
       "joinUrl": null,
       "location": "Microsoft Teams Meeting",
       "startTime": "2024-04-17T08:00:00",
