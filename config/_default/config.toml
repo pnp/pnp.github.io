@@ -66,3 +66,23 @@ twitter = "m365pnp"
 
 [params.clarity]
 trackingCode = "a7ttm14uzv"
+
+[outputFormats]
+[outputFormats.Calendar]
+MediaType = "text/calendar"
+BaseName = "calendar"
+IsPlainText = true
+IsHTML = false
+NotAlternative = false
+Rel = "alternate"
+Path = "ical"
+Protocol = "webcal://"
+
+[mediaTypes]
+[mediaTypes."text/calendar"]
+Suffixes = ["ics"]
+Delimiter = ""
+
+[outputs]
+home = ["HTML", "RSS", "Calendar"] 
+

@@ -172,8 +172,9 @@
     "build:scss": "sass themes/pnp-hugo-theme/assets/scss/:themes/pnp-hugo-theme/assets/css/  --no-source-map",
     "build:css": "postcss themes/pnp-hugo-theme/assets/css/ --dir themes/pnp-hugo-theme/assets/css/ --ext .css --parser postcss-scss",
     "build": "npm run build:tsc && npm run build:scss && npm run build:css",
-    "predeploy": "rimraf ./static/ical/calendar.json ./static/ical/calendar.ics",
-    "deploy": "npm run predeploy && gh-pages -d public",
+    "predeploy": "rimraf ./public/ical/calendar.json ./public/ical/calendar.ics",
+    "deploy": "hugo && gh-pages -d public",
+    "deploy-noical": "hugo && npm run predeploy && gh-pages -d public",
     "update-theme": "powershell -File ./admin/update-theme.ps1"
   },
   "keywords": [],

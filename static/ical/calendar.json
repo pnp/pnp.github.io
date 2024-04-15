@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-04-14T23:45:23.493Z",
+  "lastRetrieved": "2024-04-15T03:36:19.496Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -14,7 +14,7 @@
       "nextOccurrences": [
         {
           "date": "2024-04-16T15:00:00.000Z",
-          "status": "cancelled"
+          "status": "scheduled"
         },
         {
           "date": "2024-04-23T15:00:00.000Z",
@@ -170,8 +170,8 @@
       "summary": "PLEASE DELETE - Test Meeting",
       "joinUrl": null,
       "location": "Microsoft Teams Meeting",
-      "startTime": "2024-04-13T10:00:00.000Z",
-      "endTime": "2024-04-13T11:00:00.000Z",
+      "startTime": "2024-04-13T19:00:00.000Z",
+      "endTime": "2024-04-13T20:00:00.000Z",
       "rrule": "FREQ=DAILY;INTERVAL=2;UNTIL=20240712T190000Z",
       "exdate": [
         "2024-04-17T19:00:00.000Z"
@@ -179,13 +179,9 @@
       "recurrenceId": null,
       "nextOccurrences": [
         {
-          "date": "2024-04-15T01:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
           "date": "2024-04-15T16:00:00.000Z",
           "status": "moved",
-          "summary": "PLEASE DELETE - Test Meeting (Noon)"
+          "summary": "PLEASE DELETE - Test Meeting Moved - 1 hour earlier"
         },
         {
           "date": "2024-04-17T19:00:00.000Z",
@@ -220,7 +216,7 @@
     },
     {
       "uid": "040000008200E00074C5B7101A82E008000000003DADB286B88DDA01000000000000000010000000CAE180660514504D8FEE060CF40A7A57",
-      "summary": "PLEASE DELETE - Test Meeting (Noon)",
+      "summary": "PLEASE DELETE - Test Meeting Moved - 1 hour earlier",
       "joinUrl": null,
       "location": "Microsoft Teams Meeting",
       "startTime": "2024-04-15T16:00:00.000Z",
@@ -273,7 +269,7 @@
     },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000C81EAE66288ADA01000000000000000010000000F6C360139C27FF4B8FF87F06B421CDB8",
-      "summary": "Power Platform Community Call ",
+      "summary": "Power Platform Monthly Call ",
       "joinUrl": null,
       "location": "Microsoft Teams Meeting",
       "startTime": "2024-04-17T15:00:00.000Z",
