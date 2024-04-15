@@ -167,11 +167,12 @@
     "typescript": "^5.4.4"
   },
   "scripts": {
+    "watch": "tsc --watch",
     "build:tsc": "tsc",
     "build:scss": "sass themes/pnp-hugo-theme/assets/scss/:themes/pnp-hugo-theme/assets/css/  --no-source-map",
     "build:css": "postcss themes/pnp-hugo-theme/assets/css/ --dir themes/pnp-hugo-theme/assets/css/ --ext .css --parser postcss-scss",
     "build": "npm run build:tsc && npm run build:scss && npm run build:css",
-    "predeploy": "rimraf ./static/ical/*.json ./static/ical/*.ics",
+    "predeploy": "rimraf ./static/ical/calendar.json ./static/ical/calendar.ics",
     "deploy": "npm run predeploy && gh-pages -d public",
     "update-theme": "powershell -File ./admin/update-theme.ps1"
   },

@@ -4,7 +4,8 @@
         "demosite",
         "licenselink",
         "pnptelemetry",
-        "sectionname"
+        "sectionname",
+        "webp"
     ],
     "frontMatter.framework.id": "hugo",
     "frontMatter.content.publicFolder": "static",

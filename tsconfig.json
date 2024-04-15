@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES6",
-    "module": "commonjs",
+    "module": "ESNext",
     "outDir": "themes/pnp-hugo-theme/assets/js",
     "strict": true,
     "esModuleInterop": true,
