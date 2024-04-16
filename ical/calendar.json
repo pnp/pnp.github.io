@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-04-15T23:01:55.777Z",
+  "lastRetrieved": "2024-04-16T00:04:56.252Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -179,11 +179,6 @@
       "recurrenceId": null,
       "nextOccurrences": [
         {
-          "date": "2024-04-15T09:00:00",
-          "status": "moved",
-          "summary": "PLEASE DELETE - Test Meeting Moved - 1 hour earlier"
-        },
-        {
           "date": "2024-04-17T19:00:00.000Z",
           "status": "cancelled"
         },
@@ -210,6 +205,10 @@
         },
         {
           "date": "2024-04-29T19:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2024-05-01T19:00:00.000Z",
           "status": "scheduled"
         }
       ]
