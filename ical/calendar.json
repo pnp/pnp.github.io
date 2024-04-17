@@ -1,9 +1,9 @@
 {
-  "lastRetrieved": "2024-04-17T13:01:47.544Z",
+  "lastRetrieved": "2024-04-17T14:00:47.276Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
-      "summary": "Microsoft 365 Platform - Weekly series",
+      "summary": "Microsoft 365 & Power Platform Call",
       "joinUrl": "https://aka.ms/m365-dev-call-join",
       "location": "Microsoft Teams Meeting",
       "startTime": "2024-04-02T08:00:00",
@@ -44,7 +44,7 @@
     },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000CE03C195278ADA010000000000000000100000001D5D5DA85E858D45B9A47028FB60C7F2",
-      "summary": "Viva Connections and SharePoint Framework bi-weekly community call",
+      "summary": "Viva Connections & SharePoint Framework",
       "joinUrl": null,
       "location": "Microsoft Teams Meeting",
       "startTime": "2024-04-04T08:00:00",
@@ -126,7 +126,7 @@
     },
     {
       "uid": "040000008200E00074C5B7101A82E0080000000070404DDB288ADA01000000000000000010000000F485AAF2995C3947AF4B1E87F01384A0",
-      "summary": "Microsoft 365 General Dev - Special Interest Group",
+      "summary": "Microsoft 365 & Power Platform - General Development",
       "joinUrl": null,
       "location": "Microsoft Teams Meeting",
       "startTime": "2024-04-11T08:00:00",
@@ -164,66 +164,6 @@
           "status": "scheduled"
         }
       ]
-    },
-    {
-      "uid": "040000008200E00074C5B7101A82E008000000003DADB286B88DDA01000000000000000010000000CAE180660514504D8FEE060CF40A7A57",
-      "summary": "PLEASE DELETE - Test Meeting",
-      "joinUrl": null,
-      "location": "Microsoft Teams Meeting",
-      "startTime": "2024-04-13T12:00:00",
-      "endTime": "2024-04-13T13:00:00",
-      "rrule": "FREQ=DAILY;INTERVAL=2;UNTIL=20240712T190000Z",
-      "exdate": [
-        "2024-04-17T19:00:00.000Z"
-      ],
-      "recurrenceId": null,
-      "nextOccurrences": [
-        {
-          "date": "2024-04-17T19:00:00.000Z",
-          "status": "cancelled"
-        },
-        {
-          "date": "2024-04-19T12:00:00",
-          "status": "moved",
-          "summary": "PLEASE DELETE - Test Meeting (Online)"
-        },
-        {
-          "date": "2024-04-21T19:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2024-04-23T19:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2024-04-25T19:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2024-04-27T19:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2024-04-29T19:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2024-05-01T19:00:00.000Z",
-          "status": "scheduled"
-        }
-      ]
-    },
-    {
-      "uid": "040000008200E00074C5B7101A82E008000000003DADB286B88DDA01000000000000000010000000CAE180660514504D8FEE060CF40A7A57",
-      "summary": "PLEASE DELETE - Test Meeting Moved - 1 hour earlier",
-      "joinUrl": null,
-      "location": "Microsoft Teams Meeting",
-      "startTime": "2024-04-15T09:00:00",
-      "endTime": "2024-04-15T10:00:00",
-      "rrule": null,
-      "exdate": [],
-      "recurrenceId": "20240415T120000",
-      "nextOccurrences": []
     },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A07914A1AD8EDA01000000000000000010000000C336836834D5AF489D8E4225EE9C3B0B",
@@ -306,18 +246,6 @@
           "status": "scheduled"
         }
       ]
-    },
-    {
-      "uid": "040000008200E00074C5B7101A82E008000000003DADB286B88DDA01000000000000000010000000CAE180660514504D8FEE060CF40A7A57",
-      "summary": "PLEASE DELETE - Test Meeting (Online)",
-      "joinUrl": null,
-      "location": "Microsoft Teams Meeting",
-      "startTime": "2024-04-19T12:00:00",
-      "endTime": "2024-04-19T13:00:00",
-      "rrule": null,
-      "exdate": [],
-      "recurrenceId": "20240419T120000",
-      "nextOccurrences": []
     }
   ]
 }
