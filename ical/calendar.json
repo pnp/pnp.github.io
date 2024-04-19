@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-04-19T18:01:48.882Z",
+  "lastRetrieved": "2024-04-19T19:02:46.331Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -82,6 +82,18 @@
           "status": "scheduled"
         }
       ]
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E00800000000215CDBC68792DA010000000000000000100000006DE5128DFF793843B6D9D0CB44CB9FE5",
+      "summary": "Remove Me",
+      "joinUrl": null,
+      "location": "Microsoft Teams Meeting",
+      "startTime": "2024-04-09T05:00:00",
+      "endTime": "2024-04-09T05:30:00",
+      "rrule": null,
+      "exdate": [],
+      "recurrenceId": null,
+      "nextOccurrences": []
     },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000F97F040EAE8EDA01000000000000000010000000214806AD1FEB9B49B9BA5E95BB8A21A0",
