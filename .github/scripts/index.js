@@ -171,7 +171,7 @@ function parseExdates(vevent) {
 }
 
 function extractMeetingUrlFromDescription(description) {
-    const regex = /\n\nClick here to join the meeting<([^>]+)>\n\n_/;
+    const regex = /Click here to join the meeting<([^>]+)>/;
     const match = description.match(regex);
     return match ? match[1] : null;
 }
@@ -280,6 +280,7 @@ function updateDescription(text) {
             if (capturing) {
                 //console.log("Full Description: ", description); // Log the full description
                 newLines.push(foldICSLine('DESCRIPTION', description, false));
+                newLines.push(foldICSLine('X-ALT-DESC;FMTTYPE=text/html', createHTMLDescription(description), false));
                 description = '';
                 capturing = false;
             } else {
@@ -291,23 +292,35 @@ function updateDescription(text) {
     return newLines.join('\r\n');
 }
 
-// function wrapLines(str) {
-//     const maxChar = 75;
-//     let result = '';
-//     str = str.replace(/\r?\n/g, ''); // remove all newline characters and extra spaces
-//     while (str.length > 0) {
-//         let cutAt = str.length > maxChar ? maxChar : str.length;
-//         if (str[cutAt - 1] === ' ') {
-//             cutAt--;
-//         }
-//         result += str.substring(0, cutAt);
-//         if (str.length > maxChar) {
-//             result += '\n ';
-//         }
-//         str = str.substring(cutAt).trimStart();
-//     }
-//     return result;
-// }
+function createHTMLDescription(description) {
+    description = description.replace(/\\nMicrosoft Teams meeting\\n/g, `<div style="margin-bottom:12px"><span class="x_me-email-text" style="font-size:24px; font-weight:700; margin-right:12px">Microsoft Teams</span><a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" id="x_meet_invite_block.action.help" class="x_me-email-link" style="font-size:14px; text-decoration:underline; color:#5B5FC7">Need help?</a> </div>`);
+
+    description = description.replace(/\\nJoin on your computer\\, mobile app or room device\\n/g, '');
+    description = description.replace(/Join on your computer\\, mobile app or room device/g, '');
+    
+    const regex = /(\\n)?Click here to join the meeting<([\s\S]+?)>(<[\s\S]+>)?(\\n)?/g;
+    description = description.replace(regex, (_match, _p1, url, _p3, _p4) => {
+        // You can use the captured URL here
+        const customText = `<div style="margin-bottom:6px"><a href="${url}" target="_blank" rel="noreferrer noopener" data-auth="NotApplicable" id="x_meet_invite_block.action.join_link" class="x_me-email-headline" style="font-size:20px; font-weight:600; text-decoration:underline; color:#5B5FC7">Join the meeting now</a> </div>`;
+        return customText;
+    });
+
+    // replace two newlines with a paragraph tag
+    description = description.replace(/\\n\\n/g, '</p><p>');
+
+    // Replace the Teams divider lines with a horizontal rule
+    description = description.replace(/_{80,}/g, '<div style="margin-bottom:24px; overflow:hidden; white-space:nowrap">________________________________________________________________________________</div>');
+
+    description = convertMarkdownLinksToHTML(description);
+
+    return `<html><body style="font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt;"><p>${description}</p></body></html>`;
+}
+
+function convertMarkdownLinksToHTML(text) {
+    const regex = /<(https?:\/\/[\s\S]+?)>/g;
+    
+    return text.replace(regex, '<a href="$1">$1</a>');
+}
 
 
 main();
