@@ -4,9 +4,19 @@ const fs = require('fs');
 const path = require('path');
 
 const ICS_URL = process.env.ICS_URL || "https://outlook.office365.com/owa/calendar/c80c26982a604d3e89b403a318e7a477@officedevpnp.onmicrosoft.com/299d3353259f4abf919f4abbeffea3863901301114936881794/calendar.ics"; // Use the environment variable
-const DIR_PATH = '../../ical';
-const ICS_OUTPUT_FILE = path.join(DIR_PATH, 'calendar.ics');
-const JSON_OUTPUT_FILE = path.join(DIR_PATH, 'calendar.json');
+let dirPath;
+if (process.argv.includes('--action')) {
+    // If the script is being run as a GitHub Actions workflow
+    dirPath = '../../ical';
+} else {
+    // If the script is being run locally
+    dirPath = './static/ical';
+}
+
+
+const ICS_OUTPUT_FILE = path.join(dirPath, 'calendar.ics');
+const ICS_ORIGINAL_FILE = path.join(dirPath, 'calendar-original.ics');
+const JSON_OUTPUT_FILE = path.join(dirPath, 'calendar.json');
 
 function ensureDirectoryExists(filePath) {
     const dirname = path.dirname(filePath);
@@ -36,7 +46,7 @@ function parseAndConvertICALToJSON(icsData) {
     const mappedEvents = events.map(event => {
         const vevent = new ical.Event(event);
         const meetingUrl = extractMeetingUrlFromDescription(vevent.description);
-        
+
         // Add the meeting URL as a custom property
         if (meetingUrl) {
             event.addPropertyWithValue('x-microsoft-skypeteamsmeetingurl', meetingUrl);
@@ -78,8 +88,8 @@ function parseAndConvertICALToJSON(icsData) {
                     status: "scheduled"
                 });
                 i++;
-            } 
-        
+            }
+
         }
 
         // Go through the exception dates and mark them as cancelled
@@ -129,7 +139,7 @@ function parseAndConvertICALToJSON(icsData) {
 
 
                 // Find the matching event's nextOccurrences array by matching the date portion only
-                const matchingOccurrence = matchingEvent.nextOccurrences.find(occurrence => occurrence.date.startsWith(utcDate  ));   
+                const matchingOccurrence = matchingEvent.nextOccurrences.find(occurrence => occurrence.date.startsWith(utcDate));
 
                 if (matchingOccurrence) {
                     // Change the status of the matching occurrence to moved
@@ -138,7 +148,7 @@ function parseAndConvertICALToJSON(icsData) {
                     matchingOccurrence.summary = eventWithRecurrenceId.summary;
                     matchingOccurrence.description = eventWithRecurrenceId.description;
                 }
-  
+
             }
         }
     });
@@ -176,23 +186,34 @@ async function main() {
         return;
     }
 
+    fs.writeFileSync(ICS_ORIGINAL_FILE, icsData);
+
     // Add Location if not present
 
     // Search and replace every occurrence of a line with only LOCATION: with LOCATION:Microsoft Teams Meeting
 
     icsData = icsData.replace(/^LOCATION:$/gm, 'LOCATION:Microsoft Teams Meeting');
 
-    // Find this:
-    // X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
-    // And replace with this:
-    // X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
     icsData = icsData.replace(/X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT/g, 'X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE');
+
 
 
     fs.writeFileSync(ICS_OUTPUT_FILE, icsData);
     console.log('ICS file has been downloaded and saved.');
 
-    const { mappedEvents, updatedIcsData } = parseAndConvertICALToJSON(icsData);
+    let { mappedEvents, updatedIcsData } = parseAndConvertICALToJSON(icsData);
+
+    // Escape '/' characters
+    // updatedIcsData = updatedIcsData.replace(/\//g, '/;');
+
+    // // Unescape already escaped '/' characters
+    // updatedIcsData = updatedIcsData.replace(/\/\/;/g, '/');
+
+    //updatedIcsData = updateDescription(updatedIcsData);
+
+    // Correct the line endings
+    //updatedIcsData = correctLineEndingsAndFormat(updatedIcsData);
+    updatedIcsData = updateDescription(updatedIcsData);
 
     // Save the updated ICS data to a file
     fs.writeFileSync(ICS_OUTPUT_FILE, updatedIcsData);
@@ -211,5 +232,82 @@ async function main() {
         console.log('Failed to convert ICAL to JSON or JSON is empty.');
     }
 }
+
+function foldICSLine(propertyName, propertyValue, stripTags = true) {
+    // Normalize the input
+    propertyValue = propertyValue.trim();
+    propertyValue = propertyValue.replace(/\r?\n/g, ' '); // Replace newlines with spaces
+    propertyValue = propertyValue.replace(/\s+/g, ' '); // Collapse multiple spaces
+
+    if (stripTags) {
+        propertyValue = propertyValue.replace(/<\/?[^>]+(>|$)/g, ""); // Strip HTML tags
+    }
+
+    // Prepend the property name and a colon
+    const fullLine = propertyName + ':' + propertyValue;
+    const maxLength = 75;
+    let result = [];
+
+    // Start folding lines
+    let offset = 0;
+    while (offset < fullLine.length) {
+        let limit = maxLength;
+        if (offset !== 0) limit -= 1; // Adjust for the space at the start of continuation lines
+
+        let segment = fullLine.substring(offset, offset + limit);
+        if (offset !== 0) segment = ' ' + segment; // Add a space at the beginning of each continuation line
+
+        result.push(segment);
+        offset += limit;
+    }
+
+    return result.join('\r\n'); // Join all segments with CRLF
+}
+
+function updateDescription(text) {
+    const lines = text.split(/\r\n|\n/);
+    let newLines = [];
+    let capturing = false;
+    let description = '';
+
+    lines.forEach(line => {
+        if (line.startsWith('DESCRIPTION:')) {
+            capturing = true;
+            description += line.substring(12);
+        } else if (capturing && line.startsWith(' ')) {
+            description += line.substring(1);
+        } else {
+            if (capturing) {
+                //console.log("Full Description: ", description); // Log the full description
+                newLines.push(foldICSLine('DESCRIPTION', description, false));
+                description = '';
+                capturing = false;
+            } else {
+                newLines.push(line);
+            }
+        }
+    });
+
+    return newLines.join('\r\n');
+}
+
+// function wrapLines(str) {
+//     const maxChar = 75;
+//     let result = '';
+//     str = str.replace(/\r?\n/g, ''); // remove all newline characters and extra spaces
+//     while (str.length > 0) {
+//         let cutAt = str.length > maxChar ? maxChar : str.length;
+//         if (str[cutAt - 1] === ' ') {
+//             cutAt--;
+//         }
+//         result += str.substring(0, cutAt);
+//         if (str.length > maxChar) {
+//             result += '\n ';
+//         }
+//         str = str.substring(cutAt).trimStart();
+//     }
+//     return result;
+// }
+
 
 main();

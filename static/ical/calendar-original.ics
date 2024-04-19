@@ -33,15 +33,16 @@ DESCRIPTION:Welcome to the Microsoft 365 & Power Platform community call! T
  e actual invite URL. This way any changes are transparent for you if you a
  ccess the call from above link)\n\nCommunity call recordings will be publi
  shed at the Microsoft 365 Community YouTube channel at https://aka.ms/m365
- pnp/videos - Subscribe to get notified of the new daily videos!\n\nResourc
- es\n- Follow us on Twitter with @Microsoft365dev or @m365pnp - we publish 
- the call agenda in the social media always few days before the call\n- Sub
- scriber also to the Microsoft 365 Dev YouTube channel for other Microsoft 
- 365 developer videos at https://m365dev/videos\n- Community call summaries
-  will be published at https://aka.ms/m365pnp/community/blog\n- Latest news
-  on Microsoft 365 platform from Microsoft 365 developer blog at https://de
- veloper.microsoft.com/en-us/microsoft-365/blogs/\n\nEasiest way to find of
- ficial docs\, SDKs and community assets - https://aka.ms/m365pnp\n\n
+ pnp/videos  - Subscribe to get notified of the new daily videos!\n\nResour
+ ces\n- Follow us on Twitter with @Microsoft365dev or @m365pnp - we publish
+  the call agenda in the social media always few days before the call\n- Su
+ bscriber also to the Microsoft 365 Dev YouTube channel for other Microsoft
+  365 developer videos at https://m365dev/videos\n- Community call summarie
+ s will be published at https://aka.ms/m365pnp/community/blog\n- Latest new
+ s on Microsoft 365 platform from Microsoft 365 developer blog at https://d
+ eveloper.microsoft.com/en-us/microsoft-365/blogs/\n\nEasiest way to find o
+ fficial docs\, SDKs and community assets - https://aka.ms/m365pnp\n\n
+RRULE:FREQ=WEEKLY;UNTIL=20240924T150000Z;INTERVAL=1;BYDAY=TU;WKST=SU
 UID:040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA01000000000000000
  01000000051CB05FE8CA1C74BB006BB017D44378A
 SUMMARY:Microsoft 365 & Power Platform Weekly Call
@@ -53,7 +54,7 @@ DTSTAMP:20240419T180216Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Microsoft Teams Meeting
+LOCATION:
 X-MICROSOFT-CDO-APPT-SEQUENCE:0
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
@@ -62,9 +63,8 @@ X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-CDO-INSTTYPE:1
 X-MICROSOFT-DONOTFORWARDMEETING:FALSE
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
-X-MICROSOFT-SKYPETEAMSMEETINGURL:https://aka.ms/m365-dev-call-join
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Welcome to the Viva Connections & SharePoint Framework Bi-weekl
@@ -88,6 +88,7 @@ DESCRIPTION:Welcome to the Viva Connections & SharePoint Framework Bi-weekl
  soft 365 platform from Microsoft 365 developer blog at https://developer.m
  icrosoft.com/microsoft-365/blogs/\n\n\nEasiest way to find official docs\,
   SDKs and community assets - https://aka.ms/m365pnp\n
+RRULE:FREQ=WEEKLY;UNTIL=20250417T140000Z;INTERVAL=2;BYDAY=TH;WKST=SU
 UID:040000008200E00074C5B7101A82E00800000000CE03C195278ADA01000000000000000
  0100000001D5D5DA85E858D45B9A47028FB60C7F2
 SUMMARY:Viva Connections & SharePoint Framework Community Call
@@ -99,7 +100,7 @@ DTSTAMP:20240419T180216Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Microsoft Teams Meeting
+LOCATION:
 X-MICROSOFT-CDO-APPT-SEQUENCE:0
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
@@ -108,32 +109,33 @@ X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-CDO-INSTTYPE:1
 X-MICROSOFT-DONOTFORWARDMEETING:FALSE
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:The Office Add-ins community call is our monthly event for deve
  lopers to connect in real-time with the folks who are building the Office 
- JavaScript APIs. During this call\, we’ll share updates about new Office J
- avaScript APIs and provide tips about useful tools\, samples\, and resourc
- es for developing Office Add-ins. Additionally\, each call will feature a 
- technical deep dive on a specific topic and will conclude with an opportun
- ity for attendees to ask questions and share feedback.\n\n\n______________
- __________________________________________________________________\n\nMicr
- osoft Teams meeting\n\nJoin on your computer\, mobile app or room device\n
- \nClick here to join the meeting<https://aka.ms/officeaddinscall-join>\n\n
- \nOr join by phone (audio only)\n\n+1 323-849-4874\,\,975455939# United St
- ates\, Los Angeles\nPhone Conference ID: 975 455 939#\nFind a local number
- <https://dialin.teams.microsoft.com/8551f4c1-bea3-441a-8738-69aa517a91c5?i
- d=975455939> | Reset PIN<https://mysettings.lync.com/pstnconferencing>\n\n
- __________________________________________________________________________
- ______\n\n\nResources\nCommunity call topic requests and questions<https:/
- /aka.ms/officeaddinsform>\nFollow us on Twitter @Microsoft365Dev<https://t
- witter.com/Microsoft365Dev> for the latest announcements\nCommunity call r
- ecordings on the YouTube Microsoft 365 Dev channel<https://aka.ms/M365DevY
- ouTube>\nGet started with Office Add-ins development<https://developer.mic
- rosoft.com/office>\nJoin the Microsoft 365 Developer Program<https://devel
- oper.microsoft.com/microsoft-365/dev-program>\n\n\n
+ JavaScript APIs. During this call\, we’ll share updates about new Office
+  JavaScript APIs and provide tips about useful tools\, samples\, and resou
+ rces for developing Office Add-ins. Additionally\, each call will feature 
+ a technical deep dive on a specific topic and will conclude with an opport
+ unity for attendees to ask questions and share feedback.\n\n\n____________
+ ____________________________________________________________________\n\nMi
+ crosoft Teams meeting\n\nJoin on your computer\, mobile app or room device
+ \n\nClick here to join the meeting<https://aka.ms/officeaddinscall-join>\n
+ \n\nOr join by phone (audio only)\n\n+1 323-849-4874\,\,975455939# United 
+ States\, Los Angeles\nPhone Conference ID: 975 455 939#\nFind a local numb
+ er<https://dialin.teams.microsoft.com/8551f4c1-bea3-441a-8738-69aa517a91c5
+ ?id=975455939> | Reset PIN<https://mysettings.lync.com/pstnconferencing>\n
+ \n________________________________________________________________________
+ ________\n\n\nResources\nCommunity call topic requests and questions<https
+ ://aka.ms/officeaddinsform>\nFollow us on Twitter @Microsoft365Dev<https:/
+ /twitter.com/Microsoft365Dev> for the latest announcements\nCommunity call
+  recordings on the YouTube Microsoft 365 Dev channel<https://aka.ms/M365De
+ vYouTube>\nGet started with Office Add-ins development<https://developer.m
+ icrosoft.com/office>\nJoin the Microsoft 365 Developer Program<https://dev
+ eloper.microsoft.com/microsoft-365/dev-program>\n\n\n
+RRULE:FREQ=MONTHLY;UNTIL=20250409T140000Z;INTERVAL=1;BYDAY=2WE
 UID:040000008200E00074C5B7101A82E00800000000F97F040EAE8EDA01000000000000000
  010000000214806AD1FEB9B49B9BA5E95BB8A21A0
 SUMMARY:Office Add-ins
@@ -145,7 +147,7 @@ DTSTAMP:20240419T180216Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Microsoft Teams Meeting
+LOCATION:
 X-MICROSOFT-CDO-APPT-SEQUENCE:0
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
@@ -154,30 +156,31 @@ X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-CDO-INSTTYPE:1
 X-MICROSOFT-DONOTFORWARDMEETING:FALSE
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Welcome to the Microsoft 365 & Power Platform - General Develop
  ment Bi-weekly Special Interest Group call around Microsoft 365 General de
  veloper topics.\n\nTopics covered in this call are solution designs\, prov
- isioning\, Microsoft Teams\, SharePoint\, Online\, Power Platform\, etc. a
- cross the platform with updates from Microsoft and 2-3 live demos.\n\n\n__
+ isioning\, Microsoft Teams\, SharePoint\, Online\, Power Platform\,  etc. 
+ across the platform with updates from Microsoft and 2-3 live demos.\n\n\n_
  __________________________________________________________________________
- ____\n\nMicrosoft Teams meeting\n\nJoin on your computer\, mobile app or r
- oom device\n\nClick here to join the meeting<https://aka.ms/m365-dev-sig-j
- oin><https://aka.ms/m365-dev-sig-join>\n\n\n______________________________
- __________________________________________________\n\n(notice. This is an 
- aka.ms link as we might change the actual invite URL. This way any changes
-  are transparent for you as long as you access the call from above link)\n
- \nMicrosoft 365 Patterns and Practices community – https://aka.ms/m365pnp\
- n\nMicrosoft 365 Developer YouTube channel – https://aka.ms/M365DevYouTube
- \n\nMicrosoft 365 and SharePoint Community YouTube channel – https://m365p
- np-videos\n\nMicrosoft 365 Open-Source – https://github.com/pnp \, https:/
- /github.com/officedev \, https://github.com/sharepoint \, https://github.c
- om/microsoftgraph\n\nSample galleries – take advantage of existing samples
-  – https://aka.ms/teams-samples \, https://aka.ms/spfx-webparts \, https:/
- /aka.ms/list-formatting \, https://aka.ms/spfx-extensions\n
+ _____\n\nMicrosoft Teams meeting\n\nJoin on your computer\, mobile app or 
+ room device\n\nClick here to join the meeting<https://aka.ms/m365-dev-sig-
+ join><https://aka.ms/m365-dev-sig-join>\n\n\n_____________________________
+ ___________________________________________________\n\n(notice. This is an
+  aka.ms link as we might change the actual invite URL. This way any change
+ s are transparent for you as long as you access the call from above link)\
+ n\nMicrosoft 365 Patterns and Practices community – https://aka.ms/m365p
+ np\n\nMicrosoft 365 Developer YouTube channel – https://aka.ms/M365DevYo
+ uTube\n\nMicrosoft 365 and SharePoint Community YouTube channel – https:
+ //m365pnp-videos\n\nMicrosoft 365 Open-Source – https://github.com/pnp \
+ , https://github.com/officedev \, https://github.com/sharepoint \, https:/
+ /github.com/microsoftgraph\n\nSample galleries – take advantage of exist
+ ing samples – https://aka.ms/teams-samples \, https://aka.ms/spfx-webpar
+ ts \, https://aka.ms/list-formatting \, https://aka.ms/spfx-extensions\n
+RRULE:FREQ=WEEKLY;UNTIL=20250410T140000Z;INTERVAL=2;BYDAY=TH;WKST=SU
 UID:040000008200E00074C5B7101A82E0080000000070404DDB288ADA01000000000000000
  010000000F485AAF2995C3947AF4B1E87F01384A0
 SUMMARY:Microsoft 365 & Power Platform Community Call
@@ -189,7 +192,7 @@ DTSTAMP:20240419T180216Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Microsoft Teams Meeting
+LOCATION:
 X-MICROSOFT-CDO-APPT-SEQUENCE:0
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
@@ -198,7 +201,7 @@ X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-CDO-INSTTYPE:1
 X-MICROSOFT-DONOTFORWARDMEETING:FALSE
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
 END:VEVENT
 BEGIN:VEVENT
@@ -207,6 +210,7 @@ DESCRIPTION:_______________________________________________________________
  bile app or room device\nClick here to join the meeting<https://aka.ms/mm4
  m365/join-call>\n\n_______________________________________________________
  ________________________\n
+RRULE:FREQ=MONTHLY;UNTIL=20250415T140000Z;INTERVAL=1;BYDAY=3TU
 UID:040000008200E00074C5B7101A82E00800000000A07914A1AD8EDA01000000000000000
  010000000C336836834D5AF489D8E4225EE9C3B0B
 SUMMARY:Maturity Model for Microsoft 365
@@ -218,7 +222,7 @@ DTSTAMP:20240419T180216Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Microsoft Teams Meeting
+LOCATION:
 X-MICROSOFT-CDO-APPT-SEQUENCE:0
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
@@ -227,7 +231,7 @@ X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-CDO-INSTTYPE:1
 X-MICROSOFT-DONOTFORWARDMEETING:FALSE
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
 END:VEVENT
 BEGIN:VEVENT
@@ -248,6 +252,7 @@ DESCRIPTION:The Power Platform Monthly community call happens on the 3rd We
  atform<http://powerplatform.microsoft.com/>\n\nJoin the Microsoft 365 Deve
  loper Program<https://developer.microsoft.com/en-us/microsoft-365/dev-prog
  ram>\n
+RRULE:FREQ=MONTHLY;UNTIL=20250416T150000Z;INTERVAL=1;BYDAY=3WE
 UID:040000008200E00074C5B7101A82E00800000000C81EAE66288ADA01000000000000000
  010000000F6C360139C27FF4B8FF87F06B421CDB8
 SUMMARY:Power Platform Monthly Call 
@@ -259,7 +264,7 @@ DTSTAMP:20240419T180216Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
-LOCATION:Microsoft Teams Meeting
+LOCATION:
 X-MICROSOFT-CDO-APPT-SEQUENCE:0
 X-MICROSOFT-CDO-BUSYSTATUS:BUSY
 X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
@@ -268,7 +273,7 @@ X-MICROSOFT-CDO-IMPORTANCE:1
 X-MICROSOFT-CDO-INSTTYPE:1
 X-MICROSOFT-DONOTFORWARDMEETING:FALSE
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
 END:VEVENT
 END:VCALENDAR
