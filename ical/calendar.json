@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-04-19T20:02:08.553Z",
+  "lastRetrieved": "2024-04-19T21:01:54.609Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -82,18 +82,6 @@
           "status": "scheduled"
         }
       ]
-    },
-    {
-      "uid": "040000008200E00074C5B7101A82E00800000000215CDBC68792DA010000000000000000100000006DE5128DFF793843B6D9D0CB44CB9FE5",
-      "summary": "Remove Me",
-      "joinUrl": null,
-      "location": "Microsoft Teams Meeting",
-      "startTime": "2024-04-09T05:00:00",
-      "endTime": "2024-04-09T05:30:00",
-      "rrule": null,
-      "exdate": [],
-      "recurrenceId": null,
-      "nextOccurrences": []
     },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000F97F040EAE8EDA01000000000000000010000000214806AD1FEB9B49B9BA5E95BB8A21A0",
@@ -255,6 +243,23 @@
         },
         {
           "date": "2024-11-20T16:00:00.000Z",
+          "status": "scheduled"
+        }
+      ]
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E008000000003C6FDCDA9B92DA010000000000000000100000003B851E5EA476B648AA0E7A658E1ED64E",
+      "summary": "Test proper Teams meeting",
+      "joinUrl": null,
+      "location": "Microsoft Teams Meeting",
+      "startTime": "2024-04-19T14:00:00",
+      "endTime": "2024-04-19T14:30:00",
+      "rrule": null,
+      "exdate": [],
+      "recurrenceId": null,
+      "nextOccurrences": [
+        {
+          "date": "2024-04-19T21:00:00.000Z",
           "status": "scheduled"
         }
       ]
