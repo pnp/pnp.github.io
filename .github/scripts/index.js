@@ -74,7 +74,7 @@ function parseAndConvertICALToJSON(icsData) {
         let next;
 
         let i = 0;
-        while (i < 7 && (next = expand.next())) {
+        while ((next = expand.next())) {
 
             const jsDate = next.toJSDate();
             const isoDate = jsDate.toISOString();
