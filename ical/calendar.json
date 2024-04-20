@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-04-20T01:23:13.719Z",
+  "lastRetrieved": "2024-04-20T02:08:11.880Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -246,18 +246,6 @@
           "status": "scheduled"
         }
       ]
-    },
-    {
-      "uid": "040000008200E00074C5B7101A82E008000000003C6FDCDA9B92DA010000000000000000100000003B851E5EA476B648AA0E7A658E1ED64E",
-      "summary": "Test proper Teams meeting",
-      "joinUrl": null,
-      "location": "Microsoft Teams Meeting",
-      "startTime": "2024-04-19T14:00:00",
-      "endTime": "2024-04-19T14:30:00",
-      "rrule": null,
-      "exdate": [],
-      "recurrenceId": null,
-      "nextOccurrences": []
     }
   ]
 }
