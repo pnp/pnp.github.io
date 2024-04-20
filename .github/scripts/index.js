@@ -80,9 +80,12 @@ function parseAndConvertICALToJSON(icsData) {
             const isoDate = jsDate.toISOString();
 
             const today = new Date();
-            today.setHours(0, 0, 0, 0); // Set the time to midnight
+            const day = today.getDay();
+            const diff = today.getDate() - day + (day == 0 ? -6 : 1); // adjust when day is Sunday
+            const thisMonday = new Date(today.setDate(diff));
+            thisMonday.setHours(0, 0, 0, 0); // Set the time to midnight
 
-            if (jsDate > today) {
+            if (jsDate > thisMonday) {
                 nextOccurrences.push({
                     date: isoDate,
                     status: "scheduled"
@@ -112,7 +115,6 @@ function parseAndConvertICALToJSON(icsData) {
         return {
             uid: vevent.uid,
             summary: vevent.summary,
-            joinUrl: meetingUrl,
             location: vevent.location ? vevent.location.toString() : "Microsoft Teams Meeting",
             joinUrl: meetingUrl,
             startTime: vevent.startDate.toJSDate().toISOString(),
@@ -171,7 +173,8 @@ function parseExdates(vevent) {
 }
 
 function extractMeetingUrlFromDescription(description) {
-    const regex = /Click here to join the meeting<([^>]+)>/;
+    const regex = /(?:Click here to join the meeting|Join the meeting now)<([^>]+)>/;
+
     const match = description.match(regex);
     return match ? match[1] : null;
 }
@@ -190,40 +193,31 @@ async function main() {
 
     // Add Location if not present
 
-    // Search and replace every occurrence of a line with only LOCATION: with LOCATION:Microsoft Teams Meeting
-
     icsData = icsData.replace(/^LOCATION:$/gm, 'LOCATION:Microsoft Teams Meeting');
 
+    // Make all meetings online by default
     icsData = icsData.replace(/X-MICROSOFT-REQUESTEDATTENDANCEMODE:DEFAULT/g, 'X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE');
 
-
-
+    // Save the ICS data to a file
     fs.writeFileSync(ICS_OUTPUT_FILE, icsData);
     console.log('ICS file has been downloaded and saved.');
 
     let { mappedEvents, updatedIcsData } = parseAndConvertICALToJSON(icsData);
 
-    // Escape '/' characters
-    // updatedIcsData = updatedIcsData.replace(/\//g, '/;');
-
-    // // Unescape already escaped '/' characters
-    // updatedIcsData = updatedIcsData.replace(/\/\/;/g, '/');
-
-    //updatedIcsData = updateDescription(updatedIcsData);
-
-    // Correct the line endings
-    //updatedIcsData = correctLineEndingsAndFormat(updatedIcsData);
+    // Update the DESCRIPTION property with custom HTML
     updatedIcsData = updateDescription(updatedIcsData);
 
     // Save the updated ICS data to a file
     fs.writeFileSync(ICS_OUTPUT_FILE, updatedIcsData);
     console.log('Updated ICS file has been saved.');
 
+    // Create a JSON file with the mapped events
     const jsonData = {
-        lastRetrieved: new Date().toISOString(),
+        lastRetrieved: new Date().toISOString(), // Add a timestamp
         events: mappedEvents
     };
 
+    // Save the JSON data to a file
     if (jsonData.events) {
         fs.writeFileSync(JSON_OUTPUT_FILE, JSON.stringify(jsonData, null, 2));
         console.log('ICS data has been converted to JSON and saved.');
@@ -292,9 +286,75 @@ function updateDescription(text) {
     return newLines.join('\r\n');
 }
 
+// Create a custom HTML description
 function createHTMLDescription(description) {
-    description = description.replace(/\\nMicrosoft Teams meeting\\n/g, `<div style="margin-bottom:12px"><span class="x_me-email-text" style="font-size:24px; font-weight:700; margin-right:12px">Microsoft Teams</span><a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" id="x_meet_invite_block.action.help" class="x_me-email-link" style="font-size:14px; text-decoration:underline; color:#5B5FC7">Need help?</a> </div>`);
 
+    // Replace un-tampered team meetings
+    const teamsMeetingRegex = /\\nMicrosoft Teams Need help\?<([^>]+)>\\n/g;
+    description = description.replace(teamsMeetingRegex, (_match, url) => {
+        // You can use the captured URL here
+        const customText = `<div style="margin-bottom:12px"><span class="x_me-email-text" style="font-size:24px; font-weight:700; margin-right:12px">Microsoft Teams</span><a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" id="x_meet_invite_block.action.help" class="x_me-email-link" style="font-size:14px; text-decoration:underline; color:#5B5FC7">Need help?</a> </div>`;
+        return customText;
+    });
+
+    // Replace the Join link for regular teams meetings
+    const joinRegex = /Join the meeting now<([^>]+)>\\n/;
+    const joinMatch = description.match(joinRegex);
+
+    if (joinMatch) {
+        const url = joinMatch[1];
+        const joinCustomText = `<div style="margin-bottom:6px"><a href="${url}" target="_blank" rel="noreferrer noopener" data-auth="NotApplicable" id="x_meet_invite_block.action.join_link" class="x_me-email-headline" style="font-size:20px; font-weight:600; text-decoration:underline; color:#5B5FC7">Join the meeting now</a> </div>`;
+        description = description.replace(joinRegex, joinCustomText);
+    }
+
+    // Replace the meeting ID
+    const meetingIdRegex = /Meeting ID: ([\d\s]+)/;
+    const meetingIdMatch = description.match(meetingIdRegex);
+
+    if (meetingIdMatch) {
+        const meetingId = meetingIdMatch[1];
+        console.log(meetingId);  // Outputs: 381 265 467 057
+
+        const meetingIdLine = `<div style="margin-bottom:6px"><span class="x_me-email-text-secondary" style="font-size:14px;">Meeting ID:</span><span class="x_me-email-text" style="font-size:14px;">${meetingId}</span></div>`
+        description = description.replace(meetingIdRegex, meetingIdLine);
+    }
+
+    // Replace the passcode
+    const passcodeRegex = /Passcode: ([^\\]+)/;
+    const passcodeMatch = description.match(passcodeRegex);
+
+    if (passcodeMatch) {
+        const passcode = passcodeMatch[1];
+        const passcodeLine = `<div style="margin-bottom:24px"><span class="x_me-email-text-secondary" style="font-size:14px; ">Passcode:</span><span class="x_me-email-text" style="font-size:14px; ">${passcode}</span></div>`;
+        description = description.replace(passcodeRegex, passcodeLine);
+    }
+
+    // Replace the Teams divider lines with a horizontal rule
+    description = description.replace(/_{80,}/g, '<div style="margin-bottom:24px; overflow:hidden; white-space:nowrap">________________________________________________________________________________</div>');
+    
+    // Replace the separator line
+    const separatorRegex = /\\n_{32}\\n/;
+    const separatorMatch = description.match(separatorRegex);
+
+    if (separatorMatch) {
+        const separatorLine = `<div style="margin-bottom:24px; max-width:532px"><hr style="border:0; background:#D1D1D1; height:1px"></div>`;
+        description = description.replace(separatorRegex, separatorLine);
+    }
+
+    // Replace the "Dial-in by phone" section
+    const dialInSectionRegex = /Dial-in by phone\\n[\s\S]*Reset dial-in PIN<[^>]+>\\n/;
+    const dialInSectionMatch = description.match(dialInSectionRegex);
+
+    if (dialInSectionMatch) {
+        const dialInSection = dialInSectionMatch[0];
+        description = description.replace(dialInSectionRegex, '');
+    }
+
+
+    // Replace the PnP teams meetings descriptions
+    description = description.replace(/\\nMicrosoft Teams meeting\\n/g, `<div style="margin-bottom:12px"><span class="x_me-email-text" style="font-size:24px; font-weight:700; margin-right:12px">Microsoft Teams</span><a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" id="x_meet_invite_block.action.help" class="x_me-email-link" style="font-size:14px; text-decoration:underline;">Need help?</a> </div>`);
+
+    // Replace the Join link
     description = description.replace(/\\nJoin on your computer\\, mobile app or room device\\n/g, '');
     description = description.replace(/Join on your computer\\, mobile app or room device/g, '');
     
@@ -308,10 +368,8 @@ function createHTMLDescription(description) {
     // replace two newlines with a paragraph tag
     description = description.replace(/\\n\\n/g, '</p><p>');
 
-    // Replace the Teams divider lines with a horizontal rule
-    description = description.replace(/_{80,}/g, '<div style="margin-bottom:24px; overflow:hidden; white-space:nowrap">________________________________________________________________________________</div>');
-
-    description = convertMarkdownLinksToHTML(description);
+    // TODO: Put this back in
+    //description = convertMarkdownLinksToHTML(description);
 
     return `<html><body style="font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt;"><p>${description}</p></body></html>`;
 }

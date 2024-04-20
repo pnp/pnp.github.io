@@ -57,27 +57,27 @@ X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
  s</span><a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US" target="_blan
  k" rel="noopener noreferrer" data-auth="NotApplicable" id="x_meet_invite_b
  lock.action.help" class="x_me-email-link" style="font-size:14px; text-deco
- ration:underline; color:#5B5FC7">Need help?</a> </div><div style="margin-b
- ottom:6px"><a href="https://aka.ms/m365-dev-call-join" target="_blank" rel
- ="noreferrer noopener" data-auth="NotApplicable" id="x_meet_invite_block.a
- ction.join_link" class="x_me-email-headline" style="font-size:20px; font-w
- eight:600; text-decoration:underline; color:#5B5FC7">Join the meeting now<
- /a> </div>\n<div style="margin-bottom:24px; overflow:hidden; white-space:n
- owrap">___________________________________________________________________
- _____________</div></p><p>(notice. This is an aka.ms link as we might chan
- ge the actual invite URL. This way any changes are transparent for you if 
- you access the call from above link)</p><p>Community call recordings will 
- be published at the Microsoft 365 Community YouTube channel at https://aka
- .ms/m365pnp/videos - Subscribe to get notified of the new daily videos!</p
- ><p>Resources\n- Follow us on Twitter with @Microsoft365dev or @m365pnp - 
- we publish the call agenda in the social media always few days before the 
- call\n- Subscriber also to the Microsoft 365 Dev YouTube channel for other
-  Microsoft 365 developer videos at https://m365dev/videos\n- Community cal
- l summaries will be published at https://aka.ms/m365pnp/community/blog\n- 
- Latest news on Microsoft 365 platform from Microsoft 365 developer blog at
-  https://developer.microsoft.com/en-us/microsoft-365/blogs/</p><p>Easiest 
- way to find official docs\, SDKs and community assets - https://aka.ms/m36
- 5pnp</p><p></p></body></html>
+ ration:underline;">Need help?</a> </div><div style="margin-bottom:6px"><a 
+ href="https://aka.ms/m365-dev-call-join" target="_blank" rel="noreferrer n
+ oopener" data-auth="NotApplicable" id="x_meet_invite_block.action.join_lin
+ k" class="x_me-email-headline" style="font-size:20px; font-weight:600; tex
+ t-decoration:underline; color:#5B5FC7">Join the meeting now</a> </div>\n<d
+ iv style="margin-bottom:24px; overflow:hidden; white-space:nowrap">_______
+ _________________________________________________________________________<
+ /div></p><p>(notice. This is an aka.ms link as we might change the actual 
+ invite URL. This way any changes are transparent for you if you access the
+  call from above link)</p><p>Community call recordings will be published a
+ t the Microsoft 365 Community YouTube channel at https://aka.ms/m365pnp/vi
+ deos - Subscribe to get notified of the new daily videos!</p><p>Resources\
+ n- Follow us on Twitter with @Microsoft365dev or @m365pnp - we publish the
+  call agenda in the social media always few days before the call\n- Subscr
+ iber also to the Microsoft 365 Dev YouTube channel for other Microsoft 365
+  developer videos at https://m365dev/videos\n- Community call summaries wi
+ ll be published at https://aka.ms/m365pnp/community/blog\n- Latest news on
+  Microsoft 365 platform from Microsoft 365 developer blog at https://devel
+ oper.microsoft.com/en-us/microsoft-365/blogs/</p><p>Easiest way to find of
+ ficial docs\, SDKs and community assets - https://aka.ms/m365pnp</p><p></p
+ ></body></html>
 UID:040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA01000000000000000
  01000000051CB05FE8CA1C74BB006BB017D44378A
 SUMMARY:Microsoft 365 & Power Platform Weekly Call
@@ -85,7 +85,7 @@ DTSTART;TZID=Pacific Standard Time:20240402T080000
 DTEND;TZID=Pacific Standard Time:20240402T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20240419T204547Z
+DTSTAMP:20240420T020218Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -136,28 +136,28 @@ X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
  t-weight:700; margin-right:12px">Microsoft Teams</span><a href="https://ak
  a.ms/JoinTeamsMeeting?omkt=en-US" target="_blank" rel="noopener noreferrer
  " data-auth="NotApplicable" id="x_meet_invite_block.action.help" class="x_
- me-email-link" style="font-size:14px; text-decoration:underline; color:#5B
- 5FC7">Need help?</a> </div><div style="margin-bottom:6px"><a href="https:/
- /aka.ms/spdev-spfx-call-join" target="_blank" rel="noreferrer noopener" da
- ta-auth="NotApplicable" id="x_meet_invite_block.action.join_link" class="x
- _me-email-headline" style="font-size:20px; font-weight:600; text-decoratio
- n:underline; color:#5B5FC7">Join the meeting now</a> </div></p><p><div sty
- le="margin-bottom:24px; overflow:hidden; white-space:nowrap">_____________
- ___________________________________________________________________</div><
- /p><p>(notice. This is an aka.ms link as we might change the actual invite
-  URL. This way any changes are transparent for you if you access the call 
- from above link)</p><p>Community call recordings will be published at the 
- Microsoft 365 Community YouTube channel at https://aka.ms/m365pnp/videos -
-  Subscribe to get notified of the new daily videos!</p><p>Resources</p><p>
- - Follow us on Twitter with @Microsoft365dev or @m365pnp - we publish the 
- call agenda in the social media always few days before the call</p><p>- Su
- bscriber also to the Microsoft 365 Dev YouTube channel for other Microsoft
-  365 developer videos at https://m365dev/videos</p><p>- Community call sum
- maries will be published at https://aka.ms/m365pnp/community/blog</p><p>- 
- Latest news on Microsoft 365 platform from Microsoft 365 developer blog at
-  https://developer.microsoft.com/microsoft-365/blogs/</p><p>\nEasiest way 
- to find official docs\, SDKs and community assets - https://aka.ms/m365pnp
- \n</p></body></html>
+ me-email-link" style="font-size:14px; text-decoration:underline;">Need hel
+ p?</a> </div><div style="margin-bottom:6px"><a href="https://aka.ms/spdev-
+ spfx-call-join" target="_blank" rel="noreferrer noopener" data-auth="NotAp
+ plicable" id="x_meet_invite_block.action.join_link" class="x_me-email-head
+ line" style="font-size:20px; font-weight:600; text-decoration:underline; c
+ olor:#5B5FC7">Join the meeting now</a> </div></p><p><div style="margin-bot
+ tom:24px; overflow:hidden; white-space:nowrap">___________________________
+ _____________________________________________________</div></p><p>(notice.
+  This is an aka.ms link as we might change the actual invite URL. This way
+  any changes are transparent for you if you access the call from above lin
+ k)</p><p>Community call recordings will be published at the Microsoft 365 
+ Community YouTube channel at https://aka.ms/m365pnp/videos - Subscribe to 
+ get notified of the new daily videos!</p><p>Resources</p><p>- Follow us on
+  Twitter with @Microsoft365dev or @m365pnp - we publish the call agenda in
+  the social media always few days before the call</p><p>- Subscriber also 
+ to the Microsoft 365 Dev YouTube channel for other Microsoft 365 developer
+  videos at https://m365dev/videos</p><p>- Community call summaries will be
+  published at https://aka.ms/m365pnp/community/blog</p><p>- Latest news on
+  Microsoft 365 platform from Microsoft 365 developer blog at https://devel
+ oper.microsoft.com/microsoft-365/blogs/</p><p>\nEasiest way to find offici
+ al docs\, SDKs and community assets - https://aka.ms/m365pnp\n</p></body><
+ /html>
 UID:040000008200E00074C5B7101A82E00800000000CE03C195278ADA01000000000000000
  0100000001D5D5DA85E858D45B9A47028FB60C7F2
 SUMMARY:Viva Connections & SharePoint Framework Community Call
@@ -165,7 +165,7 @@ DTSTART;TZID=Pacific Standard Time:20240404T070000
 DTEND;TZID=Pacific Standard Time:20240404T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20240419T204547Z
+DTSTAMP:20240420T020218Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -181,77 +181,6 @@ X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
 X-MICROSOFT-SKYPETEAMSMEETINGURL:https://aka.ms/spdev-spfx-call-join
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Just generating an HTML description\n\n________________________
- ________________________________________________________\nMicrosoft Teams 
- Need help?<https://aka.ms/JoinTeamsMeeting?omkt=en-US>\nJoin the meeting n
- ow<https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTY2NzNkMmItNDdj
- OS00Y2VkLWE4OWEtY2UxZjgyZGZlOTU2%40thread.v2/0?context=%7b%22Tid%22%3a%227
- 3da091f-a58d-405f-9015-9bd386425255%22%2c%22Oid%22%3a%225ccee580-5c74-47c0
- -b611-701eac19d815%22%7d>\nMeeting ID: 320 530 732 405\nPasscode: zcBsGt\n
- ________________________________\nDial-in by phone\n+32 2 897 38 92\,\,775
- 493516#<tel:+3228973892\,\,775493516#> Belgium\, Bruxelles/Brussels\nFind 
- a local number<https://dialin.teams.microsoft.com/9c63d6e4-a759-4542-a884-
- ad5848724538?id=775493516>\nPhone conference ID: 775 493 516#\nFor organiz
- ers: Meeting options<https://teams.microsoft.com/meetingOptions/?organizer
- Id=5ccee580-5c74-47c0-b611-701eac19d815&tenantId=73da091f-a58d-405f-9015-9
- bd386425255&threadId=19_meeting_OTY2NzNkMmItNDdjOS00Y2VkLWE4OWEtY2UxZjgyZG
- ZlOTU2@thread.v2&messageId=0&language=en-US> | Reset dial-in PIN<https://d
- ialin.teams.microsoft.com/usp/pstnconferencing>\n_________________________
- _______________________________________________________\n
-X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
- eddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt
- ;"><p>Just generating an HTML description</p><p><div style="margin-bottom:
- 24px; overflow:hidden; white-space:nowrap">_______________________________
- _________________________________________________</div>\nMicrosoft Teams N
- eed help?<a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US">https://aka.
- ms/JoinTeamsMeeting?omkt=en-US</a>\nJoin the meeting now<a href="https://t
- eams.microsoft.com/l/meetup-join/19%3ameeting_OTY2NzNkMmItNDdjOS00Y2VkLWE4
- OWEtY2UxZjgyZGZlOTU2%40thread.v2/0?context=%7b%22Tid%22%3a%2273da091f-a58d
- -405f-9015-9bd386425255%22%2c%22Oid%22%3a%225ccee580-5c74-47c0-b611-701eac
- 19d815%22%7d">https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTY2N
- zNkMmItNDdjOS00Y2VkLWE4OWEtY2UxZjgyZGZlOTU2%40thread.v2/0?context=%7b%22Ti
- d%22%3a%2273da091f-a58d-405f-9015-9bd386425255%22%2c%22Oid%22%3a%225ccee58
- 0-5c74-47c0-b611-701eac19d815%22%7d</a>\nMeeting ID: 320 530 732 405\nPass
- code: zcBsGt\n________________________________\nDial-in by phone\n+32 2 89
- 7 38 92\,\,775493516#<tel:+3228973892\,\,775493516#> Belgium\, Bruxelles/B
- russels\nFind a local number<a href="https://dialin.teams.microsoft.com/9c
- 63d6e4-a759-4542-a884-ad5848724538?id=775493516">https://dialin.teams.micr
- osoft.com/9c63d6e4-a759-4542-a884-ad5848724538?id=775493516</a>\nPhone con
- ference ID: 775 493 516#\nFor organizers: Meeting options<a href="https://
- teams.microsoft.com/meetingOptions/?organizerId=5ccee580-5c74-47c0-b611-70
- 1eac19d815&tenantId=73da091f-a58d-405f-9015-9bd386425255&threadId=19_meeti
- ng_OTY2NzNkMmItNDdjOS00Y2VkLWE4OWEtY2UxZjgyZGZlOTU2@thread.v2&messageId=0&
- language=en-US">https://teams.microsoft.com/meetingOptions/?organizerId=5c
- cee580-5c74-47c0-b611-701eac19d815&tenantId=73da091f-a58d-405f-9015-9bd386
- 425255&threadId=19_meeting_OTY2NzNkMmItNDdjOS00Y2VkLWE4OWEtY2UxZjgyZGZlOTU
- 2@thread.v2&messageId=0&language=en-US</a> | Reset dial-in PIN<a href="htt
- ps://dialin.teams.microsoft.com/usp/pstnconferencing">https://dialin.teams
- .microsoft.com/usp/pstnconferencing</a>\n<div style="margin-bottom:24px; o
- verflow:hidden; white-space:nowrap">______________________________________
- __________________________________________</div>\n</p></body></html>
- 0100000006DE5128DFF793843B6D9D0CB44CB9FE5
-SUMMARY:Remove Me
-DTSTART;TZID=Pacific Standard Time:20240409T050000
-DTEND;TZID=Pacific Standard Time:20240409T053000
-CLASS:PUBLIC
-PRIORITY:5
-DTSTAMP:20240419T204547Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SEQUENCE:0
-LOCATION:Microsoft Teams Meeting
-X-MICROSOFT-CDO-APPT-SEQUENCE:0
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
-X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-CDO-INSTTYPE:0
-X-MICROSOFT-DONOTFORWARDMEETING:FALSE
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
-X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:The Office Add-ins community call is our monthly event for deve
@@ -291,31 +220,25 @@ X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
  px; font-weight:700; margin-right:12px">Microsoft Teams</span><a href="htt
  ps://aka.ms/JoinTeamsMeeting?omkt=en-US" target="_blank" rel="noopener nor
  eferrer" data-auth="NotApplicable" id="x_meet_invite_block.action.help" cl
- ass="x_me-email-link" style="font-size:14px; text-decoration:underline; co
- lor:#5B5FC7">Need help?</a> </div><div style="margin-bottom:6px"><a href="
- https://aka.ms/officeaddinscall-join" target="_blank" rel="noreferrer noop
- ener" data-auth="NotApplicable" id="x_meet_invite_block.action.join_link" 
- class="x_me-email-headline" style="font-size:20px; font-weight:600; text-d
- ecoration:underline; color:#5B5FC7">Join the meeting now</a> </div></p><p>
- Or join by phone (audio only)</p><p>+1 323-849-4874\,\,975455939# United S
- tates\, Los Angeles\nPhone Conference ID: 975 455 939#\nFind a local numbe
- r<a href="https://dialin.teams.microsoft.com/8551f4c1-bea3-441a-8738-69aa5
- 17a91c5?id=975455939">https://dialin.teams.microsoft.com/8551f4c1-bea3-441
- a-8738-69aa517a91c5?id=975455939</a> | Reset PIN<a href="https://mysetting
- s.lync.com/pstnconferencing">https://mysettings.lync.com/pstnconferencing<
- /a></p><p><div style="margin-bottom:24px; overflow:hidden; white-space:now
- rap">_____________________________________________________________________
- ___________</div></p><p>\nResources\nCommunity call topic requests and que
- stions<a href="https://aka.ms/officeaddinsform">https://aka.ms/officeaddin
- sform</a>\nFollow us on Twitter @Microsoft365Dev<a href="https://twitter.c
- om/Microsoft365Dev">https://twitter.com/Microsoft365Dev</a> for the latest
-  announcements\nCommunity call recordings on the YouTube Microsoft 365 Dev
-  channel<a href="https://aka.ms/M365DevYouTube">https://aka.ms/M365DevYouT
- ube</a>\nGet started with Office Add-ins development<a href="https://devel
- oper.microsoft.com/office">https://developer.microsoft.com/office</a>\nJoi
- n the Microsoft 365 Developer Program<a href="https://developer.microsoft.
- com/microsoft-365/dev-program">https://developer.microsoft.com/microsoft-3
- 65/dev-program</a></p><p>\n</p></body></html>
+ ass="x_me-email-link" style="font-size:14px; text-decoration:underline;">N
+ eed help?</a> </div><div style="margin-bottom:6px"><a href="https://aka.ms
+ /officeaddinscall-join" target="_blank" rel="noreferrer noopener" data-aut
+ h="NotApplicable" id="x_meet_invite_block.action.join_link" class="x_me-em
+ ail-headline" style="font-size:20px; font-weight:600; text-decoration:unde
+ rline; color:#5B5FC7">Join the meeting now</a> </div></p><p>Or join by pho
+ ne (audio only)</p><p>+1 323-849-4874\,\,975455939# United States\, Los An
+ geles\nPhone Conference ID: 975 455 939#\nFind a local number<https://dial
+ in.teams.microsoft.com/8551f4c1-bea3-441a-8738-69aa517a91c5?id=975455939> 
+ | Reset PIN<https://mysettings.lync.com/pstnconferencing></p><p><div style
+ ="margin-bottom:24px; overflow:hidden; white-space:nowrap">_______________
+ _________________________________________________________________</div></p
+ ><p>\nResources\nCommunity call topic requests and questions<https://aka.m
+ s/officeaddinsform>\nFollow us on Twitter @Microsoft365Dev<https://twitter
+ .com/Microsoft365Dev> for the latest announcements\nCommunity call recordi
+ ngs on the YouTube Microsoft 365 Dev channel<https://aka.ms/M365DevYouTube
+ >\nGet started with Office Add-ins development<https://developer.microsoft
+ .com/office>\nJoin the Microsoft 365 Developer Program<https://developer.m
+ icrosoft.com/microsoft-365/dev-program></p><p>\n</p></body></html>
 UID:040000008200E00074C5B7101A82E00800000000F97F040EAE8EDA01000000000000000
  010000000214806AD1FEB9B49B9BA5E95BB8A21A0
 SUMMARY:Office Add-ins
@@ -323,7 +246,7 @@ DTSTART;TZID=Pacific Standard Time:20240410T070000
 DTEND;TZID=Pacific Standard Time:20240410T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20240419T204547Z
+DTSTAMP:20240420T020218Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -375,24 +298,22 @@ X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
  an><a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US" target="_blank" re
  l="noopener noreferrer" data-auth="NotApplicable" id="x_meet_invite_block.
  action.help" class="x_me-email-link" style="font-size:14px; text-decoratio
- n:underline; color:#5B5FC7">Need help?</a> </div><div style="margin-bottom
- :6px"><a href="https://aka.ms/m365-dev-sig-join" target="_blank" rel="nore
- ferrer noopener" data-auth="NotApplicable" id="x_meet_invite_block.action.
- join_link" class="x_me-email-headline" style="font-size:20px; font-weight:
- 600; text-decoration:underline; color:#5B5FC7">Join the meeting now</a> </
- div></p><p><div style="margin-bottom:24px; overflow:hidden; white-space:no
- wrap">____________________________________________________________________
- ____________</div></p><p>(notice. This is an aka.ms link as we might chang
- e the actual invite URL. This way any changes are transparent for you as l
- ong as you access the call from above link)</p><p>Microsoft 365 Patterns a
- nd Practices community – https://aka.ms/m365pnp</p><p>Microsoft 365 Develo
- per YouTube channel – https://aka.ms/M365DevYouTube</p><p>Microsoft 365 an
- d SharePoint Community YouTube channel – https://m365pnp-videos</p><p>Micr
- osoft 365 Open-Source – https://github.com/pnp \, https://github.com/offic
- edev \, https://github.com/sharepoint \, https://github.com/microsoftgraph
- </p><p>Sample galleries – take advantage of existing samples – https://aka
- .ms/teams-samples \, https://aka.ms/spfx-webparts \, https://aka.ms/list-f
- ormatting \, https://aka.ms/spfx-extensions\n</p></body></html>
+ n:underline;">Need help?</a> </div><div style="margin-bottom:6px"><a href=
+ "https://aka.ms/m365-dev-sig-join" target="_blank" rel="noreferrer noopene
+ r" data-auth="NotApplicable" id="x_meet_invite_block.action.join_link" cla
+ ss="x_me-email-headline" style="font-size:20px; font-weight:600; text-deco
+ ration:underline; color:#5B5FC7">Join the meeting now</a> </div>\n(notice.
+  This is an aka.ms link as we might change the actual invite URL. This way
+  any changes are transparent for you as long as you access the call from a
+ bove link)</p><p>Microsoft 365 Patterns and Practices community – https://
+ aka.ms/m365pnp</p><p>Microsoft 365 Developer YouTube channel – https://aka
+ .ms/M365DevYouTube</p><p>Microsoft 365 and SharePoint Community YouTube ch
+ annel – https://m365pnp-videos</p><p>Microsoft 365 Open-Source – https://g
+ ithub.com/pnp \, https://github.com/officedev \, https://github.com/sharep
+ oint \, https://github.com/microsoftgraph</p><p>Sample galleries – take ad
+ vantage of existing samples – https://aka.ms/teams-samples \, https://aka.
+ ms/spfx-webparts \, https://aka.ms/list-formatting \, https://aka.ms/spfx-
+ extensions\n</p></body></html>
 UID:040000008200E00074C5B7101A82E0080000000070404DDB288ADA01000000000000000
  010000000F485AAF2995C3947AF4B1E87F01384A0
 SUMMARY:Microsoft 365 & Power Platform Community Call
@@ -400,7 +321,7 @@ DTSTART;TZID=Pacific Standard Time:20240411T070000
 DTEND;TZID=Pacific Standard Time:20240411T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20240419T204547Z
+DTSTAMP:20240420T020218Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -432,13 +353,13 @@ X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
  ams</span><a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US" target="_bl
  ank" rel="noopener noreferrer" data-auth="NotApplicable" id="x_meet_invite
  _block.action.help" class="x_me-email-link" style="font-size:14px; text-de
- coration:underline; color:#5B5FC7">Need help?</a> </div><div style="margin
- -bottom:6px"><a href="https://aka.ms/mm4m365/join-call" target="_blank" re
- l="noreferrer noopener" data-auth="NotApplicable" id="x_meet_invite_block.
- action.join_link" class="x_me-email-headline" style="font-size:20px; font-
- weight:600; text-decoration:underline; color:#5B5FC7">Join the meeting now
- </a> </div>\n_____________________________________________________________
- __________________\n</p></body></html>
+ coration:underline;">Need help?</a> </div><div style="margin-bottom:6px"><
+ a href="https://aka.ms/mm4m365/join-call" target="_blank" rel="noreferrer 
+ noopener" data-auth="NotApplicable" id="x_meet_invite_block.action.join_li
+ nk" class="x_me-email-headline" style="font-size:20px; font-weight:600; te
+ xt-decoration:underline; color:#5B5FC7">Join the meeting now</a> </div>\n_
+ __________________________________________________________________________
+ ____\n</p></body></html>
 UID:040000008200E00074C5B7101A82E00800000000A07914A1AD8EDA01000000000000000
  010000000C336836834D5AF489D8E4225EE9C3B0B
 SUMMARY:Maturity Model for Microsoft 365
@@ -446,7 +367,7 @@ DTSTART;TZID=Pacific Standard Time:20240416T070000
 DTEND;TZID=Pacific Standard Time:20240416T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20240419T204547Z
+DTSTAMP:20240420T020218Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -495,24 +416,21 @@ X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
   margin-right:12px">Microsoft Teams</span><a href="https://aka.ms/JoinTeam
  sMeeting?omkt=en-US" target="_blank" rel="noopener noreferrer" data-auth="
  NotApplicable" id="x_meet_invite_block.action.help" class="x_me-email-link
- " style="font-size:14px; text-decoration:underline; color:#5B5FC7">Need he
- lp?</a> </div><div style="margin-bottom:6px"><a href="https://aka.ms/Power
- PlatformMonthlyCall" target="_blank" rel="noreferrer noopener" data-auth="
- NotApplicable" id="x_meet_invite_block.action.join_link" class="x_me-email
- -headline" style="font-size:20px; font-weight:600; text-decoration:underli
- ne; color:#5B5FC7">Join the meeting now</a> </div></p><p><div style="margi
- n-bottom:24px; overflow:hidden; white-space:nowrap">______________________
- __________________________________________________________</div></p><p>Res
- ources</p><p>Follow us on Twitter @Microsoft365Dev<a href="https://www.twi
- tter.com/Microsoft365Dev">https://www.twitter.com/Microsoft365Dev</a> for 
- the latest announcements</p><p>Subscribe to our Microsoft 365 Dev YouTube 
- channel<a href="https://www.youtube.com/channel/UCV_6HOhwxYLXAGd-JOqKPoQ">
- https://www.youtube.com/channel/UCV_6HOhwxYLXAGd-JOqKPoQ</a> for developer
-  videos (includes previous call recordings)</p><p>Power Platform<a href="h
- ttp://powerplatform.microsoft.com/">http://powerplatform.microsoft.com/</a
- ></p><p>Join the Microsoft 365 Developer Program<a href="https://developer
- .microsoft.com/en-us/microsoft-365/dev-program">https://developer.microsof
- t.com/en-us/microsoft-365/dev-program</a>\n</p></body></html>
+ " style="font-size:14px; text-decoration:underline;">Need help?</a> </div>
+ <div style="margin-bottom:6px"><a href="https://aka.ms/PowerPlatformMonthl
+ yCall" target="_blank" rel="noreferrer noopener" data-auth="NotApplicable"
+  id="x_meet_invite_block.action.join_link" class="x_me-email-headline" sty
+ le="font-size:20px; font-weight:600; text-decoration:underline; color:#5B5
+ FC7">Join the meeting now</a> </div></p><p><div style="margin-bottom:24px;
+  overflow:hidden; white-space:nowrap">____________________________________
+ ____________________________________________</div></p><p>Resources</p><p>F
+ ollow us on Twitter @Microsoft365Dev<https://www.twitter.com/Microsoft365D
+ ev> for the latest announcements</p><p>Subscribe to our Microsoft 365 Dev 
+ YouTube channel<https://www.youtube.com/channel/UCV_6HOhwxYLXAGd-JOqKPoQ> 
+ for developer videos (includes previous call recordings)</p><p>Power Platf
+ orm<http://powerplatform.microsoft.com/></p><p>Join the Microsoft 365 Deve
+ loper Program<https://developer.microsoft.com/en-us/microsoft-365/dev-prog
+ ram>\n</p></body></html>
 UID:040000008200E00074C5B7101A82E00800000000C81EAE66288ADA01000000000000000
  010000000F6C360139C27FF4B8FF87F06B421CDB8
 SUMMARY:Power Platform Monthly Call 
@@ -520,7 +438,7 @@ DTSTART;TZID=Pacific Standard Time:20240417T080000
 DTEND;TZID=Pacific Standard Time:20240417T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20240419T204547Z
+DTSTAMP:20240420T020218Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
