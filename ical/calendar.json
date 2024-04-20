@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-04-19T23:01:56.312Z",
+  "lastRetrieved": "2024-04-20T00:05:13.208Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -257,12 +257,7 @@
       "rrule": null,
       "exdate": [],
       "recurrenceId": null,
-      "nextOccurrences": [
-        {
-          "date": "2024-04-19T21:00:00.000Z",
-          "status": "scheduled"
-        }
-      ]
+      "nextOccurrences": []
     }
   ]
 }
