@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-04-22T21:02:07.516Z",
+  "lastRetrieved": "2024-04-22T22:01:39.931Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -56,7 +56,7 @@
         {
           "date": "2024-05-02T07:00:00",
           "status": "moved",
-          "summary": "Viva Connections & SharePoint Framework Community Call - Live from #M365Con"
+          "summary": "Viva Connections & SharePoint Framework Community Call - Live from the Microsoft 365 Community Conference"
         },
         {
           "date": "2024-05-16T14:00:00.000Z",
@@ -250,7 +250,7 @@
     },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000CE03C195278ADA010000000000000000100000001D5D5DA85E858D45B9A47028FB60C7F2",
-      "summary": "Viva Connections & SharePoint Framework Community Call - Live from #M365Con",
+      "summary": "Viva Connections & SharePoint Framework Community Call - Live from the Microsoft 365 Community Conference",
       "joinUrl": null,
       "location": "Microsoft Teams Meeting",
       "startTime": "2024-05-02T07:00:00",
