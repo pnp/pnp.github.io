@@ -1,5 +1,5 @@
 ---
-title: "Changing the world one contribution at a time!"
+title: "Sharing is Caring!"
 type: "hero"
 weight: 10
 ---

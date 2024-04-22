@@ -61,9 +61,6 @@ class = "fa-pp"
 line = "Community"
 class = "fa-com"
 
-[params.social]
-twitter = "m365pnp"
-
 [params.clarity]
 trackingCode = "a7ttm14uzv"
 
@@ -75,7 +72,6 @@ IsPlainText = true
 IsHTML = false
 NotAlternative = false
 Rel = "alternate"
-Path = "ical"
 Protocol = "webcal://"
 
 [mediaTypes]
@@ -86,3 +82,39 @@ Delimiter = ""
 [outputs]
 home = ["HTML", "RSS", "Calendar"] 
 
+
+[[params.social]]
+name = "YouTube"
+icon = "icon-video-clip-filled"
+weight = 5
+url = "https://aka.ms/community/videos"
+
+[[params.social]]
+name = "GitHub"
+icon = "icon-github"
+weight = 1
+url = "https://github.com/PnP"
+
+[[params.social]]
+name = "Twitter"
+icon = "icon-twitter"
+weight = 2
+url = "https://twitter.com/m365pnp"
+
+[[params.social]]
+name = "Facebook"
+icon = "icon-facebook"
+weight = 3
+url = "https://www.facebook.com/M365Dev/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "icon-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/johndoe/"
+
+[[params.social]]
+name = "Discord"
+icon = "icon-discord"
+weight = 5
+url = "https://aka.ms/community/discord"

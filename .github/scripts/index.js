@@ -7,16 +7,16 @@ const ICS_URL = process.env.ICS_URL || "https://outlook.office365.com/owa/calend
 let dirPath;
 if (process.argv.includes('--action')) {
     // If the script is being run as a GitHub Actions workflow
-    dirPath = '../../ical';
+    dirPath = '../../';
 } else {
     // If the script is being run locally
-    dirPath = './static/ical';
+    dirPath = './static/';
 }
 
 
 const ICS_OUTPUT_FILE = path.join(dirPath, 'calendar.ics');
-const ICS_ORIGINAL_FILE = path.join(dirPath, 'calendar-original.ics');
-const JSON_OUTPUT_FILE = path.join(dirPath, 'calendar.json');
+const ICS_ORIGINAL_FILE = path.join(dirPath, 'ical/calendar-original.ics');
+const JSON_OUTPUT_FILE = path.join(dirPath, 'ical/calendar.json');
 
 function ensureDirectoryExists(filePath) {
     const dirname = path.dirname(filePath);

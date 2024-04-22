@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-04-20T02:41:09.496Z",
+  "lastRetrieved": "2024-04-22T21:56:35.476Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -12,10 +12,6 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
-        {
-          "date": "2024-04-16T15:00:00.000Z",
-          "status": "scheduled"
-        },
         {
           "date": "2024-04-23T15:00:00.000Z",
           "status": "scheduled"
@@ -122,12 +118,9 @@
       "recurrenceId": null,
       "nextOccurrences": [
         {
-          "date": "2024-04-18T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
           "date": "2024-05-02T14:00:00.000Z",
-          "status": "scheduled"
+          "status": "moved",
+          "summary": "Viva Connections & SharePoint Framework Community Call - Live from the Microsoft 365 Community Conference"
         },
         {
           "date": "2024-05-16T14:00:00.000Z",
@@ -421,10 +414,6 @@
       "recurrenceId": null,
       "nextOccurrences": [
         {
-          "date": "2024-04-16T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
           "date": "2024-05-21T14:00:00.000Z",
           "status": "scheduled"
         },
@@ -486,10 +475,6 @@
       "recurrenceId": null,
       "nextOccurrences": [
         {
-          "date": "2024-04-17T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
           "date": "2024-05-15T15:00:00.000Z",
           "status": "scheduled"
         },
@@ -538,6 +523,18 @@
           "status": "scheduled"
         }
       ]
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E00800000000CE03C195278ADA010000000000000000100000001D5D5DA85E858D45B9A47028FB60C7F2",
+      "summary": "Viva Connections & SharePoint Framework Community Call - Live from the Microsoft 365 Community Conference",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": "https://aka.ms/spdev-spfx-call-join",
+      "startTime": "2024-05-02T14:00:00.000Z",
+      "endTime": "2024-05-02T15:00:00.000Z",
+      "rrule": null,
+      "exdate": [],
+      "recurrenceId": "20240502T070000",
+      "nextOccurrences": []
     }
   ]
 }
