@@ -40,6 +40,12 @@ name = "Tools"
 url = "#tools"
 weight = 60
 
+[[menus.main]]
+identifier = "team"
+name = "Team"
+url = "#team"
+weight = 70
+
 [params]
 description = "Learn from others how to build apps on Microsoft 365 & Power Platform."
 callToAction = "Changing the world one contribution at a time!"

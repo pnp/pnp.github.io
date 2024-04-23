@@ -33,7 +33,7 @@ jobs:
         working-directory: .github/scripts
 
       - name: Run script to update calendar files
-        run: npm start
+        run: npm start --action
         working-directory: .github/scripts
         env:
           ICS_URL: ${{ secrets.ICS_URL }}
