@@ -3,7 +3,7 @@ const ical = require('ical.js');
 const fs = require('fs');
 const path = require('path');
 
-const ICS_URL = process.env.ICS_URL || "https://outlook.office365.com/owa/calendar/c80c26982a604d3e89b403a318e7a477@officedevpnp.onmicrosoft.com/299d3353259f4abf919f4abbeffea3863901301114936881794/calendar.ics"; // Use the environment variable
+const ICS_URL = process.env.ICS_URL; // Use the environment variable
 let dirPath;
 if (process.argv.includes('--action')) {
     // If the script is being run as a GitHub Actions workflow
