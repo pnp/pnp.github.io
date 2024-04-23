@@ -1,0 +1,7 @@
+# .gitignore
+/public
+node_modules/
+/resources/*
+!/resources/_gen/
+__azurite_db_queue__.json
+__azurite_db_queue_extent__.json

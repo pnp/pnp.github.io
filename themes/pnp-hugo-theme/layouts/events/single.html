@@ -1,0 +1,22 @@
+<section class="section-base" id="{{ .File.BaseFileName | safeHTML }}">
+<div class="section-inner">
+    <header class="section-header">
+        <h1>{{.Title | safeHTML }}</h1>
+        <p>{{.Description | safeHTML }}</p>
+    </header>
+    <menu class="section-grid">
+        {{ $section := .Site.GetPage "section" "events" }}
+        {{ range sort $section.Pages "Weight" "asc" -}}
+        <li>
+            {{ partial "pnpstyles/organisms-event-card" .Params }}
+        </li>
+        {{- end }}
+    </menu>
+
+    {{ $section := .Site.GetPage "section" "events" }}
+    {{ $events := $section.Pages }}
+    {{ range $events -}}
+    {{- partial "event-schema" . -}}
+    {{- end }}
+</div>
+</section>

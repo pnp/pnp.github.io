@@ -1,0 +1,120 @@
+baseURL = "https://pnp.github.io/"
+languageCode = "en-us"
+title = "Microsoft 365 & Power Platform Community"
+theme = "pnp-hugo-theme"
+
+[menus]
+[[menus.main]]
+identifier = "blog"
+name = "Blog"
+url = "https://pnp.github.io/blog"
+weight = 10
+
+[[menus.main]]
+identifier = "community"
+name = "Community Calls"
+url = "#events"
+weight = 20
+
+[[menus.main]]
+identifier = "guidance"
+name = "Guidance"
+url = "#guidance"
+weight = 30
+
+[[menus.main]]
+identifier = "samples"
+name = "Samples & Solutions"
+url = "#samples"
+weight = 40
+
+[[menus.main]]
+identifier = "sdks"
+name = "SDKS"
+url = "#sdks"
+weight = 50
+
+[[menus.main]]
+identifier = "tools"
+name = "Tools"
+url = "#tools"
+weight = 60
+
+[params]
+description = "Learn from others how to build apps on Microsoft 365 & Power Platform."
+callToAction = "Changing the world one contribution at a time!"
+tagline = "<p>Learn from others how to build apps on Microsoft 365 & Power Platform.</p><p>Don't reinvent the wheel. Focus on what truly matters for your organization.</p>"
+rssFeedUrl = "https://pnp.github.io/blog/index.xml"
+smallLogo = [ "Microsoft 365 & Power", "Platform Community"]
+disablePnPTelemetry = true
+logo = "pnp.svg"
+alternateName = "PnP"
+
+[[params.bigLogo]]
+line = "Microsoft 365 &"
+
+[[params.bigLogo]]
+line = "Power Platform"
+class = "fa-pp"
+
+[[params.bigLogo]]
+line = "Community"
+class = "fa-com"
+
+[params.clarity]
+trackingCode = "a7ttm14uzv"
+
+[outputFormats]
+[outputFormats.Calendar]
+MediaType = "text/calendar"
+BaseName = "calendar"
+IsPlainText = true
+IsHTML = false
+NotAlternative = false
+Rel = "alternate"
+Protocol = "webcal://"
+
+[mediaTypes]
+[mediaTypes."text/calendar"]
+Suffixes = ["ics"]
+Delimiter = ""
+
+[outputs]
+home = ["HTML", "RSS", "Calendar"] 
+
+
+[[params.social]]
+name = "YouTube"
+icon = "icon-video-clip-filled"
+weight = 5
+url = "https://aka.ms/community/videos"
+
+[[params.social]]
+name = "GitHub"
+icon = "icon-github"
+weight = 1
+url = "https://github.com/PnP"
+
+[[params.social]]
+name = "Twitter"
+icon = "icon-twitter"
+weight = 2
+url = "https://twitter.com/m365pnp"
+
+[[params.social]]
+name = "Facebook"
+icon = "icon-facebook"
+weight = 3
+url = "https://www.facebook.com/M365Dev/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "icon-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/johndoe/"
+
+[[params.social]]
+name = "Discord"
+icon = "icon-discord"
+weight = 5
+url = "https://aka.ms/community/discord"

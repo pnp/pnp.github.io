@@ -1,3 +1,93 @@
 {
-    "liveServer.settings.port": 5501
+    "cSpell.words": [
+        "datafile",
+        "demosite",
+        "ICAL",
+        "licenselink",
+        "pnptelemetry",
+        "REQUESTEDATTENDANCEMODE",
+        "sectionname",
+        "webp"
+    ],
+    "frontMatter.framework.id": "hugo",
+    "frontMatter.content.publicFolder": "static",
+    "frontMatter.preview.host": "http://localhost:1313",
+    "frontMatter.content.draftField": {
+        "name": "draft",
+        "type": "boolean"
+    },
+    "frontMatter.data.files": [
+        {
+            "id": "team",
+            "title": "PnP Team",
+            "file": "[[workspace]]/data/team.json",
+            "fileType": "json",
+            "labelField": "name",
+            "singleEntry": false,
+            "schema": {
+                "title": "Team Member",
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "company": {
+                            "type": "string"
+                        },
+                        "img": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "github": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "twitter": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "linkedin": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "title": {
+                            "type": "string",
+                            "default": ""
+                        }
+                    },
+                    "required": [
+                        "name",
+                        "company",
+                        "img",
+                        "github",
+                        "twitter",
+                        "linkedin"
+                    ]
+                }
+            }
+        }
+    ],
+    "frontMatter.experimental": true,
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#0894ff",
+        "activityBar.background": "#0894ff",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#ffbfe3",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#0894ff",
+        "statusBar.background": "#0078d4",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#0894ff",
+        "statusBarItem.remoteBackground": "#0078d4",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#0078d4",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#0078d499",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#0078d4"
 }

@@ -1,0 +1,4 @@
+baseURL = "http://localhost:1313/pnp.github.io/"
+
+[params]
+disablePnPTelemetry = true

@@ -1,0 +1,12 @@
+{{ $links := slice }}
+{{ if .github }}
+{{ $links = $links | append (dict "url" .github "iconName" "icon-github" "ariaHidden" true "title" "Follow on Github") }}
+{{ end }}
+{{ if .linkedin }}
+{{ $links = $links | append (dict "url" .linkedin "iconName" "icon-linkedin" "ariaHidden" true "title" "Connect on LinkedIn") }}
+{{ end }}
+{{ if .twitter }}
+{{ $links = $links | append (dict "url" .twitter "iconName" "icon-twitter" "ariaHidden" true "title" "Follow on Twitter") }}
+{{ end }}
+
+{{ partial "pnpstyles/molecules-card-side-plate-vert" (dict "links" $links) }}
