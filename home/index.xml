@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Microsoft 365 &amp; Power Platform Community</title>
+    <link>https://pnp.github.io/home/</link>
+    <description>Recent content in Homes on Microsoft 365 &amp; Power Platform Community</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://pnp.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sharing is Caring!</title>
+      <link>https://pnp.github.io/home/hero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pnp.github.io/home/hero/</guid>
+      <description>Learn from others how to build apps on Microsoft 365 &amp;amp; Power Platform.&#xA;Don&amp;rsquo;t reinvent the wheel. Focus on what truly matters for your organization.</description>
+    </item>
+    <item>
+      <title>Latest blog posts</title>
+      <link>https://pnp.github.io/home/blogs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pnp.github.io/home/blogs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft 365 &amp; Power Platform Community Calls</title>
+      <link>https://pnp.github.io/home/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pnp.github.io/home/events/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Upcoming Events</title>
+      <link>https://pnp.github.io/home/events-feed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pnp.github.io/home/events-feed/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guidance</title>
+      <link>https://pnp.github.io/home/guidance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pnp.github.io/home/guidance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Samples &amp;amp; Solutions</title>
+      <link>https://pnp.github.io/home/samples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pnp.github.io/home/samples/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SDKs</title>
+      <link>https://pnp.github.io/home/sdks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pnp.github.io/home/sdks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://pnp.github.io/home/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pnp.github.io/home/tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Extensions</title>
+      <link>https://pnp.github.io/home/extensions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pnp.github.io/home/extensions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Forums</title>
+      <link>https://pnp.github.io/home/forums/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pnp.github.io/home/forums/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft 365 &amp; Power Platform Community initiative coordinators</title>
+      <link>https://pnp.github.io/home/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://pnp.github.io/home/team/</guid>
+      <description>The community team is a virtual team consisting of Microsoft employees and community members focused on helping the community make the best use of Microsoft products.&#xA;We believe that by sharing guidance, tools, solutions, and samples, we better both the community itself and the quality of solutions created by the community.&#xA;This initiative is not about any one person or group of people: it is about improving things for the greater good of the community.</description>
+    </item>
+  </channel>
+</rss>
