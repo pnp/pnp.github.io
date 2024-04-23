@@ -3,7 +3,7 @@
 ## Outstanding work
 
 - [ ] Dark theme
-- [ ] 404 page design
+- [x] 404 page design
 - [ ] Article page design
-- [ ] H1 use
-- [ ] Tweaks
+- [x] H1 use
+- [x] Tweaks
