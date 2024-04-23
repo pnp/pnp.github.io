@@ -4,7 +4,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 */4 * * *'  # Adjust the schedule as necessary
-
+  workflow_run:
+    workflows: ["Deploy Hugo Site"]
+    types:
+      - completed
+      
 jobs:
   update-and-push:
     runs-on: ubuntu-latest
