@@ -80,7 +80,7 @@ Suffixes = ["ics"]
 Delimiter = ""
 
 [outputs]
-home = ["HTML", "RSS", "Calendar"] 
+home = ["HTML", "Calendar"] 
 
 
 [[params.social]]
