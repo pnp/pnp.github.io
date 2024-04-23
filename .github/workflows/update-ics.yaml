@@ -3,17 +3,21 @@ name: Update Calendar Files
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'  # Adjust the schedule as necessary
+    - cron: '0 */4 * * *'  # Adjust the schedule as necessary
 
 jobs:
   update-and-push:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
       - name: Checkout gh-pages branch
         uses: actions/checkout@v2
         with:
           ref: gh-pages  # Specify to checkout the gh-pages branch
+          path: gh-pages
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
@@ -32,6 +36,7 @@ jobs:
 
       - name: Commit and push if there are changes
         run: |
+          cd gh-pages
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
           git add calendar.ics ical/calendar.json
