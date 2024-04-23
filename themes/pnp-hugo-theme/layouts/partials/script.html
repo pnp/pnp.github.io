@@ -1,3 +1,0 @@
-{{ $js := resources.Get "js/main.js" }}
-{{ $js = $js | resources.Minify | resources.Fingerprint }}
-<script src="{{ $js.Permalink }}"></script>

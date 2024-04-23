@@ -1,9 +1,0 @@
-{{/*
-Matches https://pnp.github.io/styleguide/?p=atoms-logo-big
-
-*/}}
-<div class="logo-big">
-    {{ range .Site.Params.bigLogo }}
-    <span class='{{ .class | default "" }} u-nowrap'>{{ .line | safeHTML }}</span><br>
-    {{ end }}
-</div>
