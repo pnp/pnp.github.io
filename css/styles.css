@@ -260,6 +260,19 @@ textarea {
   background-position: bottom left;
 }
 
+a {
+  color: var(--dark-teal);
+}
+a:visited {
+  color: var(--dark-teal);
+}
+a:active {
+  color: var(--dark-red);
+}
+a:hover {
+  color: var(--dark-blue);
+}
+
 .u-nowrap {
   white-space: nowrap;
 }

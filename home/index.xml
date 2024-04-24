@@ -26,7 +26,7 @@
       <link>https://pnp.github.io/home/events/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://pnp.github.io/home/events/</guid>
-      <description>Volunteer to present on an upcoming community call</description>
+      <description>Present at an upcoming call &amp;ndash; Tell us about your demo idea</description>
     </item>
     <item>
       <title>Upcoming Events</title>
@@ -82,7 +82,7 @@
       <link>https://pnp.github.io/home/team/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://pnp.github.io/home/team/</guid>
-      <description>The community team is a virtual team consisting of Microsoft employees and community members focused on helping the community make the best use of Microsoft products.&#xA;We believe that by sharing guidance, tools, solutions, and samples, we better both the community itself and the quality of solutions created by the community.&#xA;This initiative is not about any one person or group of people: it is about improving things for the greater good of the community.</description>
+      <description>The community team, comprising both Microsoft employees and community members, is dedicated to enhancing the use of Microsoft products. By providing guidance, tools, solutions, and samples, we aim to improve both the community and the solutions it creates.&#xA;This initiative focuses on the collective benefit, not just individual contributors. The listed team members are coordinators who facilitate our efforts, but they represent only a fraction of those contributing.&#xA;We deeply appreciate the efforts of all community members.</description>
     </item>
   </channel>
 </rss>
