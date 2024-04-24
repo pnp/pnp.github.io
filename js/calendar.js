@@ -33,13 +33,8 @@ function handleSingleEvent(event, idprefix) {
     const startTime = new Date(event.startTime); // Parse as UTC
     const endTime = new Date(event.endTime); // Parse as UTC
     const duration = calculateDuration(startTime, endTime);
-    const card = document.getElementById(`${idprefix}${event.uid}`);
-    if (!card) {
-        //console.error('No card found with id:', `${idprefix}${event.uid}`);
-        return;
-    }
     const futureOccurrences = filterFutureOccurrences(event.nextOccurrences, now);
-    updateEventStatus(event, card, futureOccurrences, now, duration);
+    updateEventStatus(event, idprefix, futureOccurrences, now, duration);
 }
 function filterFutureOccurrences(occurrences, now) {
     // Convert 'now' to the start of the day in local time for fair comparison
@@ -49,52 +44,18 @@ function filterFutureOccurrences(occurrences, now) {
         return occurrenceDate >= startOfToday;
     });
 }
-function updateEventStatus(event, card, futureOccurrences, now, duration) {
+function updateEventStatus(event, idprefix, futureOccurrences, now, duration) {
     // Example of updating DOM elements based on the event data
     futureOccurrences.forEach(occurrence => {
         if (!occurrence) {
             return;
         }
-        //BEGIN: TESTING
-        // if (window.location.pathname.toLowerCase().endsWith('/test-events/')) {
-        //     // This code will be removed in production
-        //     if (event.uid === "040000008200E00074C5B7101A82E008000000003DADB286B88DDA01000000000000000010000000CAE180660514504D8FEE060CF40A7A57") {
-        //         // Force the PLEASE DELETE ME to be to now
-        //         // set the occurrence date to 10 minutes ago
-        //         occurrence.summary = event.summary;
-        //         occurrence.status = "scheduled";
-        //         console.log('   Setting the meeting to be 10 minutes ago');
-        //         const date = new Date();
-        //         date.setMinutes(date.getMinutes() - 10);
-        //         occurrence.date = date;
-        //         console.log(now >= occurrence.date);
-        //     } else if (event.uid === "040000008200E00074C5B7101A82E00800000000CE03C195278ADA010000000000000000100000001D5D5DA85E858D45B9A47028FB60C7F2") {
-        //         // Force the Viva connections to be cancelled
-        //         occurrence.status = "cancelled";
-        //         occurrence.summary = "Cancelled until further notice";
-        //         console.log('   Setting the status to be cancelled');
-        //     } else if (event.uid === "040000008200E00074C5B7101A82E00800000000F97F040EAE8EDA01000000000000000010000000214806AD1FEB9B49B9BA5E95BB8A21A0") {
-        //         occurrence.status = "moved";
-        //         occurrence.summary = event.summary + "Moved to 8 AM PT/4 PM GMT";
-        //         console.log('   Setting the status to be moved');
-        //     } else if (event.uid === "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A") {
-        //         occurrence.status = "cancelled";
-        //         occurrence.summary = event.summary + " On Hiatus for Summer Break 🏖️ Returns in September.";
-        //         console.log('   Setting the status to on hiatus');
-        //     } else if (event.uid === "040000008200E00074C5B7101A82E0080000000070404DDB288ADA01000000000000000010000000F485AAF2995C3947AF4B1E87F01384A0") {
-        //         // Force the PLEASE DELETE ME to be less than 1 hour away
-        //         const comingSoon = new Date(new Date().getTime() + 50 * 60 * 1000);
-        //         occurrence.date = comingSoon;
-        //         console.log("   Setting the meeting to less than an hour from now")
-        //     } else if (event.uid === "040000008200E00074C5B7101A82E00800000000C81EAE66288ADA01000000000000000010000000F6C360139C27FF4B8FF87F06B421CDB8") {
-        //         // Set the Power Platform Community Call to be today
-        //         console.log('   Setting the Power Platform Community Call to be today');
-        //         const endOfDay = new Date();
-        //         endOfDay.setHours(23, 59, 59, 999);
-        //         occurrence.date = endOfDay;
-        //     }
-        // }
-        //END: TESTING
+        const cardId = occurrence.recurrenceId ? `${idprefix}${event.uid}-${occurrence.recurrenceId}` : `${idprefix}${event.uid}`;
+        const card = document.getElementById(cardId);
+        if (!card) {
+            console.log('No card found with id:', cardId);
+            return;
+        }
         const occurrenceStartTime = new Date(occurrence.date);
         const occurrenceEndTime = new Date(occurrenceStartTime.getTime() + duration);
         if (occurrence.status === "cancelled") {
@@ -205,7 +166,8 @@ function generateCalendar(events) {
                                 date: occurrenceDate,
                                 endDate: occurrenceEndDate,
                                 joinUrl: event.joinUrl,
-                                status: occurrence.status
+                                status: occurrence.status,
+                                recurrenceId: occurrence.recurrenceId
                             });
                         }
                     });
@@ -215,7 +177,7 @@ function generateCalendar(events) {
                 // Render the events for the day
                 eventsForTheDay.forEach(event => {
                     const liElem = document.createElement('li');
-                    liElem.id = `calendar-${event.uid}`;
+                    liElem.id = event.recurrenceId ? `calendar-${event.uid}-${event.recurrenceId}` : `calendar-${event.uid}`;
                     const divElem = document.createElement('div');
                     divElem.className = 'event-details';
                     const timeElem = document.createElement('time');
