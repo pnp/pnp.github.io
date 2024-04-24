@@ -1,9 +1,11 @@
 name: Deploy Hugo Site
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+  # REMOVING AUTO-BUILD BECAUSE IT CAUSES SITE TO GO DOWN
+  # push:
+  #   branches:
+  #     - main
 
 jobs:
   deploy:
@@ -21,8 +23,8 @@ jobs:
       - name: Build
         run: hugo
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./public
