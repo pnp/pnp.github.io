@@ -2,10 +2,9 @@ name: Deploy Hugo Site
 
 on:
   workflow_dispatch:
-  # REMOVING AUTO-BUILD BECAUSE IT CAUSES SITE TO GO DOWN
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
