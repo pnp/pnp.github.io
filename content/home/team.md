@@ -6,8 +6,8 @@ datafile: "team"
 weight: 100
 ---
 
-The community team is a virtual team consisting of Microsoft employees and community members focused on helping the community make the best use of Microsoft products.
+The community team, comprising both Microsoft employees and community members, is dedicated to enhancing the use of Microsoft products. By providing guidance, tools, solutions, and samples, we aim to improve both the community and the solutions it creates.
 
-We believe that by sharing guidance, tools, solutions, and samples, we better both the community itself and the quality of solutions created by the community.
+This initiative focuses on the collective benefit, not just individual contributors. The listed team members are coordinators who facilitate our efforts, but they represent only a fraction of those contributing.
 
-This initiative is not about any one person or group of people: it is about improving things for the greater good of the community.
+We deeply appreciate the efforts of all community members.
