@@ -18,7 +18,8 @@
         },
         {
           "date": "2024-04-30T15:00:00.000Z",
-          "status": "scheduled"
+          "status": "moved",
+          "summary": "Microsoft 365 & Power Platform Weekly Call - Live from the Microsoft 365 Community Conference"
         },
         {
           "date": "2024-05-07T15:00:00.000Z",
