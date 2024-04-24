@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-04-23T14:29:35.420Z",
+  "lastRetrieved": "2024-04-24T10:53:58.829Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -19,7 +19,8 @@
         {
           "date": "2024-04-30T15:00:00.000Z",
           "status": "moved",
-          "summary": "Microsoft 365 & Power Platform Weekly Call - Live from the Microsoft 365 Community Conference"
+          "summary": "Microsoft 365 & Power Platform Weekly Call - Live from the Microsoft 365 Community Conference",
+          "recurrenceId": "20240430T080000"
         },
         {
           "date": "2024-05-07T15:00:00.000Z",
@@ -121,7 +122,8 @@
         {
           "date": "2024-05-02T14:00:00.000Z",
           "status": "moved",
-          "summary": "Viva Connections & SharePoint Framework Community Call - Live from the Microsoft 365 Community Conference"
+          "summary": "Viva Connections & SharePoint Framework Community Call - Live from the Microsoft 365 Community Conference",
+          "recurrenceId": "20240502T070000"
         },
         {
           "date": "2024-05-16T14:00:00.000Z",
@@ -293,7 +295,7 @@
       "joinUrl": "https://aka.ms/m365-dev-sig-join",
       "startTime": "2024-04-11T14:00:00.000Z",
       "endTime": "2024-04-11T15:00:00.000Z",
-      "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20250410T140000Z;WKST=SU",
+      "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20250424T140000Z;WKST=SU",
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
@@ -399,6 +401,10 @@
         },
         {
           "date": "2025-04-10T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-04-24T14:00:00.000Z",
           "status": "scheduled"
         }
       ]

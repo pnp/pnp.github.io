@@ -155,6 +155,7 @@ function parseAndConvertICALToJSON(icsData) {
                     matchingOccurrence.date = eventWithRecurrenceId.startTime.toString();
                     matchingOccurrence.summary = eventWithRecurrenceId.summary;
                     matchingOccurrence.description = eventWithRecurrenceId.description;
+                    matchingOccurrence.recurrenceId = eventWithRecurrenceId.recurrenceId;
                 }
 
             }
