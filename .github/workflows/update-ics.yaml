@@ -24,9 +24,10 @@ jobs:
 
     - name: Install dependencies
       run: npm install  # Assuming your script needs npm packages
-
+      working-directory: .github/scripts
     - name: Update ICAL File
       run: node .github/scripts/index.js --action  # Run your specific script
+      working-directory: .github/scripts
 
     - name: Commit changes
       run: |
