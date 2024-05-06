@@ -36,23 +36,21 @@ jobs:
       with:
         node-version: '14'  # Specify your Node.js version
 
-
     - name: Show current working directory
       run: pwd
-      working-directory: /main/.github/scripts
-
+      working-directory: ./main/.github/scripts
 
     - name: List contents of the current directory
       run: ls -la
-      working-directory: /main/.github/scripts
+      working-directory: ./main/.github/scripts
 
     - name: Install dependencies
       run: npm install  # Assuming your script needs npm packages
-      working-directory: /main/.github/scripts
+      working-directory: ./main/.github/scripts
 
     - name: Update ICAL File
       run: node .github/scripts/index.js --action  # Run your specific script
-      working-directory: /main/.github/scripts
+      working-directory: ./main/.github/scripts
 
     - name: Commit changes
       run: |
