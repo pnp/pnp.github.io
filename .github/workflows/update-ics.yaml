@@ -8,15 +8,20 @@ on:
     workflows: ["Deploy Hugo Site"]
     types:
       - completed
-
+      
 jobs:
-  build-environment:
-    name: Build environment
+  update-and-push:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages  # Specify to checkout the gh-pages branch
+          path: gh-pages
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -27,20 +32,12 @@ jobs:
         run: npm install
         working-directory: .github/scripts
 
-  process-calendar:
-    name: Process ICS Files
-    runs-on: ubuntu-latest
-    steps:
       - name: Run script to update calendar files
         run: npm start --action
         working-directory: .github/scripts
         env:
           ICS_URL: ${{ secrets.ICS_URL }}
 
-  merge-changes:
-    name: Merge Changes
-    runs-on: ubuntu-latest
-    steps:
       - name: Commit and push if there are changes
         run: |
           cd gh-pages
