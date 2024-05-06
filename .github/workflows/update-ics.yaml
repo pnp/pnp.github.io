@@ -10,7 +10,8 @@ on:
       - completed
       
 jobs:
-  update-and-push:
+  build-environment:
+    name: Build environment
     runs-on: ubuntu-latest
 
     steps:
@@ -32,12 +33,18 @@ jobs:
         run: npm install
         working-directory: .github/scripts
 
+  process-calendar:
+    name: Process ICS Files
+    runs-on: ubuntu-latest
       - name: Run script to update calendar files
         run: npm start --action
         working-directory: .github/scripts
         env:
           ICS_URL: ${{ secrets.ICS_URL }}
 
+  merge-changes:
+    name: Merge Changes
+    runs-on: ubuntu-latest
       - name: Commit and push if there are changes
         run: |
           cd gh-pages
