@@ -8,8 +8,8 @@ on:
     - cron: '0 12 * * *'  # Optionally, schedule to run daily
 
 jobs:
-  set-env:
-    name: Set Up Enviroment
+  update-ical:
+    name: Get ICS and Process
     runs-on: ubuntu-latest
     steps:
 
@@ -33,20 +33,10 @@ jobs:
     - name: Install dependencies
       run: npm install  # Assuming your script needs npm packages
       working-directory: ./main/.github/scripts
-  
-  update-ical:
-    name: Get ICS and Process
-    runs-on: ubuntu-latest
-    steps:
 
     - name: Update ICAL File
       run: node index.js --action  # Run your specific script
       working-directory: ./main/.github/scripts
-
-  commit-ical:
-    name: Get ICS and Process
-    runs-on: ubuntu-latest
-    steps:
 
     - name: Commit and push if there are changes
       run: |
