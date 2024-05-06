@@ -15,7 +15,7 @@ if (process.argv.includes('--direct')) {
     console.log('Directory path:', dirPath);
 } else {
     // If the script is being run as a GitHub Actions workflow
-    dirPath = path.join(repoRoot, '/home/runner/work/pnp.github.io/pnp.github.io/gh-pages');
+    dirPath = '/home/runner/work/pnp.github.io/pnp.github.io/gh-pages';
     console.log('Running as a GitHub Action');
     console.log('Directory path:', dirPath);
 }
