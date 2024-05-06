@@ -1,49 +1,43 @@
-name: Update Calendar Files
+name: Update ICAL Files
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main  # Trigger on push to main, or adjust as needed
   schedule:
-    - cron: '0 */4 * * *'  # Adjust the schedule as necessary
-  workflow_run:
-    workflows: ["Deploy Hugo Site"]
-    types:
-      - completed
-      
+    - cron: '0 12 * * *'  # Optionally, schedule to run daily
+
 jobs:
-  update-and-push:
-    name: Get ICS and Push to GitHub Pages
+  update-ical:
+    name: Get ICS and Process
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+    - name: Checkout gh-pages branch
+      uses: actions/checkout@v4
+      with:
+        ref: gh-pages  # Specify the branch to checkout
 
-      - name: Checkout gh-pages branch
-        uses: actions/checkout@v4
-        with:
-          ref: gh-pages  # Specify to checkout the gh-pages branch
-          path: gh-pages
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '14'  # Specify your Node.js version
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '14'
+    - name: Install dependencies
+      run: npm install  # Assuming your script needs npm packages
 
-      - name: Install dependencies
-        run: npm install
-        working-directory: .github/scripts
+    - name: Update ICAL File
+      run: node .github/scripts/index.js --action  # Run your specific script
 
-      - name: Run script to update calendar files
-        run: npm start --action
-        working-directory: .github/scripts
-        env:
-          ICS_URL: ${{ secrets.ICS_URL }}
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git commit -m "Update ICAL files via GitHub Actions" || echo "No changes to commit"
+      # The echo statement handles cases where no changes are made, so the action doesn't fail
 
-      - name: Commit and push if there are changes
-        run: |
-          cd gh-pages
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
-          git add calendar.ics ical/calendar.json
-          git commit -m "Update calendar files" -a || echo "No changes to commit"
-          git push origin gh-pages
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages  # Ensure we're pushing to gh-pages
