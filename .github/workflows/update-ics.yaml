@@ -38,7 +38,6 @@ jobs:
 
     - name: Show current working directory
       run: pwd
-      working-directory: ./main/.github/scripts
 
     - name: List contents of the current directory
       run: ls -la
@@ -49,7 +48,7 @@ jobs:
       working-directory: ./main/.github/scripts
 
     - name: Update ICAL File
-      run: node .github/scripts/index.js --action  # Run your specific script
+      run: node index.js --action  # Run your specific script
       working-directory: ./main/.github/scripts
 
     - name: Commit changes
