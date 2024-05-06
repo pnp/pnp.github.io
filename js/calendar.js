@@ -53,7 +53,7 @@ function updateEventStatus(event, idprefix, futureOccurrences, now, duration) {
         const cardId = occurrence.recurrenceId ? `${idprefix}${event.uid}-${occurrence.recurrenceId}` : `${idprefix}${event.uid}`;
         const card = document.getElementById(cardId);
         if (!card) {
-            console.log('No card found with id:', cardId);
+            //console.log('No card found with id:', cardId);
             return;
         }
         const occurrenceStartTime = new Date(occurrence.date);
