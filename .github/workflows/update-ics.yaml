@@ -31,18 +31,20 @@ jobs:
 
     - name: Show current working directory
       run: pwd
-      working-directory: .github/scripts
+      working-directory: /home/runner/work/pnp.github.io/pnp.github.io/.github/scripts
+
 
     - name: List contents of the current directory
       run: ls -la
-      working-directory: .github/scripts
+      working-directory: /home/runner/work/pnp.github.io/pnp.github.io/.github/scripts
 
     - name: Install dependencies
       run: npm install  # Assuming your script needs npm packages
-      working-directory: .github/scripts
+      working-directory: /home/runner/work/pnp.github.io/pnp.github.io/.github/scripts
+
     - name: Update ICAL File
       run: node .github/scripts/index.js --action  # Run your specific script
-      working-directory: .github/scripts
+      working-directory: /home/runner/work/pnp.github.io/pnp.github.io/.github/scripts
 
     - name: Commit changes
       run: |
