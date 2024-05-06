@@ -44,7 +44,7 @@ jobs:
       working-directory: ./main/.github/scripts
 
   commit-ical:
-    name: Commit Changes
+    name: Get ICS and Process
     runs-on: ubuntu-latest
     steps:
 
