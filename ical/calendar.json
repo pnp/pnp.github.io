@@ -1,6 +1,5 @@
 {
-  "lastRetrieved": "2024-04-24T10:53:58.829Z",
-  "removeMe": "yes",
+  "lastRetrieved": "2024-05-06T19:16:01.277Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -13,16 +12,6 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
-        {
-          "date": "2024-04-23T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2024-04-30T15:00:00.000Z",
-          "status": "moved",
-          "summary": "Microsoft 365 & Power Platform Weekly Call - Live from the Microsoft 365 Community Conference",
-          "recurrenceId": "20240430T080000"
-        },
         {
           "date": "2024-05-07T15:00:00.000Z",
           "status": "scheduled"
@@ -116,16 +105,10 @@
       "joinUrl": "https://aka.ms/spdev-spfx-call-join",
       "startTime": "2024-04-04T14:00:00.000Z",
       "endTime": "2024-04-04T15:00:00.000Z",
-      "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20250417T140000Z;WKST=SU",
+      "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20250501T140000Z;WKST=SU",
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
-        {
-          "date": "2024-05-02T14:00:00.000Z",
-          "status": "moved",
-          "summary": "Viva Connections & SharePoint Framework Community Call - Live from the Microsoft 365 Community Conference",
-          "recurrenceId": "20240502T070000"
-        },
         {
           "date": "2024-05-16T14:00:00.000Z",
           "status": "scheduled"
@@ -225,6 +208,10 @@
         {
           "date": "2025-04-17T14:00:00.000Z",
           "status": "scheduled"
+        },
+        {
+          "date": "2025-05-01T14:00:00.000Z",
+          "status": "scheduled"
         }
       ]
     },
@@ -300,10 +287,6 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
-        {
-          "date": "2024-04-25T14:00:00.000Z",
-          "status": "scheduled"
-        },
         {
           "date": "2024-05-09T14:00:00.000Z",
           "status": "scheduled"
