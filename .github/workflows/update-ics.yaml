@@ -8,21 +8,15 @@ on:
     workflows: ["Deploy Hugo Site"]
     types:
       - completed
-      
+
 jobs:
   build-environment:
     name: Build environment
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Checkout gh-pages branch
-        uses: actions/checkout@v4
-        with:
-          ref: gh-pages  # Specify to checkout the gh-pages branch
-          path: gh-pages
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
