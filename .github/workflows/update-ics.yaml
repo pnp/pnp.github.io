@@ -51,16 +51,11 @@ jobs:
       run: node index.js --action  # Run your specific script
       working-directory: ./main/.github/scripts
 
-    - name: Commit changes
+    - name: Commit and push if there are changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add -A
-        git commit -m "Update ICAL files via GitHub Actions" || echo "No changes to commit"
-      # The echo statement handles cases where no changes are made, so the action doesn't fail
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: gh-pages  # Ensure we're pushing to gh-pages
+        cd gh-pages
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git add calendar.ics ical/calendar.json
+        git commit -m "Update calendar files" -a || echo "No changes to commit"
+        git push origin gh-pages
