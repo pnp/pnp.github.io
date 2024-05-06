@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/language": [
+      "default",
+      {
+        "html-lang-valid": "off"
+      }
+    ],
+    "meta-viewport": "off"
+  }
+}
