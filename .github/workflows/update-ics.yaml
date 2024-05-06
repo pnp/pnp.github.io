@@ -25,23 +25,10 @@ jobs:
         ref: gh-pages  # Specify the branch to checkout
         path: gh-pages
 
-    - name: Show current working directory
-      run: pwd
-
-    - name: List contents of the current directory
-      run: ls -la
-
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
         node-version: '14'  # Specify your Node.js version
-
-    - name: Show current working directory
-      run: pwd
-
-    - name: List contents of the current directory
-      run: ls -la
-      working-directory: ./main/.github/scripts
 
     - name: Install dependencies
       run: npm install  # Assuming your script needs npm packages
