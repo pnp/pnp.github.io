@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-05-12T12:08:25.267Z",
+  "lastRetrieved": "2024-05-13T12:09:18.584Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -12,10 +12,6 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
-        {
-          "date": "2024-05-07T15:00:00.000Z",
-          "status": "scheduled"
-        },
         {
           "date": "2024-05-14T15:00:00.000Z",
           "status": "scheduled"
@@ -227,10 +223,6 @@
       "recurrenceId": null,
       "nextOccurrences": [
         {
-          "date": "2024-05-08T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
           "date": "2024-06-12T14:00:00.000Z",
           "status": "scheduled"
         },
@@ -287,10 +279,6 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
-        {
-          "date": "2024-05-09T14:00:00.000Z",
-          "status": "scheduled"
-        },
         {
           "date": "2024-05-23T14:00:00.000Z",
           "status": "scheduled"
