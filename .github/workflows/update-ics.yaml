@@ -1,48 +1,48 @@
-name: Update Calendar Files
+name: Update ICAL Files
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main  # Trigger on push to main, or adjust as needed
   schedule:
-    - cron: '0 */4 * * *'  # Adjust the schedule as necessary
-  workflow_run:
-    workflows: ["Deploy Hugo Site"]
-    types:
-      - completed
-      
+    - cron: '0 12 * * *'  # Optionally, schedule to run daily
+
 jobs:
-  update-and-push:
+  update-ical:
+    name: Get ICS and Process
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
 
-      - name: Checkout gh-pages branch
-        uses: actions/checkout@v2
-        with:
-          ref: gh-pages  # Specify to checkout the gh-pages branch
-          path: gh-pages
+    - name: Checkout main branch
+      uses: actions/checkout@v4
+      with:
+        ref: main  # Specify the branch to checkout
+        path: main
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '14'
+    - name: Checkout gh-pages branch
+      uses: actions/checkout@v4
+      with:
+        ref: gh-pages  # Specify the branch to checkout
+        path: gh-pages
 
-      - name: Install dependencies
-        run: npm install
-        working-directory: .github/scripts
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '14'  # Specify your Node.js version
 
-      - name: Run script to update calendar files
-        run: npm start --action
-        working-directory: .github/scripts
-        env:
-          ICS_URL: ${{ secrets.ICS_URL }}
+    - name: Install dependencies
+      run: npm install  # Assuming your script needs npm packages
+      working-directory: ./main/.github/scripts
 
-      - name: Commit and push if there are changes
-        run: |
-          cd gh-pages
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
-          git add calendar.ics ical/calendar.json
-          git commit -m "Update calendar files" -a || echo "No changes to commit"
-          git push origin gh-pages
+    - name: Update ICAL File
+      run: node index.js --action  # Run your specific script
+      working-directory: ./main/.github/scripts
+
+    - name: Commit and push if there are changes
+      run: |
+        cd gh-pages
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git add calendar.ics ical/calendar.json
+        git commit -m "Update calendar files" -a || echo "No changes to commit"
+        git push origin gh-pages
