@@ -4,9 +4,9 @@ title: "Tuesday calls on break"
 layout: summer-vacation
 ---
 
-Our weekly Tuesday call (8AM PT) are on a break during July and August 2024. We'll be back on 3rd of September at 8 AM using the same existing [recurrent invite](https://aka.ms/community/ms-speakers-call-invite).
+Our weekly Tuesday calls (8AM PT) are on a break during July and August 2024. We'll be back on 3rd of September at 8 AM using the same existing [recurrent invite](https://aka.ms/community/ms-speakers-call-invite).
 
-**Other community calls will continue normally without breaks during this time**. 
+**Other community calls will continue normally without breaks during this time**.
 
 You can see and download recurrent invites to all calls from https://aka.ms/community/calls
 
