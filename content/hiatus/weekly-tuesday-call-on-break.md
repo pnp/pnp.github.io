@@ -1,5 +1,5 @@
 ---
-title: "Tuesday call is on the break"
+title: "Tuesday calls are on break"
 description: "Tuesday weekly call on break during July and August."
 layout: summer-vacation
 ---
