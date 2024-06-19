@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Microsoft 365 & Power Platform Community"
 theme = "pnp-hugo-theme"
 
+[server]
+watch = true
+
 [menus]
 [[menus.main]]
 identifier = "blog"

@@ -1,5 +1,5 @@
 ---
 title: "OUT FOR VACATION"
-description: "We will return in August."
+description: "MATURITY MODEL WILL RETURN IN SEPTEMBER"
 layout: summer-vacation
 ---
