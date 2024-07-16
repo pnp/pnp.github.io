@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-07-15T12:10:38.283Z",
+  "lastRetrieved": "2024-07-16T12:10:01.537Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -401,7 +401,7 @@
       "joinUrl": "https://aka.ms/PowerPlatformMonthlyCall",
       "startTime": "2024-04-17T15:00:00.000Z",
       "endTime": "2024-04-17T16:00:00.000Z",
-      "rrule": "FREQ=MONTHLY;BYDAY=3WE;UNTIL=20250618T150000Z",
+      "rrule": "FREQ=MONTHLY;BYDAY=3WE;UNTIL=20250716T150000Z",
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
@@ -451,6 +451,10 @@
         },
         {
           "date": "2025-06-18T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-07-16T15:00:00.000Z",
           "status": "scheduled"
         }
       ]
