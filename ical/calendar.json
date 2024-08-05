@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-08-04T12:08:51.276Z",
+  "lastRetrieved": "2024-08-05T12:10:34.179Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -12,12 +12,6 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
-        {
-          "date": "2024-07-30T15:00:00.000Z",
-          "status": "moved",
-          "summary": "Microsoft 365 & Power Platform Weekly Call - on a break, back in 3rd of Sep 😎",
-          "recurrenceId": "20240730T080000"
-        },
         {
           "date": "2024-08-06T15:00:00.000Z",
           "status": "moved",
@@ -237,10 +231,6 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
-        {
-          "date": "2024-08-01T14:00:00.000Z",
-          "status": "scheduled"
-        },
         {
           "date": "2024-08-15T14:00:00.000Z",
           "status": "scheduled"
