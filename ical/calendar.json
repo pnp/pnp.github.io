@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-10-27T12:10:15.510Z",
+  "lastRetrieved": "2024-10-28T12:12:17.958Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -178,10 +178,6 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
-        {
-          "date": "2024-10-24T14:00:00.000Z",
-          "status": "scheduled"
-        },
         {
           "date": "2024-11-07T15:00:00.000Z",
           "status": "scheduled"
@@ -481,10 +477,6 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
-        {
-          "date": "2024-10-22T15:00:00.000Z",
-          "status": "scheduled"
-        },
         {
           "date": "2024-10-29T15:00:00.000Z",
           "status": "scheduled"
