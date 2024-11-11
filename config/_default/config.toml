@@ -96,7 +96,7 @@ home = ["HTML", "Calendar"]
 name = "YouTube"
 icon = "icon-video-clip-filled"
 weight = 5
-url = "https://aka.ms/community/videos"
+url = "https://www.youtube.com/@MicrosoftCommunityLearning/videos"
 
 [[params.social]]
 name = "GitHub"
@@ -120,10 +120,10 @@ url = "https://www.facebook.com/M365Dev/"
 name = "LinkedIn"
 icon = "icon-linkedin"
 weight = 4
-url = "https://www.linkedin.com/in/johndoe/"
+url = "https://www.linkedin.com/company/m365pnp"
 
 [[params.social]]
 name = "Discord"
 icon = "icon-discord"
 weight = 5
-url = "https://aka.ms/community/discord"
+url = "https://discord.gg/YtYrav2VGW"
