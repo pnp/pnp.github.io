@@ -10,3 +10,7 @@ section:target:before {
 a.card-link, a.blog-link {
     text-decoration: none;
 }
+
+svg.icon-bluesky.icon-svg {
+    fill: #1185fe;
+}
