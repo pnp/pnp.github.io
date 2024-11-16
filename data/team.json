@@ -145,7 +145,6 @@
         "img": "images/team/beaucameron.webp",
         "github": "https://github.com/bcameron1231",
         "title": "MVP",
-        "twitter": "https://twitter.com/Beau__Cameron",
         "linkedin": "https://www.linkedin.com/in/beau-cameron/"
     },
     {
@@ -266,8 +265,7 @@
         "img": "images/team/hugobernier.webp",
         "github": "https://github.com/hugoabernier",
         "title": "MVP",
-        "linkedin": "https://www.linkedin.com/in/hugobernier/",
-        "twitter": "https://twitter.com/bernierh"
+        "linkedin": "https://www.linkedin.com/in/hugobernier/"
     },
     {
         "name": "Jasey Waegebaert",
