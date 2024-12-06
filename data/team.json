@@ -347,13 +347,10 @@
         "bluesky": "https://bsky.app/profile/sympmarc.com"
     },
     {
-        "name": "Markus M\u00f6ller 🧡",
-        "company": "Avanade",
+        "name": "Markus M\u00f6ller",
+        "company": "🧡",
         "img": "images/team/markusmoller.webp",
-        "github": "https://github.com/mmsharepoint",
-        "title": "MVP",
-        "twitter": "https://twitter.com/Moeller2_0",
-        "linkedin": "https://www.linkedin.com/in/markus-moeller-25b72821/"
+        "title": ""
     },
     {
         "name": "Martin Lingstuyl",
