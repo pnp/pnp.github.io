@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2024-12-19T12:12:03.237Z",
+  "lastRetrieved": "2024-12-20T12:11:20.653Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -479,11 +479,15 @@
         },
         {
           "date": "2024-12-24T16:00:00.000Z",
-          "status": "scheduled"
+          "status": "moved",
+          "summary": "Microsoft 365 & Power Platform call - On a holiday break 🎄",
+          "recurrenceId": "20241224T080000"
         },
         {
           "date": "2024-12-31T16:00:00.000Z",
-          "status": "scheduled"
+          "status": "moved",
+          "summary": "Microsoft 365 & Power Platform call -  On a holiday break 🎄",
+          "recurrenceId": "20241231T080000"
         },
         {
           "date": "2025-01-07T16:00:00.000Z",
@@ -586,6 +590,30 @@
           "status": "scheduled"
         }
       ]
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E008000000003C17D4E58F19DB010000000000000000100000008A2AD0F964EAA54BA7F6345153149FDA",
+      "summary": "Microsoft 365 & Power Platform call - On a holiday break 🎄",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": null,
+      "startTime": "2024-12-24T16:00:00.000Z",
+      "endTime": "2024-12-24T17:00:00.000Z",
+      "rrule": null,
+      "exdate": [],
+      "recurrenceId": "20241224T080000",
+      "nextOccurrences": []
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E008000000003C17D4E58F19DB010000000000000000100000008A2AD0F964EAA54BA7F6345153149FDA",
+      "summary": "Microsoft 365 & Power Platform call -  On a holiday break 🎄",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": null,
+      "startTime": "2024-12-31T16:00:00.000Z",
+      "endTime": "2024-12-31T17:00:00.000Z",
+      "rrule": null,
+      "exdate": [],
+      "recurrenceId": "20241231T080000",
+      "nextOccurrences": []
     }
   ]
 }
