@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2025-01-05T12:10:13.854Z",
+  "lastRetrieved": "2025-01-06T12:11:55.387Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -170,10 +170,6 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
-        {
-          "date": "2025-01-02T15:00:00.000Z",
-          "status": "scheduled"
-        },
         {
           "date": "2025-01-16T15:00:00.000Z",
           "status": "scheduled"
@@ -465,12 +461,6 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
-        {
-          "date": "2024-12-31T16:00:00.000Z",
-          "status": "moved",
-          "summary": "Microsoft 365 & Power Platform call -  On a holiday break 🎄",
-          "recurrenceId": "20241231T080000"
-        },
         {
           "date": "2025-01-07T16:00:00.000Z",
           "status": "scheduled"
