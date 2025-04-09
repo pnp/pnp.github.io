@@ -168,7 +168,7 @@
     },
     {
         "name": "Bob German",
-        "company": "Microsoft",
+        "company": "",
         "img": "images/team/bobgerman.webp",
         "github": "https://github.com/BobGerman",
         "twitter": "https://twitter.com/bob1german",
@@ -206,7 +206,7 @@
     },
     {
         "name": "David Warner",
-        "company": "Microsoft",
+        "company": "Quisitive",
         "img": "images/team/davidwarner.webp",
         "github": "https://github.com/PopWarner",
         "twitter": "https://twitter.com/DavidWarnerII",
@@ -273,7 +273,7 @@
     },
     {
         "name": "Gautam Sheth",
-        "company": "Valo Intranet",
+        "company": "Staffbase",
         "img": "images/team/gautamsheth.webp",
         "github": "https://github.com/gautamdsheth",
         "twitter": "https://twitter.com/gautamdsheth",
@@ -287,7 +287,7 @@
         "img": "images/team/hugobernier.webp",
         "github": "https://github.com/hugoabernier",
         "title": "MVP",
-        "linkedin": "https://www.linkedin.com/in/hugobernier/",
+        "linkedin": "https://www.linkedin.com/in/bernierh/",
         "bluesky": "https://bsky.app/profile/bernierh.bsky.social"
     },
     {
