@@ -1,35 +1,6 @@
 {
-  "lastRetrieved": "2025-04-16T12:12:50.278Z",
+  "lastRetrieved": "2025-04-17T12:12:32.222Z",
   "events": [
-    {
-      "uid": "040000008200E00074C5B7101A82E00800000000A07914A1AD8EDA01000000000000000010000000C336836834D5AF489D8E4225EE9C3B0B",
-      "summary": "Maturity Model for Microsoft 365",
-      "location": "Microsoft Teams Meeting",
-      "joinUrl": "https://aka.ms/mm4m365/join-call",
-      "startTime": "2024-04-16T14:00:00.000Z",
-      "endTime": "2024-04-16T15:00:00.000Z",
-      "rrule": "FREQ=MONTHLY;BYDAY=3TU;UNTIL=20250415T140000Z",
-      "exdate": [],
-      "recurrenceId": null,
-      "nextOccurrences": [
-        {
-          "date": "2025-04-15T14:00:00.000Z",
-          "status": "scheduled"
-        }
-      ]
-    },
-    {
-      "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
-      "summary": "Microsoft 365 & Power Platform Weekly Call",
-      "location": "Microsoft Teams Meeting",
-      "joinUrl": "https://aka.ms/m365-dev-call-join",
-      "startTime": "2024-04-16T15:00:00.000Z",
-      "endTime": "2024-04-16T16:00:00.000Z",
-      "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20240924T150000Z;WKST=SU",
-      "exdate": [],
-      "recurrenceId": null,
-      "nextOccurrences": []
-    },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000C81EAE66288ADA01000000000000000010000000F6C360139C27FF4B8FF87F06B421CDB8",
       "summary": "Power Platform Monthly Call ",
@@ -201,6 +172,18 @@
       ]
     },
     {
+      "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
+      "summary": "Microsoft 365 & Power Platform Weekly Call",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": "https://aka.ms/m365-dev-call-join",
+      "startTime": "2024-04-23T15:00:00.000Z",
+      "endTime": "2024-04-23T16:00:00.000Z",
+      "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20240924T150000Z;WKST=SU",
+      "exdate": [],
+      "recurrenceId": null,
+      "nextOccurrences": []
+    },
+    {
       "uid": "040000008200E00074C5B7101A82E0080000000070404DDB288ADA01000000000000000010000000F485AAF2995C3947AF4B1E87F01384A0",
       "summary": "Microsoft 365 & Power Platform Community Call",
       "location": "Microsoft Teams Meeting",
@@ -352,6 +335,23 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": []
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E00800000000A07914A1AD8EDA01000000000000000010000000C336836834D5AF489D8E4225EE9C3B0B",
+      "summary": "Maturity Model for Microsoft 365",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": "https://aka.ms/mm4m365/join-call",
+      "startTime": "2024-05-21T14:00:00.000Z",
+      "endTime": "2024-05-21T15:00:00.000Z",
+      "rrule": "FREQ=MONTHLY;BYDAY=3TU;UNTIL=20250415T140000Z",
+      "exdate": [],
+      "recurrenceId": null,
+      "nextOccurrences": [
+        {
+          "date": "2025-04-15T14:00:00.000Z",
+          "status": "scheduled"
+        }
+      ]
     },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
