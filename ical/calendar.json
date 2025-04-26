@@ -1,126 +1,17 @@
 {
-  "lastRetrieved": "2025-04-25T12:12:34.040Z",
+  "lastRetrieved": "2025-04-26T12:11:07.960Z",
   "events": [
     {
-      "uid": "040000008200E00074C5B7101A82E0080000000070404DDB288ADA01000000000000000010000000F485AAF2995C3947AF4B1E87F01384A0",
-      "summary": "Microsoft 365 & Power Platform Community Call",
+      "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
+      "summary": "Microsoft 365 & Power Platform Weekly Call - Live from the Microsoft 365 Community Conference",
       "location": "Microsoft Teams Meeting",
-      "joinUrl": "https://aka.ms/m365-dev-sig-join",
-      "startTime": "2024-04-25T14:00:00.000Z",
-      "endTime": "2024-04-25T15:00:00.000Z",
-      "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20260423T140000Z;WKST=SU",
+      "joinUrl": "https://aka.ms/m365-dev-call-join",
+      "startTime": "2024-04-30T15:00:00.000Z",
+      "endTime": "2024-04-30T16:00:00.000Z",
+      "rrule": null,
       "exdate": [],
-      "recurrenceId": null,
-      "nextOccurrences": [
-        {
-          "date": "2025-04-24T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-05-08T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-05-22T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-06-05T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-06-19T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-07-03T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-07-17T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-07-31T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-08-14T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-08-28T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-09-11T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-09-25T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-10-09T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-10-23T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-11-06T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-11-20T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-12-04T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-12-18T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-01-01T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-01-15T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-01-29T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-02-12T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-02-26T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-03-12T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-03-26T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-04-09T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-04-23T14:00:00.000Z",
-          "status": "scheduled"
-        }
-      ]
+      "recurrenceId": "20240430T080000",
+      "nextOccurrences": []
     },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -135,15 +26,15 @@
       "nextOccurrences": []
     },
     {
-      "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
-      "summary": "Microsoft 365 & Power Platform Weekly Call - Live from the Microsoft 365 Community Conference",
+      "uid": "040000008200E00074C5B7101A82E00800000000CE03C195278ADA010000000000000000100000001D5D5DA85E858D45B9A47028FB60C7F2",
+      "summary": "Viva Connections & SharePoint Framework Community Call - Live from the Microsoft 365 Community Conference",
       "location": "Microsoft Teams Meeting",
-      "joinUrl": "https://aka.ms/m365-dev-call-join",
-      "startTime": "2024-04-30T15:00:00.000Z",
-      "endTime": "2024-04-30T16:00:00.000Z",
+      "joinUrl": "https://aka.ms/spdev-spfx-call-join",
+      "startTime": "2024-05-02T14:00:00.000Z",
+      "endTime": "2024-05-02T15:00:00.000Z",
       "rrule": null,
       "exdate": [],
-      "recurrenceId": "20240430T080000",
+      "recurrenceId": "20240502T070000",
       "nextOccurrences": []
     },
     {
@@ -264,18 +155,6 @@
       ]
     },
     {
-      "uid": "040000008200E00074C5B7101A82E00800000000CE03C195278ADA010000000000000000100000001D5D5DA85E858D45B9A47028FB60C7F2",
-      "summary": "Viva Connections & SharePoint Framework Community Call - Live from the Microsoft 365 Community Conference",
-      "location": "Microsoft Teams Meeting",
-      "joinUrl": "https://aka.ms/spdev-spfx-call-join",
-      "startTime": "2024-05-02T14:00:00.000Z",
-      "endTime": "2024-05-02T15:00:00.000Z",
-      "rrule": null,
-      "exdate": [],
-      "recurrenceId": "20240502T070000",
-      "nextOccurrences": []
-    },
-    {
       "uid": "040000008200E00074C5B7101A82E00800000000F97F040EAE8EDA01000000000000000010000000214806AD1FEB9B49B9BA5E95BB8A21A0",
       "summary": "Office Add-ins",
       "location": "Microsoft Teams Meeting",
@@ -286,6 +165,127 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": []
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E0080000000070404DDB288ADA01000000000000000010000000F485AAF2995C3947AF4B1E87F01384A0",
+      "summary": "Microsoft 365 & Power Platform Community Call",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": "https://aka.ms/m365-dev-sig-join",
+      "startTime": "2024-05-09T14:00:00.000Z",
+      "endTime": "2024-05-09T15:00:00.000Z",
+      "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20260423T140000Z;WKST=SU",
+      "exdate": [],
+      "recurrenceId": null,
+      "nextOccurrences": [
+        {
+          "date": "2025-04-24T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-05-08T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-05-22T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-06-05T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-06-19T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-07-03T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-07-17T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-07-31T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-08-14T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-08-28T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-09-11T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-09-25T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-10-09T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-10-23T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-11-06T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-11-20T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-12-04T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-12-18T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-01-01T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-01-15T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-01-29T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-02-12T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-02-26T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-03-12T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-03-26T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-04-09T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-04-23T14:00:00.000Z",
+          "status": "scheduled"
+        }
+      ]
     },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000C81EAE66288ADA01000000000000000010000000F6C360139C27FF4B8FF87F06B421CDB8",
