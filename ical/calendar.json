@@ -1,18 +1,6 @@
 {
-  "lastRetrieved": "2025-05-07T12:13:26.455Z",
+  "lastRetrieved": "2025-05-08T12:12:52.546Z",
   "events": [
-    {
-      "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
-      "summary": "Microsoft 365 & Power Platform Weekly Call",
-      "location": "Microsoft Teams Meeting",
-      "joinUrl": "https://aka.ms/m365-dev-call-join",
-      "startTime": "2024-05-07T15:00:00.000Z",
-      "endTime": "2024-05-07T16:00:00.000Z",
-      "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20240924T150000Z;WKST=SU",
-      "exdate": [],
-      "recurrenceId": null,
-      "nextOccurrences": []
-    },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000F97F040EAE8EDA01000000000000000010000000214806AD1FEB9B49B9BA5E95BB8A21A0",
       "summary": "Office Add-ins",
@@ -145,6 +133,18 @@
           "status": "scheduled"
         }
       ]
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
+      "summary": "Microsoft 365 & Power Platform Weekly Call",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": "https://aka.ms/m365-dev-call-join",
+      "startTime": "2024-05-14T15:00:00.000Z",
+      "endTime": "2024-05-14T16:00:00.000Z",
+      "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20240924T150000Z;WKST=SU",
+      "exdate": [],
+      "recurrenceId": null,
+      "nextOccurrences": []
     },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000C81EAE66288ADA01000000000000000010000000F6C360139C27FF4B8FF87F06B421CDB8",
