@@ -1,51 +1,6 @@
 {
-  "lastRetrieved": "2025-05-15T12:13:09.153Z",
+  "lastRetrieved": "2025-05-16T12:13:27.810Z",
   "events": [
-    {
-      "uid": "040000008200E00074C5B7101A82E00800000000C81EAE66288ADA01000000000000000010000000F6C360139C27FF4B8FF87F06B421CDB8",
-      "summary": "Power Platform Monthly Call ",
-      "location": "Microsoft Teams Meeting",
-      "joinUrl": "https://aka.ms/PowerPlatformMonthlyCall",
-      "startTime": "2024-05-15T15:00:00.000Z",
-      "endTime": "2024-05-15T16:00:00.000Z",
-      "rrule": "FREQ=MONTHLY;BYDAY=3WE;UNTIL=20251217T160000Z",
-      "exdate": [],
-      "recurrenceId": null,
-      "nextOccurrences": [
-        {
-          "date": "2025-05-21T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-06-18T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-07-16T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-08-20T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-09-17T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-10-15T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-11-19T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-12-17T16:00:00.000Z",
-          "status": "scheduled"
-        }
-      ]
-    },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000CE03C195278ADA010000000000000000100000001D5D5DA85E858D45B9A47028FB60C7F2",
       "summary": "Viva Connections & SharePoint Framework Community Call",
@@ -319,6 +274,51 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": []
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E00800000000C81EAE66288ADA01000000000000000010000000F6C360139C27FF4B8FF87F06B421CDB8",
+      "summary": "Power Platform Monthly Call ",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": "https://aka.ms/PowerPlatformMonthlyCall",
+      "startTime": "2024-06-19T15:00:00.000Z",
+      "endTime": "2024-06-19T16:00:00.000Z",
+      "rrule": "FREQ=MONTHLY;BYDAY=3WE;UNTIL=20251217T160000Z",
+      "exdate": [],
+      "recurrenceId": null,
+      "nextOccurrences": [
+        {
+          "date": "2025-05-21T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-06-18T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-07-16T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-08-20T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-09-17T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-10-15T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-11-19T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-12-17T16:00:00.000Z",
+          "status": "scheduled"
+        }
+      ]
     },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
