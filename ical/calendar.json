@@ -1,18 +1,6 @@
 {
-  "lastRetrieved": "2025-06-12T12:13:28.883Z",
+  "lastRetrieved": "2025-06-13T12:13:19.743Z",
   "events": [
-    {
-      "uid": "040000008200E00074C5B7101A82E00800000000F97F040EAE8EDA01000000000000000010000000214806AD1FEB9B49B9BA5E95BB8A21A0",
-      "summary": "Office Add-ins",
-      "location": "Microsoft Teams Meeting",
-      "joinUrl": "https://aka.ms/officeaddinscall-join",
-      "startTime": "2024-06-12T14:00:00.000Z",
-      "endTime": "2024-06-12T15:00:00.000Z",
-      "rrule": "FREQ=MONTHLY;BYDAY=2WE;UNTIL=20250409T140000Z",
-      "exdate": [],
-      "recurrenceId": null,
-      "nextOccurrences": []
-    },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000CE03C195278ADA010000000000000000100000001D5D5DA85E858D45B9A47028FB60C7F2",
       "summary": "Viva Connections & SharePoint Framework Community Call",
@@ -315,6 +303,18 @@
           "status": "scheduled"
         }
       ]
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E00800000000F97F040EAE8EDA01000000000000000010000000214806AD1FEB9B49B9BA5E95BB8A21A0",
+      "summary": "Office Add-ins",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": "https://aka.ms/officeaddinscall-join",
+      "startTime": "2024-07-10T14:00:00.000Z",
+      "endTime": "2024-07-10T15:00:00.000Z",
+      "rrule": "FREQ=MONTHLY;BYDAY=2WE;UNTIL=20250409T140000Z",
+      "exdate": [],
+      "recurrenceId": null,
+      "nextOccurrences": []
     },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",

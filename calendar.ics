@@ -19,87 +19,6 @@ RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-DESCRIPTION:The Office Add-ins community call is our monthly event for deve
- lopers to connect in real-time with the folks who are building the Office 
- JavaScript APIs. During this call\, we’ll share updates about new Office J
- avaScript APIs and provide tips about useful tools\, samples\, and resourc
- es for developing Office Add-ins. Additionally\, each call will feature a 
- technical deep dive on a specific topic and will conclude with an opportun
- ity for attendees to ask questions and share feedback.\n\n\n______________
- __________________________________________________________________\n\nMicr
- osoft Teams meeting\n\nJoin on your computer\, mobile app or room device\n
- \nClick here to join the meeting<https://aka.ms/officeaddinscall-join>\n\n
- \nOr join by phone (audio only)\n\n+1 323-849-4874\,\,975455939# United St
- ates\, Los Angeles\nPhone Conference ID: 975 455 939#\nFind a local number
- <https://dialin.teams.microsoft.com/8551f4c1-bea3-441a-8738-69aa517a91c5?i
- d=975455939> | Reset PIN<https://mysettings.lync.com/pstnconferencing>\n\n
- __________________________________________________________________________
- ______\n\n\nResources\nCommunity call topic requests and questions<https:/
- /aka.ms/officeaddinsform>\nFollow us on Twitter @Microsoft365Dev<https://t
- witter.com/Microsoft365Dev> for the latest announcements\nCommunity call r
- ecordings on the YouTube Microsoft 365 Dev channel<https://aka.ms/M365DevY
- ouTube>\nGet started with Office Add-ins development<https://developer.mic
- rosoft.com/office>\nJoin the Microsoft 365 Developer Program<https://devel
- oper.microsoft.com/microsoft-365/dev-program>\n\n\n
-X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
- eddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt
- ;"><p>The Office Add-ins community call is our monthly event for developer
- s to connect in real-time with the folks who are building the Office JavaS
- cript APIs. During this call\, we’ll share updates about new Office JavaSc
- ript APIs and provide tips about useful tools\, samples\, and resources fo
- r developing Office Add-ins. Additionally\, each call will feature a techn
- ical deep dive on a specific topic and will conclude with an opportunity f
- or attendees to ask questions and share feedback.</p><p>\n<div style="marg
- in-bottom:24px; overflow:hidden; white-space:nowrap">_____________________
- ___________________________________________________________</div>\n<div st
- yle="margin-bottom:12px"><span class="x_me-email-text" style="font-size:24
- px; font-weight:700; margin-right:12px">Microsoft Teams</span><a href="htt
- ps://aka.ms/JoinTeamsMeeting?omkt=en-US" target="_blank" rel="noopener nor
- eferrer" data-auth="NotApplicable" id="x_meet_invite_block.action.help" cl
- ass="x_me-email-link" style="font-size:14px; text-decoration:underline;">N
- eed help?</a> </div><div style="margin-bottom:6px"><a href="https://aka.ms
- /officeaddinscall-join" target="_blank" rel="noreferrer noopener" data-aut
- h="NotApplicable" id="x_meet_invite_block.action.join_link" class="x_me-em
- ail-headline" style="font-size:20px; font-weight:600; text-decoration:unde
- rline; color:#5B5FC7">Join the meeting now</a> </div></p><p>Or join by pho
- ne (audio only)</p><p>+1 323-849-4874\,\,975455939# United States\, Los An
- geles\nPhone Conference ID: 975 455 939#\nFind a local number<https://dial
- in.teams.microsoft.com/8551f4c1-bea3-441a-8738-69aa517a91c5?id=975455939> 
- | Reset PIN<https://mysettings.lync.com/pstnconferencing></p><p><div style
- ="margin-bottom:24px; overflow:hidden; white-space:nowrap">_______________
- _________________________________________________________________</div></p
- ><p>\nResources\nCommunity call topic requests and questions<https://aka.m
- s/officeaddinsform>\nFollow us on Twitter @Microsoft365Dev<https://twitter
- .com/Microsoft365Dev> for the latest announcements\nCommunity call recordi
- ngs on the YouTube Microsoft 365 Dev channel<https://aka.ms/M365DevYouTube
- >\nGet started with Office Add-ins development<https://developer.microsoft
- .com/office>\nJoin the Microsoft 365 Developer Program<https://developer.m
- icrosoft.com/microsoft-365/dev-program></p><p>\n</p></body></html>
-UID:040000008200E00074C5B7101A82E00800000000F97F040EAE8EDA01000000000000000
- 010000000214806AD1FEB9B49B9BA5E95BB8A21A0
-SUMMARY:Office Add-ins
-DTSTART;TZID=Pacific Standard Time:20240612T070000
-DTEND;TZID=Pacific Standard Time:20240612T080000
-CLASS:PUBLIC
-PRIORITY:5
-DTSTAMP:20250612T121328Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SEQUENCE:0
-LOCATION:Microsoft Teams Meeting
-X-MICROSOFT-CDO-APPT-SEQUENCE:0
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
-X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-CDO-INSTTYPE:1
-X-MICROSOFT-DONOTFORWARDMEETING:FALSE
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
-X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
-X-MICROSOFT-SKYPETEAMSMEETINGURL:https://aka.ms/officeaddinscall-join
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Welcome to the Viva Connections & SharePoint Framework Bi-weekl
  y Special Interest Group call around Client-side development. Topics cover
  ed in this call are SharePoint Framework latest updates\, PnPjs\, Office36
@@ -162,7 +81,7 @@ DTSTART;TZID=Pacific Standard Time:20240613T070000
 DTEND;TZID=Pacific Standard Time:20240613T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250612T121328Z
+DTSTAMP:20250613T121319Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -208,7 +127,7 @@ DTSTART;TZID=Pacific Standard Time:20240618T070000
 DTEND;TZID=Pacific Standard Time:20240618T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250612T121328Z
+DTSTAMP:20250613T121319Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -292,7 +211,7 @@ DTSTART;TZID=Pacific Standard Time:20240618T080000
 DTEND;TZID=Pacific Standard Time:20240618T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250612T121328Z
+DTSTAMP:20250613T121319Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -363,7 +282,7 @@ DTSTART;TZID=Pacific Standard Time:20240619T080000
 DTEND;TZID=Pacific Standard Time:20240619T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250612T121328Z
+DTSTAMP:20250613T121319Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -438,7 +357,7 @@ DTSTART;TZID=Pacific Standard Time:20240620T070000
 DTEND;TZID=Pacific Standard Time:20240620T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250612T121328Z
+DTSTAMP:20250613T121319Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -454,6 +373,87 @@ X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
 X-MICROSOFT-SKYPETEAMSMEETINGURL:https://aka.ms/m365-dev-sig-join
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:The Office Add-ins community call is our monthly event for deve
+ lopers to connect in real-time with the folks who are building the Office 
+ JavaScript APIs. During this call\, we’ll share updates about new Office J
+ avaScript APIs and provide tips about useful tools\, samples\, and resourc
+ es for developing Office Add-ins. Additionally\, each call will feature a 
+ technical deep dive on a specific topic and will conclude with an opportun
+ ity for attendees to ask questions and share feedback.\n\n\n______________
+ __________________________________________________________________\n\nMicr
+ osoft Teams meeting\n\nJoin on your computer\, mobile app or room device\n
+ \nClick here to join the meeting<https://aka.ms/officeaddinscall-join>\n\n
+ \nOr join by phone (audio only)\n\n+1 323-849-4874\,\,975455939# United St
+ ates\, Los Angeles\nPhone Conference ID: 975 455 939#\nFind a local number
+ <https://dialin.teams.microsoft.com/8551f4c1-bea3-441a-8738-69aa517a91c5?i
+ d=975455939> | Reset PIN<https://mysettings.lync.com/pstnconferencing>\n\n
+ __________________________________________________________________________
+ ______\n\n\nResources\nCommunity call topic requests and questions<https:/
+ /aka.ms/officeaddinsform>\nFollow us on Twitter @Microsoft365Dev<https://t
+ witter.com/Microsoft365Dev> for the latest announcements\nCommunity call r
+ ecordings on the YouTube Microsoft 365 Dev channel<https://aka.ms/M365DevY
+ ouTube>\nGet started with Office Add-ins development<https://developer.mic
+ rosoft.com/office>\nJoin the Microsoft 365 Developer Program<https://devel
+ oper.microsoft.com/microsoft-365/dev-program>\n\n\n
+X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
+ eddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt
+ ;"><p>The Office Add-ins community call is our monthly event for developer
+ s to connect in real-time with the folks who are building the Office JavaS
+ cript APIs. During this call\, we’ll share updates about new Office JavaSc
+ ript APIs and provide tips about useful tools\, samples\, and resources fo
+ r developing Office Add-ins. Additionally\, each call will feature a techn
+ ical deep dive on a specific topic and will conclude with an opportunity f
+ or attendees to ask questions and share feedback.</p><p>\n<div style="marg
+ in-bottom:24px; overflow:hidden; white-space:nowrap">_____________________
+ ___________________________________________________________</div>\n<div st
+ yle="margin-bottom:12px"><span class="x_me-email-text" style="font-size:24
+ px; font-weight:700; margin-right:12px">Microsoft Teams</span><a href="htt
+ ps://aka.ms/JoinTeamsMeeting?omkt=en-US" target="_blank" rel="noopener nor
+ eferrer" data-auth="NotApplicable" id="x_meet_invite_block.action.help" cl
+ ass="x_me-email-link" style="font-size:14px; text-decoration:underline;">N
+ eed help?</a> </div><div style="margin-bottom:6px"><a href="https://aka.ms
+ /officeaddinscall-join" target="_blank" rel="noreferrer noopener" data-aut
+ h="NotApplicable" id="x_meet_invite_block.action.join_link" class="x_me-em
+ ail-headline" style="font-size:20px; font-weight:600; text-decoration:unde
+ rline; color:#5B5FC7">Join the meeting now</a> </div></p><p>Or join by pho
+ ne (audio only)</p><p>+1 323-849-4874\,\,975455939# United States\, Los An
+ geles\nPhone Conference ID: 975 455 939#\nFind a local number<https://dial
+ in.teams.microsoft.com/8551f4c1-bea3-441a-8738-69aa517a91c5?id=975455939> 
+ | Reset PIN<https://mysettings.lync.com/pstnconferencing></p><p><div style
+ ="margin-bottom:24px; overflow:hidden; white-space:nowrap">_______________
+ _________________________________________________________________</div></p
+ ><p>\nResources\nCommunity call topic requests and questions<https://aka.m
+ s/officeaddinsform>\nFollow us on Twitter @Microsoft365Dev<https://twitter
+ .com/Microsoft365Dev> for the latest announcements\nCommunity call recordi
+ ngs on the YouTube Microsoft 365 Dev channel<https://aka.ms/M365DevYouTube
+ >\nGet started with Office Add-ins development<https://developer.microsoft
+ .com/office>\nJoin the Microsoft 365 Developer Program<https://developer.m
+ icrosoft.com/microsoft-365/dev-program></p><p>\n</p></body></html>
+UID:040000008200E00074C5B7101A82E00800000000F97F040EAE8EDA01000000000000000
+ 010000000214806AD1FEB9B49B9BA5E95BB8A21A0
+SUMMARY:Office Add-ins
+DTSTART;TZID=Pacific Standard Time:20240710T070000
+DTEND;TZID=Pacific Standard Time:20240710T080000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250613T121319Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://aka.ms/officeaddinscall-join
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Welcome to the Microsoft 365 & Power Platform community call! T
@@ -523,7 +523,7 @@ DTSTART;TZID=Pacific Standard Time:20240730T080000
 DTEND;TZID=Pacific Standard Time:20240730T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250612T121328Z
+DTSTAMP:20250613T121319Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -608,7 +608,7 @@ DTSTART;TZID=Pacific Standard Time:20240806T080000
 DTEND;TZID=Pacific Standard Time:20240806T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250612T121328Z
+DTSTAMP:20250613T121319Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -693,7 +693,7 @@ DTSTART;TZID=Pacific Standard Time:20240813T080000
 DTEND;TZID=Pacific Standard Time:20240813T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250612T121328Z
+DTSTAMP:20250613T121319Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -778,7 +778,7 @@ DTSTART;TZID=Pacific Standard Time:20240820T080000
 DTEND;TZID=Pacific Standard Time:20240820T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250612T121328Z
+DTSTAMP:20250613T121319Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -863,7 +863,7 @@ DTSTART;TZID=Pacific Standard Time:20240827T080000
 DTEND;TZID=Pacific Standard Time:20240827T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250612T121328Z
+DTSTAMP:20250613T121319Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -935,7 +935,7 @@ DTSTART;TZID=Pacific Standard Time:20241008T080000
 DTEND;TZID=Pacific Standard Time:20241008T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250612T121328Z
+DTSTAMP:20250613T121319Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -1006,7 +1006,7 @@ DTSTART;TZID=Pacific Standard Time:20241224T080000
 DTEND;TZID=Pacific Standard Time:20241224T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250612T121328Z
+DTSTAMP:20250613T121319Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -1077,7 +1077,7 @@ DTSTART;TZID=Pacific Standard Time:20241231T080000
 DTEND;TZID=Pacific Standard Time:20241231T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250612T121328Z
+DTSTAMP:20250613T121319Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -1163,7 +1163,7 @@ DTSTART;TZID=Pacific Standard Time:20250701T080000
 DTEND;TZID=Pacific Standard Time:20250701T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250612T121328Z
+DTSTAMP:20250613T121319Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
