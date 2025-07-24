@@ -1,18 +1,6 @@
 {
-  "lastRetrieved": "2025-07-23T12:14:22.352Z",
+  "lastRetrieved": "2025-07-24T12:14:19.634Z",
   "events": [
-    {
-      "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
-      "summary": "Microsoft 365 & Power Platform Weekly Call",
-      "location": "Microsoft Teams Meeting",
-      "joinUrl": "https://aka.ms/m365-dev-call-join",
-      "startTime": "2024-07-23T15:00:00.000Z",
-      "endTime": "2024-07-23T16:00:00.000Z",
-      "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20240924T150000Z;WKST=SU",
-      "exdate": [],
-      "recurrenceId": null,
-      "nextOccurrences": []
-    },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000CE03C195278ADA010000000000000000100000001D5D5DA85E858D45B9A47028FB60C7F2",
       "summary": "Viva Connections & SharePoint Framework Community Call",
@@ -144,6 +132,18 @@
       "rrule": null,
       "exdate": [],
       "recurrenceId": "20240730T080000",
+      "nextOccurrences": []
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
+      "summary": "Microsoft 365 & Power Platform Weekly Call",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": "https://aka.ms/m365-dev-call-join",
+      "startTime": "2024-07-30T15:00:00.000Z",
+      "endTime": "2024-07-30T16:00:00.000Z",
+      "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20240924T150000Z;WKST=SU",
+      "exdate": [],
+      "recurrenceId": null,
       "nextOccurrences": []
     },
     {
