@@ -19,81 +19,6 @@ RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-DESCRIPTION:Welcome to the Microsoft 365 & Power Platform - General Develop
- ment Bi-weekly Special Interest Group call around Microsoft 365 General de
- veloper topics.\n\nTopics covered in this call are solution designs\, prov
- isioning\, Microsoft Teams\, SharePoint\, Online\, Power Platform\, etc. a
- cross the platform with updates from Microsoft and 2-3 live demos.\n\n\n__
- __________________________________________________________________________
- ____\n\nMicrosoft Teams meeting\n\nJoin on your computer\, mobile app or r
- oom device\n\nClick here to join the meeting<https://aka.ms/m365-dev-sig-j
- oin><https://aka.ms/m365-dev-sig-join>\n\n\n______________________________
- __________________________________________________\n\n(notice. This is an 
- aka.ms link as we might change the actual invite URL. This way any changes
-  are transparent for you as long as you access the call from above link)\n
- \nMicrosoft 365 Patterns and Practices community – https://aka.ms/m365pnp\
- n\nMicrosoft 365 Developer YouTube channel – https://aka.ms/M365DevYouTube
- \n\nMicrosoft 365 and SharePoint Community YouTube channel – https://m365p
- np-videos\n\nMicrosoft 365 Open-Source – https://github.com/pnp \, https:/
- /github.com/officedev \, https://github.com/sharepoint \, https://github.c
- om/microsoftgraph\n\nSample galleries – take advantage of existing samples
-  – https://aka.ms/teams-samples \, https://aka.ms/spfx-webparts \, https:/
- /aka.ms/list-formatting \, https://aka.ms/spfx-extensions\n
-X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
- eddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt
- ;"><p>Welcome to the Microsoft 365 & Power Platform - General Development 
- Bi-weekly Special Interest Group call around Microsoft 365 General develop
- er topics.</p><p>Topics covered in this call are solution designs\, provis
- ioning\, Microsoft Teams\, SharePoint\, Online\, Power Platform\, etc. acr
- oss the platform with updates from Microsoft and 2-3 live demos.</p><p>\n<
- div style="margin-bottom:24px; overflow:hidden; white-space:nowrap">______
- __________________________________________________________________________
- </div>\n<div style="margin-bottom:12px"><span class="x_me-email-text" styl
- e="font-size:24px; font-weight:700; margin-right:12px">Microsoft Teams</sp
- an><a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US" target="_blank" re
- l="noopener noreferrer" data-auth="NotApplicable" id="x_meet_invite_block.
- action.help" class="x_me-email-link" style="font-size:14px; text-decoratio
- n:underline;">Need help?</a> </div><div style="margin-bottom:6px"><a href=
- "https://aka.ms/m365-dev-sig-join" target="_blank" rel="noreferrer noopene
- r" data-auth="NotApplicable" id="x_meet_invite_block.action.join_link" cla
- ss="x_me-email-headline" style="font-size:20px; font-weight:600; text-deco
- ration:underline; color:#5B5FC7">Join the meeting now</a> </div>\n(notice.
-  This is an aka.ms link as we might change the actual invite URL. This way
-  any changes are transparent for you as long as you access the call from a
- bove link)</p><p>Microsoft 365 Patterns and Practices community – https://
- aka.ms/m365pnp</p><p>Microsoft 365 Developer YouTube channel – https://aka
- .ms/M365DevYouTube</p><p>Microsoft 365 and SharePoint Community YouTube ch
- annel – https://m365pnp-videos</p><p>Microsoft 365 Open-Source – https://g
- ithub.com/pnp \, https://github.com/officedev \, https://github.com/sharep
- oint \, https://github.com/microsoftgraph</p><p>Sample galleries – take ad
- vantage of existing samples – https://aka.ms/teams-samples \, https://aka.
- ms/spfx-webparts \, https://aka.ms/list-formatting \, https://aka.ms/spfx-
- extensions\n</p></body></html>
-UID:040000008200E00074C5B7101A82E0080000000070404DDB288ADA01000000000000000
- 010000000F485AAF2995C3947AF4B1E87F01384A0
-SUMMARY:Microsoft 365 & Power Platform Community Call
-DTSTART;TZID=Pacific Standard Time:20240801T070000
-DTEND;TZID=Pacific Standard Time:20240801T080000
-CLASS:PUBLIC
-PRIORITY:5
-DTSTAMP:20250801T121424Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SEQUENCE:0
-LOCATION:Microsoft Teams Meeting
-X-MICROSOFT-CDO-APPT-SEQUENCE:0
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
-X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-CDO-INSTTYPE:1
-X-MICROSOFT-DONOTFORWARDMEETING:FALSE
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
-X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
-X-MICROSOFT-SKYPETEAMSMEETINGURL:https://aka.ms/m365-dev-sig-join
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Welcome to the Microsoft 365 & Power Platform community call! T
  his is a weekly recurrent call with 2 to 3 different topics around the Mic
  rosoft 365 and Power Platform extensibility.\n\nThis call is intended for 
@@ -161,7 +86,7 @@ DTSTART;TZID=Pacific Standard Time:20240806T080000
 DTEND;TZID=Pacific Standard Time:20240806T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250801T121424Z
+DTSTAMP:20250802T121236Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -245,7 +170,7 @@ DTSTART;TZID=Pacific Standard Time:20240806T080000
 DTEND;TZID=Pacific Standard Time:20240806T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250801T121424Z
+DTSTAMP:20250802T121236Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -325,7 +250,7 @@ DTSTART;TZID=Pacific Standard Time:20240808T070000
 DTEND;TZID=Pacific Standard Time:20240808T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250801T121424Z
+DTSTAMP:20250802T121236Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -410,7 +335,7 @@ DTSTART;TZID=Pacific Standard Time:20240813T080000
 DTEND;TZID=Pacific Standard Time:20240813T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250801T121424Z
+DTSTAMP:20250802T121236Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -491,7 +416,7 @@ DTSTART;TZID=Pacific Standard Time:20240814T070000
 DTEND;TZID=Pacific Standard Time:20240814T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250801T121424Z
+DTSTAMP:20250802T121236Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -507,6 +432,81 @@ X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
 X-MICROSOFT-SKYPETEAMSMEETINGURL:https://aka.ms/officeaddinscall-join
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Welcome to the Microsoft 365 & Power Platform - General Develop
+ ment Bi-weekly Special Interest Group call around Microsoft 365 General de
+ veloper topics.\n\nTopics covered in this call are solution designs\, prov
+ isioning\, Microsoft Teams\, SharePoint\, Online\, Power Platform\, etc. a
+ cross the platform with updates from Microsoft and 2-3 live demos.\n\n\n__
+ __________________________________________________________________________
+ ____\n\nMicrosoft Teams meeting\n\nJoin on your computer\, mobile app or r
+ oom device\n\nClick here to join the meeting<https://aka.ms/m365-dev-sig-j
+ oin><https://aka.ms/m365-dev-sig-join>\n\n\n______________________________
+ __________________________________________________\n\n(notice. This is an 
+ aka.ms link as we might change the actual invite URL. This way any changes
+  are transparent for you as long as you access the call from above link)\n
+ \nMicrosoft 365 Patterns and Practices community – https://aka.ms/m365pnp\
+ n\nMicrosoft 365 Developer YouTube channel – https://aka.ms/M365DevYouTube
+ \n\nMicrosoft 365 and SharePoint Community YouTube channel – https://m365p
+ np-videos\n\nMicrosoft 365 Open-Source – https://github.com/pnp \, https:/
+ /github.com/officedev \, https://github.com/sharepoint \, https://github.c
+ om/microsoftgraph\n\nSample galleries – take advantage of existing samples
+  – https://aka.ms/teams-samples \, https://aka.ms/spfx-webparts \, https:/
+ /aka.ms/list-formatting \, https://aka.ms/spfx-extensions\n
+X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
+ eddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt
+ ;"><p>Welcome to the Microsoft 365 & Power Platform - General Development 
+ Bi-weekly Special Interest Group call around Microsoft 365 General develop
+ er topics.</p><p>Topics covered in this call are solution designs\, provis
+ ioning\, Microsoft Teams\, SharePoint\, Online\, Power Platform\, etc. acr
+ oss the platform with updates from Microsoft and 2-3 live demos.</p><p>\n<
+ div style="margin-bottom:24px; overflow:hidden; white-space:nowrap">______
+ __________________________________________________________________________
+ </div>\n<div style="margin-bottom:12px"><span class="x_me-email-text" styl
+ e="font-size:24px; font-weight:700; margin-right:12px">Microsoft Teams</sp
+ an><a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US" target="_blank" re
+ l="noopener noreferrer" data-auth="NotApplicable" id="x_meet_invite_block.
+ action.help" class="x_me-email-link" style="font-size:14px; text-decoratio
+ n:underline;">Need help?</a> </div><div style="margin-bottom:6px"><a href=
+ "https://aka.ms/m365-dev-sig-join" target="_blank" rel="noreferrer noopene
+ r" data-auth="NotApplicable" id="x_meet_invite_block.action.join_link" cla
+ ss="x_me-email-headline" style="font-size:20px; font-weight:600; text-deco
+ ration:underline; color:#5B5FC7">Join the meeting now</a> </div>\n(notice.
+  This is an aka.ms link as we might change the actual invite URL. This way
+  any changes are transparent for you as long as you access the call from a
+ bove link)</p><p>Microsoft 365 Patterns and Practices community – https://
+ aka.ms/m365pnp</p><p>Microsoft 365 Developer YouTube channel – https://aka
+ .ms/M365DevYouTube</p><p>Microsoft 365 and SharePoint Community YouTube ch
+ annel – https://m365pnp-videos</p><p>Microsoft 365 Open-Source – https://g
+ ithub.com/pnp \, https://github.com/officedev \, https://github.com/sharep
+ oint \, https://github.com/microsoftgraph</p><p>Sample galleries – take ad
+ vantage of existing samples – https://aka.ms/teams-samples \, https://aka.
+ ms/spfx-webparts \, https://aka.ms/list-formatting \, https://aka.ms/spfx-
+ extensions\n</p></body></html>
+UID:040000008200E00074C5B7101A82E0080000000070404DDB288ADA01000000000000000
+ 010000000F485AAF2995C3947AF4B1E87F01384A0
+SUMMARY:Microsoft 365 & Power Platform Community Call
+DTSTART;TZID=Pacific Standard Time:20240815T070000
+DTEND;TZID=Pacific Standard Time:20240815T080000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20250802T121236Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://aka.ms/m365-dev-sig-join
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:_______________________________________________________________
@@ -537,7 +537,7 @@ DTSTART;TZID=Pacific Standard Time:20240820T070000
 DTEND;TZID=Pacific Standard Time:20240820T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250801T121424Z
+DTSTAMP:20250802T121236Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -622,7 +622,7 @@ DTSTART;TZID=Pacific Standard Time:20240820T080000
 DTEND;TZID=Pacific Standard Time:20240820T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250801T121424Z
+DTSTAMP:20250802T121236Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -693,7 +693,7 @@ DTSTART;TZID=Pacific Standard Time:20240821T080000
 DTEND;TZID=Pacific Standard Time:20240821T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250801T121424Z
+DTSTAMP:20250802T121236Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -778,7 +778,7 @@ DTSTART;TZID=Pacific Standard Time:20240827T080000
 DTEND;TZID=Pacific Standard Time:20240827T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250801T121424Z
+DTSTAMP:20250802T121236Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -850,7 +850,7 @@ DTSTART;TZID=Pacific Standard Time:20241008T080000
 DTEND;TZID=Pacific Standard Time:20241008T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250801T121424Z
+DTSTAMP:20250802T121236Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -921,7 +921,7 @@ DTSTART;TZID=Pacific Standard Time:20241224T080000
 DTEND;TZID=Pacific Standard Time:20241224T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250801T121424Z
+DTSTAMP:20250802T121236Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -992,7 +992,7 @@ DTSTART;TZID=Pacific Standard Time:20241231T080000
 DTEND;TZID=Pacific Standard Time:20241231T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250801T121424Z
+DTSTAMP:20250802T121236Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -1078,7 +1078,7 @@ DTSTART;TZID=Pacific Standard Time:20250701T080000
 DTEND;TZID=Pacific Standard Time:20250701T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20250801T121424Z
+DTSTAMP:20250802T121236Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
