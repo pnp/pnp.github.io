@@ -1,30 +1,6 @@
 {
-  "lastRetrieved": "2025-08-06T12:15:18.392Z",
+  "lastRetrieved": "2025-08-07T12:15:09.916Z",
   "events": [
-    {
-      "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
-      "summary": "Microsoft 365 & Power Platform Weekly Call - on a break, back in 3rd of Sep 😎",
-      "location": "Microsoft Teams Meeting",
-      "joinUrl": "https://aka.ms/m365-dev-call-join",
-      "startTime": "2024-08-06T15:00:00.000Z",
-      "endTime": "2024-08-06T16:00:00.000Z",
-      "rrule": null,
-      "exdate": [],
-      "recurrenceId": "20240806T080000",
-      "nextOccurrences": []
-    },
-    {
-      "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
-      "summary": "Microsoft 365 & Power Platform Weekly Call",
-      "location": "Microsoft Teams Meeting",
-      "joinUrl": "https://aka.ms/m365-dev-call-join",
-      "startTime": "2024-08-06T15:00:00.000Z",
-      "endTime": "2024-08-06T16:00:00.000Z",
-      "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20240924T150000Z;WKST=SU",
-      "exdate": [],
-      "recurrenceId": null,
-      "nextOccurrences": []
-    },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000CE03C195278ADA010000000000000000100000001D5D5DA85E858D45B9A47028FB60C7F2",
       "summary": "Viva Connections & SharePoint Framework Community Call",
@@ -156,6 +132,18 @@
       "rrule": null,
       "exdate": [],
       "recurrenceId": "20240813T080000",
+      "nextOccurrences": []
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
+      "summary": "Microsoft 365 & Power Platform Weekly Call",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": "https://aka.ms/m365-dev-call-join",
+      "startTime": "2024-08-13T15:00:00.000Z",
+      "endTime": "2024-08-13T16:00:00.000Z",
+      "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20240924T150000Z;WKST=SU",
+      "exdate": [],
+      "recurrenceId": null,
       "nextOccurrences": []
     },
     {
