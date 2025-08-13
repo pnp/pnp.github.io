@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2025-08-12T12:13:49.783Z",
+  "lastRetrieved": "2025-08-13T12:13:49.991Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA0100000000000000001000000051CB05FE8CA1C74BB006BB017D44378A",
@@ -44,7 +44,7 @@
       "joinUrl": "https://aka.ms/m365-dev-sig-join",
       "startTime": "2024-08-15T14:00:00.000Z",
       "endTime": "2024-08-15T15:00:00.000Z",
-      "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20260730T140000Z;WKST=SU",
+      "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20260813T140000Z;WKST=SU",
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
@@ -150,6 +150,10 @@
         },
         {
           "date": "2026-07-30T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-08-13T14:00:00.000Z",
           "status": "scheduled"
         }
       ]
