@@ -1,5 +1,5 @@
 ---
-title: "Viva Connections & SharePoint Framework"
+title: "SharePoint Framework"
 presenter: "Presented by the Community"
 occurrence: "Bi-weekly on Thursdays"
 time: "7:00 AM PT / 3:00 PM GMT"
