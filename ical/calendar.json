@@ -1,18 +1,6 @@
 {
-  "lastRetrieved": "2025-09-11T12:12:47.749Z",
+  "lastRetrieved": "2025-09-12T12:12:42.117Z",
   "events": [
-    {
-      "uid": "040000008200E00074C5B7101A82E00800000000F97F040EAE8EDA01000000000000000010000000214806AD1FEB9B49B9BA5E95BB8A21A0",
-      "summary": "Office Add-ins",
-      "location": "Microsoft Teams Meeting",
-      "joinUrl": "https://aka.ms/officeaddinscall-join",
-      "startTime": "2024-09-11T14:00:00.000Z",
-      "endTime": "2024-09-11T15:00:00.000Z",
-      "rrule": "FREQ=MONTHLY;BYDAY=2WE;UNTIL=20250409T140000Z",
-      "exdate": [],
-      "recurrenceId": null,
-      "nextOccurrences": []
-    },
     {
       "uid": "040000008200E00074C5B7101A82E0080000000070404DDB288ADA01000000000000000010000000F485AAF2995C3947AF4B1E87F01384A0",
       "summary": "Microsoft 365 & Power Platform Community Call",
@@ -312,6 +300,18 @@
       "startTime": "2024-10-08T15:00:00.000Z",
       "endTime": "2024-10-08T16:00:00.000Z",
       "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20250624T150000Z;WKST=SU",
+      "exdate": [],
+      "recurrenceId": null,
+      "nextOccurrences": []
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E00800000000F97F040EAE8EDA01000000000000000010000000214806AD1FEB9B49B9BA5E95BB8A21A0",
+      "summary": "Office Add-ins",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": "https://aka.ms/officeaddinscall-join",
+      "startTime": "2024-10-09T14:00:00.000Z",
+      "endTime": "2024-10-09T15:00:00.000Z",
+      "rrule": "FREQ=MONTHLY;BYDAY=2WE;UNTIL=20250409T140000Z",
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": []
