@@ -1,35 +1,6 @@
 {
-  "lastRetrieved": "2025-09-18T12:12:45.883Z",
+  "lastRetrieved": "2025-09-19T12:13:02.129Z",
   "events": [
-    {
-      "uid": "040000008200E00074C5B7101A82E00800000000C81EAE66288ADA01000000000000000010000000F6C360139C27FF4B8FF87F06B421CDB8",
-      "summary": "Power Platform Monthly Call ",
-      "location": "Microsoft Teams Meeting",
-      "joinUrl": "https://aka.ms/PowerPlatformMonthlyCall",
-      "startTime": "2024-09-18T15:00:00.000Z",
-      "endTime": "2024-09-18T16:00:00.000Z",
-      "rrule": "FREQ=MONTHLY;BYDAY=3WE;UNTIL=20251217T160000Z",
-      "exdate": [],
-      "recurrenceId": null,
-      "nextOccurrences": [
-        {
-          "date": "2025-09-17T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-10-15T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-11-19T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-12-17T16:00:00.000Z",
-          "status": "scheduled"
-        }
-      ]
-    },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000CE03C195278ADA010000000000000000100000001D5D5DA85E858D45B9A47028FB60C7F2",
       "summary": "Viva Connections & SharePoint Framework Community Call",
@@ -315,6 +286,35 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": []
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E00800000000C81EAE66288ADA01000000000000000010000000F6C360139C27FF4B8FF87F06B421CDB8",
+      "summary": "Power Platform Monthly Call ",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": "https://aka.ms/PowerPlatformMonthlyCall",
+      "startTime": "2024-10-16T15:00:00.000Z",
+      "endTime": "2024-10-16T16:00:00.000Z",
+      "rrule": "FREQ=MONTHLY;BYDAY=3WE;UNTIL=20251217T160000Z",
+      "exdate": [],
+      "recurrenceId": null,
+      "nextOccurrences": [
+        {
+          "date": "2025-09-17T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-10-15T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-11-19T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-12-17T16:00:00.000Z",
+          "status": "scheduled"
+        }
+      ]
     },
     {
       "uid": "040000008200E00074C5B7101A82E008000000003C17D4E58F19DB010000000000000000100000008A2AD0F964EAA54BA7F6345153149FDA",
