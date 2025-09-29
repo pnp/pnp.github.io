@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2025-09-28T12:11:59.221Z",
+  "lastRetrieved": "2025-09-29T12:14:04.526Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000CE03C195278ADA010000000000000000100000001D5D5DA85E858D45B9A47028FB60C7F2",
@@ -153,10 +153,6 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
-        {
-          "date": "2025-09-25T14:00:00.000Z",
-          "status": "scheduled"
-        },
         {
           "date": "2025-10-09T14:00:00.000Z",
           "status": "scheduled"
