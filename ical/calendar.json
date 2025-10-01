@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2025-09-30T12:13:39.255Z",
+  "lastRetrieved": "2025-10-01T12:13:56.757Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E00800000000CE03C195278ADA010000000000000000100000001D5D5DA85E858D45B9A47028FB60C7F2",
@@ -8,7 +8,7 @@
       "joinUrl": "https://aka.ms/spdev-spfx-call-join",
       "startTime": "2024-10-03T14:00:00.000Z",
       "endTime": "2024-10-03T15:00:00.000Z",
-      "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20260917T140000Z;WKST=SU",
+      "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20261001T140000Z;WKST=SU",
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
@@ -114,6 +114,10 @@
         },
         {
           "date": "2026-09-17T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-10-01T14:00:00.000Z",
           "status": "scheduled"
         }
       ]
