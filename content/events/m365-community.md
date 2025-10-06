@@ -1,7 +1,7 @@
 ---
-title: "Microsoft 365 & Power Platform - General Development"
+title: "Microsoft 365 & Power Platform"
 presenter: "Presented by the Community"
-occurrence: "Bi-weekly on Thursdays"
+occurrence: "Weekly on Thursdays"
 time: "7:00 AM PT / 3:00 PM GMT"
 joinUrl: "https://aka.ms/community/m365-powerplat-dev-call-join"
 inviteUrl: "https://aka.ms/community/m365-powerplat-dev-call-invite"
