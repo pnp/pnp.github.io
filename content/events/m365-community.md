@@ -6,6 +6,7 @@ time: "7:00 AM PT / 3:00 PM GMT"
 joinUrl: "https://aka.ms/community/m365-powerplat-call-join"
 inviteUrl: "https://aka.ms/community/m365-powerplat-call-invite"
 youtubeUrl: "https://www.youtube.com/playlist?list=PLR9nK3mnD-OURfm5Ypu-wK52cxBv_gXCA"
+meetupURL: "https://www.meetup.com/global-microsoft-365-dev-meetup"
 description: >
     Recordings from the Microsoft 365 & Power Platform community call meeting concentrating on topics in Microsoft 365 & Power Platform, including Copilot, SharePoint, Power Apps and more!
 organizer: "Microsoft 365 & Power Platform Community"
