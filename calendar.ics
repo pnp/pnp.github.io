@@ -19,61 +19,73 @@ RRULE:FREQ=YEARLY;INTERVAL=1;BYDAY=2SU;BYMONTH=3
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-DESCRIPTION:Welcome to the Microsoft 365 & Power Platform weekly community 
- call! This is a weekly recurrent call with 2 to 3 different topics around 
- the Microsoft 365 & Power Platform topics. Call is intended for the Micros
- oft to update the community on the latest news and updates - with live dem
- os.\n\nWe'll also include latest news and updates for building engaging so
- lutions and experiences in the Microsoft 365 platform.\n\n\n * Link to joi
- n the Microsoft 365 Platform call from - https://aka.ms/m365-dev-call-join
- \n\n(notice. This is an aka.ms link as we might change the actual invite U
- RL. This way any changes are transparent for you if you access the call fr
- om above link)\n\nCommunity call recordings will be published at the Micro
- soft 365 Community YouTube channel at https://aka.ms/community/<https://ak
- a.ms/community/videos>youtube - Subscribe to get notified the new daily vi
- deos!\n\nResources\n- Follow us on Twitter with @Microsoft365dev or @m365p
- np - we publish the call agenda in the social media always few days before
-  the call\n- Subscriber also to the Microsoft 365 Dev YouTube channel for 
- other Microsoft 365 developer videos at https://aka.ms/community/<https://
- m365dev/videos>youtube\n- Community call summaries will be published at ht
- tps://aka.ms/community/blog<https://aka.ms/m365pnp/community/blog>\n- Late
- st news on Microsoft 365 platform from Microsoft 365 developer blog at htt
- ps://developer.microsoft.com/en-us/microsoft-365/blogs/\n\nEasiest way to 
- find official docs\, SDKs and community assets - https://aka.ms/community/
- home<https://aka.ms/community/homem365pnp>\n\n\n\n\n
+DESCRIPTION:Welcome to the Microsoft 365 & Power Platform community call! T
+ his is a weekly recurrent call with 2 to 3 different topics around the Mic
+ rosoft 365 and Power Platform extensibility.\n\nThis call is intended for 
+ the Microsoft to update the community on the latest news and updates - wit
+ h live demos.\n\nWe'll also include the latest news and updates for buildi
+ ng engaging solutions and experiences in the Microsoft 365 platform.\n\n\n
+ __________________________________________________________________________
+ ______\n\nMicrosoft Teams meeting\n\nJoin on your computer\, mobile app or
+  room device\n\nClick here to join the meeting<https://aka.ms/m365-dev-cal
+ l-join>\n\n_______________________________________________________________
+ _________________\n\n(notice. This is an aka.ms link as we might change th
+ e actual invite URL. This way any changes are transparent for you if you a
+ ccess the call from above link)\n\nCommunity call recordings will be publi
+ shed at the Microsoft 365 Community YouTube channel at https://aka.ms/m365
+ pnp/videos - Subscribe to get notified of the new daily videos!\n\nResourc
+ es\n- Follow us on Twitter with @Microsoft365dev or @m365pnp - we publish 
+ the call agenda in the social media always few days before the call\n- Sub
+ scriber also to the Microsoft 365 Dev YouTube channel for other Microsoft 
+ 365 developer videos at https://m365dev/videos\n- Community call summaries
+  will be published at https://aka.ms/m365pnp/community/blog\n- Latest news
+  on Microsoft 365 platform from Microsoft 365 developer blog at https://de
+ veloper.microsoft.com/en-us/microsoft-365/blogs/\n\nEasiest way to find of
+ ficial docs\, SDKs and community assets - https://aka.ms/m365pnp\n\n
 X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
  eddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt
- ;"><p>Welcome to the Microsoft 365 & Power Platform weekly community call!
-  This is a weekly recurrent call with 2 to 3 different topics around the M
- icrosoft 365 & Power Platform topics. Call is intended for the Microsoft t
- o update the community on the latest news and updates - with live demos.</
- p><p>We'll also include latest news and updates for building engaging solu
- tions and experiences in the Microsoft 365 platform.</p><p>\n * Link to jo
- in the Microsoft 365 Platform call from - https://aka.ms/m365-dev-call-joi
- n</p><p>(notice. This is an aka.ms link as we might change the actual invi
- te URL. This way any changes are transparent for you if you access the cal
- l from above link)</p><p>Community call recordings will be published at th
- e Microsoft 365 Community YouTube channel at https://aka.ms/community/<htt
- ps://aka.ms/community/videos>youtube - Subscribe to get notified the new d
- aily videos!</p><p>Resources\n- Follow us on Twitter with @Microsoft365dev
-  or @m365pnp - we publish the call agenda in the social media always few d
- ays before the call\n- Subscriber also to the Microsoft 365 Dev YouTube ch
- annel for other Microsoft 365 developer videos at https://aka.ms/community
- /<https://m365dev/videos>youtube\n- Community call summaries will be publi
- shed at https://aka.ms/community/blog<https://aka.ms/m365pnp/community/blo
- g>\n- Latest news on Microsoft 365 platform from Microsoft 365 developer b
- log at https://developer.microsoft.com/en-us/microsoft-365/blogs/</p><p>Ea
- siest way to find official docs\, SDKs and community assets - https://aka.
- ms/community/home<https://aka.ms/community/homem365pnp></p><p></p><p>\n</p
+ ;"><p>Welcome to the Microsoft 365 & Power Platform community call! This i
+ s a weekly recurrent call with 2 to 3 different topics around the Microsof
+ t 365 and Power Platform extensibility.</p><p>This call is intended for th
+ e Microsoft to update the community on the latest news and updates - with 
+ live demos.</p><p>We'll also include the latest news and updates for build
+ ing engaging solutions and experiences in the Microsoft 365 platform.</p><
+ p>\n<div style="margin-bottom:24px; overflow:hidden; white-space:nowrap">_
+ __________________________________________________________________________
+ _____</div>\n<div style="margin-bottom:12px"><span class="x_me-email-text"
+  style="font-size:24px; font-weight:700; margin-right:12px">Microsoft Team
+ s</span><a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US" target="_blan
+ k" rel="noopener noreferrer" data-auth="NotApplicable" id="x_meet_invite_b
+ lock.action.help" class="x_me-email-link" style="font-size:14px; text-deco
+ ration:underline;">Need help?</a> </div><div style="margin-bottom:6px"><a 
+ href="https://aka.ms/m365-dev-call-join" target="_blank" rel="noreferrer n
+ oopener" data-auth="NotApplicable" id="x_meet_invite_block.action.join_lin
+ k" class="x_me-email-headline" style="font-size:20px; font-weight:600; tex
+ t-decoration:underline; color:#5B5FC7">Join the meeting now</a> </div>\n<d
+ iv style="margin-bottom:24px; overflow:hidden; white-space:nowrap">_______
+ _________________________________________________________________________<
+ /div></p><p>(notice. This is an aka.ms link as we might change the actual 
+ invite URL. This way any changes are transparent for you if you access the
+  call from above link)</p><p>Community call recordings will be published a
+ t the Microsoft 365 Community YouTube channel at https://aka.ms/m365pnp/vi
+ deos - Subscribe to get notified of the new daily videos!</p><p>Resources\
+ n- Follow us on Twitter with @Microsoft365dev or @m365pnp - we publish the
+  call agenda in the social media always few days before the call\n- Subscr
+ iber also to the Microsoft 365 Dev YouTube channel for other Microsoft 365
+  developer videos at https://m365dev/videos\n- Community call summaries wi
+ ll be published at https://aka.ms/m365pnp/community/blog\n- Latest news on
+  Microsoft 365 platform from Microsoft 365 developer blog at https://devel
+ oper.microsoft.com/en-us/microsoft-365/blogs/</p><p>Easiest way to find of
+ ficial docs\, SDKs and community assets - https://aka.ms/m365pnp</p><p></p
  ></body></html>
-UID:040000008200E00074C5B7101A82E008000000003C17D4E58F19DB01000000000000000
- 0100000008A2AD0F964EAA54BA7F6345153149FDA
-SUMMARY:Microsoft 365 & Power Platform call (MS presenters)
-DTSTART;TZID=Pacific Standard Time:20241022T080000
-DTEND;TZID=Pacific Standard Time:20241022T090000
+UID:040000008200E00074C5B7101A82E00800000000A1CD2D70268ADA01000000000000000
+ 01000000051CB05FE8CA1C74BB006BB017D44378A
+SUMMARY:Microsoft 365 & Power Platform Weekly Call
+DTSTART;TZID=Pacific Standard Time:20240402T080000
+DTEND;TZID=Pacific Standard Time:20240402T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20251020T121406Z
+DTSTAMP:20240424T105337Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -88,81 +100,7 @@ X-MICROSOFT-DONOTFORWARDMEETING:FALSE
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Welcome to the Microsoft 365 & Power Platform - General Develop
- ment Bi-weekly Special Interest Group call around Microsoft 365 General de
- veloper topics.\n\nTopics covered in this call are solution designs\, prov
- isioning\, Microsoft Teams\, SharePoint\, Online\, Power Platform\, etc. a
- cross the platform with updates from Microsoft and 2-3 live demos.\n\n\n__
- __________________________________________________________________________
- ____\n\nMicrosoft Teams meeting\n\nJoin on your computer\, mobile app or r
- oom device\n\nClick here to join the meeting<https://aka.ms/m365-dev-sig-j
- oin><https://aka.ms/m365-dev-sig-join>\n\n\n______________________________
- __________________________________________________\n\n(notice. This is an 
- aka.ms link as we might change the actual invite URL. This way any changes
-  are transparent for you as long as you access the call from above link)\n
- \nMicrosoft 365 Patterns and Practices community – https://aka.ms/m365pnp\
- n\nMicrosoft 365 Developer YouTube channel – https://aka.ms/M365DevYouTube
- \n\nMicrosoft 365 and SharePoint Community YouTube channel – https://m365p
- np-videos\n\nMicrosoft 365 Open-Source – https://github.com/pnp \, https:/
- /github.com/officedev \, https://github.com/sharepoint \, https://github.c
- om/microsoftgraph\n\nSample galleries – take advantage of existing samples
-  – https://aka.ms/teams-samples \, https://aka.ms/spfx-webparts \, https:/
- /aka.ms/list-formatting \, https://aka.ms/spfx-extensions\n
-X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
- eddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt
- ;"><p>Welcome to the Microsoft 365 & Power Platform - General Development 
- Bi-weekly Special Interest Group call around Microsoft 365 General develop
- er topics.</p><p>Topics covered in this call are solution designs\, provis
- ioning\, Microsoft Teams\, SharePoint\, Online\, Power Platform\, etc. acr
- oss the platform with updates from Microsoft and 2-3 live demos.</p><p>\n<
- div style="margin-bottom:24px; overflow:hidden; white-space:nowrap">______
- __________________________________________________________________________
- </div>\n<div style="margin-bottom:12px"><span class="x_me-email-text" styl
- e="font-size:24px; font-weight:700; margin-right:12px">Microsoft Teams</sp
- an><a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US" target="_blank" re
- l="noopener noreferrer" data-auth="NotApplicable" id="x_meet_invite_block.
- action.help" class="x_me-email-link" style="font-size:14px; text-decoratio
- n:underline;">Need help?</a> </div><div style="margin-bottom:6px"><a href=
- "https://aka.ms/m365-dev-sig-join" target="_blank" rel="noreferrer noopene
- r" data-auth="NotApplicable" id="x_meet_invite_block.action.join_link" cla
- ss="x_me-email-headline" style="font-size:20px; font-weight:600; text-deco
- ration:underline; color:#5B5FC7">Join the meeting now</a> </div>\n(notice.
-  This is an aka.ms link as we might change the actual invite URL. This way
-  any changes are transparent for you as long as you access the call from a
- bove link)</p><p>Microsoft 365 Patterns and Practices community – https://
- aka.ms/m365pnp</p><p>Microsoft 365 Developer YouTube channel – https://aka
- .ms/M365DevYouTube</p><p>Microsoft 365 and SharePoint Community YouTube ch
- annel – https://m365pnp-videos</p><p>Microsoft 365 Open-Source – https://g
- ithub.com/pnp \, https://github.com/officedev \, https://github.com/sharep
- oint \, https://github.com/microsoftgraph</p><p>Sample galleries – take ad
- vantage of existing samples – https://aka.ms/teams-samples \, https://aka.
- ms/spfx-webparts \, https://aka.ms/list-formatting \, https://aka.ms/spfx-
- extensions\n</p></body></html>
-UID:040000008200E00074C5B7101A82E0080000000070404DDB288ADA01000000000000000
- 010000000F485AAF2995C3947AF4B1E87F01384A0
-SUMMARY:Microsoft 365 & Power Platform Community Call
-DTSTART;TZID=Pacific Standard Time:20241024T070000
-DTEND;TZID=Pacific Standard Time:20241024T080000
-CLASS:PUBLIC
-PRIORITY:5
-DTSTAMP:20251020T121406Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SEQUENCE:0
-LOCATION:Microsoft Teams Meeting
-X-MICROSOFT-CDO-APPT-SEQUENCE:0
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
-X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-CDO-INSTTYPE:1
-X-MICROSOFT-DONOTFORWARDMEETING:FALSE
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
-X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
-X-MICROSOFT-SKYPETEAMSMEETINGURL:https://aka.ms/m365-dev-sig-join
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://aka.ms/m365-dev-call-join
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Welcome to the Viva Connections & SharePoint Framework Bi-weekl
@@ -223,11 +161,11 @@ X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
 UID:040000008200E00074C5B7101A82E00800000000CE03C195278ADA01000000000000000
  0100000001D5D5DA85E858D45B9A47028FB60C7F2
 SUMMARY:Viva Connections & SharePoint Framework Community Call
-DTSTART;TZID=Pacific Standard Time:20241031T070000
-DTEND;TZID=Pacific Standard Time:20241031T080000
+DTSTART;TZID=Pacific Standard Time:20240404T070000
+DTEND;TZID=Pacific Standard Time:20240404T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20251020T121406Z
+DTSTAMP:20240424T105337Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -304,11 +242,11 @@ X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
 UID:040000008200E00074C5B7101A82E00800000000F97F040EAE8EDA01000000000000000
  010000000214806AD1FEB9B49B9BA5E95BB8A21A0
 SUMMARY:Office Add-ins
-DTSTART;TZID=Pacific Standard Time:20241113T070000
-DTEND;TZID=Pacific Standard Time:20241113T080000
+DTSTART;TZID=Pacific Standard Time:20240410T070000
+DTEND;TZID=Pacific Standard Time:20240410T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20251020T121406Z
+DTSTAMP:20240424T105337Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -324,6 +262,81 @@ X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
 X-MICROSOFT-SKYPETEAMSMEETINGURL:https://aka.ms/officeaddinscall-join
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Welcome to the Microsoft 365 & Power Platform - General Develop
+ ment Bi-weekly Special Interest Group call around Microsoft 365 General de
+ veloper topics.\n\nTopics covered in this call are solution designs\, prov
+ isioning\, Microsoft Teams\, SharePoint\, Online\, Power Platform\, etc. a
+ cross the platform with updates from Microsoft and 2-3 live demos.\n\n\n__
+ __________________________________________________________________________
+ ____\n\nMicrosoft Teams meeting\n\nJoin on your computer\, mobile app or r
+ oom device\n\nClick here to join the meeting<https://aka.ms/m365-dev-sig-j
+ oin><https://aka.ms/m365-dev-sig-join>\n\n\n______________________________
+ __________________________________________________\n\n(notice. This is an 
+ aka.ms link as we might change the actual invite URL. This way any changes
+  are transparent for you as long as you access the call from above link)\n
+ \nMicrosoft 365 Patterns and Practices community – https://aka.ms/m365pnp\
+ n\nMicrosoft 365 Developer YouTube channel – https://aka.ms/M365DevYouTube
+ \n\nMicrosoft 365 and SharePoint Community YouTube channel – https://m365p
+ np-videos\n\nMicrosoft 365 Open-Source – https://github.com/pnp \, https:/
+ /github.com/officedev \, https://github.com/sharepoint \, https://github.c
+ om/microsoftgraph\n\nSample galleries – take advantage of existing samples
+  – https://aka.ms/teams-samples \, https://aka.ms/spfx-webparts \, https:/
+ /aka.ms/list-formatting \, https://aka.ms/spfx-extensions\n
+X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
+ eddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt
+ ;"><p>Welcome to the Microsoft 365 & Power Platform - General Development 
+ Bi-weekly Special Interest Group call around Microsoft 365 General develop
+ er topics.</p><p>Topics covered in this call are solution designs\, provis
+ ioning\, Microsoft Teams\, SharePoint\, Online\, Power Platform\, etc. acr
+ oss the platform with updates from Microsoft and 2-3 live demos.</p><p>\n<
+ div style="margin-bottom:24px; overflow:hidden; white-space:nowrap">______
+ __________________________________________________________________________
+ </div>\n<div style="margin-bottom:12px"><span class="x_me-email-text" styl
+ e="font-size:24px; font-weight:700; margin-right:12px">Microsoft Teams</sp
+ an><a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US" target="_blank" re
+ l="noopener noreferrer" data-auth="NotApplicable" id="x_meet_invite_block.
+ action.help" class="x_me-email-link" style="font-size:14px; text-decoratio
+ n:underline;">Need help?</a> </div><div style="margin-bottom:6px"><a href=
+ "https://aka.ms/m365-dev-sig-join" target="_blank" rel="noreferrer noopene
+ r" data-auth="NotApplicable" id="x_meet_invite_block.action.join_link" cla
+ ss="x_me-email-headline" style="font-size:20px; font-weight:600; text-deco
+ ration:underline; color:#5B5FC7">Join the meeting now</a> </div>\n(notice.
+  This is an aka.ms link as we might change the actual invite URL. This way
+  any changes are transparent for you as long as you access the call from a
+ bove link)</p><p>Microsoft 365 Patterns and Practices community – https://
+ aka.ms/m365pnp</p><p>Microsoft 365 Developer YouTube channel – https://aka
+ .ms/M365DevYouTube</p><p>Microsoft 365 and SharePoint Community YouTube ch
+ annel – https://m365pnp-videos</p><p>Microsoft 365 Open-Source – https://g
+ ithub.com/pnp \, https://github.com/officedev \, https://github.com/sharep
+ oint \, https://github.com/microsoftgraph</p><p>Sample galleries – take ad
+ vantage of existing samples – https://aka.ms/teams-samples \, https://aka.
+ ms/spfx-webparts \, https://aka.ms/list-formatting \, https://aka.ms/spfx-
+ extensions\n</p></body></html>
+UID:040000008200E00074C5B7101A82E0080000000070404DDB288ADA01000000000000000
+ 010000000F485AAF2995C3947AF4B1E87F01384A0
+SUMMARY:Microsoft 365 & Power Platform Community Call
+DTSTART;TZID=Pacific Standard Time:20240411T070000
+DTEND;TZID=Pacific Standard Time:20240411T080000
+CLASS:PUBLIC
+PRIORITY:5
+DTSTAMP:20240424T105337Z
+TRANSP:OPAQUE
+STATUS:CONFIRMED
+SEQUENCE:0
+LOCATION:Microsoft Teams Meeting
+X-MICROSOFT-CDO-APPT-SEQUENCE:0
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INSTTYPE:1
+X-MICROSOFT-DONOTFORWARDMEETING:FALSE
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
+X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://aka.ms/m365-dev-sig-join
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:_______________________________________________________________
@@ -350,11 +363,11 @@ X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
 UID:040000008200E00074C5B7101A82E00800000000A07914A1AD8EDA01000000000000000
  010000000C336836834D5AF489D8E4225EE9C3B0B
 SUMMARY:Maturity Model for Microsoft 365
-DTSTART;TZID=Pacific Standard Time:20241119T070000
-DTEND;TZID=Pacific Standard Time:20241119T080000
+DTSTART;TZID=Pacific Standard Time:20240416T070000
+DTEND;TZID=Pacific Standard Time:20240416T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20251020T121406Z
+DTSTAMP:20240424T105337Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -421,11 +434,11 @@ X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
 UID:040000008200E00074C5B7101A82E00800000000C81EAE66288ADA01000000000000000
  010000000F6C360139C27FF4B8FF87F06B421CDB8
 SUMMARY:Power Platform Monthly Call 
-DTSTART;TZID=Pacific Standard Time:20241120T080000
-DTEND;TZID=Pacific Standard Time:20241120T090000
+DTSTART;TZID=Pacific Standard Time:20240417T080000
+DTEND;TZID=Pacific Standard Time:20240417T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20251020T121406Z
+DTSTAMP:20240424T105337Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -443,61 +456,74 @@ X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
 X-MICROSOFT-SKYPETEAMSMEETINGURL:https://aka.ms/PowerPlatformMonthlyCall
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Welcome to the Microsoft 365 & Power Platform weekly community 
- call! This is a weekly recurrent call with 2 to 3 different topics around 
- the Microsoft 365 & Power Platform topics. Call is intended for the Micros
- oft to update the community on the latest news and updates - with live dem
- os.\n\nWe'll also include latest news and updates for building engaging so
- lutions and experiences in the Microsoft 365 platform.\n\n\n * Link to joi
- n the Microsoft 365 Platform call from - https://aka.ms/m365-dev-call-join
- \n\n(notice. This is an aka.ms link as we might change the actual invite U
- RL. This way any changes are transparent for you if you access the call fr
- om above link)\n\nCommunity call recordings will be published at the Micro
- soft 365 Community YouTube channel at https://aka.ms/community/<https://ak
- a.ms/community/videos>youtube - Subscribe to get notified the new daily vi
- deos!\n\nResources\n- Follow us on Twitter with @Microsoft365dev or @m365p
- np - we publish the call agenda in the social media always few days before
-  the call\n- Subscriber also to the Microsoft 365 Dev YouTube channel for 
- other Microsoft 365 developer videos at https://aka.ms/community/<https://
- m365dev/videos>youtube\n- Community call summaries will be published at ht
- tps://aka.ms/community/blog<https://aka.ms/m365pnp/community/blog>\n- Late
- st news on Microsoft 365 platform from Microsoft 365 developer blog at htt
- ps://developer.microsoft.com/en-us/microsoft-365/blogs/\n\nEasiest way to 
- find official docs\, SDKs and community assets - https://aka.ms/community/
- home<https://aka.ms/community/homem365pnp>\n\n\n\n\n
+DESCRIPTION:Welcome to the Microsoft 365 & Power Platform community call! T
+ his is a weekly recurrent call with 2 to 3 different topics around the Mic
+ rosoft 365 and Power Platform extensibility.\n\nThis call is intended for 
+ the Microsoft to update the community on the latest news and updates - wit
+ h live demos.\n\nWe'll also include the latest news and updates for buildi
+ ng engaging solutions and experiences in the Microsoft 365 platform.\n\n\n
+ __________________________________________________________________________
+ ______\n\nMicrosoft Teams meeting\n\nJoin on your computer\, mobile app or
+  room device\n\nClick here to join the meeting<https://aka.ms/m365-dev-cal
+ l-join>\n\n_______________________________________________________________
+ _________________\n\n(notice. This is an aka.ms link as we might change th
+ e actual invite URL. This way any changes are transparent for you if you a
+ ccess the call from above link)\n\nCommunity call recordings will be publi
+ shed at the Microsoft 365 Community YouTube channel at https://aka.ms/m365
+ pnp/videos - Subscribe to get notified of the new daily videos!\n\nResourc
+ es\n- Follow us on Twitter with @Microsoft365dev or @m365pnp - we publish 
+ the call agenda in the social media always few days before the call\n- Sub
+ scriber also to the Microsoft 365 Dev YouTube channel for other Microsoft 
+ 365 developer videos at https://m365dev/videos\n- Community call summaries
+  will be published at https://aka.ms/m365pnp/community/blog\n- Latest news
+  on Microsoft 365 platform from Microsoft 365 developer blog at https://de
+ veloper.microsoft.com/en-us/microsoft-365/blogs/\n\nEasiest way to find of
+ ficial docs\, SDKs and community assets - https://aka.ms/m365pnp\n\n
 X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
  eddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt
- ;"><p>Welcome to the Microsoft 365 & Power Platform weekly community call!
-  This is a weekly recurrent call with 2 to 3 different topics around the M
- icrosoft 365 & Power Platform topics. Call is intended for the Microsoft t
- o update the community on the latest news and updates - with live demos.</
- p><p>We'll also include latest news and updates for building engaging solu
- tions and experiences in the Microsoft 365 platform.</p><p>\n * Link to jo
- in the Microsoft 365 Platform call from - https://aka.ms/m365-dev-call-joi
- n</p><p>(notice. This is an aka.ms link as we might change the actual invi
- te URL. This way any changes are transparent for you if you access the cal
- l from above link)</p><p>Community call recordings will be published at th
- e Microsoft 365 Community YouTube channel at https://aka.ms/community/<htt
- ps://aka.ms/community/videos>youtube - Subscribe to get notified the new d
- aily videos!</p><p>Resources\n- Follow us on Twitter with @Microsoft365dev
-  or @m365pnp - we publish the call agenda in the social media always few d
- ays before the call\n- Subscriber also to the Microsoft 365 Dev YouTube ch
- annel for other Microsoft 365 developer videos at https://aka.ms/community
- /<https://m365dev/videos>youtube\n- Community call summaries will be publi
- shed at https://aka.ms/community/blog<https://aka.ms/m365pnp/community/blo
- g>\n- Latest news on Microsoft 365 platform from Microsoft 365 developer b
- log at https://developer.microsoft.com/en-us/microsoft-365/blogs/</p><p>Ea
- siest way to find official docs\, SDKs and community assets - https://aka.
- ms/community/home<https://aka.ms/community/homem365pnp></p><p></p><p>\n</p
+ ;"><p>Welcome to the Microsoft 365 & Power Platform community call! This i
+ s a weekly recurrent call with 2 to 3 different topics around the Microsof
+ t 365 and Power Platform extensibility.</p><p>This call is intended for th
+ e Microsoft to update the community on the latest news and updates - with 
+ live demos.</p><p>We'll also include the latest news and updates for build
+ ing engaging solutions and experiences in the Microsoft 365 platform.</p><
+ p>\n<div style="margin-bottom:24px; overflow:hidden; white-space:nowrap">_
+ __________________________________________________________________________
+ _____</div>\n<div style="margin-bottom:12px"><span class="x_me-email-text"
+  style="font-size:24px; font-weight:700; margin-right:12px">Microsoft Team
+ s</span><a href="https://aka.ms/JoinTeamsMeeting?omkt=en-US" target="_blan
+ k" rel="noopener noreferrer" data-auth="NotApplicable" id="x_meet_invite_b
+ lock.action.help" class="x_me-email-link" style="font-size:14px; text-deco
+ ration:underline;">Need help?</a> </div><div style="margin-bottom:6px"><a 
+ href="https://aka.ms/m365-dev-call-join" target="_blank" rel="noreferrer n
+ oopener" data-auth="NotApplicable" id="x_meet_invite_block.action.join_lin
+ k" class="x_me-email-headline" style="font-size:20px; font-weight:600; tex
+ t-decoration:underline; color:#5B5FC7">Join the meeting now</a> </div>\n<d
+ iv style="margin-bottom:24px; overflow:hidden; white-space:nowrap">_______
+ _________________________________________________________________________<
+ /div></p><p>(notice. This is an aka.ms link as we might change the actual 
+ invite URL. This way any changes are transparent for you if you access the
+  call from above link)</p><p>Community call recordings will be published a
+ t the Microsoft 365 Community YouTube channel at https://aka.ms/m365pnp/vi
+ deos - Subscribe to get notified of the new daily videos!</p><p>Resources\
+ n- Follow us on Twitter with @Microsoft365dev or @m365pnp - we publish the
+  call agenda in the social media always few days before the call\n- Subscr
+ iber also to the Microsoft 365 Dev YouTube channel for other Microsoft 365
+  developer videos at https://m365dev/videos\n- Community call summaries wi
+ ll be published at https://aka.ms/m365pnp/community/blog\n- Latest news on
+  Microsoft 365 platform from Microsoft 365 developer blog at https://devel
+ oper.microsoft.com/en-us/microsoft-365/blogs/</p><p>Easiest way to find of
+ ficial docs\, SDKs and community assets - https://aka.ms/m365pnp</p><p></p
  ></body></html>
- 0100000008A2AD0F964EAA54BA7F6345153149FDA
-RECURRENCE-ID;TZID=Pacific Standard Time:20241224T080000
-SUMMARY:Microsoft 365 & Power Platform call - On a holiday break 🎄
-DTSTART;TZID=Pacific Standard Time:20241224T080000
-DTEND;TZID=Pacific Standard Time:20241224T090000
+ 01000000051CB05FE8CA1C74BB006BB017D44378A
+RECURRENCE-ID;TZID=Pacific Standard Time:20240430T080000
+SUMMARY:Microsoft 365 & Power Platform Weekly Call - Live from the Microsof
+ t 365 Community Conference
+DTSTART;TZID=Pacific Standard Time:20240430T080000
+DTEND;TZID=Pacific Standard Time:20240430T090000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20251020T121406Z
+DTSTAMP:20240424T105337Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -512,63 +538,73 @@ X-MICROSOFT-DONOTFORWARDMEETING:FALSE
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://aka.ms/m365-dev-call-join
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Welcome to the Microsoft 365 & Power Platform weekly community 
- call! This is a weekly recurrent call with 2 to 3 different topics around 
- the Microsoft 365 & Power Platform topics. Call is intended for the Micros
- oft to update the community on the latest news and updates - with live dem
- os.\n\nWe'll also include latest news and updates for building engaging so
- lutions and experiences in the Microsoft 365 platform.\n\n\n * Link to joi
- n the Microsoft 365 Platform call from - https://aka.ms/m365-dev-call-join
+DESCRIPTION:Welcome to the Viva Connections & SharePoint Framework Bi-weekl
+ y Special Interest Group call around Client-side development. Topics cover
+ ed in this call are SharePoint Framework latest updates\, PnPjs\, Office36
+ 5Cli\, Reusable Controls\, and community demos.\n\n\n_____________________
+ ___________________________________________________________\n\nMicrosoft T
+ eams meeting\n\nJoin on your computer\, mobile app or room device\n\nClick
+  here to join the meeting<https://aka.ms/spdev-spfx-call-join>\n\n\n______
+ __________________________________________________________________________
  \n\n(notice. This is an aka.ms link as we might change the actual invite U
  RL. This way any changes are transparent for you if you access the call fr
  om above link)\n\nCommunity call recordings will be published at the Micro
- soft 365 Community YouTube channel at https://aka.ms/community/<https://ak
- a.ms/community/videos>youtube - Subscribe to get notified the new daily vi
- deos!\n\nResources\n- Follow us on Twitter with @Microsoft365dev or @m365p
- np - we publish the call agenda in the social media always few days before
-  the call\n- Subscriber also to the Microsoft 365 Dev YouTube channel for 
- other Microsoft 365 developer videos at https://aka.ms/community/<https://
- m365dev/videos>youtube\n- Community call summaries will be published at ht
- tps://aka.ms/community/blog<https://aka.ms/m365pnp/community/blog>\n- Late
- st news on Microsoft 365 platform from Microsoft 365 developer blog at htt
- ps://developer.microsoft.com/en-us/microsoft-365/blogs/\n\nEasiest way to 
- find official docs\, SDKs and community assets - https://aka.ms/community/
- home<https://aka.ms/community/homem365pnp>\n\n\n\n\n
+ soft 365 Community YouTube channel at https://aka.ms/m365pnp/videos - Subs
+ cribe to get notified of the new daily videos!\n\nResources\n\n- Follow us
+  on Twitter with @Microsoft365dev or @m365pnp - we publish the call agenda
+  in the social media always few days before the call\n\n- Subscriber also 
+ to the Microsoft 365 Dev YouTube channel for other Microsoft 365 developer
+  videos at https://m365dev/videos\n\n- Community call summaries will be pu
+ blished at https://aka.ms/m365pnp/community/blog\n\n- Latest news on Micro
+ soft 365 platform from Microsoft 365 developer blog at https://developer.m
+ icrosoft.com/microsoft-365/blogs/\n\n\nEasiest way to find official docs\,
+  SDKs and community assets - https://aka.ms/m365pnp\n
 X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
  eddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt
- ;"><p>Welcome to the Microsoft 365 & Power Platform weekly community call!
-  This is a weekly recurrent call with 2 to 3 different topics around the M
- icrosoft 365 & Power Platform topics. Call is intended for the Microsoft t
- o update the community on the latest news and updates - with live demos.</
- p><p>We'll also include latest news and updates for building engaging solu
- tions and experiences in the Microsoft 365 platform.</p><p>\n * Link to jo
- in the Microsoft 365 Platform call from - https://aka.ms/m365-dev-call-joi
- n</p><p>(notice. This is an aka.ms link as we might change the actual invi
- te URL. This way any changes are transparent for you if you access the cal
- l from above link)</p><p>Community call recordings will be published at th
- e Microsoft 365 Community YouTube channel at https://aka.ms/community/<htt
- ps://aka.ms/community/videos>youtube - Subscribe to get notified the new d
- aily videos!</p><p>Resources\n- Follow us on Twitter with @Microsoft365dev
-  or @m365pnp - we publish the call agenda in the social media always few d
- ays before the call\n- Subscriber also to the Microsoft 365 Dev YouTube ch
- annel for other Microsoft 365 developer videos at https://aka.ms/community
- /<https://m365dev/videos>youtube\n- Community call summaries will be publi
- shed at https://aka.ms/community/blog<https://aka.ms/m365pnp/community/blo
- g>\n- Latest news on Microsoft 365 platform from Microsoft 365 developer b
- log at https://developer.microsoft.com/en-us/microsoft-365/blogs/</p><p>Ea
- siest way to find official docs\, SDKs and community assets - https://aka.
- ms/community/home<https://aka.ms/community/homem365pnp></p><p></p><p>\n</p
- ></body></html>
- 0100000008A2AD0F964EAA54BA7F6345153149FDA
-RECURRENCE-ID;TZID=Pacific Standard Time:20241231T080000
-SUMMARY:Microsoft 365 & Power Platform call -  On a holiday break 🎄
-DTSTART;TZID=Pacific Standard Time:20241231T080000
-DTEND;TZID=Pacific Standard Time:20241231T090000
+ ;"><p>Welcome to the Viva Connections & SharePoint Framework Bi-weekly Spe
+ cial Interest Group call around Client-side development. Topics covered in
+  this call are SharePoint Framework latest updates\, PnPjs\, Office365Cli\
+ , Reusable Controls\, and community demos.</p><p>\n<div style="margin-bott
+ om:24px; overflow:hidden; white-space:nowrap">____________________________
+ ____________________________________________________</div>\n<div style="ma
+ rgin-bottom:12px"><span class="x_me-email-text" style="font-size:24px; fon
+ t-weight:700; margin-right:12px">Microsoft Teams</span><a href="https://ak
+ a.ms/JoinTeamsMeeting?omkt=en-US" target="_blank" rel="noopener noreferrer
+ " data-auth="NotApplicable" id="x_meet_invite_block.action.help" class="x_
+ me-email-link" style="font-size:14px; text-decoration:underline;">Need hel
+ p?</a> </div><div style="margin-bottom:6px"><a href="https://aka.ms/spdev-
+ spfx-call-join" target="_blank" rel="noreferrer noopener" data-auth="NotAp
+ plicable" id="x_meet_invite_block.action.join_link" class="x_me-email-head
+ line" style="font-size:20px; font-weight:600; text-decoration:underline; c
+ olor:#5B5FC7">Join the meeting now</a> </div></p><p><div style="margin-bot
+ tom:24px; overflow:hidden; white-space:nowrap">___________________________
+ _____________________________________________________</div></p><p>(notice.
+  This is an aka.ms link as we might change the actual invite URL. This way
+  any changes are transparent for you if you access the call from above lin
+ k)</p><p>Community call recordings will be published at the Microsoft 365 
+ Community YouTube channel at https://aka.ms/m365pnp/videos - Subscribe to 
+ get notified of the new daily videos!</p><p>Resources</p><p>- Follow us on
+  Twitter with @Microsoft365dev or @m365pnp - we publish the call agenda in
+  the social media always few days before the call</p><p>- Subscriber also 
+ to the Microsoft 365 Dev YouTube channel for other Microsoft 365 developer
+  videos at https://m365dev/videos</p><p>- Community call summaries will be
+  published at https://aka.ms/m365pnp/community/blog</p><p>- Latest news on
+  Microsoft 365 platform from Microsoft 365 developer blog at https://devel
+ oper.microsoft.com/microsoft-365/blogs/</p><p>\nEasiest way to find offici
+ al docs\, SDKs and community assets - https://aka.ms/m365pnp\n</p></body><
+ /html>
+ 0100000001D5D5DA85E858D45B9A47028FB60C7F2
+RECURRENCE-ID;TZID=Pacific Standard Time:20240502T070000
+SUMMARY:Viva Connections & SharePoint Framework Community Call - Live from 
+ the Microsoft 365 Community Conference
+DTSTART;TZID=Pacific Standard Time:20240502T070000
+DTEND;TZID=Pacific Standard Time:20240502T080000
 CLASS:PUBLIC
 PRIORITY:5
-DTSTAMP:20251020T121406Z
+DTSTAMP:20240424T105337Z
 TRANSP:OPAQUE
 STATUS:CONFIRMED
 SEQUENCE:0
@@ -583,95 +619,6 @@ X-MICROSOFT-DONOTFORWARDMEETING:FALSE
 X-MICROSOFT-DISALLOW-COUNTER:FALSE
 X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
 X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Recurrent until end of August - we'll update the aka.ms address
-  point here after the 24th of June for the Tuesday call. Paolo has permiss
- ions to update that.\n\nhttps://aka.ms/m365-dev-call-join to update in the
-  aka.ms service by Microsoft employee. If needed - Bert and Patrick are ba
- ckups for this with access.\n\nWe'll update this call back to the Microsof
- t tenant starting from 1st of September.\n\n______________________________
- __________________________________________________\nMicrosoft Teams Need h
- elp?<https://aka.ms/JoinTeamsMeeting?omkt=en-US>\nJoin the meeting now<htt
- ps://teams.microsoft.com/l/meetup-join/19%3ameeting_OWJhMzg5ZTQtOGZlNC00OW
- ZmLTk1ZjYtYmEwYmY4ZWM4MWFm%40thread.v2/0?context=%7b%22Tid%22%3a%2273da091
- f-a58d-405f-9015-9bd386425255%22%2c%22Oid%22%3a%225ccee580-5c74-47c0-b611-
- 701eac19d815%22%7d>\nMeeting ID: 380 374 093 454 7\nPasscode: sH3PB27Y\n__
- ______________________________\nDial in by phone\n+32 2 897 38 92\,\,62441
- 1553#<tel:+3228973892\,\,624411553#> Belgium\, Brussels\nFind a local numb
- er<https://dialin.teams.microsoft.com/9c63d6e4-a759-4542-a884-ad5848724538
- ?id=624411553>\nPhone conference ID: 624 411 553#\nFor organizers: Meeting
-  options<https://teams.microsoft.com/meetingOptions/?organizerId=5ccee580-
- 5c74-47c0-b611-701eac19d815&tenantId=73da091f-a58d-405f-9015-9bd386425255&
- threadId=19_meeting_OWJhMzg5ZTQtOGZlNC00OWZmLTk1ZjYtYmEwYmY4ZWM4MWFm@threa
- d.v2&messageId=0&language=en-US> | Reset dial-in PIN<https://dialin.teams.
- microsoft.com/usp/pstnconferencing>\n_____________________________________
- ___________________________________________\n
-X-ALT-DESC;FMTTYPE=text/html:<html><body style="font-family:Aptos,Aptos_Emb
- eddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt
- ;"><p>Recurrent until end of August - we'll update the aka.ms address poin
- t here after the 24th of June for the Tuesday call. Paolo has permissions 
- to update that.</p><p>https://aka.ms/m365-dev-call-join to update in the a
- ka.ms service by Microsoft employee. If needed - Bert and Patrick are back
- ups for this with access.</p><p>We'll update this call back to the Microso
- ft tenant starting from 1st of September.</p><p><div style="margin-bottom:
- 24px; overflow:hidden; white-space:nowrap">_______________________________
- _________________________________________________</div><div style="margin-
- bottom:12px"><span class="x_me-email-text" style="font-size:24px; font-wei
- ght:700; margin-right:12px">Microsoft Teams</span><a href="https://aka.ms/
- JoinTeamsMeeting?omkt=en-US" target="_blank" rel="noopener noreferrer" dat
- a-auth="NotApplicable" id="x_meet_invite_block.action.help" class="x_me-em
- ail-link" style="font-size:14px; text-decoration:underline; color:#5B5FC7"
- >Need help?</a> </div><div style="margin-bottom:6px"><a href="https://team
- s.microsoft.com/l/meetup-join/19%3ameeting_OWJhMzg5ZTQtOGZlNC00OWZmLTk1ZjY
- tYmEwYmY4ZWM4MWFm%40thread.v2/0?context=%7b%22Tid%22%3a%2273da091f-a58d-40
- 5f-9015-9bd386425255%22%2c%22Oid%22%3a%225ccee580-5c74-47c0-b611-701eac19d
- 815%22%7d" target="_blank" rel="noreferrer noopener" data-auth="NotApplica
- ble" id="x_meet_invite_block.action.join_link" class="x_me-email-headline"
-  style="font-size:20px; font-weight:600; text-decoration:underline; color:
- #5B5FC7">Join the meeting now</a> </div><div style="margin-bottom:6px"><sp
- an class="x_me-email-text-secondary" style="font-size:14px;">Meeting ID:</
- span><span class="x_me-email-text" style="font-size:14px;">380 374 093 454
-  7</span></div>\n<div style="margin-bottom:24px"><span class="x_me-email-t
- ext-secondary" style="font-size:14px; ">Passcode:</span><span class="x_me-
- email-text" style="font-size:14px; ">sH3PB27Y</span></div><div style="marg
- in-bottom:24px; max-width:532px"><hr style="border:0; background:#D1D1D1; 
- height:1px"></div>Dial in by phone\n+32 2 897 38 92\,\,624411553#<tel:+322
- 8973892\,\,624411553#> Belgium\, Brussels\nFind a local number<https://dia
- lin.teams.microsoft.com/9c63d6e4-a759-4542-a884-ad5848724538?id=624411553>
- \nPhone conference ID: 624 411 553#\nFor organizers: Meeting options<https
- ://teams.microsoft.com/meetingOptions/?organizerId=5ccee580-5c74-47c0-b611
- -701eac19d815&tenantId=73da091f-a58d-405f-9015-9bd386425255&threadId=19_me
- eting_OWJhMzg5ZTQtOGZlNC00OWZmLTk1ZjYtYmEwYmY4ZWM4MWFm@thread.v2&messageId
- =0&language=en-US> | Reset dial-in PIN<https://dialin.teams.microsoft.com/
- usp/pstnconferencing>\n<div style="margin-bottom:24px; overflow:hidden; wh
- ite-space:nowrap">________________________________________________________
- ________________________</div>\n</p></body></html>
-UID:040000008200E00074C5B7101A82E0080000000058D549EA3DD5DB01000000000000000
- 010000000F769053D36C64C4A891CDC826F5F217E
-SUMMARY:Community Take over - Tuesday call
-DTSTART;TZID=Pacific Standard Time:20250701T080000
-DTEND;TZID=Pacific Standard Time:20250701T090000
-CLASS:PUBLIC
-PRIORITY:5
-DTSTAMP:20251020T121406Z
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-SEQUENCE:0
-LOCATION:Microsoft Teams Meeting
-X-MICROSOFT-CDO-APPT-SEQUENCE:0
-X-MICROSOFT-CDO-BUSYSTATUS:BUSY
-X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
-X-MICROSOFT-CDO-ALLDAYEVENT:FALSE
-X-MICROSOFT-CDO-IMPORTANCE:1
-X-MICROSOFT-CDO-INSTTYPE:1
-X-MICROSOFT-DONOTFORWARDMEETING:FALSE
-X-MICROSOFT-DISALLOW-COUNTER:FALSE
-X-MICROSOFT-REQUESTEDATTENDANCEMODE:ONLINE
-X-MICROSOFT-ISRESPONSEREQUESTED:FALSE
-X-MICROSOFT-SKYPETEAMSMEETINGURL:https://teams.microsoft.com/l/meetup-join/
- 19%3ameeting_OWJhMzg5ZTQtOGZlNC00OWZmLTk1ZjYtYmEwYmY4ZWM4MWFm%40thread.v2/0
- ?context=%7b%22Tid%22%3a%2273da091f-a58d-405f-9015-9bd386425255%22%2c%22Oid
- %22%3a%225ccee580-5c74-47c0-b611-701eac19d815%22%7d
+X-MICROSOFT-SKYPETEAMSMEETINGURL:https://aka.ms/spdev-spfx-call-join
 END:VEVENT
 END:VCALENDAR
