@@ -1,18 +1,6 @@
 {
-  "lastRetrieved": "2025-10-22T12:14:13.355Z",
+  "lastRetrieved": "2025-10-23T12:13:56.969Z",
   "events": [
-    {
-      "uid": "040000008200E00074C5B7101A82E008000000003C17D4E58F19DB010000000000000000100000008A2AD0F964EAA54BA7F6345153149FDA",
-      "summary": "Microsoft 365 & Power Platform call (MS presenters)",
-      "location": "Microsoft Teams Meeting",
-      "joinUrl": null,
-      "startTime": "2024-10-22T15:00:00.000Z",
-      "endTime": "2024-10-22T16:00:00.000Z",
-      "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20250624T150000Z;WKST=SU",
-      "exdate": [],
-      "recurrenceId": null,
-      "nextOccurrences": []
-    },
     {
       "uid": "040000008200E00074C5B7101A82E0080000000070404DDB288ADA01000000000000000010000000F485AAF2995C3947AF4B1E87F01384A0",
       "summary": "Microsoft 365 & Power Platform Community Call",
@@ -133,6 +121,18 @@
           "status": "scheduled"
         }
       ]
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E008000000003C17D4E58F19DB010000000000000000100000008A2AD0F964EAA54BA7F6345153149FDA",
+      "summary": "Microsoft 365 & Power Platform call (MS presenters)",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": null,
+      "startTime": "2024-10-29T15:00:00.000Z",
+      "endTime": "2024-10-29T16:00:00.000Z",
+      "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20250624T150000Z;WKST=SU",
+      "exdate": [],
+      "recurrenceId": null,
+      "nextOccurrences": []
     },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000CE03C195278ADA010000000000000000100000001D5D5DA85E858D45B9A47028FB60C7F2",
