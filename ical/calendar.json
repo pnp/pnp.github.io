@@ -1,127 +1,6 @@
 {
-  "lastRetrieved": "2025-10-24T12:14:27.097Z",
+  "lastRetrieved": "2025-10-25T12:11:54.153Z",
   "events": [
-    {
-      "uid": "040000008200E00074C5B7101A82E0080000000070404DDB288ADA01000000000000000010000000F485AAF2995C3947AF4B1E87F01384A0",
-      "summary": "Microsoft 365 & Power Platform Community Call",
-      "location": "Microsoft Teams Meeting",
-      "joinUrl": "https://aka.ms/m365-dev-sig-join",
-      "startTime": "2024-10-24T14:00:00.000Z",
-      "endTime": "2024-10-24T15:00:00.000Z",
-      "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20261022T140000Z;WKST=SU",
-      "exdate": [],
-      "recurrenceId": null,
-      "nextOccurrences": [
-        {
-          "date": "2025-10-23T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-11-06T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-11-20T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-12-04T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-12-18T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-01-01T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-01-15T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-01-29T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-02-12T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-02-26T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-03-12T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-03-26T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-04-09T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-04-23T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-05-07T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-05-21T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-06-04T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-06-18T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-07-02T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-07-16T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-07-30T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-08-13T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-08-27T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-09-10T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-09-24T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-10-08T14:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-10-22T14:00:00.000Z",
-          "status": "scheduled"
-        }
-      ]
-    },
     {
       "uid": "040000008200E00074C5B7101A82E008000000003C17D4E58F19DB010000000000000000100000008A2AD0F964EAA54BA7F6345153149FDA",
       "summary": "Microsoft 365 & Power Platform call (MS presenters)",
@@ -247,6 +126,127 @@
         },
         {
           "date": "2026-10-15T14:00:00.000Z",
+          "status": "scheduled"
+        }
+      ]
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E0080000000070404DDB288ADA01000000000000000010000000F485AAF2995C3947AF4B1E87F01384A0",
+      "summary": "Microsoft 365 & Power Platform Community Call",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": "https://aka.ms/m365-dev-sig-join",
+      "startTime": "2024-11-07T15:00:00.000Z",
+      "endTime": "2024-11-07T16:00:00.000Z",
+      "rrule": "FREQ=WEEKLY;INTERVAL=2;BYDAY=TH;UNTIL=20261022T140000Z;WKST=SU",
+      "exdate": [],
+      "recurrenceId": null,
+      "nextOccurrences": [
+        {
+          "date": "2025-10-23T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-11-06T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-11-20T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-12-04T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-12-18T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-01-01T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-01-15T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-01-29T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-02-12T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-02-26T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-03-12T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-03-26T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-04-09T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-04-23T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-05-07T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-05-21T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-04T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-18T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-07-02T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-07-16T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-07-30T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-08-13T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-08-27T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-09-10T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-09-24T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-10-08T14:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-10-22T14:00:00.000Z",
           "status": "scheduled"
         }
       ]
