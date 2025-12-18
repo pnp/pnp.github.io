@@ -1,249 +1,6 @@
 {
-  "lastRetrieved": "2025-12-17T12:15:06.544Z",
+  "lastRetrieved": "2025-12-18T12:14:56.508Z",
   "events": [
-    {
-      "uid": "040000008200E00074C5B7101A82E00800000000A07914A1AD8EDA01000000000000000010000000C336836834D5AF489D8E4225EE9C3B0B",
-      "summary": "Maturity Model for Microsoft 365",
-      "location": "Microsoft Teams Meeting",
-      "joinUrl": "https://aka.ms/mm4m365/join-call",
-      "startTime": "2024-12-17T15:00:00.000Z",
-      "endTime": "2024-12-17T16:00:00.000Z",
-      "rrule": "FREQ=MONTHLY;BYDAY=3TU;UNTIL=20250415T140000Z",
-      "exdate": [],
-      "recurrenceId": null,
-      "nextOccurrences": []
-    },
-    {
-      "uid": "040000008200E00074C5B7101A82E008000000003C17D4E58F19DB010000000000000000100000008A2AD0F964EAA54BA7F6345153149FDA",
-      "summary": "Microsoft 365 & Power Platform call (MS presenters)",
-      "location": "Microsoft Teams Meeting",
-      "joinUrl": null,
-      "startTime": "2024-12-17T16:00:00.000Z",
-      "endTime": "2024-12-17T17:00:00.000Z",
-      "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20261215T160000Z;WKST=SU",
-      "exdate": [],
-      "recurrenceId": null,
-      "nextOccurrences": [
-        {
-          "date": "2025-12-16T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2025-12-23T16:00:00.000Z",
-          "status": "moved",
-          "summary": "Microsoft 365 & Power Platform call (MS presenters) - On a holiday break 🎄",
-          "recurrenceId": "20251223T080000"
-        },
-        {
-          "date": "2025-12-30T16:00:00.000Z",
-          "status": "moved",
-          "summary": "Microsoft 365 & Power Platform call (MS presenters) - On a holiday break 🎄",
-          "recurrenceId": "20251230T080000"
-        },
-        {
-          "date": "2026-01-06T16:00:00.000Z",
-          "status": "moved",
-          "summary": "Microsoft 365 & Power Platform call (MS presenters) - On a holiday break 🎄",
-          "recurrenceId": "20260106T080000"
-        },
-        {
-          "date": "2026-01-13T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-01-20T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-01-27T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-02-03T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-02-10T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-02-17T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-02-24T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-03-03T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-03-10T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-03-17T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-03-24T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-03-31T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-04-07T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-04-14T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-04-21T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-04-28T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-05-05T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-05-12T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-05-19T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-05-26T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-06-02T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-06-09T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-06-16T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-06-23T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-06-30T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-07-07T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-07-14T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-07-21T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-07-28T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-08-04T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-08-11T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-08-18T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-08-25T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-09-01T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-09-08T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-09-15T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-09-22T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-09-29T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-10-06T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-10-13T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-10-20T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-10-27T15:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-11-03T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-11-10T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-11-17T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-11-24T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-12-01T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-12-08T16:00:00.000Z",
-          "status": "scheduled"
-        },
-        {
-          "date": "2026-12-15T16:00:00.000Z",
-          "status": "scheduled"
-        }
-      ]
-    },
     {
       "uid": "040000008200E00074C5B7101A82E00800000000C81EAE66288ADA01000000000000000010000000F6C360139C27FF4B8FF87F06B421CDB8",
       "summary": "Power Platform Monthly Call ",
@@ -445,6 +202,231 @@
       "nextOccurrences": []
     },
     {
+      "uid": "040000008200E00074C5B7101A82E008000000003C17D4E58F19DB010000000000000000100000008A2AD0F964EAA54BA7F6345153149FDA",
+      "summary": "Microsoft 365 & Power Platform call (MS presenters)",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": null,
+      "startTime": "2024-12-24T16:00:00.000Z",
+      "endTime": "2024-12-24T17:00:00.000Z",
+      "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20261215T160000Z;WKST=SU",
+      "exdate": [],
+      "recurrenceId": null,
+      "nextOccurrences": [
+        {
+          "date": "2025-12-16T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-12-23T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2025-12-30T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-01-06T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-01-13T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-01-20T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-01-27T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-02-03T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-02-10T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-02-17T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-02-24T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-03-03T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-03-10T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-03-17T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-03-24T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-03-31T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-04-07T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-04-14T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-04-21T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-04-28T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-05-05T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-05-12T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-05-19T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-05-26T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-02T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-09T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-16T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-23T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-06-30T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-07-07T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-07-14T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-07-21T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-07-28T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-08-04T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-08-11T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-08-18T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-08-25T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-09-01T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-09-08T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-09-15T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-09-22T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-09-29T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-10-06T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-10-13T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-10-20T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-10-27T15:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-11-03T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-11-10T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-11-17T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-11-24T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-12-01T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-12-08T16:00:00.000Z",
+          "status": "scheduled"
+        },
+        {
+          "date": "2026-12-15T16:00:00.000Z",
+          "status": "scheduled"
+        }
+      ]
+    },
+    {
       "uid": "040000008200E00074C5B7101A82E00800000000CE03C195278ADA010000000000000000100000001D5D5DA85E858D45B9A47028FB60C7F2",
       "summary": "Microsoft 365 & Power Platform Community Call (community demos)",
       "location": "Microsoft Teams Meeting",
@@ -583,6 +565,18 @@
       "startTime": "2025-01-08T15:00:00.000Z",
       "endTime": "2025-01-08T16:00:00.000Z",
       "rrule": "FREQ=MONTHLY;BYDAY=2WE;UNTIL=20250409T140000Z",
+      "exdate": [],
+      "recurrenceId": null,
+      "nextOccurrences": []
+    },
+    {
+      "uid": "040000008200E00074C5B7101A82E00800000000A07914A1AD8EDA01000000000000000010000000C336836834D5AF489D8E4225EE9C3B0B",
+      "summary": "Maturity Model for Microsoft 365",
+      "location": "Microsoft Teams Meeting",
+      "joinUrl": "https://aka.ms/mm4m365/join-call",
+      "startTime": "2025-01-21T15:00:00.000Z",
+      "endTime": "2025-01-21T16:00:00.000Z",
+      "rrule": "FREQ=MONTHLY;BYDAY=3TU;UNTIL=20250415T140000Z",
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": []
