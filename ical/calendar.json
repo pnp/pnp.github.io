@@ -1,5 +1,5 @@
 {
-  "lastRetrieved": "2025-12-21T12:13:18.443Z",
+  "lastRetrieved": "2025-12-22T12:15:34.840Z",
   "events": [
     {
       "uid": "040000008200E00074C5B7101A82E008000000003C17D4E58F19DB010000000000000000100000008A2AD0F964EAA54BA7F6345153149FDA",
@@ -20,14 +20,10 @@
       "joinUrl": null,
       "startTime": "2024-12-24T16:00:00.000Z",
       "endTime": "2024-12-24T17:00:00.000Z",
-      "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20261215T160000Z;WKST=SU",
+      "rrule": "FREQ=WEEKLY;BYDAY=TU;UNTIL=20261222T160000Z;WKST=SU",
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
-        {
-          "date": "2025-12-16T16:00:00.000Z",
-          "status": "scheduled"
-        },
         {
           "date": "2025-12-23T16:00:00.000Z",
           "status": "scheduled"
@@ -235,6 +231,10 @@
         {
           "date": "2026-12-15T16:00:00.000Z",
           "status": "scheduled"
+        },
+        {
+          "date": "2026-12-22T16:00:00.000Z",
+          "status": "scheduled"
         }
       ]
     },
@@ -381,12 +381,6 @@
       "recurrenceId": null,
       "nextOccurrences": [
         {
-          "date": "2025-12-18T15:00:00.000Z",
-          "status": "moved",
-          "summary": "Microsoft 365 & Power Platform Community Call (community demos)",
-          "recurrenceId": "20251218T070000"
-        },
-        {
           "date": "2026-01-01T15:00:00.000Z",
           "status": "scheduled"
         },
@@ -515,10 +509,6 @@
       "exdate": [],
       "recurrenceId": null,
       "nextOccurrences": [
-        {
-          "date": "2025-12-17T16:00:00.000Z",
-          "status": "scheduled"
-        },
         {
           "date": "2026-01-21T16:00:00.000Z",
           "status": "scheduled"
