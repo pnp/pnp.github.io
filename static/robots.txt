@@ -1,8 +1,9 @@
 User-agent: *
 Allow: /
 
-Sitemap: https:/pnp.github.io/sitemap.xml
+Sitemap: https://pnp.github.io/sitemap.xml
 Sitemap: https://pnp.github.io/sp-dev-fx-webparts/sitemap.xml
 Sitemap: https://pnp.github.io/blog/sitemap.xml
 Sitemap: https://pnp.github.io/cli-microsoft365/sitemap.xml
+
 
