@@ -1,5 +1,5 @@
 ---
-title: "Microsoft 365 & Power Platform Call"
+title: "Copilot, Microsoft 365 & Power Platform Call"
 presenter: "Presented by Microsoft"
 occurrence: "Weekly on Tuesdays"
 time: "8:00 AM PT / 4:00 PM GMT"
