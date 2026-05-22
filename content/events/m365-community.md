@@ -1,5 +1,5 @@
 ---
-title: "Microsoft 365 & Power Platform"
+title: "Copilot, Microsoft 365 & Power Platform"
 presenter: "Presented by the Community"
 occurrence: "Weekly on Thursdays"
 time: "7:00 AM PT / 3:00 PM GMT"
