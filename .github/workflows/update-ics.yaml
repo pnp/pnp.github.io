@@ -1,11 +1,16 @@
 name: Update ICAL Files
 
 on:
-  push:
-    branches:
-      - main  # Trigger on push to main, or adjust as needed
+  workflow_dispatch:
   schedule:
     - cron: '0 12 * * *'  # Optionally, schedule to run daily
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gh-pages-publish
+  cancel-in-progress: false
 
 jobs:
   update-ical:
@@ -14,24 +19,26 @@ jobs:
     steps:
 
     - name: Checkout main branch
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         ref: main  # Specify the branch to checkout
         path: main
 
     - name: Checkout gh-pages branch
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
       with:
         ref: gh-pages  # Specify the branch to checkout
         path: gh-pages
 
     - name: Set up Node.js
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v6
       with:
-        node-version: '14'  # Specify your Node.js version
+        node-version: '24'  # Specify your Node.js version
+        cache: npm
+        cache-dependency-path: main/.github/scripts/package-lock.json
 
     - name: Install dependencies
-      run: npm install  # Assuming your script needs npm packages
+      run: npm ci  # Assuming your script needs npm packages
       working-directory: ./main/.github/scripts
 
     - name: Update ICAL File
