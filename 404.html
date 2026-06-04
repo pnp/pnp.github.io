@@ -62,6 +62,19 @@
 
 
     <meta name="robots" content="noindex">
+    <script>
+        (function () {
+            var basePath = new URL("https:\/\/pnp.github.io\/").pathname.replace(/\/?$/, "/");
+            var sourcePrefix = basePath + "r/";
+            var targetPrefix = basePath + "aka/";
+            var currentPath = window.location.pathname;
+
+            if (currentPath.indexOf(sourcePrefix) === 0) {
+                var targetPath = targetPrefix + currentPath.slice(sourcePrefix.length);
+                window.location.replace(targetPath + window.location.search + window.location.hash);
+            }
+        }());
+    </script>
 </head>
 
 <body class="" style="">
