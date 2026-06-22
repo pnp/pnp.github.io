@@ -1,0 +1,90 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Microsoft Copilot//Cowork//EN
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=America/Los_Angeles:20260909T080000
+DTEND;TZID=America/Los_Angeles:20260909T090000
+RRULE:FREQ=MONTHLY;BYDAY=2WE
+SUMMARY;LANGUAGE=en-us:Copilot Extensibility Community Call
+ORGANIZER;CN=Paolo Pialorsi:MAILTO:paolo.pialorsi@microsoft.com
+UID:copilot-extensibility-community-call-20260909@microsoft.com
+DTSTAMP:20260617T080142Z
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+DESCRIPTION:The Copilot Extensibility Community Call takes place on the 2nd
+  Wednesday of each month at 8am PT.\n\nDuring the call\, we demonstrate ti
+ ps and tools to help you build powerful solutions that extend Microsoft 36
+ 5 Copilot (Agent Builder\, Declarative Agents\, Custom Engine Agents\, Fou
+ ndry Agents\, etc.)\, Copilot Cowork\, Microsoft Scout\, and Microsoft IQ 
+ (including Foundry IQ\, Work IQ\, Fabric IQ\, Web IQ\, and more).\n\nWe al
+ so cover the latest news in Microsoft 365 Copilot extensibility. You'll ha
+ ve the opportunity to meet members of the Copilot Extensibility product te
+ am and community experts\, and to get your questions answered.\n\nYou can 
+ learn more about Copilot Extensibility by visiting: https://aka.ms/Copilot
+ DevCamp\n\nJoin the call here: https://aka.ms/community/CopilotExtensibility-call-jo
+ in\n\nAdditional Resources\nFollow us on:\n- X: https://x.com/Microsoft365
+ Dev\n- LinkedIn: https://www.linkedin.com/showcase/microsoft365dev\n- Face
+ book: https://www.facebook.com/M365Dev\n\nYouTube: https://www.youtube.com
+ /channel/UCV_6HOhwxYLXAGd-JOqKPoQ\n\nSubscribe to our Microsoft 365  Devel
+ oper YouTube channel  (https://www.youtube.com/channel/UCV_6HOhwxYLXAGd-JO
+ qKPoQ) for developer  videos and to our Microsoft Community Learning YouTu
+ be channel (https://www.youtube.com/@MicrosoftCommunityLearning) to access
+  all the community learning content (includes previous call recordings).
+X-ALT-DESC;FMTTYPE=text/html:<html><head><meta http-equiv="Content-Type" co
+ ntent="text/html; charset=utf-8"></head><body><div style="line-height:20px
+ ;margin-top:1em;margin-bottom:1em;font-family:Segoe UI,sans-serif;font-siz
+ e:10pt;color:black">The Copilot Extensibility Community Call takes place o
+ n the <b>2nd Wednesday of each month at 8am PT</b>. During the call, we de
+ monstrate tips and tools to help you build powerful solutions that extend 
+ Microsoft 365 Copilot (Agent Builder, Declarative Agents, Custom Engine Ag
+ ents, Foundry Agents, etc.), Copilot Cowork, Microsoft Scout, and Microsof
+ t IQ (including Foundry IQ, Work IQ, Fabric IQ, Web IQ, and more).</div><d
+ iv style="line-height:20px;margin-top:1em;margin-bottom:1em;font-family:Se
+ goe UI,sans-serif;font-size:10pt;color:black">We also cover the latest new
+ s in Microsoft 365 Copilot extensibility. You'll have the opportunity to m
+ eet members of the Copilot Extensibility product team and community expert
+ s, and to get your questions answered.</div><div style="font-family:Segoe 
+ UI,sans-serif;font-size:10pt;color:black">You can learn more about Copilot
+  Extensibility by visiting: <a href="https://aka.ms/CopilotDevCamp">https:
+ //aka.ms/CopilotDevCamp</a></div><div style="font-family:Segoe UI,sans-ser
+ if;font-size:10pt;color:black">Join the call here: <a href="https://aka.ms
+ /community/CopilotExtensibility-call-join">https://aka.ms/community/CopilotExtensibility-call-
+ join</a></div><p style="font-family:Segoe UI,sans-serif;font-size:10pt"><b
+ >Additional Resources</b></p><p style="font-family:Segoe UI,sans-serif;fon
+ t-size:10pt">Follow us for the latest announcements on</p><ul style="font-
+ family:Segoe UI,sans-serif;font-size:10pt"><li>X: <a href="https://x.com/M
+ icrosoft365Dev">@Microsoft365Dev</a></li><li>LinkedIn: <a href="https://ww
+ w.linkedin.com/showcase/microsoft365dev">Microsoft 365 Developer</a></li><
+ li>Facebook: <a href="https://www.facebook.com/M365Dev">Microsoft 365 Deve
+ loper</a></li></ul><p style="font-family:Segoe UI,sans-serif;font-size:10p
+ t">Subscribe to our <a href="https://www.youtube.com/channel/UCV_6HOhwxYLX
+ AGd-JOqKPoQ">Microsoft 365 Developer YouTube channel</a> for developer vid
+ eos and to our <a href="https://www.youtube.com/@MicrosoftCommunityLearnin
+ g">Microsoft Community Learning YouTube channel</a> to access all the comm
+ unity learning content (includes previous call recordings).</p></body></html>
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

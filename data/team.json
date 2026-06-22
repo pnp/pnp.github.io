@@ -291,7 +291,7 @@
     },
     {
         "name": "Jo\u00e3o J. Mendes",
-        "company": "Valo",
+        "company": "Kuehne+Nagel",
         "img": "images/team/joaomendes.webp",
         "github": "https://github.com/joaojmendes/",
         "title": "MVP",
@@ -431,6 +431,14 @@
         "twitter": "https://twitter.com/pkbullock",
         "linkedin": "https://www.linkedin.com/in/pkbullock/",
         "bluesky": "https://bsky.app/profile/pkbullock.bsky.social"
+    },
+    {
+        "name": "Rabia Williams",
+        "company": "Microsoft",
+        "img": "images/team/rabiawilliams.webp",
+        "github": "https://github.com/rabwill/",
+        "twitter": "https://twitter.com/williamsrabia",
+        "linkedin": "https://www.linkedin.com/in/rabiawilliams/"
     },
     {
         "name": "Rick Van Rousselt",
