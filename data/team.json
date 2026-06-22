@@ -57,6 +57,14 @@
         "bluesky": "https://bsky.app/profile/luisefreese.bsky.social"
     },
     {
+        "name": "Rabia Williams",
+        "company": "Microsoft",
+        "img": "images/team/rabiawilliams.webp",
+        "github": "https://github.com/rabwill/",
+        "twitter": "https://twitter.com/williamsrabia",
+        "linkedin": "https://www.linkedin.com/in/rabiawilliams/"
+    },
+    {
         "name": "Reshmee Auckloo",
         "company": "Pension Protection Fund",
         "img": "images/team/reshmeeauckloo.webp",
@@ -431,14 +439,6 @@
         "twitter": "https://twitter.com/pkbullock",
         "linkedin": "https://www.linkedin.com/in/pkbullock/",
         "bluesky": "https://bsky.app/profile/pkbullock.bsky.social"
-    },
-    {
-        "name": "Rabia Williams",
-        "company": "Microsoft",
-        "img": "images/team/rabiawilliams.webp",
-        "github": "https://github.com/rabwill/",
-        "twitter": "https://twitter.com/williamsrabia",
-        "linkedin": "https://www.linkedin.com/in/rabiawilliams/"
     },
     {
         "name": "Rick Van Rousselt",
