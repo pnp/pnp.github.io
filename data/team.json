@@ -5,16 +5,8 @@
         "img": "images/team/aprildunnam.webp",
         "github": "https://github.com/aprildunnam",
         "twitter": "https://twitter.com/aprildunnam",
-        "linkedin": "https://www.linkedin.com/in/aprildunnam/"
-    },
-    {
-        "name": "Chandani Prajapati",
-        "company": "Rapid Circle",
-        "img": "images/team/chandaniprajapati.webp",
-        "github": "https://github.com/chandaniprajapati",
-        "title": "MVP",
-        "twitter": "https://twitter.com/Chandani_SPD",
-        "linkedin": "https://www.linkedin.com/in/chandani-prajapati/"
+        "linkedin": "https://www.linkedin.com/in/aprildunnam/",
+        "bluesky": "https://bsky.app/profile/aprildunnam.bsky.social"
     },
     {
         "name": "Emily Mancini",
@@ -32,7 +24,8 @@
         "github": "https://github.com/juliemturner",
         "title": "MVP",
         "twitter": "https://twitter.com/jfj1997",
-        "linkedin": "https://www.linkedin.com/in/juliemturner/"
+        "linkedin": "https://www.linkedin.com/in/juliemturner/",
+        "bluesky": "https://bsky.app/profile/julieturner.net"
     },
     {
         "name": "Katerina Chernevskaya",
@@ -41,7 +34,8 @@
         "github": "https://github.com/Katerina-Chernevskaya/",
         "title": "MVP",
         "twitter": "https://twitter.com/KaterinaCh79869",
-        "linkedin": "https://www.linkedin.com/in/katerinachernevskaya/"
+        "linkedin": "https://www.linkedin.com/in/katerinachernevskaya/",
+        "bluesky": "https://bsky.app/profile/katerinach.bsky.social"
     },
     {
         "name": "Laura Kokkarinen",
@@ -59,24 +53,26 @@
         "github": "https://github.com/LuiseFreese",
         "title": "MVP",
         "twitter": "https://twitter.com/LuiseFreese",
-        "linkedin": "https://www.linkedin.com/in/luisefreese/"
-    },    {
+        "linkedin": "https://www.linkedin.com/in/luisefreese/",
+        "bluesky": "https://bsky.app/profile/luisefreese.bsky.social"
+    },
+    {
+        "name": "Rabia Williams",
+        "company": "Microsoft",
+        "img": "images/team/rabiawilliams.webp",
+        "github": "https://github.com/rabwill/",
+        "twitter": "https://twitter.com/williamsrabia",
+        "linkedin": "https://www.linkedin.com/in/rabiawilliams/"
+    },
+    {
         "name": "Reshmee Auckloo",
         "company": "Pension Protection Fund",
         "img": "images/team/reshmeeauckloo.webp",
         "github": "https://github.com/reshmee011",
         "title": "MVP",
         "twitter": "https://twitter.com/ReshmeeAuckloo",
-        "linkedin": "https://www.linkedin.com/in/reshmee-auckloo-98a23619/"
-    },
-    {
-        "name": "Veronique Lengelle",
-        "company": "CPS",
-        "img": "images/team/veroniquelengelle.webp",
-        "github": "https://github.com/veronicageek",
-        "title": "MVP",
-        "twitter": "https://twitter.com/veronicageek",
-        "linkedin": "https://www.linkedin.com/in/veronique-lengelle-48a71b31/"
+        "linkedin": "https://www.linkedin.com/in/reshmee-auckloo-98a23619/",
+        "bluesky": "https://bsky.app/profile/reshmeeauckloo.com"
     },
     {
         "name": "Adam W\u00f3jcik",
@@ -85,7 +81,7 @@
         "github": "https://github.com/Adam-it",
         "title": "MVP",
         "linkedin": "https://www.linkedin.com/in/adam-w%C3%B3jcik-9b7777a6/",
-        "twitter": "https://twitter.com/Adam25858782"
+        "bluesky": "https://bsky.app/profile/randomadam.bsky.social"
     },
     {
         "name": "Albert-Jan Schot",
@@ -94,7 +90,8 @@
         "github": "https://github.com/appieschot",
         "title": "MVP",
         "twitter": "https://twitter.com/appieschot",
-        "linkedin": "https://www.linkedin.com/in/albertjanschot/"
+        "linkedin": "https://www.linkedin.com/in/albertjanschot/",
+        "bluesky": "https://bsky.app/profile/appieschot.bsky.social"
     },
     {
         "name": "Alex Terentiev",
@@ -111,16 +108,8 @@
         "github": "https://github.com/andrewconnell",
         "title": "MVP",
         "twitter": "https://twitter.com/andrewconnell",
-        "linkedin": "https://www.linkedin.com/in/andrewconnell/"
-    },
-    {
-        "name": "Andrew Koltyakov",
-        "company": "Arvo Systems",
-        "img": "images/team/andrewkoltyakov.webp",
-        "github": "https://github.com/koltyakov",
-        "title": "MVP",
-        "twitter": "https://twitter.com/AndrewKoltyakov",
-        "linkedin": "https://www.linkedin.com/in/koltyakov/"
+        "linkedin": "https://www.linkedin.com/in/andrewconnell/",
+        "bluesky": "https://bsky.app/profile/andrewconnell.com"
     },
     {
         "name": "Anoop Tatti",
@@ -142,12 +131,12 @@
     },
     {
         "name": "Beau Cameron",
-        "company": "DMI",
+        "company": "Infodash",
         "img": "images/team/beaucameron.webp",
         "github": "https://github.com/bcameron1231",
         "title": "MVP",
-        "twitter": "https://twitter.com/Beau__Cameron",
-        "linkedin": "https://www.linkedin.com/in/beau-cameron/"
+        "linkedin": "https://www.linkedin.com/in/beau-cameron/",
+        "bluesky": "https://bsky.app/profile/beaucameron.com"
     },
     {
         "name": "Bert Jansen",
@@ -155,15 +144,17 @@
         "img": "images/team/bertjansen.webp",
         "github": "https://github.com/jansenbe",
         "twitter": "https://twitter.com/O365Bert",
-        "linkedin": "https://www.linkedin.com/in/bertjansen/"
+        "linkedin": "https://www.linkedin.com/in/bertjansen/",
+        "bluesky": "https://bsky.app/profile/bertj.bsky.social"
     },
     {
         "name": "Bob German",
-        "company": "Microsoft",
+        "company": "",
         "img": "images/team/bobgerman.webp",
         "github": "https://github.com/BobGerman",
         "twitter": "https://twitter.com/bob1german",
-        "linkedin": "https://www.linkedin.com/in/bgerman/"
+        "linkedin": "https://www.linkedin.com/in/bgerman/",
+        "bluesky": "https://bsky.app/profile/bob1german.com"
     },
     {
         "name": "Chris Kent",
@@ -172,15 +163,17 @@
         "github": "https://github.com/thechriskent",
         "title": "MVP",
         "twitter": "https://twitter.com/theChrisKent",
-        "linkedin": "https://www.linkedin.com/in/thechriskent/"
+        "linkedin": "https://www.linkedin.com/in/thechriskent/",
+        "bluesky": "https://bsky.app/profile/pnp.horse"
     },
     {
         "name": "Dan Toft",
-        "company": "Evobis ApS",
+        "company": "Pinksky",
         "img": "images/team/dantoft.webp",
         "github": "https://github.com/Tanddant",
         "twitter": "https://twitter.com/tanddant",
         "linkedin": "https://www.linkedin.com/in/dan-toft/",
+        "bluesky": "https://bsky.app/profile/dan-toft.dk",
         "title": "MVP"
     },
     {
@@ -189,15 +182,18 @@
         "img": "images/team/daniellaskewitz.webp",
         "github": "https://github.com/Laskewitz",
         "twitter": "https://twitter.com/laskewitz",
-        "linkedin": "https://www.linkedin.com/in/laskewitz/"
+        "linkedin": "https://www.linkedin.com/in/laskewitz/",
+        "bluesky": "https://bsky.app/profile/laskewitz.io"
     },
     {
         "name": "David Warner",
-        "company": "Microsoft",
+        "company": "Warner Digital",
         "img": "images/team/davidwarner.webp",
         "github": "https://github.com/PopWarner",
         "twitter": "https://twitter.com/DavidWarnerII",
-        "linkedin": "https://www.linkedin.com/in/davidwarnerii/"
+        "linkedin": "https://www.linkedin.com/in/davidwarnerii/",
+        "bluesky": "https://bsky.app/profile/davidwarnerii.bsky.social",
+        "title": "MVP"
     },
     {
         "name": "Derek Cash-Peterson",
@@ -206,7 +202,8 @@
         "github": "https://github.com/dcashpeterson/",
         "title": "MVP",
         "twitter": "https://twitter.com/spdcp",
-        "linkedin": "https://www.linkedin.com/in/dcashpeterson/"
+        "linkedin": "https://www.linkedin.com/in/dcashpeterson/",
+        "bluesky": "https://bsky.app/profile/derekcp.bsky.social"
     },
     {
         "name": "Elio Struyf",
@@ -215,25 +212,27 @@
         "github": "https://github.com/estruyf",
         "title": "MVP",
         "twitter": "https://twitter.com/eliostruyf",
-        "linkedin": "https://www.linkedin.com/in/estruyf/"
-    },
+        "linkedin": "https://www.linkedin.com/in/estruyf/",
+        "bluesky": "https://bsky.app/profile/eliostruyf.com"
+    },    
     {
-        "name": "Fabio Franzini",
-        "company": "Apvee Solutions",
-        "img": "images/team/fabiofranzini.webp",
-        "github": "https://github.com/fabiofranzini",
+        "name": "Ejaz Hussain",
+        "company": "Advania",
+        "img": "images/team/ejazhussain.webp",
+        "github": "https://github.com/ejazhussain",
         "title": "MVP",
-        "twitter": "https://twitter.com/franzinifabio",
-        "linkedin": "https://www.linkedin.com/in/fabiofranzini/"
+        "twitter": "https://x.com/EjazHussain_",
+        "linkedin": "https://www.linkedin.com/in/hussaine/"
     },
     {
         "name": "Erwin van Hunen",
-        "company": "Valo Intranet",
+        "company": "MondayCoffee",
         "img": "images/team/erwinvanhunen.webp",
         "github": "https://github.com/erwinvanhunen",
         "title": "MVP",
         "twitter": "https://twitter.com/erwinvanhunen",
-        "linkedin": "https://www.linkedin.com/in/erwinvanhunen/"
+        "linkedin": "https://www.linkedin.com/in/erwinvanhunen/",
+        "bluesky": "https://bsky.app/profile/erwinmcm.com"
     },
     {
         "name": "Eric Overfield",
@@ -245,31 +244,50 @@
         "linkedin": "https://www.linkedin.com/in/ericoverfield/"
     },
     {
+        "name": "Fabio Franzini",
+        "company": "Apvee Solutions",
+        "img": "images/team/fabiofranzini.webp",
+        "github": "https://github.com/fabiofranzini",
+        "title": "MVP",
+        "twitter": "https://twitter.com/franzinifabio",
+        "linkedin": "https://www.linkedin.com/in/fabiofranzini/",
+        "bluesky": "https://bsky.app/profile/fabiofranzini.com"
+    },    
+    {
         "name": "Garry Trinder",
         "company": "Microsoft",
         "img": "images/team/garrytrinder.webp",
         "github": "https://github.com/garrytrinder",
         "twitter": "https://twitter.com/garrytrinder",
-        "linkedin": "https://www.linkedin.com/in/garry-trinder/"
+        "linkedin": "https://www.linkedin.com/in/garry-trinder/",
+        "bluesky": "https://bsky.app/profile/garrytrinder.bsky.social"
     },
     {
         "name": "Gautam Sheth",
-        "company": "Valo Intranet",
+        "company": "Staffbase",
         "img": "images/team/gautamsheth.webp",
         "github": "https://github.com/gautamdsheth",
         "twitter": "https://twitter.com/gautamdsheth",
         "linkedin": "https://www.linkedin.com/in/gautamdsheth/",
+        "bluesky": "https://bsky.app/profile/gautamdsheth.bsky.social",
         "title": "MVP"
     },
     {
         "name": "Hugo Bernier",
-        "company": "Takeda",
+        "company": "",
         "img": "images/team/hugobernier.webp",
         "github": "https://github.com/hugoabernier",
         "title": "MVP",
-        "linkedin": "https://www.linkedin.com/in/hugobernier/",
-        "twitter": "https://twitter.com/bernierh"
+        "linkedin": "https://www.linkedin.com/in/bernierh/",
+        "bluesky": "https://bsky.app/profile/bernierh.bsky.social"
     },
+    {
+        "name": "Jan Chlebek",
+        "company": "Clouds On Mars",
+        "img": "images/team/janchlebek.webp",
+        "github": "https://github.com/jan-chlebek",
+        "linkedin": "https://www.linkedin.com/in/jan-chlebek/"
+    },    
     {
         "name": "Jasey Waegebaert",
         "company": "Xylos",
@@ -281,12 +299,13 @@
     },
     {
         "name": "Jo\u00e3o J. Mendes",
-        "company": "Valo",
+        "company": "Kuehne+Nagel",
         "img": "images/team/joaomendes.webp",
         "github": "https://github.com/joaojmendes/",
         "title": "MVP",
         "twitter": "https://twitter.com/joaojmendes",
-        "linkedin": "https://www.linkedin.com/in/joaojosemendes/"
+        "linkedin": "https://www.linkedin.com/in/joaojosemendes/",
+        "bluesky": "https://bsky.app/profile/joaojmendes.bsky.social"
     },
     {
         "name": "Joel Rodrigues",
@@ -304,7 +323,8 @@
         "github": "https://github.com/kasperbolarsen",
         "title": "MVP",
         "twitter": "https://twitter.com/kasperbolarsen",
-        "linkedin": "https://www.linkedin.com/in/kasperbolarsen/"
+        "linkedin": "https://www.linkedin.com/in/kasperbolarsen/",
+        "bluesky": "https://bsky.app/profile/kasperlarsen.bsky.social"
     },
     {
         "name": "Koen Zomers",
@@ -321,16 +341,32 @@
         "github": "https://github.com/sympmarc",
         "title": "MVP",
         "twitter": "https://twitter.com/sympmarc",
-        "linkedin": "https://www.linkedin.com/in/marcanderson/"
+        "linkedin": "https://www.linkedin.com/in/marcanderson/",
+        "bluesky": "https://bsky.app/profile/sympmarc.com"
     },
     {
-        "name": "Markus M\u00f6ller",
-        "company": "Avanade",
-        "img": "images/team/markusmoller.webp",
-        "github": "https://github.com/mmsharepoint",
+        "name": "Marcin Wojciechowski",
+        "company": "Avenga",
+        "img": "images/team/marcinwojciechowski.webp",
+        "github": "https://github.com/mgwojciech",
         "title": "MVP",
-        "twitter": "https://twitter.com/Moeller2_0",
-        "linkedin": "https://www.linkedin.com/in/markus-moeller-25b72821/"
+        "linkedin": "https://www.linkedin.com/in/marcin-wojciechowski-17168276/"
+    },    
+    {
+        "name": "Martin Machacek",
+        "company": "Edhouse",
+        "img": "images/team/martinmachacek.webp",
+        "github": "https://github.com/MartinM85",
+        "title": "MVP",
+        "twitter": "https://x.com/machym",
+        "linkedin": "https://www.linkedin.com/in/martin-mach%C3%A1%C4%8Dek-a8662086",
+        "bluesky": "https://bsky.app/profile/martin-machacek.com"
+    },    
+    {
+        "name": "Markus M\u00f6ller",
+        "company": "🧡",
+        "img": "images/team/markusmoller.webp",
+        "title": ""
     },
     {
         "name": "Martin Lingstuyl",
@@ -339,7 +375,8 @@
         "github": "https://github.com/martinlingstuyl",
         "title": "MVP",
         "twitter": "https://twitter.com/martinlingstuyl",
-        "linkedin": "https://www.linkedin.com/in/martinlingstuyl/"
+        "linkedin": "https://www.linkedin.com/in/martinlingstuyl/",
+        "bluesky": "https://bsky.app/profile/blimped.nl"
     },
     {
         "name": "Mikael Svenson",
@@ -358,13 +395,32 @@
         "linkedin": "https://www.linkedin.com/in/milanholemans/"
     },
     {
+        "name": "Nico De Cleyre",
+        "company": "ConXioN",
+        "img": "images/team/nicodecleyre.webp",
+        "title": "MVP",
+        "github": "https://github.com/nicodecleyre",
+        "twitter": "https://x.com/NicoDeCleyre",
+        "linkedin": "https://www.linkedin.com/in/nicodecleyre/",
+        "bluesky": "https://bsky.app/profile/nicodecleyre.bsky.social"
+    },    
+{
+        "name": "Nishkalank Bezawada",
+        "company": "Xenit",
+        "img": "images/team/nishkalankbezawada.webp",
+        "title": "MVP",
+        "github": "https://github.com/NishkalankBezawada/",
+        "linkedin": "https://www.linkedin.com/in/nishkalankbezawada/",
+        "bluesky": "https://web-cdn.bsky.app/profile/nishkalankbezawada.bsky.social"
+    },    
+    {
         "name": "Paolo Pialorsi",
-        "company": "PiaSys.com",
+        "company": "Microsoft",
         "img": "images/team/paolopialorsi.webp",
         "github": "https://github.com/PaoloPia",
-        "title": "MVP",
         "twitter": "https://twitter.com/PaoloPia",
-        "linkedin": "https://www.linkedin.com/in/paolopialorsi/"
+        "linkedin": "https://www.linkedin.com/in/paolopialorsi/",
+        "bluesky": "https://bsky.app/profile/paolopia.bsky.social"
     },
     {
         "name": "Patrick Rodgers",
@@ -381,7 +437,8 @@
         "github": "https://github.com/pkbullock",
         "title": "MVP",
         "twitter": "https://twitter.com/pkbullock",
-        "linkedin": "https://www.linkedin.com/in/pkbullock/"
+        "linkedin": "https://www.linkedin.com/in/pkbullock/",
+        "bluesky": "https://bsky.app/profile/pkbullock.bsky.social"
     },
     {
         "name": "Rick Van Rousselt",
@@ -390,15 +447,25 @@
         "github": "https://github.com/RickVanRousselt/",
         "title": "MVP",
         "twitter": "https://twitter.com/RickVanRousselt",
-        "linkedin": "https://www.linkedin.com/in/rickvanrousselt/"
+        "linkedin": "https://www.linkedin.com/in/rickvanrousselt/",
+        "bluesky": "https://bsky.app/profile/rickvanrousselt.com"
     },
+    {
+        "name": "Saurabh Tripathi",
+        "company": "AFRY",
+        "img": "images/team/saurabhtripathi.webp",
+        "title": "MVP",
+        "github": "https://github.com/Saurabh7019",
+        "linkedin": "https://www.linkedin.com/in/saurabh-k-tripathi/"
+    },        
     {
         "name": "S\u00e9bastien Levert",
         "company": "Microsoft",
         "img": "images/team/sebastienlevert.webp",
         "github": "https://github.com/sebastienlevert",
         "twitter": "https://twitter.com/sebastienlevert",
-        "linkedin": "https://www.linkedin.com/in/sebastienlevert/"
+        "linkedin": "https://www.linkedin.com/in/sebastienlevert/",
+        "bluesky": "https://bsky.app/profile/sebastienlevert.bsky.social"
     },
     {
         "name": "Sergei Sergeev",
@@ -416,7 +483,8 @@
         "github": "https://github.com/stfbauer",
         "title": "MVP",
         "twitter": "https://twitter.com/StfBauer",
-        "linkedin": "https://www.linkedin.com/in/stfbauer/"
+        "linkedin": "https://www.linkedin.com/in/stfbauer/",
+        "bluesky": "https://bsky.app/profile/stfbauer.bsky.social"
     },
     {
         "name": "Stephan Bisser",
@@ -434,7 +502,8 @@
         "github": "https://github.com/tecchan1107/",
         "title": "MVP",
         "twitter": "https://twitter.com/techan_k/",
-        "linkedin": "https://www.linkedin.com/in/tetsuya-kawahara-730498180/"
+        "linkedin": "https://www.linkedin.com/in/tetsuya-kawahara-730498180/",
+        "bluesky": "https://bsky.app/profile/tetsuya-kawahara.bsky.social"
     },
     {
         "name": "Thomas G\u00f6lles",
@@ -446,12 +515,23 @@
         "twitter": "https://twitter.com/thomyg"
     },
     {
+        "name": "Tom Daly",
+        "company": "SoHo Dragon",
+        "img": "images/team/tomdaly.webp",
+        "title": "MVP",
+        "github": "https://github.com/tom-daly",
+        "twitter": "https://x.com/_TomDaly",
+        "linkedin": "https://www.linkedin.com/in/thomas-m-daly/",
+        "bluesky": "https://bsky.app/profile/tommdaly.bsky.social"
+    },
+    {
         "name": "Vesa Juvonen",
         "company": "Microsoft",
         "img": "images/team/vesajuvonen.webp",
         "github": "https://github.com/VesaJuvonen",
         "twitter": "https://twitter.com/vesajuvonen",
-        "linkedin": "https://www.linkedin.com/in/vesajuvonen/"
+        "linkedin": "https://www.linkedin.com/in/vesajuvonen/",
+        "bluesky": "https://bsky.app/profile/vesajuvonen.bsky.social"
     },
     {
         "name": "Waldek Mastykarz",
@@ -459,7 +539,8 @@
         "img": "images/team/waldekmastykarz.webp",
         "github": "https://github.com/waldekmastykarz",
         "twitter": "https://twitter.com/waldekm",
-        "linkedin": "https://www.linkedin.com/in/waldekmastykarz/"
+        "linkedin": "https://www.linkedin.com/in/waldekmastykarz/",
+        "bluesky": "https://bsky.app/profile/wldk.nl"
     },
     {
         "name": "Wictor Wil\u00e9n",
@@ -467,6 +548,7 @@
         "img": "images/team/wictorwilen.webp",
         "github": "https://github.com/wictorwilen",
         "twitter": "https://twitter.com/wictor",
-        "linkedin": "https://www.linkedin.com/in/wictorwilen/"
+        "linkedin": "https://www.linkedin.com/in/wictorwilen/",
+        "bluesky": "https://bsky.app/profile/wictorwilen.se"
     }
 ]

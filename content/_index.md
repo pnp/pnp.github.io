@@ -1,9 +1,6 @@
 ---
-title: "Home"
+title: "Microsoft 365 & Power Platform Community"
+image: "images/parker-was-here.svg"
 ---
 
-# Hi there
 
-Welcome to your new Hugo site.
-
-Now go build something great.

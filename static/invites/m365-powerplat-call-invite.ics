@@ -1,0 +1,148 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:Pacific Standard Time
+BEGIN:STANDARD
+DTSTART:16011104T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:16010311T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+CLASS:PUBLIC
+CREATED:20250919T150728Z
+DESCRIPTION:Welcome to Microsoft 365 & Power Platform community call around
+	 Microsoft 365 & Power Platform topics. \n\n\n\n\nTopics covered in this c
+	all are solutions\, techniques\, samples & more from the community across 
+	the Microsoft 365 & Power Platform with updates on community projects and 
+	2-3 live demos.\n\n\n\n\nLink to join the Microsoft 365 & Power Platform C
+	ommunity Call - https://aka.ms/community/m365-powerplat-call-join\n\n\n\n\
+	n#SharingIsCaring 🧡🧡\n\n\n\n\n(NOTE: This is an aka.ms link as w
+	e might change the actual invite URL. This way any changes are transparent
+	 for you as long as you access the call from above link)\n\n\n\n\n== == ==
+	 == == == == == == == == == == ==\n\nMicrosoft 365 & Power Platform commun
+	ity – https://aka.ms/community\n\nMicrosoft 365 & Power Platform communi
+	ty calls – https://aka.ms/community/calls\n\nMicrosoft 365 and Power Pla
+	tform Community YouTube channel – https://aka.ms/community/youtube\n\nMi
+	crosoft 365 Developer YouTube channel – https://aka.ms/M365DevYouTube\n\
+	nSample galleries – take advantage of existing samples – https://aka.m
+	s/community/samples\n\n\n
+DTEND;TZID="Pacific Standard Time":20250918T080000
+DTSTAMP:20250919T150729Z
+DTSTART;TZID="Pacific Standard Time":20250918T070000
+LAST-MODIFIED:20250919T150728Z
+PRIORITY:5
+RRULE:FREQ=WEEKLY;BYDAY=TH
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:Microsoft 365 and Power Platform community call
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E00800000000D00F3EC87329DC01000000000000000
+	010000000468747454840DE4FA6CFE0EF0241C0A2
+X-ALT-DESC;FMTTYPE=text/html:<html>\n<head>\n\n</head>\n<body>\n<p style="t
+	ext-align: left\; text-indent: 0px\; background-color: rgb(255\, 255\, 255
+	)\; margin: 0cm\;">\n<span style="font-family: Calibri\, sans-serif\; font
+	-size: 11pt\; color: rgb(66\, 66\, 66)\;">Welcome to Microsoft 365 &amp\; 
+	Power Platform community call around Microsoft 365 &amp\; Power Platform t
+	opics.&nbsp\;</span></p>\n<p style="text-align: left\; text-indent: 0px\; 
+	background-color: rgb(255\, 255\, 255)\; margin: 0cm\;">\n<span style="fon
+	t-family: Calibri\, sans-serif\; font-size: 11pt\; color: rgb(66\, 66\, 66
+	)\;"><br>\n</span></p>\n<p style="text-align: left\; text-indent: 0px\; ba
+	ckground-color: rgb(255\, 255\, 255)\; margin: 0cm\;">\n<span style="font-
+	family: Calibri\, sans-serif\; font-size: 11pt\; color: rgb(66\, 66\, 66)\
+	;">Topics covered in this call are solutions\, techniques\, samples &amp\;
+	 more from the community across the Microsoft 365 &amp\; Power Platform wi
+	th updates on community projects and\n 2-3 live demos.</span></p>\n<p styl
+	e="text-align: left\; text-indent: 0px\; background-color: rgb(255\, 255\,
+	 255)\; margin: 0cm\;">\n<span style="font-family: Calibri\, sans-serif\; 
+	font-size: 11pt\; color: rgb(66\, 66\, 66)\;"><br>\n</span></p>\n<p class=
+	"elementToProof" style="text-align: left\; text-indent: 0px\; background-c
+	olor: rgb(255\, 255\, 255)\; margin: 0cm\;">\n<span style="font-family: Ca
+	libri\, sans-serif\; font-size: 11pt\; color: rgb(66\, 66\, 66)\;">Link to
+	 join the Microsoft 365 &amp\; Power Platform Community Call -\n</span><sp
+	an style="font-family: Calibri\, sans-serif\; font-size: 11pt\; color: rgb
+	(5\, 99\, 193)\;"><u><a href="https://aka.ms/community/m365-powerplat-call
+	-join" target="_blank" id="OWAe077a5c6-4563-c87d-cfba-d975e0969f16" class=
+	"x_OWAAutoLink" rel="noopener noreferrer" data-auth="NotApplicable" style=
+	"margin-top: 0px\; margin-bottom: 0px\;">https://aka.ms/community/m365-pow
+	erplat-call-join</a></u></span></p>\n<p class="elementToProof" style="text
+	-align: left\; text-indent: 0px\; background-color: rgb(255\, 255\, 255)\;
+	 margin: 0cm\;">\n<span style="font-family: Calibri\, sans-serif\; font-si
+	ze: 11pt\; color: rgb(5\, 99\, 193)\;"><br>\n</span></p>\n<p class="elemen
+	tToProof" style="text-align: left\; text-indent: 0px\; background-color: r
+	gb(255\, 255\, 255)\; margin: 0cm\;">\n<span style="font-family: Calibri\,
+	 sans-serif\; font-size: 11pt\; color: rgb(0\, 0\, 0)\;">#SharingIsCaring 
+	🧡🧡</span></p>\n<p style="text-align: left\; text-indent: 0px\; b
+	ackground-color: rgb(255\, 255\, 255)\; margin: 0cm\;">\n<span style="font
+	-family: Calibri\, sans-serif\; font-size: 11pt\; color: rgb(66\, 66\, 66)
+	\;"><br>\n</span></p>\n<p style="text-align: left\; text-indent: 0px\; bac
+	kground-color: rgb(255\, 255\, 255)\; margin: 0cm\;">\n<span style="font-f
+	amily: Calibri\, sans-serif\; font-size: 11pt\; color: rgb(66\, 66\, 66)\;
+	">(NOTE: This is an aka.ms link as we might change the actual invite URL. 
+	This way any changes are transparent for you as long as you access the cal
+	l from above link)</span></p>\n<p style="text-align: left\; text-indent: 0
+	px\; background-color: rgb(255\, 255\, 255)\; margin: 0cm\;">\n<span style
+	="font-family: Calibri\, sans-serif\; font-size: 11pt\; color: rgb(66\, 66
+	\, 66)\;"><br>\n</span></p>\n<p style="text-align: left\; text-indent: 0px
+	\; background-color: rgb(255\, 255\, 255)\; margin: 0cm\;">\n<span style="
+	font-family: Calibri\, sans-serif\; font-size: 11pt\; color: rgb(66\, 66\,
+	 66)\;">== == == == == == == == == == == == == ==</span></p>\n<p class="el
+	ementToProof" style="text-align: left\; text-indent: 0px\; background-colo
+	r: rgb(255\, 255\, 255)\; margin: 0cm\;">\n<span style="font-family: Calib
+	ri\, sans-serif\; font-size: 11pt\; color: rgb(66\, 66\, 66)\;">Microsoft 
+	365 &amp\; Power Platform community –\n</span><span style="font-family: 
+	Calibri\, sans-serif\; font-size: 11pt\; color: rgb(5\, 99\, 193)\;"><u><a
+	 href="https://aka.ms/community" title="https://aka.ms/community" style="m
+	argin-top: 0px\; margin-bottom: 0px\;">https://aka.ms/community</a></u></s
+	pan></p>\n<p class="elementToProof" style="text-align: left\; text-indent:
+	 0px\; background-color: rgb(255\, 255\, 255)\; margin: 0px 0cm\;">\n<span
+	 style="font-family: Calibri\, sans-serif\; font-size: 11pt\; color: rgb(6
+	6\, 66\, 66)\;">Microsoft 365 &amp\; Power Platform community calls –\n<
+	/span><span style="font-family: Calibri\, sans-serif\; font-size: 11pt\; c
+	olor: rgb(5\, 99\, 193)\;"><u><a href="https://aka.ms/community/calls" tit
+	le="https://aka.ms/community/calls" style="margin-top: 0px\; margin-bottom
+	: 0px\;">https://aka.ms/community/calls</a></u></span></p>\n<p class="elem
+	entToProof" style="text-align: left\; text-indent: 0px\; background-color:
+	 rgb(255\, 255\, 255)\; margin: 0px 0cm\;">\n<span style="font-family: Cal
+	ibri\, sans-serif\; font-size: 11pt\; color: rgb(66\, 66\, 66)\;">Microsof
+	t 365 and Power Platform Community YouTube channel –\n</span><span style
+	="font-family: Calibri\, sans-serif\; font-size: 11pt\; color: rgb(5\, 99\
+	, 193)\;"><u><a href="https://aka.ms/community/youtube" title="https://aka
+	.ms/community/youtube" style="margin-top: 0px\; margin-bottom: 0px\;">http
+	s://aka.ms/community/youtube</a></u></span></p>\n<p class="elementToProof"
+	 style="text-align: left\; text-indent: 0px\; background-color: rgb(255\, 
+	255\, 255)\; margin: 0cm\;">\n<span style="font-family: Calibri\, sans-ser
+	if\; font-size: 11pt\; color: rgb(66\, 66\, 66)\;">Microsoft 365 Developer
+	 YouTube channel –\n</span><span style="font-family: Calibri\, sans-seri
+	f\; font-size: 11pt\; color: rgb(5\, 99\, 193)\;"><u><a href="https://aka.
+	ms/M365DevYouTube" title="https://aka.ms/M365DevYouTube" style="margin-top
+	: 0px\; margin-bottom: 0px\;">https://aka.ms/M365DevYouTube</a></u></span>
+	</p>\n<p class="elementToProof" style="text-align: left\; text-indent: 0px
+	\; background-color: rgb(255\, 255\, 255)\; margin: 0cm\;">\n<span style="
+	font-family: Calibri\, sans-serif\; font-size: 11pt\; color: rgb(66\, 66\,
+	 66)\;">Sample galleries – take advantage of existing samples –\n</spa
+	n><span style="font-family: Calibri\, sans-serif\; font-size: 11pt\; color
+	: rgb(5\, 99\, 193)\;"><u><a href="https://aka.ms/community/samples" title
+	="https://aka.ms/community/samples" style="margin-top: 0px\; margin-bottom
+	: 0px\;">https://aka.ms/community/samples</a></u></span></p>\n<div style="
+	font-family: Aptos\, Aptos_EmbeddedFont\, Aptos_MSFontService\, Calibri\, 
+	Helvetica\, sans-serif\; font-size: 12pt\; color: rgb(0\, 0\, 0)\;">\n<br>
+	\n</div>\n</body>\n</html>\n
+X-MICROSOFT-CDO-BUSYSTATUS:BUSY
+X-MICROSOFT-CDO-IMPORTANCE:1
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

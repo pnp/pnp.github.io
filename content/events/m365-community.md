@@ -1,13 +1,14 @@
 ---
-title: "Microsoft 365 & Power Platform - General Development"
+title: "Copilot, Microsoft 365 & Power Platform"
 presenter: "Presented by the Community"
-occurrence: "Bi-weekly on Thursdays"
-time: "7:00 AM PT / 3:00 PM GMT"
-joinUrl: "https://aka.ms/community/m365-powerplat-dev-call-join"
-inviteUrl: "https://aka.ms/community/m365-powerplat-dev-call-invite"
+occurrence: "Weekly on Thursdays"
+time: "7:00 AM PT / 2:00 PM GMT"
+joinUrl: "https://aka.ms/community/m365-powerplat-call-join"
+inviteUrl: "https://aka.ms/community/m365-powerplat-call-invite"
 youtubeUrl: "https://www.youtube.com/playlist?list=PLR9nK3mnD-OURfm5Ypu-wK52cxBv_gXCA"
+meetupURL: "https://www.meetup.com/global-microsoft-365-dev-meetup"
 description: >
-    Welcome to Microsoft 365 Patterns and Practices Bi-weekly Special Interest Group call around Microsoft 365 General developer topics. Topics covered in this call are solution designs, provisioning, Microsoft Teams, SharePoint, Online, Power Platform etc. across the platform with updates from Microsoft and 2-3 live demos.
+    Recordings from the Microsoft 365 & Power Platform community call meeting concentrating on topics in Microsoft 365 & Power Platform, including Copilot, SharePoint, Power Apps and more!
 organizer: "Microsoft 365 & Power Platform Community"
 image: "images/sample-event.webp"
 weight: 30

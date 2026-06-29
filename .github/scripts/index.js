@@ -8,14 +8,15 @@ const repoRoot = process.cwd();
 console.log('Repo root:', repoRoot);
 
 let dirPath;
-if (process.argv.includes('--action')) {
-    // If the script is being run as a GitHub Actions workflow
-    dirPath = path.join(repoRoot, '../../');
-    console.log('Running as a GitHub Action');
+if (process.argv.includes('--direct')) {
+    // If the script is being run locally
+    console.log('Running directly')
+    dirPath = path.join(repoRoot, './static/');
     console.log('Directory path:', dirPath);
 } else {
-    // If the script is being run locally
-    dirPath = path.join(repoRoot, './static/');
+    // If the script is being run as a GitHub Actions workflow
+    dirPath = '/home/runner/work/pnp.github.io/pnp.github.io/gh-pages';
+    console.log('Running as a GitHub Action');
     console.log('Directory path:', dirPath);
 }
 

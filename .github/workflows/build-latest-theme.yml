@@ -1,0 +1,45 @@
+name: Build Site With Latest Theme
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+        with:
+          submodules: true
+
+      - name: Update theme submodule
+        run: |
+          git config submodule.themes/pnp-hugo-theme.branch main
+          git submodule update --remote --checkout themes/pnp-hugo-theme
+          git -C themes/pnp-hugo-theme log -1 --oneline
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: .github/scripts/package-lock.json
+
+      - name: Install calendar dependencies
+        run: npm ci
+        working-directory: .github/scripts
+
+      - name: Update calendar files
+        run: node .github/scripts/index.js --direct
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3.2.0
+        with:
+          hugo-version: '0.124.1'
+
+      - name: Build
+        run: hugo
