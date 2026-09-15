@@ -1,5 +1,5 @@
 ---
-title: "Power Platform Monthly Call"
+title: "Power Platform & Copilot Studio Monthly Call"
 presenter: "Presented by the Community"
 occurrence: "Third Wednesday of every month"
 time: "8:00 AM PT / 4:00 PM GMT"

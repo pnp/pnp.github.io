@@ -4,7 +4,7 @@ presenter: "Presented by the Community"
 occurrence: "Third Tuesday of every month"
 time: "7:00 AM PT / 3:00 PM GMT"
 joinUrl: "https://aka.ms/mm4m365/join-call"
-inviteUrl: "https://aka.ms/mm4m365/invite"
+inviteUrl: "https://aka.ms/mm4m365/ics"
 youtubeUrl: "https://symp.info/MM4M365Videos"
 meetupURL: "https://www.meetup.com/global-microsoft-365-dev-meetup"
 weight: 60
