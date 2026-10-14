@@ -2,7 +2,7 @@
 title: "Dynamics 365 Community Call (CRM Edition)"
 presenter: "Presented by the Community & Microsoft"
 occurrence: "First Wednesday of every month"
-time: "9:00 AM PT / 4:00 PM GMT"
+time: "7:00 AM PT / 2:00 PM GMT"
 joinUrl: "https://aka.ms/D365CRMCommunityCall-Join"
 inviteUrl: "https://aka.ms/D365CRMCommunityCall-Invite"
 youtubeUrl: "https://www.youtube.com/playlist?list=PLFSag4twLTk9E0fkhx1PsnIAErXMzzNBP"

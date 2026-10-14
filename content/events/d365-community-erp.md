@@ -2,7 +2,7 @@
 title: "Dynamics 365 Community Call (ERP Edition)"
 presenter: "Presented by the Community & Microsoft"
 occurrence: "Second Wednesday of every month"
-time: "9:00 AM PT / 4:00 PM GMT"
+time: "7:00 AM PT / 2:00 PM GMT"
 joinUrl: "https://aka.ms/D365ERPCommunityCall-Join"
 inviteUrl: "https://aka.ms/D365ERPCommunityCall-Invite"
 youtubeUrl: "https://www.youtube.com/playlist?list=PLFSag4twLTk9UcgmBPDoUt0nQKC1Kvz2n"
