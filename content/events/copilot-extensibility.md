@@ -2,7 +2,7 @@
 title: "Copilot Extensibility Monthly Call"
 presenter: "Presented by Microsoft"
 occurrence: "Second Wednesday of every month"
-time: "8:00 AM PT / 4:00 PM GMT"
+time: "8:00 AM PT / 3:00 PM GMT"
 joinUrl: "https://aka.ms/community/CopilotExtensibility-call-join"
 inviteUrl: "https://aka.ms/community/CopilotExtensibility-call-invite"
 meetupURL: "https://www.meetup.com/global-microsoft-365-dev-meetup"
