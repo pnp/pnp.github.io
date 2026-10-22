@@ -1,0 +1,5 @@
+{{/* Load site-owned overrides after the shared theme; initialise colour preference before painting. */}}
+{{ $styles := resources.Get "css/refresh.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+{{ $script := resources.Get "js/refresh.js" | minify | fingerprint }}
+<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>

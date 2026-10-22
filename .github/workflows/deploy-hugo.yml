@@ -8,6 +8,9 @@ on:
     paths:
       - 'content/**'
       - 'data/**'
+      - 'assets/**'
+      - 'layouts/**'
+      - 'config/**'
 
 permissions:
   contents: write

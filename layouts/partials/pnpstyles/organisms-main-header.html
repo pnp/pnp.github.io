@@ -1,0 +1,26 @@
+<header class="page-header">
+    <div class="header-spectrum" aria-hidden="true"></div>
+    <div class="page-header-inner">
+        {{ partial "pnpstyles/atoms-logo-small.html" . }}
+        <div class="header-actions">
+            <nav class="nav" aria-label="Primary navigation">
+                <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="Open navigation" hidden>
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+                {{ partial "pnpstyles/molecules-nav-primary.html" . }}
+            </nav>
+            <button class="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Dark mode" title="Switch to dark mode" hidden>
+                <svg class="theme-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4"/>
+                    <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/>
+                </svg>
+                <svg class="theme-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                    <path d="M20.5 13A8.5 8.5 0 0 1 11 3.5 8.5 8.5 0 1 0 20.5 13Z"/>
+                </svg>
+            </button>
+            <span class="theme-status visually-hidden" role="status"></span>
+        </div>
+    </div>
+</header>

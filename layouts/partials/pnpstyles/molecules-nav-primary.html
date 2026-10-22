@@ -1,0 +1,11 @@
+<ul class="nav-menu primary" id="primary-menu">
+    {{ range .Site.Menus.main }}
+    {{ $url := .URL }}
+    {{ if hasPrefix $url "#" }}
+        {{ $url = printf "%s%s" $.Site.Home.RelPermalink $url }}
+    {{ end }}
+    <li class="nav-item">
+        <a href="{{ $url }}" class="nav-link">{{ .Name }}</a>
+    </li>
+    {{ end }}
+</ul>

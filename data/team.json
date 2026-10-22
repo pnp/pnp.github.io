@@ -103,7 +103,7 @@
     },
     {
         "name": "Andrew Connell",
-        "company": "Voitanos",
+        "company": "Andrew Connell Inc.",
         "img": "images/team/andrewconnell.webp",
         "github": "https://github.com/andrewconnell",
         "title": "MVP",
@@ -286,6 +286,7 @@
         "company": "Clouds On Mars",
         "img": "images/team/janchlebek.webp",
         "github": "https://github.com/jan-chlebek",
+        "title": "MVP",
         "linkedin": "https://www.linkedin.com/in/jan-chlebek/"
     },    
     {
