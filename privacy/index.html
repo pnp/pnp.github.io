@@ -62,14 +62,20 @@
 
 
 
+<link rel="stylesheet" href="/css/refresh.min.6ea3316f23b438b30006f4bc69e2ac0d884b962a4e52df0bd78701d4a626345b.css" integrity="sha256-bqMxbyO0OLMABvS8aeKsDYhLlipOUt8L14cB1KYmNFs=">
+
+<script src="/js/refresh.min.13d3e014d32ccea725246c4d9f066c42295f0bac4e7bbcd53731af1a52413407.js" integrity="sha256-E9PgFNMszqclJGxNnwZsQilfC6xOe7zVNzGvGlJBNAc="></script>
+
+
     <!-- Made with ❤️ by the PnP team -->
     <!-- Design: Stefan Bauer (https://n8d.at/)-->
     <!-- Site: Hugo Bernier (https://tahoeninja.blog/)-->
 </head>
 <body class="pnp-backdrop">
-    <div class="wrapper">
-<header class="page-header">
-    
+    <div class="wrapper"><header class="page-header">
+    <div class="header-spectrum" aria-hidden="true"></div>
+    <div class="page-header-inner">
+        
 
 <a class="site-logo-link" href="https://pnp.github.io/">
     <div class="site-logo">
@@ -89,59 +95,86 @@
         
     </div>
 </a>
-
-    <nav class="nav">
-        <button class="hamburger" tabindex="-1">
-            <svg class="active">
-                <title id="ham-title-active">Click to close - Hamburger in form of arrows</title>
-                <use xlink:href="https://pnp.github.io/images/base-assets.svg#hamburger"></use>
-            </svg>
-            <svg class="inactive">
-                <title id="ham-title-inactive">Click to open - Hamburger in form of three stripes</title>
-                <use xlink:href="https://pnp.github.io/images/base-assets.svg#hamburger-inactive"></use>
-            </svg>
-        </button>
+        <div class="header-actions">
+            <nav class="nav" aria-label="Primary navigation">
+                <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="Open navigation" hidden>
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                        <path d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+                <ul class="nav-menu primary" id="primary-menu">
+    
+    
+    
+    <li class="nav-item">
+        <a href="https://pnp.github.io/blog" class="nav-link">Blog</a>
+    </li>
+    
+    
+    
         
-<menu class="nav-menu primary" aria-label="Primary navigation" aria-expanded="true">
     
     <li class="nav-item">
-        <a href="https://pnp.github.io/blog" class="nav-link">
-            Blog</a>
+        <a href="/#events" class="nav-link">Community Calls</a>
     </li>
+    
+    
+    
+        
     
     <li class="nav-item">
-        <a href="#events" class="nav-link">
-            Community Calls</a>
+        <a href="/#guidance" class="nav-link">Guidance</a>
     </li>
+    
+    
+    
+        
     
     <li class="nav-item">
-        <a href="#guidance" class="nav-link">
-            Guidance</a>
+        <a href="/#samples" class="nav-link">Samples &amp; Solutions</a>
     </li>
+    
+    
+    
+        
     
     <li class="nav-item">
-        <a href="#samples" class="nav-link">
-            Samples & Solutions</a>
+        <a href="/#sdks" class="nav-link">SDKS</a>
     </li>
+    
+    
+    
+        
     
     <li class="nav-item">
-        <a href="#sdks" class="nav-link">
-            SDKS</a>
+        <a href="/#tools" class="nav-link">Tools</a>
     </li>
+    
+    
+    
+        
     
     <li class="nav-item">
-        <a href="#tools" class="nav-link">
-            Tools</a>
+        <a href="/#team" class="nav-link">Team</a>
     </li>
     
-    <li class="nav-item">
-        <a href="#team" class="nav-link">
-            Team</a>
-    </li>
-    
-</menu>
-    </nav>
-</header></div>
+</ul>
+
+            </nav>
+            <button class="theme-toggle" type="button" role="switch" aria-checked="false" aria-label="Dark mode" title="Switch to dark mode" hidden>
+                <svg class="theme-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                    <circle cx="12" cy="12" r="4"/>
+                    <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/>
+                </svg>
+                <svg class="theme-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                    <path d="M20.5 13A8.5 8.5 0 0 1 11 3.5 8.5 8.5 0 1 0 20.5 13Z"/>
+                </svg>
+            </button>
+            <span class="theme-status visually-hidden" role="status"></span>
+        </div>
+    </div>
+</header>
+</div>
     
     <main>
 <h1>Privacies</h1>
