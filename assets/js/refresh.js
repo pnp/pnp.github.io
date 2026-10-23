@@ -1,13 +1,21 @@
 (() => {
-    const storageKey = 'pnp-color-scheme';
+    // Use the blog's key so the preference follows visitors between both sites.
+    const storageKey = 'pnp-blog-theme';
+    const legacyStorageKey = 'pnp-color-scheme';
     const root = document.documentElement;
     const systemTheme = window.matchMedia('(prefers-color-scheme: dark)');
     let preference = null;
 
     try {
         preference = window.localStorage.getItem(storageKey);
+        if (preference !== 'dark' && preference !== 'light') {
+            preference = window.localStorage.getItem(legacyStorageKey);
+            if (preference === 'dark' || preference === 'light') {
+                window.localStorage.setItem(storageKey, preference);
+            }
+        }
     } catch (error) {
-        console.warn('Unable to read the saved colour scheme; using the system preference.', error);
+        console.warn('Unable to read or migrate the saved colour scheme.', error);
     }
 
     const applyTheme = (dark) => {
@@ -53,7 +61,7 @@
 
         const menuToggle = document.querySelector('.menu-toggle');
         const menu = document.getElementById('primary-menu');
-        const mobile = window.matchMedia('(max-width: 1200px)');
+        const mobile = window.matchMedia('(max-width: 1199px)');
         if (!menuToggle || !menu) return;
 
         const setMenu = (open) => {
@@ -89,7 +97,7 @@
             }
         });
         document.addEventListener('click', (event) => {
-            if (!event.target.closest('.nav')) setMenu(false);
+            if (!event.target.closest('.page-header')) setMenu(false);
         });
     });
 })();

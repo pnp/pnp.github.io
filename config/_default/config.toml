@@ -7,10 +7,11 @@ theme = "pnp-hugo-theme"
 watch = true
 
 [menus]
+# Keep labels and order aligned with pnp/blog's primary navigation.
 [[menus.main]]
 identifier = "blog"
 name = "Blog"
-url = "https://pnp.github.io/blog"
+url = "https://pnp.github.io/blog/"
 weight = 10
 
 [[menus.main]]
@@ -33,7 +34,7 @@ weight = 40
 
 [[menus.main]]
 identifier = "sdks"
-name = "SDKS"
+name = "SDKs"
 url = "#sdks"
 weight = 50
 
@@ -42,12 +43,6 @@ identifier = "tools"
 name = "Tools"
 url = "#tools"
 weight = 60
-
-[[menus.main]]
-identifier = "team"
-name = "Team"
-url = "#team"
-weight = 70
 
 [params]
 description = "Learn from others how to build apps on Microsoft 365 & Power Platform."
