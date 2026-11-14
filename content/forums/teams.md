@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Teams Development"
-description: "Microsoft Teams: A Microsoft customizable chat-based workspace. Development: The process of researching, productizing, and refining new or existing technologies."
-image: "images/forums-background-teams.webp"
-externalLink: "https://docs.microsoft.com/answers/topics/office-teams-app-dev.html"
+description: "Ask and answer technical questions about Microsoft Teams app development, integrations, and developer APIs."
+image: "images/forums/teams.png"
+externalLink: "https://learn.microsoft.com/en-us/answers/tags/339/office-teams-development-routing"
 ---

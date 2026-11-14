@@ -1,0 +1,11 @@
+{{ if findRE "^images/(samples|guidance|sdks|tools|extensions|forums)/" .image }}
+    {{ $source := resources.Get .image }}
+    {{ if not $source }}{{ errorf "The resource preview %q is missing." .image }}{{ end }}
+    {{ $small := $source.Resize "480x jpg q84 Lanczos" }}
+    {{ $large := $source.Resize "960x jpg q86 Lanczos" }}
+    <img src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} 480w, {{ $large.RelPermalink }} 960w"
+        sizes="{{ .sizes }}" class="{{ .class }} resource-screenshot" width="{{ $small.Width }}" height="{{ $small.Height }}"
+        alt="{{ .alt }}" loading="lazy" decoding="async">
+{{ else }}
+    <img src="{{ .image | absURL }}" class="{{ .class }}" alt="{{ .alt }}" loading="lazy" decoding="async">
+{{ end }}

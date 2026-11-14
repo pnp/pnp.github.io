@@ -1,0 +1,93 @@
+<section class="hero-main" id="{{ .File.BaseFileName }}">
+    <div class="hero-main-inner">
+        <h1 class="hero-title logo-big">
+            {{ range .Site.Params.bigLogo }}
+            <span class="{{ .class | default "" }} u-nowrap">{{ .line | safeHTML }}</span>
+            {{ end }}
+        </h1>
+        <div class="hero-content">
+            {{ with .Content }}
+            <div class="tagline">{{ . }}</div>
+            {{ end }}
+            <div class="hero-actions">
+                <a class="action-link action-link-primary" href="{{ .Site.Home.RelPermalink }}#samples">
+                    Explore samples
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                        <path d="M5 12h14m-6-6 6 6-6 6"/>
+                    </svg>
+                </a>
+                <a class="action-link" href="{{ .Site.Home.RelPermalink }}#events">Join a community call</a>
+            </div>
+        </div>
+        <figure class="hero-human human-photo" aria-hidden="true">
+            {{ partial "human-image.html" (dict
+                "src" "images/humans/together.jpg"
+                "sizes" "(max-width: 1199px) 200px, 220px"
+                "eager" true
+            ) }}
+        </figure>
+    </div>
+    {{ $channel := .Site.GetPage "/guidance/youtube" }}
+    <aside class="hero-channel" aria-labelledby="hero-channel-title">
+        <a class="channel-preview" href="{{ $channel.Params.externalLink }}" aria-label="Watch {{ $channel.Title }}">
+            {{ partial "resource-image.html" (dict
+                "image" $channel.Params.image
+                "alt" "Microsoft Community Learning YouTube channel and recent videos"
+                "class" "channel-screenshot"
+                "sizes" "(max-width: 767px) 112px, 260px"
+            ) }}
+        </a>
+        <div class="channel-copy">
+            <p class="channel-eyebrow">Watch. Learn. Build.</p>
+            <h2 id="hero-channel-title">{{ $channel.Title }}</h2>
+            <p class="channel-description">{{ $channel.Description }}</p>
+            <a class="action-link action-link-primary" href="{{ $channel.Params.externalLink }}">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                    <rect x="2" y="5" width="20" height="14" rx="4"/>
+                    <path d="m10 9 5 3-5 3Z"/>
+                </svg>
+                Watch on YouTube
+            </a>
+        </div>
+    </aside>
+    {{ $contribute := .Site.GetPage "/guidance/sic" }}
+    <nav class="journey-nav" aria-label="Explore the community">
+        <a class="journey-link" href="{{ .Site.Home.RelPermalink }}#guidance">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                <path d="M12 5v15m0-15C9 3 5 3 2 4v15c3-1 7-1 10 1m0-15c3-2 7-2 10-1v15c-3-1-7-1-10 1"/>
+            </svg>
+            <span><strong>Learn</strong><span>Guidance &amp; best practices</span></span>
+        </a>
+        <a class="journey-link" href="{{ .Site.Home.RelPermalink }}#samples">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                <path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-14-2 16"/>
+            </svg>
+            <span><strong>Build</strong><span>Samples, tools &amp; solutions</span></span>
+        </a>
+        <a class="journey-link" href="{{ .Site.Home.RelPermalink }}#events">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2m20 0v-2a4 4 0 0 0-3-3.87M15 3.13a4 4 0 0 1 0 7.75"/>
+                <circle cx="9" cy="7" r="4"/>
+            </svg>
+            <span><strong>Connect</strong><span>Meet the community</span></span>
+        </a>
+        <a class="journey-link" href="{{ $contribute.Params.externalLink }}">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/>
+            </svg>
+            <span><strong>Contribute</strong><span>Start with Sharing is Caring</span></span>
+        </a>
+    </nav>
+    {{ with .Title }}
+    <div class="hero-ribbon">
+        <div class="call2action">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2m20 0v-2a4 4 0 0 0-3-3.87M15 3.13a4 4 0 0 1 0 7.75"/>
+                <circle cx="9" cy="7" r="4"/>
+            </svg>
+            <span>{{ . | safeHTML }}</span>
+        </div>
+    </div>
+    {{ end }}
+    {{ partial "recognition-promo.html" . }}
+</section>

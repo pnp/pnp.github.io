@@ -1,0 +1,34 @@
+<section class="section-base blog" id="{{ .File.BaseFileName }}" aria-labelledby="{{ .File.BaseFileName }}-title">
+    <div class="section-inner">
+        <header class="section-header">
+            <h2 id="{{ .File.BaseFileName }}-title">{{ .Title | safeHTML }}</h2>
+            <p>{{ .Description | safeHTML }}</p>
+        </header>
+        <aside class="blog-publishing" aria-labelledby="blog-publishing-title">
+            <figure class="publishing-human human-photo" aria-hidden="true">
+                {{ partial "human-image.html" (dict
+                    "src" "images/humans/sharing.jpg"
+                    "portrait" true
+                    "sizes" "(max-width: 639px) 72px, 112px"
+                ) }}
+            </figure>
+            <div class="publishing-copy">
+                <h3 id="blog-publishing-title">Share your knowledge. Publish with the community.</h3>
+                <p>Your real-world solutions, lessons learned, and practical tips can help others build better.</p>
+            </div>
+            <div class="publishing-actions">
+                <a class="action-link action-link-primary" href="https://github.com/pnp/blog/blob/main/CONTRIBUTING.md">Write for the community</a>
+                <a class="action-link" href="{{ .Site.Data.blog.blogURL }}">Explore the blog</a>
+            </div>
+        </aside>
+        <p class="feed-status" id="blog-feed-status" role="status" hidden></p>
+        <ul class="section-grid" id="rss-section" data-feed-url="{{ .Site.Data.blog.url }}">
+            {{ if not .Site.Data.blog.items }}{{ errorf "The community blog snapshot is empty. Run npm run refresh:blog in .github/scripts." }}{{ end }}
+            {{ range .Site.Data.blog.items }}
+            <li>{{ partial "pnpstyles/organisms-blog-feed-card.html" . }}</li>
+            {{ end }}
+        </ul>
+    </div>
+</section>
+{{ $js := resources.Get "js/blog-feed.js" | resources.Minify }}
+<script src="{{ $js.Permalink }}"></script>

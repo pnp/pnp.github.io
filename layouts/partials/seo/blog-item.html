@@ -1,0 +1,11 @@
+{{ $item := dict
+    "@type" "BlogPosting"
+    "url" .url
+    "headline" .title
+    "name" .title
+    "description" (.description | plainify | htmlUnescape)
+    "datePublished" .published
+}}
+{{ with .author }}{{ $item = merge $item (dict "author" (dict "@type" "Person" "name" .)) }}{{ end }}
+{{ with .image }}{{ $item = merge $item (dict "image" .) }}{{ end }}
+{{ return $item }}

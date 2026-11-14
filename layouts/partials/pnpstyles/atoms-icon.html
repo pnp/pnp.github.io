@@ -1,0 +1,10 @@
+<span class="icon">
+    {{ if eq .iconName "ms-teams-2" }}
+    <img src="{{ "images/teams-logo.png" | absURL }}" width="22" height="22" alt="{{ if not .ariaHidden }}{{ .title }}{{ end }}" aria-hidden="{{ .ariaHidden }}">
+    {{ else }}
+    <svg class="icon-svg {{ .iconName }}" aria-hidden="{{ .ariaHidden }}">
+        {{ if not .ariaHidden }}<title>{{ .title }}</title>{{ end }}
+        <use href="{{ "images/base-assets.svg" | absURL }}#{{ .iconName }}"></use>
+    </svg>
+    {{ end }}
+</span>

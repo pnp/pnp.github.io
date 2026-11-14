@@ -1,0 +1,13 @@
+{{ $links := slice }}
+{{ with .github }}{{ $links = $links | append (dict "url" . "iconName" "icon-github" "ariaHidden" true "title" "Follow on GitHub") }}{{ end }}
+{{ with .linkedin }}{{ $links = $links | append (dict "url" . "iconName" "icon-linkedin" "ariaHidden" true "title" "Connect on LinkedIn") }}{{ end }}
+{{ with .twitter }}{{ $links = $links | append (dict "url" . "iconName" "icon-twitter" "ariaHidden" true "title" "Follow on Twitter") }}{{ end }}
+{{ with .bluesky }}{{ $links = $links | append (dict "url" . "iconName" "icon-bluesky" "ariaHidden" true "title" "Follow on Bluesky") }}{{ end }}
+{{ $social := slice }}
+{{ range $links }}{{ $social = $social | append .url }}{{ end }}
+{{ $person := dict "@context" "https://schema.org" "@type" "Person" "name" .name "sameAs" $social }}
+{{ with .img }}{{ $person = merge $person (dict "image" (. | absURL)) }}{{ end }}
+{{ with .title }}{{ $person = merge $person (dict "description" .) }}{{ end }}
+{{ with .company }}{{ $person = merge $person (dict "worksFor" (dict "@type" "Organization" "name" .)) }}{{ end }}
+<script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+{{ partial "pnpstyles/molecules-card-side-plate-vert" (dict "links" $links) }}

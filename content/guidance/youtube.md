@@ -1,6 +1,6 @@
 ---
-title: "YouTube Channel"
-description: "Check out the Microsoft 365 + Power Platform weekly webcasts, demo videos, tutorials and more."
-image: "images/guidance-background-youtube.webp"
-externalLink: "https://www.youtube.com/channel/UC_mKdhw-V6CeCM7gTo_Iy7w"
+title: "Microsoft Community Learning on YouTube"
+description: "Watch community demos, tutorials, and call recordings for Copilot, Microsoft 365 & Power Platform."
+image: "images/guidance/youtube.png"
+externalLink: "https://aka.ms/community/youtube"
 ---

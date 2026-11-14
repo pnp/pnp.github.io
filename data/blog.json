@@ -1,0 +1,43 @@
+{
+  "url": "https://pnp.github.io/blog/index.xml",
+  "blogURL": "https://pnp.github.io/blog/",
+  "items": [
+    {
+      "title": "Weekly Agenda - 16th of November week",
+      "url": "https://pnp.github.io/blog/weekly-agenda/26-11-16/",
+      "published": "2026-11-12T02:00:00.000Z",
+      "description": "Join the Microsoft 365, Copilot and Power Platform community for live demos, product updates and questions with presenters.",
+      "author": "Vesa Juvonen",
+      "category": "Weekly Agenda",
+      "image": "https://pnp.github.io/blog/weekly-agenda/26-11-16/images/weeklyagenda46.png"
+    },
+    {
+      "title": "Who keeps the judgment when AI carries the rules? Microsoft HVE Core in practice",
+      "url": "https://pnp.github.io/blog/post/microsoft-hve-core-governed-agentic-engineering/",
+      "published": "2026-11-06T08:00:00.000Z",
+      "description": "Microsoft HVE Core is the open-source reference implementation of Hypervelocity Engineering, the governed, agentic software lifecycle for GitHub Copilot from Microsoft&rsquo;s Industry Solutions Engineering team. An architect&rsquo;s view of what it gets right, which of its design decisions stand on their own, and how a Microsoft 365 team should bring it in.",
+      "author": "Arindam Choudhury",
+      "category": "Community Post",
+      "image": "https://pnp.github.io/blog/post/microsoft-hve-core-governed-agentic-engineering/images/thumbnail.png"
+    },
+    {
+      "title": "Auditing Exchange Online Distribution Groups for External Sender Access with PowerShell",
+      "url": "https://pnp.github.io/blog/post/auditing-exchange-online-distribution-groups-for-external-sender-access-with-powershell/",
+      "published": "2026-11-06T00:00:00.000Z",
+      "description": "Introduction When reviewing Microsoft 365 security, it&rsquo;s easy to focus on the bigger picture and overlook individual configuration settings that can affect how an organisation receives email.",
+      "author": "Josiah Opiyo",
+      "category": "Community Post",
+      "image": "https://pnp.github.io/blog/post/auditing-exchange-online-distribution-groups-for-external-sender-access-with-powershell/images/cover.png"
+    },
+    {
+      "title": "Four facts a SharePoint answer needs before you can trust it: version, approval status, location and permission",
+      "url": "https://pnp.github.io/blog/post/four-facts-sharepoint-answer-version-approval-location-permission/",
+      "published": "2026-11-06T00:00:00.000Z",
+      "description": "The problem A document assistant over SharePoint rarely fails by saying nothing.",
+      "author": "Kaspars Jurjāns",
+      "category": "Community Post",
+      "image": "https://pnp.github.io/blog/post/four-facts-sharepoint-answer-version-approval-location-permission/images/thumbnail.png"
+    }
+  ],
+  "updatedAt": "2026-11-14T14:47:10.996Z"
+}

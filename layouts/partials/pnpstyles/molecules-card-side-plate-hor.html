@@ -1,0 +1,5 @@
+<div class="card-hor">
+    <h3 class="sample-headline">{{ .title }}</h3>
+    {{ if eq .status "coming-soon" }}<span class="resource-status">Coming soon</span>{{ end }}
+    <p class="sample-desc">{{ .description }}</p>
+</div>

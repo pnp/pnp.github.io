@@ -1,0 +1,39 @@
+{{ $seo := partial "seo/page.html" . }}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ hugo.Generator }}
+<meta name="description" content="{{ $seo.description }}">
+{{ if $seo.indexable }}
+<meta name="robots" content="index, follow, max-image-preview:large">
+{{ else }}
+<meta name="robots" content="noindex, follow">
+{{ end }}
+<link rel="canonical" href="{{ $seo.url }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ $seo.title }}">
+<meta property="og:description" content="{{ $seo.description }}">
+<meta property="og:url" content="{{ $seo.url }}">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="{{ $seo.image }}">
+<meta property="og:image:type" content="{{ $seo.imageType }}">
+<meta property="og:image:width" content="{{ $seo.imageWidth }}">
+<meta property="og:image:height" content="{{ $seo.imageHeight }}">
+<meta property="og:image:alt" content="{{ .Site.Title }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $seo.title }}">
+<meta name="twitter:description" content="{{ $seo.description }}">
+<meta name="twitter:image" content="{{ $seo.image }}">
+<meta name="twitter:image:alt" content="{{ .Site.Title }}">
+{{ partialCached "head/theme-styles.html" . }}
+{{ partialCached "head/custom-styles.html" . }}
+{{ partial "head/favicon.html" . }}
+{{ if .IsHome }}
+<link rel="alternate" type="application/rss+xml" href="{{ .Site.Data.blog.url }}" title="Community blog posts">
+<link rel="alternate" type="text/calendar" href="{{ "calendar.ics" | absURL }}" title="Community calls calendar">
+<link rel="alternate" type="application/json" href="{{ "ical/calendar.json" | absURL }}" title="Community calls data">
+{{ with .OutputFormats.Get "LLMS" }}
+<link rel="alternate" type="text/plain" href="{{ .Permalink }}" title="Community resource index for agents">
+{{ end }}
+{{ end }}
+{{ partial "seo/schema.html" . }}
+{{ partial "head/extensions.html" . }}

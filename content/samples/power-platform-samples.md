@@ -1,6 +1,7 @@
 ---
 title: "Power Platform Samples"
-description: "Repository contains community samples that demonstrate different usage patterns for the Microsoft Power Platform."
-image: "images/samples-background-power-platform-samples.webp"
-externalLink: "https://github.com/pnp/powerplatform-samples"
+description: "Discover community-built apps, automations, agents, and solutions for Microsoft Power Platform."
+image: "images/samples/power-platform-samples.png"
+externalLink: "https://pnp.github.io/powerplatform-samples/"
+weight: 70
 ---

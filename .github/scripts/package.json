@@ -4,10 +4,17 @@
   "description": "Download and convert ICS to JSON",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test:site": "node --test blog-feed.test.js site-output.test.js",
+    "refresh:blog": "node blog-feed.js"
   },
   "dependencies": {
+    "fast-xml-parser": "^5.12.0",
     "ical.js": "^2.0.1",
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "entities": "^4.5.0",
+    "html-validate": "^11.19.0"
   }
 }

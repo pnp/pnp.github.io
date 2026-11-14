@@ -1,0 +1,5 @@
+{{ $section := .site.GetPage "section" .section }}
+{{ if not $section }}{{ errorf "The resource collection %q is missing." .section }}{{ end }}
+{{ $pages := sort $section.Pages "Title" "asc" }}
+{{ if or (eq .section "samples") (eq .section "extensions") }}{{ $pages = $section.Pages.ByWeight }}{{ end }}
+{{ return $pages }}

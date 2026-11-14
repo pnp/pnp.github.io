@@ -1,0 +1,22 @@
+{{ $source := resources.Get "images/badge-contributor.png" }}
+{{ if not $source }}{{ errorf "The contributor badge PNG is missing." }}{{ end }}
+{{ $small := $source.Resize "104x png" }}
+{{ $medium := $source.Resize "208x png" }}
+{{ $large := $source.Resize "320x png" }}
+{{ $start := .Site.GetPage "guidance/sic" }}
+<aside class="recognition-promo" id="recognition" aria-labelledby="recognition-title">
+    <img class="contributor-badge" src="{{ $medium.RelPermalink }}"
+        srcset="{{ $small.RelPermalink }} 104w, {{ $medium.RelPermalink }} 208w, {{ $large.RelPermalink }} 320w"
+        sizes="(max-width: 639px) 104px, 144px" width="{{ $medium.Width }}" height="{{ $medium.Height }}"
+        alt="2026 Microsoft 365 and Power Platform Community contributor badge" loading="lazy" decoding="async">
+    <div class="recognition-copy">
+        <p class="recognition-eyebrow">Your contributions matter</p>
+        <h2 id="recognition-title">Share a little. Make a difference.</h2>
+        <p>Share a sample, publish what you've learned, or help someone take the next step. The community contributor badge celebrates people who share their knowledge.</p>
+        <p class="recognition-caption">New to contributing? <a href="{{ $start.Params.externalLink }}">Sharing is Caring sessions</a> help you get started. Explore the recognition program for criteria and registration details.</p>
+        <div class="recognition-actions">
+            <a class="action-link action-link-primary" href="{{ $start.Params.externalLink }}">Become a contributor</a>
+            <a class="action-link" href="https://aka.ms/community/recognition">About community recognition</a>
+        </div>
+    </div>
+</aside>

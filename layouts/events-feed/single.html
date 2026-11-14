@@ -1,0 +1,17 @@
+<section class="section-base upcoming" id="upcoming" aria-labelledby="upcoming-title">
+    <div class="section-inner">
+        <header class="section-header">
+            <h2 id="upcoming-title">{{ .Title }}</h2>
+            <p>{{ .Description | safeHTML }}</p>
+        </header>
+        <ul class="section-grid" id="calendar-container"></ul>
+        <noscript>
+            <p>Upcoming dates and statuses are loaded from the community calendar. <a href="{{ "calendar.ics" | absURL }}">Subscribe to the calendar</a> or <a href="#events">browse community calls</a>.</p>
+        </noscript>
+    </div>
+</section>
+{{ $js := resources.Get "js/calendar.js" }}
+<script>
+    window.baseUrl = '{{ .Site.BaseURL }}';
+</script>
+<script type="module" src="{{ $js.Permalink }}"></script>

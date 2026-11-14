@@ -1,0 +1,13 @@
+<a href="{{ .externalLink }}" class="card-link" aria-label="{{ .title | htmlUnescape }}{{ if eq .status "coming-soon" }} (coming soon){{ end }}">
+    <article class="card sample" {{ with .status }}data-status="{{ . }}"{{ end }}>
+        <figure class="sample-media">
+            {{ partial "resource-image.html" (dict
+                "image" .image
+                "alt" (.title | htmlUnescape)
+                "class" "sample-media-img"
+                "sizes" "(max-width: 639px) calc(100vw - 32px), (max-width: 1023px) calc((100vw - 72px) / 2), (max-width: 1439px) calc((100vw - 96px) / 3), 420px"
+            ) }}
+        </figure>
+        {{ partial "pnpstyles/molecules-card-side-plate-hor" . }}
+    </article>
+</a>

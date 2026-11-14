@@ -1,0 +1,12 @@
+<div class="card-side">
+    <ul class="card-iconbar">
+        {{ range .links }}
+        <li class="card-iconbar-item">
+            <a href="{{ .url }}" class="card-iconbar-link" aria-label="{{ .title }}">
+                {{ partial "pnpstyles/atoms-icon" (dict "iconName" .iconName "ariaHidden" .ariaHidden "title" .title) }}
+                {{ with .label }}<span class="event-action-label">{{ . }}</span>{{ end }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</div>

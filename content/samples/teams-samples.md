@@ -1,6 +1,7 @@
 ---
-title: "Teams Apps samples"
-description: "Use this site to browse through the available Teams app samples from Microsoft and the Patterns and Practices community."
-image: "images/samples-background-teams-apps.webp"
+title: "Teams Development Samples"
+description: "Browse community examples for building apps, bots, message extensions, and integrations for Microsoft Teams."
+image: "images/samples/teams-samples.png"
 externalLink: "https://pnp.github.io/teams-dev-samples/"
+weight: 130
 ---

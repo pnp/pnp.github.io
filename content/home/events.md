@@ -4,4 +4,8 @@ description: "Stay up-to-date with the latest in Copilot, Microsoft 365 & Power 
 type: "events"
 weight: 30
 ---
-Present at an upcoming call -- **[Tell us about your demo idea](https://aka.ms/community/request/demo)**
+### Volunteer for a demo
+
+Share what you've created and learned with others on a community call.
+
+[Tell us about your demo idea](https://aka.ms/community/request/demo)

@@ -1,0 +1,17 @@
+{{ $links := slice }}
+{{ if .joinUrl }}
+{{ $links = $links | append (dict "url" .joinUrl "iconName" "ms-teams-2" "ariaHidden" true "label" "Join call" "title" (printf "Join call: %s in Microsoft Teams" .Title)) }}
+{{ end }}
+{{ if .inviteUrl }}
+{{ $links = $links | append (dict "url" .inviteUrl "iconName" "icon-calendar-ltr-filled" "ariaHidden" true "label" "Add to calendar" "title" (printf "Add to calendar: %s" .Title)) }}
+{{ end }}
+{{ if .youtubeUrl }}
+{{ $links = $links | append (dict "url" .youtubeUrl "iconName" "icon-video-clip-filled" "ariaHidden" true "label" "Recordings" "title" (printf "Recordings: %s" .Title)) }}
+{{ end }}
+{{ if .meetupUrl }}
+{{ $links = $links | append (dict "url" .meetupUrl "iconName" "icon-meetup" "ariaHidden" true "label" "Meetup" "title" (printf "Meetup: %s" .Title)) }}
+{{ end }}
+{{ if .wwwUrl }}
+{{ $links = $links | append (dict "url" .wwwUrl "iconName" "icon-www" "ariaHidden" true "label" "Website" "title" (printf "Website: %s" .Title)) }}
+{{ end }}
+{{ partial "pnpstyles/molecules-card-side-plate-vert" (dict "links" $links) }}

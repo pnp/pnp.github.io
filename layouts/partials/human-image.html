@@ -1,0 +1,21 @@
+{{ $source := resources.Get .src }}
+{{ if not $source }}{{ errorf "The human image resource %q is missing." .src }}{{ end }}
+{{ $small := $source }}
+{{ $medium := $source }}
+{{ $large := $source }}
+{{ if .portrait }}
+    {{ $anchor := .anchor | default "Center" }}
+    {{ $small = $source.Fill (printf "160x213 %s jpg q78 Lanczos" $anchor) }}
+    {{ $medium = $source.Fill (printf "320x427 %s jpg q80 Lanczos" $anchor) }}
+    {{ $large = $source.Fill (printf "480x640 %s jpg q82 Lanczos" $anchor) }}
+{{ else }}
+    {{ $small = $source.Resize "320x jpg q78 Lanczos" }}
+    {{ $medium = $source.Resize "640x jpg q80 Lanczos" }}
+    {{ $large = $source.Resize "960x jpg q82 Lanczos" }}
+{{ end }}
+<img class="human-image"
+    src="{{ $medium.RelPermalink }}"
+    srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $medium.RelPermalink }} {{ $medium.Width }}w, {{ $large.RelPermalink }} {{ $large.Width }}w"
+    sizes="{{ .sizes }}"
+    width="{{ $medium.Width }}" height="{{ $medium.Height }}"
+    alt="" decoding="async" loading="{{ if .eager }}eager{{ else }}lazy{{ end }}">

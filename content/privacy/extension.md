@@ -1,4 +1,7 @@
-# Privacy Policy
+---
+title: "Privacy Policy"
+description: "Learn how the community extension handles data and modifications to GitHub pages, and how to contact the team about privacy."
+---
 
 Your privacy is important to us. This extension does not collect, store, or transmit any personal or sensitive user data.
 

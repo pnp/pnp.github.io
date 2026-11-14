@@ -1,0 +1,13 @@
+<div class="card-main" {{ with .uid }}id="{{ . }}"{{ end }}>
+    <header class="card-header">
+        <h3>
+            {{ .title }}
+            {{ if .presenter }}<span class="event-presenter">{{ .presenter }}</span>{{ end }}
+        </h3>
+    </header>
+    <div class="card-status-outer"></div>
+    <div class="event-occurance">
+        {{ .occurrence }}<br>
+        {{ .time }}
+    </div>
+</div>

@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams Toolkit
+title: Microsoft 365 Agents Toolkit
 description: >
-    A zero-configuration developer experience to create and deploy Teams apps with integrated identity, access to cloud storage, Microsoft Graph, and Azure and Microsoft 365 services.
-image: images/extensions-background-teamsfx.webp
-externalLink: "https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension"
+    Create and deploy agents and apps for Microsoft 365 Copilot and Teams with integrated identity, Microsoft Graph, Azure, and Microsoft 365 developer tooling.
+image: images/extensions/teamsfx.png
+externalLink: "https://learn.microsoft.com/en-us/microsoftteams/platform/toolkit/overview-agents-toolkit"
 ---

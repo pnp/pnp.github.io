@@ -2,12 +2,13 @@ baseURL = "https://pnp.github.io/"
 languageCode = "en-us"
 title = "Microsoft 365 & Power Platform Community"
 theme = "pnp-hugo-theme"
+enableRobotsTXT = true
 
 [server]
 watch = true
 
 [menus]
-# Keep labels and order aligned with pnp/blog's primary navigation.
+# Community navigation shared with the blog, plus Microsoft Community Learning.
 [[menus.main]]
 identifier = "blog"
 name = "Blog"
@@ -44,14 +45,20 @@ name = "Tools"
 url = "#tools"
 weight = 60
 
+[[menus.main]]
+identifier = "youtube"
+name = "YouTube"
+url = "https://aka.ms/community/youtube"
+weight = 70
+
 [params]
-description = "Learn from others how to build apps on Microsoft 365 & Power Platform."
+description = "Build with Copilot, Microsoft 365 and Power Platform. Explore community samples, guidance, SDKs, tools, videos, community calls, and ways to contribute."
 callToAction = "Changing the world one contribution at a time!"
 tagline = "<p>Learn from others how to build apps on Microsoft 365 & Power Platform.</p><p>Don't reinvent the wheel. Focus on what truly matters for your organization.</p>"
-rssFeedUrl = "https://pnp.github.io/blog/index.xml"
 smallLogo = [ "Microsoft 365 &", "Power Platform", "Community"]
 disablePnPTelemetry = true
-logo = "pnp.svg"
+logo = "images/parker.png"
+socialImage = "images/community-social.png"
 alternateName = "PnP"
 
 [[params.bigLogo]]
@@ -69,29 +76,21 @@ class = "fa-com"
 trackingCode = "a7ttm14uzv"
 
 [outputFormats]
-[outputFormats.Calendar]
-MediaType = "text/calendar"
-BaseName = "calendar"
-IsPlainText = true
-IsHTML = false
-NotAlternative = false
-Rel = "alternate"
-Protocol = "webcal://"
-
-[mediaTypes]
-[mediaTypes."text/calendar"]
-Suffixes = ["ics"]
-Delimiter = ""
+[outputFormats.LLMS]
+mediaType = "text/plain"
+baseName = "llms"
+isPlainText = true
+rel = "alternate"
 
 [outputs]
-home = ["HTML", "Calendar"] 
+home = ["HTML", "LLMS"]
 
 
 [[params.social]]
-name = "YouTube"
+name = "Microsoft Community Learning on YouTube"
 icon = "icon-video-clip-filled"
 weight = 5
-url = "https://www.youtube.com/@MicrosoftCommunityLearning/videos"
+url = "https://aka.ms/community/youtube"
 
 [[params.social]]
 name = "GitHub"

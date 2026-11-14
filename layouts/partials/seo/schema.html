@@ -1,0 +1,122 @@
+{{ $seo := partial "seo/page.html" . }}
+{{ $home := .Site.Home.Permalink }}
+{{ $organizationID := printf "%s#organization" $home }}
+{{ $websiteID := printf "%s#website" $home }}
+{{ $pageID := printf "%s#webpage" $seo.url }}
+{{ $page := dict
+    "@type" "WebPage"
+    "@id" $pageID
+    "url" $seo.url
+    "name" $seo.title
+    "description" $seo.description
+    "inLanguage" (.Site.LanguageCode | default .Site.Language.Lang)
+    "isPartOf" (dict "@id" $websiteID)
+    "publisher" (dict "@id" $organizationID)
+    "primaryImageOfPage" (dict "@type" "ImageObject" "url" $seo.image "width" $seo.imageWidth "height" $seo.imageHeight)
+}}
+{{ with $seo.modified }}{{ $page = merge $page (dict "dateModified" .) }}{{ end }}
+{{ $graph := slice }}
+{{ if .IsHome }}
+    {{ $logo := (resources.Get .Site.Params.logo).Resize "512x512" }}
+    {{ $social := slice }}
+    {{ range .Site.Params.social }}{{ $social = $social | append .url }}{{ end }}
+    {{ $graph = $graph | append (dict
+        "@type" "Organization"
+        "@id" $organizationID
+        "name" .Site.Title
+        "alternateName" .Site.Params.alternateName
+        "url" $home
+        "description" .Site.Params.description
+        "logo" (dict "@type" "ImageObject" "url" $logo.Permalink "width" $logo.Width "height" $logo.Height)
+        "sameAs" $social
+    ) }}
+    {{ $graph = $graph | append (dict
+        "@type" "WebSite"
+        "@id" $websiteID
+        "url" $home
+        "name" .Site.Title
+        "alternateName" .Site.Params.alternateName
+        "description" .Site.Params.description
+        "inLanguage" (.Site.LanguageCode | default .Site.Language.Lang)
+        "publisher" (dict "@id" $organizationID)
+    ) }}
+    {{ $collections := slice }}
+    {{ $homeSections := (.Site.GetPage "section" "home").Pages.ByWeight }}
+    {{ range $homeSections }}
+        {{ with .Params.sectionname }}
+            {{ $heading := $.Site.GetPage (printf "home/%s" .) }}
+            {{ $id := printf "%s#%s-list" $home . }}
+            {{ $items := slice }}
+            {{ range $position, $resource := partial "resource-pages.html" (dict "site" $.Site "section" .) }}
+                {{ $resourceItem := dict
+                    "@type" "WebPage"
+                    "url" $resource.Params.externalLink
+                    "name" ($resource.Title | htmlUnescape)
+                    "description" ($resource.Description | plainify | htmlUnescape)
+                }}
+                {{ if eq $resource.Params.status "coming-soon" }}
+                    {{ $resourceItem = merge $resourceItem (dict "creativeWorkStatus" "Coming soon") }}
+                {{ end }}
+                {{ $items = $items | append (dict
+                    "@type" "ListItem"
+                    "position" (add $position 1)
+                    "item" $resourceItem
+                ) }}
+            {{ end }}
+            {{ $graph = $graph | append (dict
+                "@type" "ItemList"
+                "@id" $id
+                "name" ($heading.Title | htmlUnescape)
+                "description" ($heading.Description | plainify | htmlUnescape)
+                "url" (printf "%s#%s" $home .)
+                "numberOfItems" (len $items)
+                "itemListElement" $items
+            ) }}
+            {{ $collections = $collections | append (dict "@id" $id) }}
+        {{ end }}
+    {{ end }}
+    {{ $calls := slice }}
+    {{ range $position, $call := sort (.Site.GetPage "section" "events").Pages "Weight" "asc" }}
+        {{ $url := $call.Params.joinUrl | default ($call.Params.wwwUrl | default ($call.Params.inviteUrl | default $call.Params.youtubeUrl)) }}
+        {{ $description := slice }}
+        {{ with $call.Params.presenter }}{{ $description = $description | append . }}{{ end }}
+        {{ with $call.Params.occurrence }}{{ $description = $description | append . }}{{ end }}
+        {{ with $call.Params.time }}{{ $description = $description | append . }}{{ end }}
+        {{ $item := dict "@type" "WebPage" "name" $call.Title "url" $url "description" (delimit $description ". ") }}
+        {{ with $call.Params.occurrence }}
+            {{ $item = merge $item (dict "@type" "EventSeries" "eventAttendanceMode" "https://schema.org/OnlineEventAttendanceMode") }}
+        {{ end }}
+        {{ $calls = $calls | append (dict
+            "@type" "ListItem"
+            "position" (add $position 1)
+            "item" $item
+        ) }}
+    {{ end }}
+    {{ $eventsHeading := .Site.GetPage "home/events" }}
+    {{ $graph = $graph | append (dict
+        "@type" "ItemList"
+        "@id" (printf "%s#events-list" $home)
+        "name" $eventsHeading.Title
+        "url" (printf "%s#events" $home)
+        "numberOfItems" (len $calls)
+        "itemListElement" $calls
+    ) }}
+    {{ $collections = $collections | append (dict "@id" (printf "%s#events-list" $home)) }}
+    {{ $posts := slice }}
+    {{ range $position, $post := .Site.Data.blog.items }}
+        {{ $posts = $posts | append (dict "@type" "ListItem" "position" (add $position 1) "item" (partial "seo/blog-item.html" $post)) }}
+    {{ end }}
+    {{ $blogHeading := .Site.GetPage "home/blogs" }}
+    {{ $graph = $graph | append (dict
+        "@type" "ItemList"
+        "@id" (printf "%s#blogs-list" $home)
+        "name" $blogHeading.Title
+        "url" (printf "%s#blogs" $home)
+        "numberOfItems" (len $posts)
+        "itemListElement" $posts
+    ) }}
+    {{ $collections = $collections | append (dict "@id" (printf "%s#blogs-list" $home)) }}
+    {{ $page = merge $page (dict "@type" "CollectionPage" "name" .Site.Title "mainEntity" $collections) }}
+{{ end }}
+{{ $graph = $graph | append $page }}
+<script type="application/ld+json" id="site-schema">{{ (dict "@context" "https://schema.org" "@graph" $graph) | jsonify | safeJS }}</script>

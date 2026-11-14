@@ -1,0 +1,28 @@
+{{ $source := resources.Get .Site.Params.logo }}
+{{ if not $source }}{{ errorf "The community logo resource %q is missing." .Site.Params.logo }}{{ end }}
+{{ $icon16 := $source.Resize "16x16" }}
+{{ $icon32 := $source.Resize "32x32" }}
+{{ $icon48 := $source.Resize "48x48" }}
+{{ $touch := $source.Resize "180x180" }}
+{{ $icon192 := $source.Resize "192x192" }}
+{{ $icon512 := $source.Resize "512x512" }}
+{{ $manifest := dict
+    "name" .Site.Title
+    "short_name" .Site.Params.alternateName
+    "start_url" .Site.Home.RelPermalink
+    "display" "standalone"
+    "theme_color" "#ffffff"
+    "background_color" "#ffffff"
+    "icons" (slice
+        (dict "src" $icon192.RelPermalink "sizes" "192x192" "type" "image/png")
+        (dict "src" $icon512.RelPermalink "sizes" "512x512" "type" "image/png")
+    )
+}}
+{{ $manifestResource := resources.FromString "site.webmanifest" ($manifest | jsonify) | fingerprint }}
+<meta name="theme-color" content="{{ .Site.Params.themeColor | default "#ffffff" }}">
+<link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}?v={{ $source.Content | sha256 }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ $icon16.RelPermalink }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ $icon32.RelPermalink }}">
+<link rel="icon" type="image/png" sizes="48x48" href="{{ $icon48.RelPermalink }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ $touch.RelPermalink }}">
+<link rel="manifest" href="{{ $manifestResource.RelPermalink }}">

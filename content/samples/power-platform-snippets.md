@@ -1,6 +1,7 @@
 ---
 title: "Power Platform Snippets"
-description: "Repository contains community snippets that demonstrate different usage patterns for the Microsoft Power Platform."
-image: "images/samples-background-power-platform-snippets.webp"
-externalLink: "https://github.com/pnp/powerplatform-snippets"
+description: "Explore reusable Power Platform snippets, UI patterns, Power Fx techniques, and agent topics."
+image: "images/samples/power-platform-snippets.png"
+externalLink: "https://pnp.github.io/powerplatform-snippets"
+weight: 80
 ---

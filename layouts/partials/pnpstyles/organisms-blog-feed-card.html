@@ -1,0 +1,25 @@
+<a href="{{ .url }}" class="card-link">
+    <article class="card blog" itemscope itemtype="https://schema.org/BlogPosting">
+        {{ with .image }}
+        <meta itemprop="image" content="{{ . }}">
+        <figure class="blog-media">
+            <img src="{{ . }}" class="blog-media-img" alt="" loading="lazy" decoding="async">
+        </figure>
+        {{ end }}
+        <div class="blog-content">
+            <h3 class="blog-headline" itemprop="headline">{{ .title }}</h3>
+            <p class="blog-excerpt">{{ .description | plainify | htmlUnescape }}</p>
+            <div class="blog-meta">
+                <div class="blog-info">
+                    <time class="blog-created" datetime="{{ .published }}" itemprop="datePublished">{{ time.Format "2 Jan, 2006" .published }}</time>
+                    {{ with .author }}
+                    <div class="blog-author" itemprop="author" itemscope itemtype="https://schema.org/Person">by <span itemprop="name">{{ . }}</span></div>
+                    {{ end }}
+                </div>
+                {{ with .category }}
+                <div class="blog-type"><div class="blog-cat">{{ . }}</div></div>
+                {{ end }}
+            </div>
+        </div>
+    </article>
+</a>

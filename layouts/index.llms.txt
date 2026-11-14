@@ -1,0 +1,35 @@
+# {{ .Site.Title }}
+
+> {{ .Site.Params.description }}
+
+This portal connects the Microsoft 365 and Power Platform community with guidance, sample galleries, SDKs, tools, videos, and community calls. Linked projects and publications are maintained at their respective destinations.
+
+## Start here
+
+- [Community portal]({{ .Site.Home.Permalink }})
+- [Community blog]({{ .Site.Data.blog.blogURL }}): Read contributions from community members.
+- [Publish a community blog post](https://github.com/pnp/blog/blob/main/CONTRIBUTING.md)
+- [Volunteer for a community-call demo](https://aka.ms/community/request/demo)
+- [Sharing is Caring]({{ (.Site.GetPage "guidance/sic").Params.externalLink }}): Get help starting your community contributions.
+- [Community recognition](https://aka.ms/community/recognition): Explore contributor recognition, criteria, and registration details.
+- [Microsoft Community Learning on YouTube]({{ (.Site.GetPage "guidance/youtube").Params.externalLink }})
+- [CommunityDays](https://communitydays.org): Our partner for discovering in-person community events.
+- [Community calls calendar]({{ "calendar.ics" | absURL }}): Subscribe to the published calendar.
+- [Community calls JSON]({{ "ical/calendar.json" | absURL }}): Read current occurrences and statuses from the published feed rather than inferring upcoming dates from recurring-call descriptions.
+
+## Community calls
+{{ range sort (.Site.GetPage "section" "events").Pages "Weight" "asc" }}
+{{ $url := .Params.joinUrl | default (.Params.wwwUrl | default (.Params.inviteUrl | default .Params.youtubeUrl)) }}
+- [{{ .Title }}]({{ $url }}): {{ with .Params.presenter }}{{ . }}. {{ end }}{{ with .Params.occurrence }}{{ . }}. {{ end }}{{ .Params.time }}
+{{ end }}
+{{ range (.Site.GetPage "section" "home").Pages.ByWeight }}
+{{ with .Params.sectionname }}
+{{ $heading := $.Site.GetPage (printf "home/%s" .) }}
+## {{ $heading.Title | htmlUnescape }}
+
+{{ $heading.Description | plainify | htmlUnescape }}
+{{ range partial "resource-pages.html" (dict "site" $.Site "section" .) }}
+- [{{ .Title | htmlUnescape }}]({{ .Params.externalLink }}): {{ if eq .Params.status "coming-soon" }}Coming soon. {{ end }}{{ .Description | plainify | htmlUnescape }}
+{{ end }}
+{{ end }}
+{{ end }}

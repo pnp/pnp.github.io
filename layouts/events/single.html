@@ -1,0 +1,42 @@
+<section class="section-base" id="{{ .File.BaseFileName }}" aria-labelledby="{{ .File.BaseFileName }}-title">
+    <div class="section-inner">
+        <header class="section-header">
+            <h2 id="{{ .File.BaseFileName }}-title">{{ .Title | safeHTML }}</h2>
+            <p>{{ .Description | safeHTML }}</p>
+        </header>
+        <ul class="section-grid">
+            {{ $section := .Site.GetPage "section" "events" }}
+            {{ range sort $section.Pages "Weight" "asc" }}
+            <li>{{ partial "pnpstyles/organisms-event-card" .Params }}</li>
+            {{ end }}
+        </ul>
+        <div class="event-callouts">
+            {{ with .Content }}
+            <div class="calltoaction callout-with-photo">
+                <div class="callout-copy">{{ . }}</div>
+                <figure class="callout-human human-photo" aria-hidden="true">
+                    {{ partial "human-image.html" (dict
+                        "src" "images/humans/demo.jpg"
+                        "portrait" true
+                        "sizes" "(max-width: 639px) 64px, 104px"
+                    ) }}
+                </figure>
+            </div>
+            {{ end }}
+            <aside class="calltoaction callout-with-photo" aria-labelledby="partner-events-title">
+                <div class="callout-copy">
+                    <h3 id="partner-events-title">Meet the community in person</h3>
+                    <p>Find in-person conferences, local meetups, and community events through our partner, CommunityDays.</p>
+                    <p><a href="https://communitydays.org">Explore CommunityDays events</a></p>
+                </div>
+                <figure class="callout-human human-photo" aria-hidden="true">
+                    {{ partial "human-image.html" (dict
+                        "src" "images/humans/meet.jpg"
+                        "portrait" true
+                        "sizes" "(max-width: 639px) 64px, 104px"
+                    ) }}
+                </figure>
+            </aside>
+        </div>
+    </div>
+</section>

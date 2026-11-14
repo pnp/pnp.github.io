@@ -1,6 +1,6 @@
 ---
-title: "Microsoft Graph Q&A"
-description: "Formerly Office 365, is a line of subscription services offered by Microsoft which adds to and includes the Microsoft Office product line."
-image: "images/forums-background-forums.webp"
-externalLink: "https://docs.microsoft.com/answers/products/m365#microsoft-graph"
+title: "Microsoft Graph Support"
+description: "Find official Microsoft Graph support routes for developer questions, feature requests, and known issues."
+image: "images/forums/graph.png"
+externalLink: "https://developer.microsoft.com/graph/support"
 ---

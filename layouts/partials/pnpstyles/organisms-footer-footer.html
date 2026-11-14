@@ -1,0 +1,22 @@
+<footer class="footer">
+    <div class="footer-cnt">
+        <ul class="footer-menu">
+            {{ range sort .Site.Params.social "weight" }}
+            <li class="card-iconbar-item">
+                <a class="card-iconbar-link" href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ with .rel }}rel="{{ . }}"{{ end }} {{ with .target }}target="{{ . }}"{{ end }} {{ with .type }}type="{{ . }}"{{ end }}>
+                    {{ if .icon }}
+                    {{ partial "pnpstyles/atoms-icon" (dict "iconName" .icon "ariaHidden" true "title" .name) }}
+                    {{ else }}{{ .name }}{{ end }}
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+        <nav class="footer-links" aria-label="More community resources">
+            <a href="{{ .Site.Data.blog.blogURL }}">Community blog</a>
+            {{ with .Site.Home.OutputFormats.Get "LLMS" }}<a href="{{ .RelPermalink }}">Resource index</a>{{ end }}
+        </nav>
+        <div class="comic">
+            <img src="{{ "images/parker-was-here.svg" | absURL }}" alt="Parker was here" class="parker" loading="lazy">
+        </div>
+    </div>
+</footer>

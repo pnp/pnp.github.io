@@ -11,6 +11,9 @@ on:
       - 'assets/**'
       - 'layouts/**'
       - 'config/**'
+      - 'static/**'
+      - '.github/scripts/**'
+      - '.github/workflows/deploy-hugo.yml'
 
 permissions:
   contents: write
@@ -43,12 +46,20 @@ jobs:
       - name: Update calendar files
         run: node .github/scripts/index.js --direct
 
+      - name: Refresh community blog snapshot
+        run: npm run refresh:blog
+        working-directory: .github/scripts
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3.2.0
         with:
           hugo-version: '0.124.1'
       - name: Build
         run: hugo
+
+      - name: Validate published HTML and discovery output
+        run: npm run test:site
+        working-directory: .github/scripts
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4.1.0

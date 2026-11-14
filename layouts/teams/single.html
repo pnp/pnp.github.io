@@ -1,0 +1,23 @@
+<section class="section-base team" id="{{ .File.BaseFileName }}" aria-labelledby="{{ .File.BaseFileName }}-title">
+    <div class="section-inner">
+        <div class="team-intro">
+            <header class="section-header">
+                <h2 id="{{ .File.BaseFileName }}-title">{{ .Title | safeHTML }}</h2>
+                {{ .Content }}
+            </header>
+            <figure class="team-human human-photo" aria-hidden="true">
+                {{ partial "human-image.html" (dict
+                    "src" "images/humans/welcome.jpg"
+                    "sizes" "(max-width: 1023px) 240px, 300px"
+                ) }}
+            </figure>
+        </div>
+        <ul class="section-grid">
+            {{ $data := index .Site.Data .Params.datafile }}
+            {{ range $data }}
+            <li>{{ partial "pnpstyles/organisms-team-card" . }}</li>
+            {{ end }}
+        </ul>
+        <div class="teams-end"><p>{{ .Description }}</p></div>
+    </div>
+</section>

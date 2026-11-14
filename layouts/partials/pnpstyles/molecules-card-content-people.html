@@ -1,0 +1,10 @@
+<div class="card-main">
+    <div class="profile-data">
+        <img src="{{ .img }}" alt="Profile picture of {{ .name }}" class="profile-picture" loading="lazy" width="64" height="64">
+        <div class="profile-name">
+            <h3>{{ .name }}</h3>
+            {{ if .title }}<span class="profile-mvp">{{ .title }}</span>{{ end }}
+            <div class="profile-company">{{ .company }}</div>
+        </div>
+    </div>
+</div>

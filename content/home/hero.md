@@ -1,5 +1,5 @@
 ---
-title: "Sharing is Caring!"
+title: "Sharing is Caring! 🧡"
 type: "hero"
 weight: 10
 ---

@@ -1,6 +1,7 @@
 ---
-title: "Web parts and extensions"
-description: "Hundreds of web part and extensions crafted by Microsoft and the global community. It is a treasure trove of inspiration for your SPFx projects."
-image: "images/samples-background-spfx.webp"
-externalLink: "https://aka.ms/spfx-webparts"
+title: "SPFx"
+description: "Browse community-built SharePoint Framework samples for Copilot, SharePoint, Teams, Viva Connections, and Microsoft 365 experiences."
+image: "images/samples/spfx.png"
+externalLink: "https://pnp.github.io/spfx/"
+weight: 40
 ---
