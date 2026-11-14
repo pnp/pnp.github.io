@@ -1,0 +1,251 @@
+# Microsoft 365 & Power Platform Community
+
+> Build with Copilot, Microsoft 365 and Power Platform. Explore community samples, guidance, SDKs, tools, videos, community calls, and ways to contribute.
+
+This portal connects the Microsoft 365 and Power Platform community with guidance, sample galleries, SDKs, tools, videos, and community calls. Linked projects and publications are maintained at their respective destinations.
+
+## Start here
+
+- [Community portal](https://pnp.github.io/)
+- [Community blog](https://pnp.github.io/blog/): Read contributions from community members.
+- [Publish a community blog post](https://github.com/pnp/blog/blob/main/CONTRIBUTING.md)
+- [Volunteer for a community-call demo](https://aka.ms/community/request/demo)
+- [Sharing is Caring](https://aka.ms/sharing-is-caring): Get help starting your community contributions.
+- [Community recognition](https://aka.ms/community/recognition): Explore contributor recognition, criteria, and registration details.
+- [Microsoft Community Learning on YouTube](https://aka.ms/community/youtube)
+- [CommunityDays](https://communitydays.org): Our partner for discovering in-person community events.
+- [Community calls calendar](https://pnp.github.io/calendar.ics): Subscribe to the published calendar.
+- [Community calls JSON](https://pnp.github.io/ical/calendar.json): Read current occurrences and statuses from the published feed rather than inferring upcoming dates from recurring-call descriptions.
+
+## Community calls
+
+
+- [Copilot, Microsoft 365 & Power Platform Call](https://aka.ms/community/ms-speakers-call-join): Presented by Microsoft. Weekly on Tuesdays. 8:00 AM PT / 3:00 PM GMT
+
+
+- [Copilot, Microsoft 365 & Power Platform](https://aka.ms/community/m365-powerplat-call-join): Presented by the Community. Weekly on Thursdays. 7:00 AM PT / 2:00 PM GMT
+
+
+- [Power Platform & Copilot Studio Monthly Call](https://aka.ms/PowerPlatformMonthlyCall): Presented by the Community. Third Wednesday of every month. 8:00 AM PT / 4:00 PM GMT
+
+
+- [Copilot Extensibility Monthly Call](https://aka.ms/community/CopilotExtensibility-call-join): Presented by Microsoft. Second Wednesday of every month. 8:00 AM PT / 3:00 PM GMT
+
+
+- [Maturity Model for Microsoft 365](https://aka.ms/mm4m365/join-call): Presented by the Community. Third Tuesday of every month. 7:00 AM PT / 2:00 PM GMT
+
+
+- [Dynamics 365 Community Call (CRM Edition)](https://aka.ms/D365CRMCommunityCall-Join): Presented by the Community & Microsoft. First Wednesday of every month. 7:00 AM PT / 2:00 PM GMT
+
+
+- [Dynamics 365 Community Call (ERP Edition)](https://aka.ms/D365ERPCommunityCall-Join): Presented by the Community & Microsoft. Second Wednesday of every month. 7:00 AM PT / 2:00 PM GMT
+
+
+- [Microsoft Global Community Initiative (MGCI)](https://techcommunity.microsoft.com/category/microsoft-global-community-initiative): Presented by the Community & Microsoft. <no value>
+
+
+- [Microsoft 365 Champion program](https://aka.ms/M365Champions): <no value>
+
+
+
+
+
+
+
+
+
+
+
+
+## Guidance
+
+Find documentation, learning resources, and best practices for Copilot, Microsoft 365, SharePoint, Teams, and Power Platform.
+
+- [Copilot Developer Camp](https://microsoft.github.io/copilot-camp/): Learn to extend Microsoft 365 Copilot through hands-on labs for declarative agents, custom engine agents, and connected experiences.
+
+- [Copilot Extensibility](https://learn.microsoft.com/microsoft-365-copilot/extensibility/overview): Explore supported ways to extend Microsoft 365 Copilot and build Copilot-powered apps and custom agents.
+
+- [Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/): Learn how to build, publish, and manage agents and workflows with Microsoft Copilot Studio.
+
+- [Copilot Studio Agent Academy](https://microsoft.github.io/agent-academy/): Build your Copilot Studio skills through free, open-source courses and hands-on labs, from your first agent to advanced integrations.
+
+- [Maturity Model for Microsoft 365](https://pnp.github.io/maturity-model/): The Maturity Model for Microsoft 365 is a framework that helps organizations assess and improve their adoption and usage of Microsoft 365 services.
+
+- [Microsoft 365 & Power Platform Community Blog](https://pnp.github.io/blog/): Learn from community articles, practical solutions, and shared experiences, or publish what you've learned.
+
+- [Microsoft Agent Resources](https://microsoft.github.io/agent-resources/): Explore CAT-curated guidance for adopting, building, deploying, and managing agents across Microsoft Copilot and agent platforms.
+
+- [Microsoft Community Learning on YouTube](https://aka.ms/community/youtube): Watch community demos, tutorials, and call recordings for Copilot, Microsoft 365 & Power Platform.
+
+- [Microsoft Copilot Documentation](https://learn.microsoft.com/copilot/): Plan, deploy, secure, and manage Microsoft Copilot services, Copilot Chat, and agents across Microsoft 365.
+
+- [Microsoft Graph](https://learn.microsoft.com/graph/): Microsoft Graph is the gateway to data and intelligence in Microsoft 365.
+
+- [Microsoft Teams](https://learn.microsoft.com/microsoftteams/platform/): Learn more to help you build custom Microsoft Teams apps.
+
+- [Power Platform Documentation](https://learn.microsoft.com/power-platform/): Find documentation, training, and guidance for Power Apps, Power Automate, Power Pages, Power BI, and Power Platform administration.
+
+- [Power Platform Well-Architected](https://learn.microsoft.com/power-platform/well-architected/): Design reliable, secure, performant Power Platform workloads using architecture principles, review checklists, and assessment tools.
+
+- [SharePoint Framework (SPFx)](https://learn.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview): Extend and personalize Microsoft 365. Create responsive and engaging web parts, teams apps, adaptive card extensions and application extensions.
+
+- [SharePoint Modernization](https://aka.ms/sharepoint/modernization): Transformation of "classic" SharePoint into "modern".
+
+- [Sharing is Caring](https://aka.ms/sharing-is-caring): Start contributing to the community with these small group, hands-on webinars, conducted in a safe space.
+
+
+
+
+
+## Samples & Solutions
+
+Explore community sample galleries and solutions for Copilot, SharePoint, Power Platform, Teams, Office, and Microsoft 365.
+
+- [Copilot Prompts](https://pnp.github.io/copilot-prompts/): Discover reusable prompts, agent instructions, and skills for Microsoft 365 Copilot, Microsoft Copilot, and GitHub Copilot.
+
+- [SharePoint Skills Gallery](https://pnp.github.io/sharepoint-skills/): Find community-built skills for Microsoft 365 Copilot in SharePoint and turn shared knowledge into reusable experiences.
+
+- [List Formatting](https://pnp.github.io/List-Formatting/): Explore community-built JSON column and view formats for SharePoint and Microsoft Lists, ready to copy and adapt.
+
+- [SPFx](https://pnp.github.io/spfx/): Browse community-built SharePoint Framework samples for Copilot, SharePoint, Teams, Viva Connections, and Microsoft 365 experiences.
+
+- [Copilot UX Components](https://pnp.github.io/spfx-copilot-components/): Build interactive experiences in the Microsoft Copilot canvas with community-built UX components.
+
+- [Pro-code Copilot Agents](https://pnp.github.io/copilot-pro-dev-samples/): Explore community-built agents, plugins, and code-first extensibility patterns for Microsoft 365 Copilot.
+
+- [Power Platform Samples](https://pnp.github.io/powerplatform-samples/): Discover community-built apps, automations, agents, and solutions for Microsoft Power Platform.
+
+- [Power Platform Snippets](https://pnp.github.io/powerplatform-snippets): Explore reusable Power Platform snippets, UI patterns, Power Fx techniques, and agent topics.
+
+- [Script Samples](https://pnp.github.io/script-samples/): Manage Microsoft 365 with community scripts and automation scenarios using PnP PowerShell, CLI for Microsoft 365, and other tools.
+
+- [Learning Pathways](https://github.com/pnp/custom-learning-office-365): Help employees learn Microsoft 365 with a customizable, community-supported learning solution.
+
+- [Office Add-in Samples](https://github.com/OfficeDev/Office-Add-in-samples): Learn how to extend Office with practical add-in code samples, APIs, and implementation patterns.
+
+- [PnP Modern Search](https://microsoft-search.github.io/pnp-modern-search/): Create flexible, personalized search experiences for SharePoint and Microsoft 365 with community-maintained web parts.
+
+- [Teams Development Samples](https://pnp.github.io/teams-dev-samples/): Browse community examples for building apps, bots, message extensions, and integrations for Microsoft Teams.
+
+- [Microsoft 365 Advanced Analytics](https://github.com/pnp/Microsoft365-Analytics-Insights/wiki): Explore community guidance for Microsoft 365 advanced analytics, usage insights, and reporting.
+
+- [Copilot Studio Samples](https://github.com/microsoft/CopilotStudioSamples): Explore official Copilot Studio samples for agent extensions, integrations, and custom experiences.
+
+- [Microsoft 365 Agents Toolkit Samples](https://github.com/OfficeDev/microsoft-365-agents-toolkit-samples): Explore official sample applications for Microsoft 365 Agents Toolkit and Microsoft Teams.
+
+- [CAT Agent Skills](https://microsoft.github.io/cat-agent-skills/): Browse reusable skills, plugins, and automations from Microsoft and the community for Copilot Studio and other Microsoft agents.
+
+
+
+
+
+## SDKs
+
+Find what you need to get started building your own solutions.
+
+- [Fluent UI](https://github.com/microsoft/fluentui): Build consistent, accessible web interfaces with Microsoft's Fluent UI React components, web components, and design utilities.
+
+- [Microsoft 365 Agents SDK](https://learn.microsoft.com/en-us/microsoft-365/agents-sdk/): Build and deploy agents with the Microsoft 365 Agents SDK for .NET, JavaScript, and Python.
+
+- [Microsoft Agent Framework](https://learn.microsoft.com/agent-framework/): Build agents and multi-agent workflows in .NET and Python with tools, memory, orchestration, and human-in-the-loop support.
+
+- [Microsoft Dataverse SDK for .NET](https://learn.microsoft.com/power-apps/developer/data-platform/org-service/overview): Work with business data and extend Microsoft Dataverse using the official .NET SDK and client libraries.
+
+- [Microsoft Graph SDK](https://learn.microsoft.com/graph/sdks/sdks-overview): Build high-quality, efficient, resilient applications that access Microsoft Graph.
+
+- [PnP Core](https://aka.ms/pnp/coresdk/docs): A modern .NET SDK designed to work for Microsoft 365 and provide a unified object model for working with SharePoint Online, abstracting the underlying APIs.
+
+- [PnP Framework](https://pnp.github.io/pnpframework/): A .NET library targeting Microsoft 365 containing the PnP Provisioning engine and a ton of other useful extensions.
+
+- [PnPjs](https://pnp.github.io/pnpjs/): Call SharePoint, Graph, and Microsoft 365 REST APIs in a type-safe way with fluent libraries. For SPFx, Nodejs, or any JavaScript project.
+
+- [Power Apps Component Framework](https://learn.microsoft.com/power-apps/developer/component-framework/overview): Create reusable code components that extend model-driven and canvas apps with custom controls and richer user experiences.
+
+- [React Reusable Controls](https://pnp.github.io/sp-dev-fx-controls-react/): Build professional-looking web parts and extensions with a set of reusable React controls that can be used in SharePoint Framework (SPFx) solutions.
+
+- [Reusable Property Controls](https://pnp.github.io/sp-dev-fx-property-controls/): Add professional property panes to your web parts with a set of reusable property pane controls that can be used in SharePoint Framework (SPFx) solutions.
+
+
+
+
+
+## Tools
+
+Perform tasks with a platform-agnostic command-line interface and with PowerShell.
+
+- [CLI for Microsoft 365](https://pnp.github.io/cli-microsoft365/): Configure Microsoft 365, manage SharePoint Framework projects and build automation scripts on Windows, macOS or Linux, using Bash, Cmder or PowerShell.
+
+- [Microsoft Graph PowerShell SDK](https://learn.microsoft.com/powershell/microsoftgraph/overview): Acts as an API wrapper for the Microsoft Graph APIs for use in PowerShell. Manage identities at scale from automating tasks to managing users in bulk.
+
+- [PnP PowerShell](https://pnp.github.io/powershell/): 700+ PowerShell cmdlets for Microsoft 365, SharePoint Online, Microsoft Teams, Microsoft Project, Security & Compliance, Microsoft Entra ID, and more.
+
+- [Power Platform CLI](https://learn.microsoft.com/power-platform/developer/cli/introduction): Manage environments, solutions, Dataverse, Power Pages, and code components with Microsoft's Power Platform command-line tools.
+
+- [SP Editor](https://microsoftedge.microsoft.com/addons/detail/affnnhcbfmcbbdlcadgkdbfafigmjdkk): Browser extension for managing files (JS, CSS), modifying web/list properties, creating webhook subscriptions, editing web parts on pages, and running PnPjs TypeScript snippets.
+
+- [Work IQ Dev Tools](https://microsoft.github.io/wiqd/getting-started/build-a-plugin/): Build, validate, and publish Microsoft 365 plugins with preview developer tools. The plugin command interface is currently alpha.
+
+
+
+
+
+## Extensions
+
+Boost your productivity without leaving the context of your work.
+
+- [SharePoint Framework Toolkit](https://pnp.github.io/vscode-viva/): Develop and manage SPFx solutions without leaving VS Code. From setting up your development workspace to deploying a solution straight to your tenant.
+
+
+- [CLI for Microsoft 365 extension](https://marketplace.visualstudio.com/items?itemName=adamwojcikit.cli-for-microsoft-365-extension): Boost your productivity when creating scripts that use CLI for Microsoft 365. Embedded docs, samples gallery, code snippets, and more.
+
+
+- [Copilot Studio VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-CopilotStudio.vscode-copilotstudio): Edit and manage Copilot Studio agents in Visual Studio Code with language support, validation, and synchronization with your environments.
+
+- [Microsoft 365 Agents Toolkit](https://learn.microsoft.com/en-us/microsoftteams/platform/toolkit/overview-agents-toolkit): Create and deploy agents and apps for Microsoft 365 Copilot and Teams with integrated identity, Microsoft Graph, Azure, and Microsoft 365 developer tooling.
+
+
+- [PnP PowerShell extension](https://marketplace.visualstudio.com/items?itemName=adamwojcikit.pnp-powershell-extension): Boost your productivity when creating scripts that use PnP PowerShell. Embedded docs, samples gallery, code snippets, and more.
+
+
+- [Power Platform Tools](https://marketplace.visualstudio.com/items?itemName=microsoft-IsvExpTools.powerplatform-vscode): Create, build, and deploy Power Platform solutions and Power Pages sites in Visual Studio Code with the integrated Power Platform CLI.
+
+- [SharePoint Embedded VS Code Extension](https://github.com/microsoft/SharePoint-Embedded-VS-Code-Extension): Develop and manage SharePoint Embedded containers and applications using the official Visual Studio Code extension.
+
+
+
+
+
+## Forums
+
+Get answers to questions, collaborate and communicate with the community members.
+
+- [Copilot Studio Forum](https://community.powerplatform.com/forums/thread/?groupid=db8f53c2-767d-47d6-a1ae-fe4c828a6553): Ask questions and share solutions for Copilot Studio agents, knowledge, actions, integrations, and publishing.
+
+- [Discord](https://discord.com/invite/YtYrav2VGW): Welcome to our vibrant Microsoft 365 & Power Platform Community Discord server, a thriving hub for enthusiasts, professionals, and learners alike.
+
+- [Dynamics 365 Community](https://community.dynamics.com/forums/): Ask product questions, share solutions, and connect with peers across Dynamics 365 business applications.
+
+- [Microsoft Copilot Community](https://techcommunity.microsoft.com/category/microsoft-copilot): Join conversations about Microsoft Copilot and agents, explore community guidance, and learn from product experts.
+
+- [Microsoft Graph Support](https://developer.microsoft.com/graph/support): Find official Microsoft Graph support routes for developer questions, feature requests, and known issues.
+
+- [Microsoft Teams Development](https://learn.microsoft.com/en-us/answers/tags/339/office-teams-development-routing): Ask and answer technical questions about Microsoft Teams app development, integrations, and developer APIs.
+
+- [Microsoft Tech Community](https://techcommunity.microsoft.com/): Find product communities, technical discussions, blogs, and events across Microsoft 365, Copilot, SharePoint, and other Microsoft technologies.
+
+- [Power Apps Forum](https://community.powerplatform.com/forums/thread/?groupid=b5652dc6-2c99-4e33-8b6f-45be4a896a40): Connect with makers and developers to discuss canvas apps, model-driven apps, Dataverse, connectors, and application design.
+
+- [Power Automate Forum](https://community.powerplatform.com/forums/thread/?groupid=46ce02a3-e1a7-4176-81fc-d93a4001d287): Find community help for cloud flows, desktop automation, connectors, process automation, and troubleshooting.
+
+- [Power BI Community](https://community.fabric.microsoft.com/category/powerbi): Find community answers for Power BI reports, data modeling, DAX, the service, and developer integrations.
+
+- [Power Pages Forum](https://community.powerplatform.com/forums/thread/?groupid=5499ddd0-dd7f-4c63-97e9-b2bba866b08f): Discuss building, extending, securing, and managing Power Pages sites with the maker and developer community.
+
+- [Power Platform Community](https://community.powerplatform.com/): Join lively discussions, events, and user groups through a platform-wide community of ideas, insights, and helpful resources.
+
+- [SharePoint Framework Issues List](https://github.com/SharePoint/sp-dev-docs/issues): Join lively discussions, events, and user groups through a platform-wide community of ideas, insights, and helpful resources.
+
+
+
+
+

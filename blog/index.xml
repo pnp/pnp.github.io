@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Microsoft 365 &amp; Power Platform Community</title>
+    <title>Blog examples on Microsoft 365 &amp; Power Platform Community</title>
     <link>https://pnp.github.io/blog/</link>
-    <description>Recent content in Blogs on Microsoft 365 &amp; Power Platform Community</description>
+    <description>Recent content in Blog examples on Microsoft 365 &amp; Power Platform Community</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate>
