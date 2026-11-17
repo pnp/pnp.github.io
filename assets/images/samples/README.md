@@ -2,6 +2,8 @@
 
 These 1008-by-567 PNG sources were captured from the public destinations listed in `content/samples` on 2026-11-14. Captures are cropped to the browser's actual content area, excluding unused screenshot-canvas space. GitHub previews show public repository or wiki content, not account navigation.
 
+The Script Samples preview was refreshed on 2026-11-17 to show its redesigned portal.
+
 The sample record's `image` points to its source here. The shared resource-image partial generates 480- and 960-pixel JPEG variants with explicit dimensions, responsive `sizes`, lazy loading, and asynchronous decoding. Source PNGs retain readable text for future processing; the originals are not sent as the card image.
 
 Sample records use:
